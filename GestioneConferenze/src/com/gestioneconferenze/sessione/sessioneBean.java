@@ -57,7 +57,7 @@ public class sessioneBean {
 		FacesContext context = FacesContext.getCurrentInstance();
 		HttpServletResponse response = (HttpServletResponse)context.getExternalContext().getResponse();
 		try {
-			response.sendRedirect("index.jsf");
+			response.sendRedirect("home.xhtml");
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
