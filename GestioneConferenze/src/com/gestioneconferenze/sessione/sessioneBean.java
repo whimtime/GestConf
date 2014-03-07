@@ -38,7 +38,14 @@ public class sessioneBean {
 	String password="";
 	String ipaddress="";
 	Date ultimoaccesso;
+	String modifica="www.corriere.it";
 	
+	public String getModifica() {
+		return modifica;
+	}
+	public void setModifica(String modifica) {
+		this.modifica = modifica;
+	}
 	public void entra() 
 	{
 		String nome = this.username;

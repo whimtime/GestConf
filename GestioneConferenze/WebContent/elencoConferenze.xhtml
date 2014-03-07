@@ -1,0 +1,56 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:p="http://primefaces.org/ui"
+	>
+
+<ui:composition template="/templates/login.xhtml">
+	<ui:define name="header">
+	  	<p>Benvenuto : </p>
+	    <h:outputLabel value="#{sessioneBean.username}"></h:outputLabel>
+	</ui:define>
+	<ui:define name="content">
+	<h:form>
+
+    <p:dataTable id="dataTable" var="conf" value="#{tableBean.conferenze}" sortMode="multiple" rows="5" paginator="true">
+        <f:facet name="header">
+            Elenco Delle Conferenze Create
+        </f:facet>
+
+        <p:column sortBy="model" headerText="Nome">
+            <h:outputText value="#{conf.nome}" />
+        </p:column>
+
+        <p:column sortBy="year" headerText="DataInizio">
+            <h:outputText value="#{conf.dataConferenzaInizio}" />
+        </p:column>
+
+        <p:column sortBy="manufacturer" headerText="DataFine">
+            <h:outputText value="#{conf.dataConferenzaFine}" />
+        </p:column>
+
+        <p:column sortBy="color" headerText="Luogo">
+            <h:outputText value="#{conf.luogo}" />
+        </p:column>
+        
+         <p:column style="width:4%">
+             
+	    
+        <p:column  headerText="Modifica">
+       <a href="#{conf.modifica}" >Modifica</a>
+        </p:column>
+              
+        </p:column>
+    </p:dataTable>
+
+</h:form>
+                    
+                    
+	</ui:define>
+
+</ui:composition>
+</html>
