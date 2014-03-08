@@ -12,9 +12,21 @@
 <ui:composition template="/templates/login.xhtml">
 	
 	<ui:define name="content">
-	<h:form id="form">
-	    <p:panel header="Enter your passwords">
-        <h:panelGrid columns="3">
+	
+	<div class="visual">
+				<div class="visual-block">
+					<h2>PrimeFaces</h2>
+					<span class="heading">Ultimate JSF Component Suite</span>
+					
+					
+					
+				</div>
+			</div>
+	<p:layout style="min-width:400px;min-height:400px;" id="layout">  
+    <p:layoutUnit position="west" resizable="true" size="400" minSize="400" maxSize="400">  
+       <h:form id="form">
+	    <p:panel header="Se sei già iscritto">
+        <h:panelGrid columns="3" >
 	
 	    <h:outputLabel>Username</h:outputLabel>
 	    <p:inputText id="user" value="#{sessioneBean.username}" required="true"></p:inputText>
@@ -24,12 +36,44 @@
 	     <p:password id="feedback" value="#{sessioneBean.password}" feedback="true" required="true"/>
   		<p:message for="feedback" display="icon" />  
 	    
-	    <p:commandButton value="Non-Ajax Submit" action="#{sessioneBean.entra}" 
+	    <p:commandButton value="Accedi" action="#{sessioneBean.entra}" 
                     ajax="false" />
                         <p:messages id="messages" showDetail="true" autoUpdate="true" closable="true" globalOnly="true" /> 
 	</h:panelGrid>
 	</p:panel>
 	</h:form>
+    </p:layoutUnit>  
+  
+    <p:layoutUnit position="center">  
+          <h:form id="formNuovo">
+	    <p:panel header="Se Non sei iscritto">
+        <h:panelGrid columns="3">
+	
+	    <h:outputLabel>Username</h:outputLabel>
+	    <p:inputText id="userN" value="#{sessioneBean.username}" required="true"></p:inputText>
+	      <p:message for="userN" display="icon" />  
+	
+	    <h:outputLabel>Password</h:outputLabel>
+	     <p:password id="feedbackN" value="#{sessioneBean.password}" feedback="true" required="true"/>
+  		<p:message for="feedbackN" display="icon" />  
+  		<h:outputLabel>Ripeti Password</h:outputLabel>
+	     <p:password id="feedbackRN" value="#{sessioneBean.password}" feedback="true" required="true"/>
+  		<p:message for="feedbackRN" display="icon" /> 
+  		<h:outputLabel>Mail</h:outputLabel>
+  		<p:inputText id="mailN" value="#{sessioneBean.username}" required="true"></p:inputText>
+	      <p:message for="mailN" display="icon" />  
+	    
+	    <p:commandButton value="Accedi Alla prossima fase" action="#{sessioneBean.entra}" 
+                    ajax="false" />
+                        <p:messages id="messages" showDetail="true" autoUpdate="true" closable="true" globalOnly="true" /> 
+	</h:panelGrid>
+	</p:panel>
+	</h:form>
+    </p:layoutUnit>  
+</p:layout>  
+	
+	
+	
 	</ui:define>
 	
 </ui:composition>

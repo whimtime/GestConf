@@ -5,9 +5,16 @@
 	xmlns:h="http://java.sun.com/jsf/html"
 	xmlns:f="http://java.sun.com/jsf/core"
 	xmlns:p="http://primefaces.org/ui">
+	<head>
+	<style>
+		.ui-widget, .ui-widget .ui-widget {
+			 font-size: 80% !important;
+		}
+	</style>
+	</head>
 <h:head>
   <title><ui:insert name="title">Default title</ui:insert></title>
-  <h:outputStylesheet name="default.css"  library="css"/>
+
 </h:head>
 
 <h:body>
@@ -15,30 +22,55 @@
 
 <p:layout fullPage="true">
 
-    <p:layoutUnit position="north" size="100" header="Top" resizable="true" closable="true" collapsible="true">
-        <h:outputText value="North unit content." />
+    <p:layoutUnit position="north" size="35" header="Gestione Conferenze Web" resizable="false" closable="false" collapsible="false">
+    
     </p:layoutUnit>
 
-    <p:layoutUnit position="south" size="100" header="Bottom" resizable="true" closable="true" collapsible="true">
-        <h:outputText value="South unit content." />
+    
+
+    <p:layoutUnit position="west" size="200" header="Sezioni" resizable="true" closable="false" collapsible="true">
+    <h:form>
+       <p:panelMenu style="width:200px">
+        <p:submenu label="Conferenze">
+            <p:menuitem value="Save" actionListener="#{buttonBean.save}" icon="ui-icon-disk" />
+            <p:menuitem value="Update" actionListener="#{buttonBean.update}"  icon="ui-icon-arrowrefresh-1-w" />
+        </p:submenu>       
+          
+        <p:submenu label="Sessioni">
+            <p:menuitem value="Save" actionListener="#{buttonBean.save}" icon="ui-icon-disk" />
+            <p:menuitem value="Update" actionListener="#{buttonBean.update}"  icon="ui-icon-arrowrefresh-1-w" />
+        </p:submenu>
+          
+        <p:submenu label="Comitati">
+            <p:menuitem value="Save" actionListener="#{buttonBean.save}" icon="ui-icon-disk" />
+            <p:menuitem value="Update" actionListener="#{buttonBean.update}"  icon="ui-icon-arrowrefresh-1-w" />
+        </p:submenu>
+          
+        <p:submenu label="Utenti">
+            <p:menuitem value="Save" actionListener="#{buttonBean.save}" icon="ui-icon-disk" />
+            <p:menuitem value="Update" actionListener="#{buttonBean.update}"  icon="ui-icon-arrowrefresh-1-w" />
+        </p:submenu>
+          
+        <p:submenu label="Budget">
+            <p:menuitem value="Save" actionListener="#{buttonBean.save}" icon="ui-icon-disk" />
+            <p:menuitem value="Update" actionListener="#{buttonBean.update}"  icon="ui-icon-arrowrefresh-1-w" />
+        </p:submenu>
+          
+        <p:submenu label="Statistiche">
+            <p:menuitem value="Save" actionListener="#{buttonBean.save}" icon="ui-icon-disk" />
+            <p:menuitem value="Update" actionListener="#{buttonBean.update}"  icon="ui-icon-arrowrefresh-1-w" />
+        </p:submenu>
+        </p:panelMenu>
+        </h:form>
     </p:layoutUnit>
 
-    <p:layoutUnit position="west" size="200" header="Left" resizable="true" closable="true" collapsible="true">
-        <h:outputText value="West unit content." />
-    </p:layoutUnit>
 
-    <p:layoutUnit position="east" size="200" header="Right" resizable="true" closable="true" collapsible="true" effect="drop">
-        <h:outputText value="Right unit content." />
-    </p:layoutUnit>
+    
 <p:layoutUnit position="center">
       
 <div id="content">
   <ui:insert name="content">
-    	Content area.  See comments below this line in the source.
-    	<!--  include your content file or uncomment the include below and create content.xhtml in this directory -->
-	  	<!-- <div> -->
-    	<!-- <ui:include src="content.xhtml"/> -->  
-    	<!-- </div> -->
+    
   </ui:insert>
 </div>
 

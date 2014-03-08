@@ -5,11 +5,14 @@
       xmlns:h="http://java.sun.com/jsf/html"
       xmlns:p="http://primefaces.org/ui">
 
-
 <h:head>
   <title><ui:insert name="title">insert title</ui:insert></title>
    <meta content="text/html; charset=UTF-8" http-equiv="Content-type" />
-
+<style>
+.ui-widget, .ui-widget .ui-widget {
+    font-size: 90% !important;
+ }
+</style>
 <link type="text/css" rel="stylesheet" href="#{request.contextPath}/themes/bootstrap/skin.css"/>
 </h:head>
 
@@ -23,7 +26,9 @@
 
 <div id="content">
   <ui:insert name="content">
-    	Benvenuto
+  
+  
+    	
   </ui:insert>
 </div>
 
