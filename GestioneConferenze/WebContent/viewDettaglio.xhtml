@@ -8,18 +8,12 @@
 	xmlns:p="http://primefaces.org/ui"
 	>
 
-
+<h:head></h:head>
 
 <ui:composition template="/templates/principale.xhtml">
 
 	<ui:define name="content">
-		<p>Benvenuto : </p>
-	    <h:outputLabel value="#{sessioneBean.username}"></h:outputLabel>
-	    <h:outputLabel value="#{sessioneBean.ipaddress}"></h:outputLabel>
-	    <h:outputText value="#{request.getParameter('id')}" />
-	    <h:form>
- 
-</h:form>
+	
 	</ui:define>
 
 

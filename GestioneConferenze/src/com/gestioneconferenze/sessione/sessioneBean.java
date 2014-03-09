@@ -1,16 +1,28 @@
 package com.gestioneconferenze.sessione;
 
-import java.io.IOException;
 import java.util.Date;
-
 import javax.faces.application.FacesMessage;
 import javax.faces.context.FacesContext;
-import javax.faces.event.ActionEvent;
-import javax.servlet.http.HttpServletResponse;
+import org.apache.log4j.Logger;
+import com.gestioneconferenze.util.*;
 
 public class sessioneBean {
 
 	String username="";
+	String password="";
+	String ipaddress="";
+	Date ultimoaccesso;
+	String modifica="www.corriere.it";
+	String mail="";
+	
+	
+	
+	public String getMail() {
+		return mail;
+	}
+	public void setMail(String mail) {
+		this.mail = mail;
+	}
 	public String getUsername() {
 		return username;
 	}
@@ -35,10 +47,7 @@ public class sessioneBean {
 	public void setUltimoaccesso(Date ultimoaccesso) {
 		this.ultimoaccesso = ultimoaccesso;
 	}
-	String password="";
-	String ipaddress="";
-	Date ultimoaccesso;
-	String modifica="www.corriere.it";
+	
 	
 	public String getModifica() {
 		return modifica;
@@ -50,24 +59,30 @@ public class sessioneBean {
 	{
 		String nome = this.username;
 		String psw= this.password;
-		
+		Logger  logger = Logger.getLogger("com.foo");
+		logger.info("inizio chiamata entra di sessioneBean");
 		psw=psw + "";
 		nome=nome + "";
 		
+		this.ipaddress =  UrlUtil.getRemoteAddr();
+		
 		if(!this.username.equals("tiziano"))
 		{
+			logger.warn("l utente " + this.username + " ha tentato di accedere senza successo");
 			 FacesContext.getCurrentInstance().addMessage(null, new FacesMessage(FacesMessage.SEVERITY_FATAL,"Errore!", "Utenza non registrata"));  
 			return;
 			
-		}
-		
-		FacesContext context = FacesContext.getCurrentInstance();
-		HttpServletResponse response = (HttpServletResponse)context.getExternalContext().getResponse();
-		try {
-			response.sendRedirect("home.xhtml");
-		} catch (IOException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
+		}		
+		logger.info("L utente " + this.username + " ha effettuato accesso");
+		UrlUtil.RedirectAPagina("home.xhtml");
+	}
+	
+	
+	
+	public void dettaglio()
+	{
+		Logger  logger = Logger.getLogger("com.foo");
+		logger.info("inizio chiamata dettaglio di sessioneBean");		
+		UrlUtil.RedirectAjaxAPagina("dettaglioUtente.xhtml");
 	}
 }

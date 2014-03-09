@@ -5,16 +5,14 @@
 	xmlns:h="http://java.sun.com/jsf/html"
 	xmlns:f="http://java.sun.com/jsf/core"
 	xmlns:p="http://primefaces.org/ui">
-	<head>
-	<style>
+
+<h:head>
+  <title><ui:insert name="title">Gestione Conferenze</ui:insert></title>
+<style>
 		.ui-widget, .ui-widget .ui-widget {
 			 font-size: 80% !important;
 		}
 	</style>
-	</head>
-<h:head>
-  <title><ui:insert name="title">Default title</ui:insert></title>
-
 </h:head>
 
 <h:body>
@@ -27,10 +25,15 @@
     </p:layoutUnit>
 
     
-
+	  	
     <p:layoutUnit position="west" size="200" header="Sezioni" resizable="true" closable="false" collapsible="true">
     <h:form>
+
        <p:panelMenu style="width:200px">
+         <p:submenu label="Utenza">
+            <p:menuitem value="Dettaglio" actionListener="#{sessioneBean.dettaglio}" icon="ui-icon-disk" />
+            
+            </p:submenu>
         <p:submenu label="Conferenze">
             <p:menuitem value="Save" actionListener="#{buttonBean.save}" icon="ui-icon-disk" />
             <p:menuitem value="Update" actionListener="#{buttonBean.update}"  icon="ui-icon-arrowrefresh-1-w" />
