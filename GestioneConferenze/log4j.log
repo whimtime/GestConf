@@ -386,3 +386,52 @@
 [2014-03-10 16:47:51,522] INFO  2218["http-bio-8090"-exec-8] - com.gestioneconferenze.sessione.sessioneBean.dettaglio(sessioneBean.java:104) - inizio chiamata dettaglio di sessioneBean
 [2014-03-10 16:47:56,386] INFO  7082["http-bio-8090"-exec-10] - com.gestioneconferenze.sessione.sessioneBean.salva(sessioneBean.java:92) - inizio chiamata salva di sessioneBean
 [2014-03-10 16:47:56,387] INFO  7083["http-bio-8090"-exec-10] - com.gestioneconferenze.sessione.sessioneBean.salva(sessioneBean.java:96) - L utente tiziano ha salvato i dati della propria utenza
+[2014-03-10 19:03:37,484] INFO     0["http-bio-8090"-exec-6] - com.gestioneconferenze.sessione.sessioneBean.entra(sessioneBean.java:89) - inizio chiamata entra di sessioneBean
+[2014-03-10 19:03:37,492] INFO     8["http-bio-8090"-exec-6] - com.gestioneconferenze.sessione.sessioneBean.entra(sessioneBean.java:102) - L utente tiziano ha effettuato accesso
+[2014-03-10 19:03:40,960] INFO  3476["http-bio-8090"-exec-6] - com.gestioneconferenze.util.UrlUtil.RedirectAPagina(UrlUtil.java:80) - Redirect a home.xhtml
+[2014-03-10 19:03:49,444] INFO 11960["http-bio-8090"-exec-8] - com.gestioneconferenze.sessione.sessioneBean.dettaglio(sessioneBean.java:138) - inizio chiamata dettaglio di sessioneBean
+[2014-03-10 19:04:09,933] INFO 32449["http-bio-8090"-exec-1] - com.gestioneconferenze.sessione.sessioneBean.salva(sessioneBean.java:110) - inizio chiamata salva di sessioneBean
+[2014-03-10 19:04:09,933] INFO 32449["http-bio-8090"-exec-1] - com.gestioneconferenze.sessione.sessioneBean.salva(sessioneBean.java:115) - Per l utente tiziano le due password non coincidono
+[2014-03-10 19:04:33,430] INFO 55946["http-bio-8090"-exec-3] - com.gestioneconferenze.sessione.sessioneBean.salva(sessioneBean.java:110) - inizio chiamata salva di sessioneBean
+[2014-03-10 19:04:33,431] INFO 55947["http-bio-8090"-exec-3] - com.gestioneconferenze.sessione.sessioneBean.salva(sessioneBean.java:115) - Per l utente tiziano le due password non coincidono
+[2014-03-10 19:05:07,296] INFO 89812["http-bio-8090"-exec-5] - com.gestioneconferenze.sessione.sessioneBean.salva(sessioneBean.java:110) - inizio chiamata salva di sessioneBean
+[2014-03-10 19:05:19,748] INFO102264["http-bio-8090"-exec-5] - com.gestioneconferenze.sessione.sessioneBean.salva(sessioneBean.java:115) - Per l utente tiziano le due password non coincidono
+[2014-03-10 19:05:39,246] INFO121762["http-bio-8090"-exec-5] - com.gestioneconferenze.sessione.sessioneBean.salva(sessioneBean.java:110) - inizio chiamata salva di sessioneBean
+[2014-03-10 19:07:28,005] INFO     0["http-bio-8090"-exec-6] - com.gestioneconferenze.sessione.sessioneBean.entra(sessioneBean.java:89) - inizio chiamata entra di sessioneBean
+[2014-03-10 19:07:28,012] INFO     7["http-bio-8090"-exec-6] - com.gestioneconferenze.sessione.sessioneBean.entra(sessioneBean.java:102) - L utente tiziano ha effettuato accesso
+[2014-03-10 19:07:34,764] INFO  6759["http-bio-8090"-exec-6] - com.gestioneconferenze.util.UrlUtil.RedirectAPagina(UrlUtil.java:80) - Redirect a home.xhtml
+[2014-03-10 19:07:46,421] INFO 18416["http-bio-8090"-exec-8] - com.gestioneconferenze.sessione.sessioneBean.dettaglio(sessioneBean.java:138) - inizio chiamata dettaglio di sessioneBean
+[2014-03-10 19:08:01,916] INFO 33911["http-bio-8090"-exec-10] - com.gestioneconferenze.sessione.sessioneBean.salva(sessioneBean.java:110) - inizio chiamata salva di sessioneBean
+[2014-03-10 19:09:55,447] INFO     0["http-bio-8090"-exec-6] - com.gestioneconferenze.sessione.sessioneBean.entra(sessioneBean.java:89) - inizio chiamata entra di sessioneBean
+[2014-03-10 19:09:55,454] INFO     7["http-bio-8090"-exec-6] - com.gestioneconferenze.sessione.sessioneBean.entra(sessioneBean.java:102) - L utente tiziano ha effettuato accesso
+[2014-03-10 19:09:59,136] INFO  3689["http-bio-8090"-exec-6] - com.gestioneconferenze.util.UrlUtil.RedirectAPagina(UrlUtil.java:80) - Redirect a home.xhtml
+[2014-03-10 19:10:05,506] INFO 10059["http-bio-8090"-exec-8] - com.gestioneconferenze.sessione.sessioneBean.dettaglio(sessioneBean.java:138) - inizio chiamata dettaglio di sessioneBean
+[2014-03-10 19:10:18,706] INFO 23259["http-bio-8090"-exec-10] - com.gestioneconferenze.sessione.sessioneBean.salva(sessioneBean.java:110) - inizio chiamata salva di sessioneBean
+[2014-03-10 19:10:29,753] INFO 34306["http-bio-8090"-exec-10] - com.gestioneconferenze.sessione.sessioneBean.salva(sessioneBean.java:130) - L utente tiziano ha salvato i dati della propria utenza
+[2014-03-10 19:56:08,178] INFO     0["http-bio-8090"-exec-6] - com.gestioneconferenze.sessione.sessioneBean.entra(sessioneBean.java:89) - inizio chiamata entra di sessioneBean
+[2014-03-10 19:56:08,184] INFO     6["http-bio-8090"-exec-6] - com.gestioneconferenze.sessione.sessioneBean.entra(sessioneBean.java:102) - L utente tiziano ha effettuato accesso
+[2014-03-10 19:56:13,733] INFO  5555["http-bio-8090"-exec-6] - com.gestioneconferenze.util.UrlUtil.RedirectAPagina(UrlUtil.java:80) - Redirect a home.xhtml
+[2014-03-10 19:56:23,380] INFO 15202["http-bio-8090"-exec-8] - com.gestioneconferenze.sessione.sessioneBean.dettaglio(sessioneBean.java:138) - inizio chiamata dettaglio di sessioneBean
+[2014-03-10 19:56:41,734] INFO 33556["http-bio-8090"-exec-10] - com.gestioneconferenze.sessione.sessioneBean.salva(sessioneBean.java:110) - inizio chiamata salva di sessioneBean
+[2014-03-10 19:56:48,300] INFO 40122["http-bio-8090"-exec-10] - com.gestioneconferenze.sessione.sessioneBean.salva(sessioneBean.java:130) - L utente tiziano ha salvato i dati della propria utenza
+[2014-03-10 20:00:10,796] INFO     0["http-bio-8090"-exec-6] - com.gestioneconferenze.sessione.sessioneBean.entra(sessioneBean.java:89) - inizio chiamata entra di sessioneBean
+[2014-03-10 20:00:10,803] INFO     7["http-bio-8090"-exec-6] - com.gestioneconferenze.sessione.sessioneBean.entra(sessioneBean.java:102) - L utente tiziano ha effettuato accesso
+[2014-03-10 20:00:14,303] INFO  3507["http-bio-8090"-exec-6] - com.gestioneconferenze.util.UrlUtil.RedirectAPagina(UrlUtil.java:80) - Redirect a home.xhtml
+[2014-03-10 20:00:23,760] INFO 12964["http-bio-8090"-exec-8] - com.gestioneconferenze.sessione.sessioneBean.dettaglio(sessioneBean.java:138) - inizio chiamata dettaglio di sessioneBean
+[2014-03-10 20:00:30,950] INFO 20154["http-bio-8090"-exec-10] - com.gestioneconferenze.sessione.sessioneBean.salva(sessioneBean.java:110) - inizio chiamata salva di sessioneBean
+[2014-03-10 20:00:35,171] INFO 24375["http-bio-8090"-exec-10] - com.gestioneconferenze.sessione.sessioneBean.salva(sessioneBean.java:130) - L utente tiziano ha salvato i dati della propria utenza
+[2014-03-10 20:00:51,739] INFO 40943["http-bio-8090"-exec-10] - com.gestioneconferenze.sessione.sessioneBean.salva(sessioneBean.java:110) - inizio chiamata salva di sessioneBean
+[2014-03-10 20:00:59,751] INFO 48955["http-bio-8090"-exec-10] - com.gestioneconferenze.sessione.sessioneBean.salva(sessioneBean.java:130) - L utente tiziano ha salvato i dati della propria utenza
+[2014-03-10 20:01:59,573] INFO     0["http-bio-8090"-exec-6] - com.gestioneconferenze.sessione.sessioneBean.entra(sessioneBean.java:89) - inizio chiamata entra di sessioneBean
+[2014-03-10 20:01:59,579] INFO     6["http-bio-8090"-exec-6] - com.gestioneconferenze.sessione.sessioneBean.entra(sessioneBean.java:102) - L utente tiziano ha effettuato accesso
+[2014-03-10 20:02:02,338] INFO  2765["http-bio-8090"-exec-6] - com.gestioneconferenze.util.UrlUtil.RedirectAPagina(UrlUtil.java:80) - Redirect a home.xhtml
+[2014-03-10 20:02:07,959] INFO  8386["http-bio-8090"-exec-8] - com.gestioneconferenze.sessione.sessioneBean.dettaglio(sessioneBean.java:138) - inizio chiamata dettaglio di sessioneBean
+[2014-03-10 20:02:14,519] INFO 14946["http-bio-8090"-exec-10] - com.gestioneconferenze.sessione.sessioneBean.salva(sessioneBean.java:110) - inizio chiamata salva di sessioneBean
+[2014-03-10 20:03:12,693] INFO 73120["http-bio-8090"-exec-1] - com.gestioneconferenze.sessione.sessioneBean.salva(sessioneBean.java:110) - inizio chiamata salva di sessioneBean
+[2014-03-10 20:06:28,913] INFO     0["http-bio-8090"-exec-6] - com.gestioneconferenze.sessione.sessioneBean.entra(sessioneBean.java:89) - inizio chiamata entra di sessioneBean
+[2014-03-10 20:06:28,916] INFO     3["http-bio-8090"-exec-6] - com.gestioneconferenze.sessione.sessioneBean.entra(sessioneBean.java:102) - L utente tiziano ha effettuato accesso
+[2014-03-10 20:06:28,916] INFO     3["http-bio-8090"-exec-6] - com.gestioneconferenze.util.UrlUtil.RedirectAPagina(UrlUtil.java:80) - Redirect a home.xhtml
+[2014-03-10 20:06:32,228] INFO  3315["http-bio-8090"-exec-8] - com.gestioneconferenze.sessione.sessioneBean.dettaglio(sessioneBean.java:138) - inizio chiamata dettaglio di sessioneBean
+[2014-03-10 20:06:37,325] INFO  8412["http-bio-8090"-exec-10] - com.gestioneconferenze.sessione.sessioneBean.salva(sessioneBean.java:110) - inizio chiamata salva di sessioneBean
+[2014-03-10 20:06:37,342] INFO  8429["http-bio-8090"-exec-10] - com.gestioneconferenze.util.SendMail.send(SendMail.java:59) - Spedita mail
+[2014-03-10 20:06:37,342] INFO  8429["http-bio-8090"-exec-10] - com.gestioneconferenze.sessione.sessioneBean.salva(sessioneBean.java:130) - L utente tiziano ha salvato i dati della propria utenza

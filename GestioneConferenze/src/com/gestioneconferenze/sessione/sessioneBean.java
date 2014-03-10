@@ -7,6 +7,8 @@ import javax.faces.context.FacesContext;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpSession;
 
+import com.gestioneconferenze.util.*;
+
 import org.apache.log4j.Logger;
 
 import com.gestioneconferenze.util.*;
@@ -107,14 +109,14 @@ public class sessioneBean {
 		Logger  logger = Logger.getLogger("com.foo");
 		logger.info("inizio chiamata salva di sessioneBean");
 	
-		 if(password != password2)
+		 if(!password.equals(password2))
 		 {
 			 FacesContext.getCurrentInstance().addMessage(null, new FacesMessage(FacesMessage.SEVERITY_FATAL,"!", "le due password devono coincidere"));
 			 logger.info("Per l utente " + this.username + " le due password non coincidono");
 			 return;
 		 }
 		 
-		 if(mail != mail2)
+		 if(!mail.equals(mail2))
 		 {
 			 FacesContext.getCurrentInstance().addMessage(null, new FacesMessage(FacesMessage.SEVERITY_FATAL,"!", "le due password devono coincidere"));
 			 logger.info("Per l utente " + this.username + " le due mail non coincidono");
@@ -124,7 +126,7 @@ public class sessioneBean {
 			FacesContext.getCurrentInstance().addMessage(null, new FacesMessage(FacesMessage.SEVERITY_INFO,"!", "Utenza salvata con successo"));
 			 FacesContext.getCurrentInstance().addMessage(null, new FacesMessage(FacesMessage.SEVERITY_WARN,"!", "Ti è stata mandata una mail per confermare la tua mail"));
 		
-		 
+		 new SendMail("info@gestioneconferenzeweb.com", "tiziano.interlandi@gmail.com", "modifica dati utente", "i tuoi dati sono stati modificati").send();
 		logger.info("L utente " + this.username + " ha salvato i dati della propria utenza");
 		
 	}
