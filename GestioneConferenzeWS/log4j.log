@@ -1,0 +1,33 @@
+[2014-03-10 20:33:44,909] INFO     0["http-bio-8090"-exec-7] - com.gestioneconferenzews.servlet.AccettazioneMail.doGet(AccettazioneMail.java:51) - chiamata in arrivo
+[2014-03-10 20:37:32,639] INFO     0["http-bio-8090"-exec-13] - com.gestioneconferenzews.servlet.AccettazioneMail.doGet(AccettazioneMail.java:51) - chiamata in arrivo
+[2014-03-10 20:37:32,643] INFO     4["http-bio-8090"-exec-13] - com.gestioneconferenzews.servlet.AccettazioneMail.doGet(AccettazioneMail.java:53) - L utente tiziano ha inviato un messaggio 
+[2014-03-10 20:39:00,192] INFO     0["http-bio-8090"-exec-9] - com.gestioneconferenzews.servlet.AccettazioneMail.doGet(AccettazioneMail.java:51) - chiamata in arrivo
+[2014-03-10 20:39:00,195] INFO     3["http-bio-8090"-exec-9] - com.gestioneconferenzews.servlet.AccettazioneMail.doGet(AccettazioneMail.java:54) - L utente null ha inviato un messaggio con azione null
+[2014-03-10 20:39:09,727] INFO  9535["http-bio-8090"-exec-11] - com.gestioneconferenzews.servlet.AccettazioneMail.doGet(AccettazioneMail.java:51) - chiamata in arrivo
+[2014-03-10 20:39:09,727] INFO  9535["http-bio-8090"-exec-11] - com.gestioneconferenzews.servlet.AccettazioneMail.doGet(AccettazioneMail.java:54) - L utente null ha inviato un messaggio con azione confermamail
+[2014-03-10 21:05:39,983] INFO     0["http-bio-8090"-exec-3] - com.gestioneconferenzews.servlet.AccettazioneMail.doGet(AccettazioneMail.java:58) - chiamata in arrivo
+[2014-03-10 21:05:39,988] INFO     5["http-bio-8090"-exec-3] - com.gestioneconferenzews.servlet.AccettazioneMail.doGet(AccettazioneMail.java:61) - L utente null ha inviato un messaggio con azione null
+[2014-03-10 21:06:23,715] INFO 43732["http-bio-8090"-exec-4] - com.gestioneconferenzews.servlet.AccettazioneMail.doGet(AccettazioneMail.java:58) - chiamata in arrivo
+[2014-03-10 21:06:23,716] INFO 43733["http-bio-8090"-exec-4] - com.gestioneconferenzews.servlet.AccettazioneMail.doGet(AccettazioneMail.java:61) - L utente tiziano ha inviato un messaggio con azione null
+[2014-03-10 21:06:46,439] INFO 66456["http-bio-8090"-exec-5] - com.gestioneconferenzews.servlet.AccettazioneMail.doGet(AccettazioneMail.java:58) - chiamata in arrivo
+[2014-03-10 21:06:46,440] INFO 66457["http-bio-8090"-exec-5] - com.gestioneconferenzews.servlet.AccettazioneMail.doGet(AccettazioneMail.java:61) - L utente tiziano ha inviato un messaggio con azione null
+[2014-03-10 21:07:03,532] INFO 83549["http-bio-8090"-exec-6] - com.gestioneconferenzews.servlet.AccettazioneMail.doGet(AccettazioneMail.java:58) - chiamata in arrivo
+[2014-03-10 21:07:03,533] INFO 83550["http-bio-8090"-exec-6] - com.gestioneconferenzews.servlet.AccettazioneMail.doGet(AccettazioneMail.java:61) - L utente tiziano ha inviato un messaggio con azione iscrizione
+[2014-03-10 21:07:03,539] INFO 83556["http-bio-8090"-exec-6] - com.gestioneconferenzews.strategieAscolto.StrategiaAscoltoIscrizione.salvaAzione(StrategiaAscoltoIscrizione.java:11) - chiamata strategia di iscrizione
+[2014-03-10 21:07:18,593] INFO 98610["http-bio-8090"-exec-7] - com.gestioneconferenzews.servlet.AccettazioneMail.doGet(AccettazioneMail.java:58) - chiamata in arrivo
+[2014-03-10 21:07:18,593] INFO 98610["http-bio-8090"-exec-7] - com.gestioneconferenzews.servlet.AccettazioneMail.doGet(AccettazioneMail.java:61) - L utente tiziano ha inviato un messaggio con azione conferma
+[2014-03-10 21:07:18,599] INFO 98616["http-bio-8090"-exec-7] - com.gestioneconferenzews.strategieAscolto.StrategiaAscoltoConfermaMail.salvaAzione(StrategiaAscoltoConfermaMail.java:11) - chiamata strategia di conferma
+[2014-03-10 21:07:36,676] INFO116693["http-bio-8090"-exec-8] - com.gestioneconferenzews.servlet.AccettazioneMail.doGet(AccettazioneMail.java:58) - chiamata in arrivo
+[2014-03-10 21:07:36,676] INFO116693["http-bio-8090"-exec-8] - com.gestioneconferenzews.servlet.AccettazioneMail.doGet(AccettazioneMail.java:61) - L utente tiziano ha inviato un messaggio con azione cancellazione
+[2014-03-10 21:07:36,678] INFO116695["http-bio-8090"-exec-8] - com.gestioneconferenzews.strategieAscolto.StrategiaAscoltoCancellazione.salvaAzione(StrategiaAscoltoCancellazione.java:11) - chiamata strategia di cancellazione
+[2014-03-10 21:10:17,793] INFO     1["http-bio-8090"-exec-10] - com.gestioneconferenzews.servlet.AccettazioneMail.doGet(AccettazioneMail.java:58) - chiamata in arrivo
+[2014-03-10 21:10:17,797] INFO     5["http-bio-8090"-exec-10] - com.gestioneconferenzews.servlet.AccettazioneMail.doGet(AccettazioneMail.java:61) - L utente tiziano ha inviato un messaggio con azione adsfsdfsd
+[2014-03-10 21:10:17,799]ERROR     7["http-bio-8090"-exec-10] - com.gestioneconferenzews.servlet.AccettazioneMail.doGet(AccettazioneMail.java:88) - azione non presente in elenco
+[2014-03-10 21:10:55,574] INFO     0["http-bio-8090"-exec-3] - com.gestioneconferenzews.servlet.AccettazioneMail.doGet(AccettazioneMail.java:58) - chiamata in arrivo
+[2014-03-10 21:10:55,579] INFO     5["http-bio-8090"-exec-3] - com.gestioneconferenzews.servlet.AccettazioneMail.doGet(AccettazioneMail.java:61) - L utente null ha inviato un messaggio con azione null
+[2014-03-10 21:11:01,220] INFO  5646["http-bio-8090"-exec-4] - com.gestioneconferenzews.servlet.AccettazioneMail.doGet(AccettazioneMail.java:58) - chiamata in arrivo
+[2014-03-10 21:11:01,221] INFO  5647["http-bio-8090"-exec-4] - com.gestioneconferenzews.servlet.AccettazioneMail.doGet(AccettazioneMail.java:61) - L utente tiziano ha inviato un messaggio con azione adsfsdfsd
+[2014-03-10 21:11:01,222]ERROR  5648["http-bio-8090"-exec-4] - com.gestioneconferenzews.servlet.AccettazioneMail.doGet(AccettazioneMail.java:88) - azione non presente in elenco
+[2014-03-10 21:11:09,077] INFO 13503["http-bio-8090"-exec-5] - com.gestioneconferenzews.servlet.AccettazioneMail.doGet(AccettazioneMail.java:58) - chiamata in arrivo
+[2014-03-10 21:11:09,078] INFO 13504["http-bio-8090"-exec-5] - com.gestioneconferenzews.servlet.AccettazioneMail.doGet(AccettazioneMail.java:61) - L utente tiziano ha inviato un messaggio con azione conferma
+[2014-03-10 21:11:09,084] INFO 13510["http-bio-8090"-exec-5] - com.gestioneconferenzews.strategieAscolto.StrategiaAscoltoConfermaMail.salvaAzione(StrategiaAscoltoConfermaMail.java:11) - chiamata strategia di conferma
