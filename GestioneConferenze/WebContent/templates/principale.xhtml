@@ -6,13 +6,16 @@
 	xmlns:f="http://java.sun.com/jsf/core"
 	xmlns:p="http://primefaces.org/ui">
 
+
 <h:head>
   <title><ui:insert name="title">Gestione Conferenze</ui:insert></title>
+  
 <style>
 		.ui-widget, .ui-widget .ui-widget {
-			 font-size: 80% !important;
+			 font-size: 90% !important;
 		}
 	</style>
+	<meta http-equiv="refresh" content="${pageContext.session.maxInactiveInterval};url=error.html"/>
 </h:head>
 
 <h:body>

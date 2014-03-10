@@ -1,19 +1,40 @@
 package com.gestioneconferenze.sessione;
 
 import java.util.Date;
+
 import javax.faces.application.FacesMessage;
 import javax.faces.context.FacesContext;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpSession;
+
 import org.apache.log4j.Logger;
+
 import com.gestioneconferenze.util.*;
 
 public class sessioneBean {
 
+	public String getPassword2() {
+		return password2;
+	}
+	public void setPassword2(String password2) {
+		this.password2 = password2;
+	}
+	public String getMail2() {
+		return mail2;
+	}
+	public void setMail2(String mail2) {
+		this.mail2 = mail2;
+	}
+
+
 	String username="";
 	String password="";
+	String password2="";
 	String ipaddress="";
 	Date ultimoaccesso;
 	String modifica="www.corriere.it";
 	String mail="";
+	String mail2="";
 	
 	
 	
@@ -24,9 +45,12 @@ public class sessioneBean {
 		this.mail = mail;
 	}
 	public String getUsername() {
+	
 		return username;
 	}
 	public void setUsername(String username) {
+		
+		
 		this.username = username;
 	}
 	public String getPassword() {
@@ -77,6 +101,33 @@ public class sessioneBean {
 		UrlUtil.RedirectAPagina("home.xhtml");
 	}
 	
+	public void salva() 
+	{
+		
+		Logger  logger = Logger.getLogger("com.foo");
+		logger.info("inizio chiamata salva di sessioneBean");
+	
+		 if(password != password2)
+		 {
+			 FacesContext.getCurrentInstance().addMessage(null, new FacesMessage(FacesMessage.SEVERITY_FATAL,"!", "le due password devono coincidere"));
+			 logger.info("Per l utente " + this.username + " le due password non coincidono");
+			 return;
+		 }
+		 
+		 if(mail != mail2)
+		 {
+			 FacesContext.getCurrentInstance().addMessage(null, new FacesMessage(FacesMessage.SEVERITY_FATAL,"!", "le due password devono coincidere"));
+			 logger.info("Per l utente " + this.username + " le due mail non coincidono");
+			 return;
+		 }
+		 
+			FacesContext.getCurrentInstance().addMessage(null, new FacesMessage(FacesMessage.SEVERITY_INFO,"!", "Utenza salvata con successo"));
+			 FacesContext.getCurrentInstance().addMessage(null, new FacesMessage(FacesMessage.SEVERITY_WARN,"!", "Ti è stata mandata una mail per confermare la tua mail"));
+		
+		 
+		logger.info("L utente " + this.username + " ha salvato i dati della propria utenza");
+		
+	}
 	
 	
 	public void dettaglio()

@@ -12,29 +12,45 @@
 
 <ui:composition template="/templates/principale.xhtml">
 
-	<ui:define name="content">
-		
-	
-			    
-	
-		<p:panelGrid columns="2">
-    <f:facet name="header">
-        Basic PanelGrid
-    </f:facet>
+	<ui:define name="content">				
+<p:tabView orientation="top" widgetVar="50" >
+    <p:tab title="Dati Utenza">  
+    <h:form id="form">                           
+    <p:panel header="Utenza">
+ 
+    <p:panelGrid columns="3">
 
-    <h:outputLabel for="firstname" value="Firstname: *" />
-    <p:inputText id="firstname" value="#{sessioneBean.username}" label="Firstname" />
+        	 Username<h:inputText id="userinput" value="#{sessioneBean.username}" readonly="true"/>
+        	 <p:message for="userinput" display="icon" />             
+             	     Password
+             	     <p:password id="feedback" value="#{sessioneBean.password}" feedback="true" required="true"/>
+             	     
+  		<p:message for="feedback" display="icon" />
+  		Ripeti Password      
+  		  <p:password id="feedback2" value="#{sessioneBean.password2}" feedback="true" required="true"/>
+  		  <p:message for="feedback2" display="icon" />
+  		  
+  		  
+  		  E-Mail<h:inputText id="mailinput" value="#{sessioneBean.mail}" />
+        	 <p:message for="mailinput" display="icon" />
+        	 
+        	 Ripeti E-Mail<h:inputText id="ripmailinput" value="#{sessioneBean.mail2}" />
+        	 <p:message for="ripmailinput" display="icon" />
+  		  
+            </p:panelGrid>
+             <f:facet name="footer">  
+           <p:commandButton value="Salva" action="#{sessioneBean.salva}" 
+                    ajax="false" />
+                          <p:messages id="messages" showDetail="true" autoUpdate="true" closable="true" globalOnly="true" />  
 
-    <h:outputLabel for="ipaddress" value="Surname: *" />
-    <p:inputText id="ipaddress" value="#{sessioneBean.ipaddress}" required="true" label="Surname"/>
+    </f:facet>  
+       
+    </p:panel>        
+      </h:form>
+    </p:tab>   
+</p:tabView>
 
-    <f:facet name="footer">
-        <p:commandButton type="button" value="Save" icon="ui-icon-check" style="margin:0"/>
-    </f:facet>
-</p:panelGrid>
-	
-
-	</ui:define>
+</ui:define>
 
 
 </ui:composition>

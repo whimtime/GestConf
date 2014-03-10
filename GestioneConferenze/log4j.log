@@ -1,0 +1,388 @@
+[2014-03-09 21:48:38,437] INFO     0["http-bio-8090"-exec-6] - com.gestioneconferenze.sessione.sessioneBean.entra(sessioneBean.java:60) - inizio chiamata entra di sessioneBean
+[2014-03-09 22:00:07,385] INFO     0["http-bio-8090"-exec-6] - com.gestioneconferenze.sessione.sessioneBean.entra(sessioneBean.java:60) - inizio chiamata entra di sessioneBean
+[2014-03-09 22:00:07,387] INFO     2["http-bio-8090"-exec-6] - com.gestioneconferenze.util.UrlUtil.RedirectAPagina(UrlUtil.java:53) - Redirect a home.xhtml
+[2014-03-09 22:00:15,398] INFO  8013["http-bio-8090"-exec-8] - com.gestioneconferenze.sessione.sessioneBean.dettaglio(sessioneBean.java:79) - inizio chiamata dettaglio di sessioneBean
+[2014-03-09 22:00:15,399] INFO  8014["http-bio-8090"-exec-8] - com.gestioneconferenze.util.UrlUtil.RedirectAPagina(UrlUtil.java:53) - Redirect a dettaglioUtente.xhtml
+[2014-03-09 22:02:17,629] INFO130244["http-bio-8090"-exec-10] - com.gestioneconferenze.sessione.sessioneBean.dettaglio(sessioneBean.java:79) - inizio chiamata dettaglio di sessioneBean
+[2014-03-09 22:02:17,630] INFO130245["http-bio-8090"-exec-10] - com.gestioneconferenze.util.UrlUtil.RedirectAPagina(UrlUtil.java:53) - Redirect a dettaglioUtente.xhtml
+[2014-03-09 22:02:45,144] INFO157759["http-bio-8090"-exec-9] - com.gestioneconferenze.sessione.sessioneBean.dettaglio(sessioneBean.java:79) - inizio chiamata dettaglio di sessioneBean
+[2014-03-09 22:02:45,144] INFO157759["http-bio-8090"-exec-9] - com.gestioneconferenze.util.UrlUtil.RedirectAPagina(UrlUtil.java:53) - Redirect a dettaglioUtente.xhtml
+[2014-03-09 22:03:05,773] INFO178388["http-bio-8090"-exec-9] - com.gestioneconferenze.sessione.sessioneBean.dettaglio(sessioneBean.java:79) - inizio chiamata dettaglio di sessioneBean
+[2014-03-09 22:03:05,773] INFO178388["http-bio-8090"-exec-9] - com.gestioneconferenze.util.UrlUtil.RedirectAPagina(UrlUtil.java:53) - Redirect a dettaglioUtente.xhtml
+[2014-03-09 22:04:14,324] INFO246939["http-bio-8090"-exec-8] - com.gestioneconferenze.sessione.sessioneBean.dettaglio(sessioneBean.java:79) - inizio chiamata dettaglio di sessioneBean
+[2014-03-09 22:04:14,324] INFO246939["http-bio-8090"-exec-8] - com.gestioneconferenze.util.UrlUtil.RedirectAPagina(UrlUtil.java:53) - Redirect a dettaglioUtente.xhtml
+[2014-03-09 22:05:14,830] INFO307445["http-bio-8090"-exec-5] - com.gestioneconferenze.sessione.sessioneBean.entra(sessioneBean.java:60) - inizio chiamata entra di sessioneBean
+[2014-03-09 22:05:14,830] INFO307445["http-bio-8090"-exec-5] - com.gestioneconferenze.util.UrlUtil.RedirectAPagina(UrlUtil.java:53) - Redirect a home.xhtml
+[2014-03-09 22:05:22,159] INFO314774["http-bio-8090"-exec-5] - com.gestioneconferenze.sessione.sessioneBean.dettaglio(sessioneBean.java:79) - inizio chiamata dettaglio di sessioneBean
+[2014-03-09 22:05:22,160] INFO314775["http-bio-8090"-exec-5] - com.gestioneconferenze.util.UrlUtil.RedirectAPagina(UrlUtil.java:53) - Redirect a dettaglioUtente.xhtml
+[2014-03-09 22:07:20,834] INFO433449["http-bio-8090"-exec-1] - com.gestioneconferenze.sessione.sessioneBean.dettaglio(sessioneBean.java:79) - inizio chiamata dettaglio di sessioneBean
+[2014-03-09 22:07:20,835] INFO433450["http-bio-8090"-exec-1] - com.gestioneconferenze.util.UrlUtil.RedirectAPagina(UrlUtil.java:53) - Redirect a dettaglioUtente.xhtml
+[2014-03-09 22:07:26,872] INFO439487["http-bio-8090"-exec-1] - com.gestioneconferenze.sessione.sessioneBean.dettaglio(sessioneBean.java:79) - inizio chiamata dettaglio di sessioneBean
+[2014-03-09 22:07:26,873] INFO439488["http-bio-8090"-exec-1] - com.gestioneconferenze.util.UrlUtil.RedirectAPagina(UrlUtil.java:53) - Redirect a dettaglioUtente.xhtml
+[2014-03-09 22:08:09,252] INFO481867["http-bio-8090"-exec-8] - com.gestioneconferenze.sessione.sessioneBean.dettaglio(sessioneBean.java:79) - inizio chiamata dettaglio di sessioneBean
+[2014-03-09 22:08:09,252] INFO481867["http-bio-8090"-exec-8] - com.gestioneconferenze.util.UrlUtil.RedirectAPagina(UrlUtil.java:53) - Redirect a dettaglioUtente.xhtml
+[2014-03-09 22:09:12,592] INFO     0["http-bio-8090"-exec-4] - com.gestioneconferenze.sessione.sessioneBean.dettaglio(sessioneBean.java:79) - inizio chiamata dettaglio di sessioneBean
+[2014-03-09 22:09:12,594] INFO     2["http-bio-8090"-exec-4] - com.gestioneconferenze.util.UrlUtil.RedirectAPagina(UrlUtil.java:53) - Redirect a dettaglioUtente.xhtml
+[2014-03-09 22:09:57,904] INFO     0["http-bio-8090"-exec-6] - com.gestioneconferenze.sessione.sessioneBean.entra(sessioneBean.java:60) - inizio chiamata entra di sessioneBean
+[2014-03-09 22:10:06,578] INFO  8674["http-bio-8090"-exec-6] - com.gestioneconferenze.util.UrlUtil.RedirectAPagina(UrlUtil.java:53) - Redirect a home.xhtml
+[2014-03-09 22:10:28,552] INFO 30648["http-bio-8090"-exec-8] - com.gestioneconferenze.sessione.sessioneBean.dettaglio(sessioneBean.java:79) - inizio chiamata dettaglio di sessioneBean
+[2014-03-09 22:10:37,863] INFO 39959["http-bio-8090"-exec-8] - com.gestioneconferenze.util.UrlUtil.RedirectAPagina(UrlUtil.java:53) - Redirect a dettaglioUtente.xhtml
+[2014-03-09 22:12:32,821] INFO     0["http-bio-8090"-exec-4] - com.gestioneconferenze.sessione.sessioneBean.dettaglio(sessioneBean.java:79) - inizio chiamata dettaglio di sessioneBean
+[2014-03-09 22:12:32,824] INFO     3["http-bio-8090"-exec-4] - com.gestioneconferenze.util.UrlUtil.RedirectAPagina(UrlUtil.java:53) - Redirect a dettaglioUtente.xhtml
+[2014-03-09 22:12:54,036] INFO 21215["http-bio-8090"-exec-6] - com.gestioneconferenze.sessione.sessioneBean.dettaglio(sessioneBean.java:79) - inizio chiamata dettaglio di sessioneBean
+[2014-03-09 22:12:54,037] INFO 21216["http-bio-8090"-exec-6] - com.gestioneconferenze.util.UrlUtil.RedirectAPagina(UrlUtil.java:53) - Redirect a dettaglioUtente.xhtml
+[2014-03-09 22:17:08,801] INFO     0["http-bio-8090"-exec-6] - com.gestioneconferenze.sessione.sessioneBean.entra(sessioneBean.java:60) - inizio chiamata entra di sessioneBean
+[2014-03-09 22:17:16,264] INFO  7463["http-bio-8090"-exec-9] - com.gestioneconferenze.sessione.sessioneBean.entra(sessioneBean.java:60) - inizio chiamata entra di sessioneBean
+[2014-03-09 22:17:16,267] INFO  7466["http-bio-8090"-exec-9] - com.gestioneconferenze.util.UrlUtil.RedirectAPagina(UrlUtil.java:53) - Redirect a home.xhtml
+[2014-03-09 22:17:29,439] INFO 20638["http-bio-8090"-exec-10] - com.gestioneconferenze.sessione.sessioneBean.dettaglio(sessioneBean.java:79) - inizio chiamata dettaglio di sessioneBean
+[2014-03-09 22:17:44,750] INFO 35949["http-bio-8090"-exec-10] - com.gestioneconferenze.sessione.sessioneBean.dettaglio(sessioneBean.java:79) - inizio chiamata dettaglio di sessioneBean
+[2014-03-09 22:22:10,189] INFO     0["http-bio-8090"-exec-6] - com.gestioneconferenze.sessione.sessioneBean.entra(sessioneBean.java:60) - inizio chiamata entra di sessioneBean
+[2014-03-09 22:22:10,192] INFO     3["http-bio-8090"-exec-6] - com.gestioneconferenze.util.UrlUtil.RedirectAPagina(UrlUtil.java:53) - Redirect a home.xhtml
+[2014-03-09 22:22:14,810] INFO  4621["http-bio-8090"-exec-8] - com.gestioneconferenze.sessione.sessioneBean.dettaglio(sessioneBean.java:79) - inizio chiamata dettaglio di sessioneBean
+[2014-03-09 22:25:45,251] INFO215062["http-bio-8090"-exec-1] - com.gestioneconferenze.sessione.sessioneBean.dettaglio(sessioneBean.java:79) - inizio chiamata dettaglio di sessioneBean
+[2014-03-09 22:48:11,440] INFO     0["http-bio-8090"-exec-6] - com.gestioneconferenze.sessione.sessioneBean.entra(sessioneBean.java:56) - inizio chiamata entra di sessioneBean
+[2014-03-09 22:48:11,442] INFO     2["http-bio-8090"-exec-6] - com.gestioneconferenze.util.UrlUtil.RedirectAPagina(UrlUtil.java:79) - Redirect a home.xhtml
+[2014-03-09 22:52:25,981] INFO     1["http-bio-8090"-exec-6] - com.gestioneconferenze.sessione.sessioneBean.entra(sessioneBean.java:56) - inizio chiamata entra di sessioneBean
+[2014-03-09 22:52:25,983] WARN     3["http-bio-8090"-exec-6] - com.gestioneconferenze.sessione.sessioneBean.entra(sessioneBean.java:64) - l utente DRFTUYGIJH ha tentato di accedere senza successo
+[2014-03-09 22:52:43,956] INFO 17976["http-bio-8090"-exec-9] - com.gestioneconferenze.sessione.sessioneBean.entra(sessioneBean.java:56) - inizio chiamata entra di sessioneBean
+[2014-03-09 22:52:43,958] INFO 17978["http-bio-8090"-exec-9] - com.gestioneconferenze.sessione.sessioneBean.entra(sessioneBean.java:69) - L utente tiziano ha effettuato accesso
+[2014-03-09 22:52:43,958] INFO 17978["http-bio-8090"-exec-9] - com.gestioneconferenze.util.UrlUtil.RedirectAPagina(UrlUtil.java:79) - Redirect a home.xhtml
+[2014-03-09 22:52:57,949] INFO 31969["http-bio-8090"-exec-10] - com.gestioneconferenze.sessione.sessioneBean.dettaglio(sessioneBean.java:78) - inizio chiamata dettaglio di sessioneBean
+[2014-03-09 22:52:57,949] INFO 31969["http-bio-8090"-exec-10] - com.gestioneconferenze.util.UrlUtil.RedirectAPagina(UrlUtil.java:79) - Redirect a dettaglioUtente.xhtml
+[2014-03-09 22:53:02,736] INFO 36756["http-bio-8090"-exec-10] - com.gestioneconferenze.sessione.sessioneBean.dettaglio(sessioneBean.java:78) - inizio chiamata dettaglio di sessioneBean
+[2014-03-09 22:53:02,736] INFO 36756["http-bio-8090"-exec-10] - com.gestioneconferenze.util.UrlUtil.RedirectAPagina(UrlUtil.java:79) - Redirect a dettaglioUtente.xhtml
+[2014-03-09 22:53:12,279] INFO 46299["http-bio-8090"-exec-10] - com.gestioneconferenze.sessione.sessioneBean.dettaglio(sessioneBean.java:78) - inizio chiamata dettaglio di sessioneBean
+[2014-03-09 22:53:12,279] INFO 46299["http-bio-8090"-exec-10] - com.gestioneconferenze.util.UrlUtil.RedirectAPagina(UrlUtil.java:79) - Redirect a dettaglioUtente.xhtml
+[2014-03-09 23:01:14,697] INFO     0["http-bio-8090"-exec-6] - com.gestioneconferenze.sessione.sessioneBean.entra(sessioneBean.java:63) - inizio chiamata entra di sessioneBean
+[2014-03-09 23:01:14,699] INFO     2["http-bio-8090"-exec-6] - com.gestioneconferenze.sessione.sessioneBean.entra(sessioneBean.java:76) - L utente tiziano ha effettuato accesso
+[2014-03-09 23:01:14,700] INFO     3["http-bio-8090"-exec-6] - com.gestioneconferenze.util.UrlUtil.RedirectAPagina(UrlUtil.java:79) - Redirect a home.xhtml
+[2014-03-09 23:01:18,514] INFO  3817["http-bio-8090"-exec-8] - com.gestioneconferenze.sessione.sessioneBean.dettaglio(sessioneBean.java:85) - inizio chiamata dettaglio di sessioneBean
+[2014-03-09 23:02:19,286] INFO 64589["http-bio-8090"-exec-5] - com.gestioneconferenze.sessione.sessioneBean.dettaglio(sessioneBean.java:85) - inizio chiamata dettaglio di sessioneBean
+[2014-03-09 23:02:58,519] INFO103822["http-bio-8090"-exec-2] - com.gestioneconferenze.sessione.sessioneBean.dettaglio(sessioneBean.java:85) - inizio chiamata dettaglio di sessioneBean
+[2014-03-09 23:03:12,306] INFO117609["http-bio-8090"-exec-7] - com.gestioneconferenze.sessione.sessioneBean.entra(sessioneBean.java:63) - inizio chiamata entra di sessioneBean
+[2014-03-09 23:03:12,306] INFO117609["http-bio-8090"-exec-7] - com.gestioneconferenze.sessione.sessioneBean.entra(sessioneBean.java:76) - L utente tiziano ha effettuato accesso
+[2014-03-09 23:03:12,306] INFO117609["http-bio-8090"-exec-7] - com.gestioneconferenze.util.UrlUtil.RedirectAPagina(UrlUtil.java:79) - Redirect a home.xhtml
+[2014-03-09 23:03:15,557] INFO120860["http-bio-8090"-exec-7] - com.gestioneconferenze.sessione.sessioneBean.dettaglio(sessioneBean.java:85) - inizio chiamata dettaglio di sessioneBean
+[2014-03-09 23:05:00,497] INFO225800["http-bio-8090"-exec-2] - com.gestioneconferenze.sessione.sessioneBean.entra(sessioneBean.java:63) - inizio chiamata entra di sessioneBean
+[2014-03-09 23:05:00,498] INFO225801["http-bio-8090"-exec-2] - com.gestioneconferenze.sessione.sessioneBean.entra(sessioneBean.java:76) - L utente tiziano ha effettuato accesso
+[2014-03-09 23:05:00,498] INFO225801["http-bio-8090"-exec-2] - com.gestioneconferenze.util.UrlUtil.RedirectAPagina(UrlUtil.java:79) - Redirect a home.xhtml
+[2014-03-09 23:05:03,731] INFO229034["http-bio-8090"-exec-2] - com.gestioneconferenze.sessione.sessioneBean.dettaglio(sessioneBean.java:85) - inizio chiamata dettaglio di sessioneBean
+[2014-03-09 23:06:56,976] INFO342279["http-bio-8090"-exec-2] - com.gestioneconferenze.sessione.sessioneBean.entra(sessioneBean.java:63) - inizio chiamata entra di sessioneBean
+[2014-03-09 23:06:56,976] INFO342279["http-bio-8090"-exec-2] - com.gestioneconferenze.sessione.sessioneBean.entra(sessioneBean.java:76) - L utente tiziano ha effettuato accesso
+[2014-03-09 23:06:56,977] INFO342280["http-bio-8090"-exec-2] - com.gestioneconferenze.util.UrlUtil.RedirectAPagina(UrlUtil.java:79) - Redirect a home.xhtml
+[2014-03-09 23:07:00,718] INFO346021["http-bio-8090"-exec-2] - com.gestioneconferenze.sessione.sessioneBean.dettaglio(sessioneBean.java:85) - inizio chiamata dettaglio di sessioneBean
+[2014-03-09 23:09:56,564] INFO521867["http-bio-8090"-exec-6] - com.gestioneconferenze.sessione.sessioneBean.entra(sessioneBean.java:63) - inizio chiamata entra di sessioneBean
+[2014-03-09 23:09:56,564] INFO521867["http-bio-8090"-exec-6] - com.gestioneconferenze.sessione.sessioneBean.entra(sessioneBean.java:76) - L utente tiziano ha effettuato accesso
+[2014-03-09 23:09:56,564] INFO521867["http-bio-8090"-exec-6] - com.gestioneconferenze.util.UrlUtil.RedirectAPagina(UrlUtil.java:79) - Redirect a home.xhtml
+[2014-03-09 23:09:59,372] INFO524675["http-bio-8090"-exec-6] - com.gestioneconferenze.sessione.sessioneBean.dettaglio(sessioneBean.java:85) - inizio chiamata dettaglio di sessioneBean
+[2014-03-09 23:15:49,440] INFO874743["http-bio-8090"-exec-9] - com.gestioneconferenze.sessione.sessioneBean.entra(sessioneBean.java:63) - inizio chiamata entra di sessioneBean
+[2014-03-09 23:15:49,440] INFO874743["http-bio-8090"-exec-9] - com.gestioneconferenze.sessione.sessioneBean.entra(sessioneBean.java:76) - L utente tiziano ha effettuato accesso
+[2014-03-09 23:15:49,440] INFO874743["http-bio-8090"-exec-9] - com.gestioneconferenze.util.UrlUtil.RedirectAPagina(UrlUtil.java:79) - Redirect a home.xhtml
+[2014-03-09 23:15:54,241] INFO879544["http-bio-8090"-exec-9] - com.gestioneconferenze.sessione.sessioneBean.dettaglio(sessioneBean.java:85) - inizio chiamata dettaglio di sessioneBean
+[2014-03-10 11:14:31,788] INFO997091["http-bio-8090"-exec-9] - com.gestioneconferenze.sessione.sessioneBean.entra(sessioneBean.java:63) - inizio chiamata entra di sessioneBean
+[2014-03-10 11:14:31,836] INFO997139["http-bio-8090"-exec-9] - com.gestioneconferenze.sessione.sessioneBean.entra(sessioneBean.java:76) - L utente tiziano ha effettuato accesso
+[2014-03-10 11:14:31,837] INFO997140["http-bio-8090"-exec-9] - com.gestioneconferenze.util.UrlUtil.RedirectAPagina(UrlUtil.java:79) - Redirect a home.xhtml
+[2014-03-10 11:14:34,973] INFO000276["http-bio-8090"-exec-3] - com.gestioneconferenze.sessione.sessioneBean.dettaglio(sessioneBean.java:85) - inizio chiamata dettaglio di sessioneBean
+[2014-03-10 11:31:25,868] INFO011171["http-bio-8090"-exec-5] - com.gestioneconferenze.sessione.sessioneBean.entra(sessioneBean.java:63) - inizio chiamata entra di sessioneBean
+[2014-03-10 11:31:25,868] INFO011171["http-bio-8090"-exec-5] - com.gestioneconferenze.sessione.sessioneBean.entra(sessioneBean.java:76) - L utente tiziano ha effettuato accesso
+[2014-03-10 11:31:25,869] INFO011172["http-bio-8090"-exec-5] - com.gestioneconferenze.util.UrlUtil.RedirectAPagina(UrlUtil.java:79) - Redirect a home.xhtml
+[2014-03-10 11:31:30,395] INFO015698["http-bio-8090"-exec-5] - com.gestioneconferenze.sessione.sessioneBean.dettaglio(sessioneBean.java:85) - inizio chiamata dettaglio di sessioneBean
+[2014-03-10 12:06:24,742] INFO110045["http-bio-8090"-exec-7] - com.gestioneconferenze.sessione.sessioneBean.entra(sessioneBean.java:63) - inizio chiamata entra di sessioneBean
+[2014-03-10 12:06:24,742] INFO110045["http-bio-8090"-exec-7] - com.gestioneconferenze.sessione.sessioneBean.entra(sessioneBean.java:76) - L utente tiziano ha effettuato accesso
+[2014-03-10 12:06:24,742] INFO110045["http-bio-8090"-exec-7] - com.gestioneconferenze.util.UrlUtil.RedirectAPagina(UrlUtil.java:79) - Redirect a home.xhtml
+[2014-03-10 12:06:26,856] INFO112159["http-bio-8090"-exec-7] - com.gestioneconferenze.sessione.sessioneBean.dettaglio(sessioneBean.java:85) - inizio chiamata dettaglio di sessioneBean
+[2014-03-10 12:10:34,191] INFO359494["http-bio-8090"-exec-10] - com.gestioneconferenze.sessione.sessioneBean.entra(sessioneBean.java:63) - inizio chiamata entra di sessioneBean
+[2014-03-10 12:10:34,191] INFO359494["http-bio-8090"-exec-10] - com.gestioneconferenze.sessione.sessioneBean.entra(sessioneBean.java:76) - L utente tiziano ha effettuato accesso
+[2014-03-10 12:10:34,191] INFO359494["http-bio-8090"-exec-10] - com.gestioneconferenze.util.UrlUtil.RedirectAPagina(UrlUtil.java:79) - Redirect a home.xhtml
+[2014-03-10 12:10:38,075] INFO363378["http-bio-8090"-exec-10] - com.gestioneconferenze.sessione.sessioneBean.dettaglio(sessioneBean.java:85) - inizio chiamata dettaglio di sessioneBean
+[2014-03-10 14:24:35,921] INFO     0["http-bio-8090"-exec-7] - com.gestioneconferenze.sessione.sessioneBean.entra(sessioneBean.java:64) - inizio chiamata entra di sessioneBean
+[2014-03-10 14:24:35,953] INFO    32["http-bio-8090"-exec-7] - com.gestioneconferenze.sessione.sessioneBean.entra(sessioneBean.java:77) - L utente tiziano ha effettuato accesso
+[2014-03-10 14:24:35,954] INFO    33["http-bio-8090"-exec-7] - com.gestioneconferenze.util.UrlUtil.RedirectAPagina(UrlUtil.java:80) - Redirect a home.xhtml
+[2014-03-10 14:24:40,051] INFO  4130["http-bio-8090"-exec-4] - com.gestioneconferenze.sessione.sessioneBean.entra(sessioneBean.java:64) - inizio chiamata entra di sessioneBean
+[2014-03-10 14:24:40,052] INFO  4131["http-bio-8090"-exec-4] - com.gestioneconferenze.sessione.sessioneBean.entra(sessioneBean.java:77) - L utente tiziano ha effettuato accesso
+[2014-03-10 14:24:40,052] INFO  4131["http-bio-8090"-exec-4] - com.gestioneconferenze.util.UrlUtil.RedirectAPagina(UrlUtil.java:80) - Redirect a home.xhtml
+[2014-03-10 14:24:47,308] INFO 11387["http-bio-8090"-exec-4] - com.gestioneconferenze.sessione.sessioneBean.entra(sessioneBean.java:64) - inizio chiamata entra di sessioneBean
+[2014-03-10 14:24:47,308] INFO 11387["http-bio-8090"-exec-4] - com.gestioneconferenze.sessione.sessioneBean.entra(sessioneBean.java:77) - L utente tiziano ha effettuato accesso
+[2014-03-10 14:24:47,309] INFO 11388["http-bio-8090"-exec-4] - com.gestioneconferenze.util.UrlUtil.RedirectAPagina(UrlUtil.java:80) - Redirect a home.xhtml
+[2014-03-10 14:30:26,709] INFO     0["http-bio-8090"-exec-4] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:49) - Filter session -> doFilter
+[2014-03-10 14:30:31,183] INFO  4474["http-bio-8090"-exec-6] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:49) - Filter session -> doFilter
+[2014-03-10 14:30:31,202] INFO  4493["http-bio-8090"-exec-6] - com.gestioneconferenze.sessione.sessioneBean.entra(sessioneBean.java:64) - inizio chiamata entra di sessioneBean
+[2014-03-10 14:30:31,202] INFO  4493["http-bio-8090"-exec-6] - com.gestioneconferenze.sessione.sessioneBean.entra(sessioneBean.java:77) - L utente tiziano ha effettuato accesso
+[2014-03-10 14:30:31,203] INFO  4494["http-bio-8090"-exec-6] - com.gestioneconferenze.util.UrlUtil.RedirectAPagina(UrlUtil.java:80) - Redirect a home.xhtml
+[2014-03-10 14:33:06,390] INFO     0["http-bio-8090"-exec-3] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:57) - Filter session -> sessione scaduta
+[2014-03-10 14:33:06,395] INFO     5["http-bio-8090"-exec-4] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:57) - Filter session -> sessione scaduta
+[2014-03-10 14:33:06,400] INFO    10["http-bio-8090"-exec-5] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:57) - Filter session -> sessione scaduta
+[2014-03-10 14:33:06,403] INFO    13["http-bio-8090"-exec-6] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:57) - Filter session -> sessione scaduta
+[2014-03-10 14:33:06,406] INFO    16["http-bio-8090"-exec-7] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:57) - Filter session -> sessione scaduta
+[2014-03-10 14:33:06,408] INFO    18["http-bio-8090"-exec-8] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:57) - Filter session -> sessione scaduta
+[2014-03-10 14:33:06,413] INFO    23["http-bio-8090"-exec-9] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:57) - Filter session -> sessione scaduta
+[2014-03-10 14:33:06,416] INFO    26["http-bio-8090"-exec-10] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:57) - Filter session -> sessione scaduta
+[2014-03-10 14:33:06,421] INFO    31["http-bio-8090"-exec-10] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:57) - Filter session -> sessione scaduta
+[2014-03-10 14:33:06,440] INFO    50["http-bio-8090"-exec-10] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:57) - Filter session -> sessione scaduta
+[2014-03-10 14:33:06,442] INFO    52["http-bio-8090"-exec-4] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:57) - Filter session -> sessione scaduta
+[2014-03-10 14:33:06,445] INFO    55["http-bio-8090"-exec-4] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:57) - Filter session -> sessione scaduta
+[2014-03-10 14:33:06,447] INFO    57["http-bio-8090"-exec-4] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:57) - Filter session -> sessione scaduta
+[2014-03-10 14:33:06,450] INFO    60["http-bio-8090"-exec-4] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:57) - Filter session -> sessione scaduta
+[2014-03-10 14:33:06,453] INFO    63["http-bio-8090"-exec-4] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:57) - Filter session -> sessione scaduta
+[2014-03-10 14:33:06,455] INFO    65["http-bio-8090"-exec-4] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:57) - Filter session -> sessione scaduta
+[2014-03-10 14:33:06,459] INFO    69["http-bio-8090"-exec-4] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:57) - Filter session -> sessione scaduta
+[2014-03-10 14:33:06,462] INFO    72["http-bio-8090"-exec-4] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:57) - Filter session -> sessione scaduta
+[2014-03-10 14:33:06,465] INFO    75["http-bio-8090"-exec-4] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:57) - Filter session -> sessione scaduta
+[2014-03-10 14:33:06,467] INFO    77["http-bio-8090"-exec-4] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:57) - Filter session -> sessione scaduta
+[2014-03-10 14:33:06,469] INFO    79["http-bio-8090"-exec-4] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:57) - Filter session -> sessione scaduta
+[2014-03-10 14:33:07,865] INFO  1475["http-bio-8090"-exec-4] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:57) - Filter session -> sessione scaduta
+[2014-03-10 14:33:07,870] INFO  1480["http-bio-8090"-exec-4] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:57) - Filter session -> sessione scaduta
+[2014-03-10 14:33:07,874] INFO  1484["http-bio-8090"-exec-4] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:57) - Filter session -> sessione scaduta
+[2014-03-10 14:33:07,880] INFO  1490["http-bio-8090"-exec-4] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:57) - Filter session -> sessione scaduta
+[2014-03-10 14:33:07,883] INFO  1493["http-bio-8090"-exec-4] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:57) - Filter session -> sessione scaduta
+[2014-03-10 14:33:07,885] INFO  1495["http-bio-8090"-exec-4] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:57) - Filter session -> sessione scaduta
+[2014-03-10 14:33:07,888] INFO  1498["http-bio-8090"-exec-4] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:57) - Filter session -> sessione scaduta
+[2014-03-10 14:33:07,891] INFO  1501["http-bio-8090"-exec-4] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:57) - Filter session -> sessione scaduta
+[2014-03-10 14:33:07,894] INFO  1504["http-bio-8090"-exec-7] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:57) - Filter session -> sessione scaduta
+[2014-03-10 14:33:07,897] INFO  1507["http-bio-8090"-exec-7] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:57) - Filter session -> sessione scaduta
+[2014-03-10 14:33:07,900] INFO  1510["http-bio-8090"-exec-7] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:57) - Filter session -> sessione scaduta
+[2014-03-10 14:33:07,903] INFO  1513["http-bio-8090"-exec-7] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:57) - Filter session -> sessione scaduta
+[2014-03-10 14:33:07,905] INFO  1515["http-bio-8090"-exec-7] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:57) - Filter session -> sessione scaduta
+[2014-03-10 14:33:07,907] INFO  1517["http-bio-8090"-exec-7] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:57) - Filter session -> sessione scaduta
+[2014-03-10 14:33:07,910] INFO  1520["http-bio-8090"-exec-7] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:57) - Filter session -> sessione scaduta
+[2014-03-10 14:33:07,912] INFO  1522["http-bio-8090"-exec-7] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:57) - Filter session -> sessione scaduta
+[2014-03-10 14:33:07,916] INFO  1526["http-bio-8090"-exec-7] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:57) - Filter session -> sessione scaduta
+[2014-03-10 14:33:07,922] INFO  1532["http-bio-8090"-exec-7] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:57) - Filter session -> sessione scaduta
+[2014-03-10 14:33:07,924] INFO  1534["http-bio-8090"-exec-7] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:57) - Filter session -> sessione scaduta
+[2014-03-10 14:33:07,927] INFO  1537["http-bio-8090"-exec-7] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:57) - Filter session -> sessione scaduta
+[2014-03-10 14:33:07,930] INFO  1540["http-bio-8090"-exec-7] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:57) - Filter session -> sessione scaduta
+[2014-03-10 14:33:08,574] INFO  2184["http-bio-8090"-exec-7] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:57) - Filter session -> sessione scaduta
+[2014-03-10 14:33:08,580] INFO  2190["http-bio-8090"-exec-7] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:57) - Filter session -> sessione scaduta
+[2014-03-10 14:33:08,587] INFO  2197["http-bio-8090"-exec-7] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:57) - Filter session -> sessione scaduta
+[2014-03-10 14:33:08,590] INFO  2200["http-bio-8090"-exec-7] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:57) - Filter session -> sessione scaduta
+[2014-03-10 14:33:08,593] INFO  2203["http-bio-8090"-exec-7] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:57) - Filter session -> sessione scaduta
+[2014-03-10 14:33:08,596] INFO  2206["http-bio-8090"-exec-7] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:57) - Filter session -> sessione scaduta
+[2014-03-10 14:33:08,598] INFO  2208["http-bio-8090"-exec-7] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:57) - Filter session -> sessione scaduta
+[2014-03-10 14:33:08,601] INFO  2211["http-bio-8090"-exec-7] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:57) - Filter session -> sessione scaduta
+[2014-03-10 14:33:08,604] INFO  2214["http-bio-8090"-exec-7] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:57) - Filter session -> sessione scaduta
+[2014-03-10 14:33:08,606] INFO  2216["http-bio-8090"-exec-7] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:57) - Filter session -> sessione scaduta
+[2014-03-10 14:33:08,609] INFO  2219["http-bio-8090"-exec-7] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:57) - Filter session -> sessione scaduta
+[2014-03-10 14:33:08,612] INFO  2222["http-bio-8090"-exec-7] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:57) - Filter session -> sessione scaduta
+[2014-03-10 14:33:08,614] INFO  2224["http-bio-8090"-exec-7] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:57) - Filter session -> sessione scaduta
+[2014-03-10 14:33:08,616] INFO  2226["http-bio-8090"-exec-7] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:57) - Filter session -> sessione scaduta
+[2014-03-10 14:33:08,619] INFO  2229["http-bio-8090"-exec-7] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:57) - Filter session -> sessione scaduta
+[2014-03-10 14:33:08,621] INFO  2231["http-bio-8090"-exec-7] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:57) - Filter session -> sessione scaduta
+[2014-03-10 14:33:08,624] INFO  2234["http-bio-8090"-exec-7] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:57) - Filter session -> sessione scaduta
+[2014-03-10 14:33:08,626] INFO  2236["http-bio-8090"-exec-7] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:57) - Filter session -> sessione scaduta
+[2014-03-10 14:33:08,629] INFO  2239["http-bio-8090"-exec-7] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:57) - Filter session -> sessione scaduta
+[2014-03-10 14:33:08,631] INFO  2241["http-bio-8090"-exec-7] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:57) - Filter session -> sessione scaduta
+[2014-03-10 14:33:08,633] INFO  2243["http-bio-8090"-exec-7] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:57) - Filter session -> sessione scaduta
+[2014-03-10 14:33:09,201] INFO  2811["http-bio-8090"-exec-7] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:57) - Filter session -> sessione scaduta
+[2014-03-10 14:33:09,203] INFO  2813["http-bio-8090"-exec-7] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:57) - Filter session -> sessione scaduta
+[2014-03-10 14:33:09,206] INFO  2816["http-bio-8090"-exec-7] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:57) - Filter session -> sessione scaduta
+[2014-03-10 14:33:09,208] INFO  2818["http-bio-8090"-exec-7] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:57) - Filter session -> sessione scaduta
+[2014-03-10 14:33:09,212] INFO  2822["http-bio-8090"-exec-7] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:57) - Filter session -> sessione scaduta
+[2014-03-10 14:33:09,216] INFO  2826["http-bio-8090"-exec-7] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:57) - Filter session -> sessione scaduta
+[2014-03-10 14:33:09,219] INFO  2829["http-bio-8090"-exec-7] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:57) - Filter session -> sessione scaduta
+[2014-03-10 14:33:09,221] INFO  2831["http-bio-8090"-exec-7] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:57) - Filter session -> sessione scaduta
+[2014-03-10 14:33:09,224] INFO  2834["http-bio-8090"-exec-7] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:57) - Filter session -> sessione scaduta
+[2014-03-10 14:33:09,226] INFO  2836["http-bio-8090"-exec-7] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:57) - Filter session -> sessione scaduta
+[2014-03-10 14:33:09,229] INFO  2839["http-bio-8090"-exec-7] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:57) - Filter session -> sessione scaduta
+[2014-03-10 14:33:09,231] INFO  2841["http-bio-8090"-exec-7] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:57) - Filter session -> sessione scaduta
+[2014-03-10 14:33:09,234] INFO  2844["http-bio-8090"-exec-7] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:57) - Filter session -> sessione scaduta
+[2014-03-10 14:33:09,236] INFO  2846["http-bio-8090"-exec-7] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:57) - Filter session -> sessione scaduta
+[2014-03-10 14:33:09,239] INFO  2849["http-bio-8090"-exec-7] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:57) - Filter session -> sessione scaduta
+[2014-03-10 14:33:09,241] INFO  2851["http-bio-8090"-exec-7] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:57) - Filter session -> sessione scaduta
+[2014-03-10 14:33:09,244] INFO  2854["http-bio-8090"-exec-7] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:57) - Filter session -> sessione scaduta
+[2014-03-10 14:33:09,246] INFO  2856["http-bio-8090"-exec-7] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:57) - Filter session -> sessione scaduta
+[2014-03-10 14:33:09,249] INFO  2859["http-bio-8090"-exec-7] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:57) - Filter session -> sessione scaduta
+[2014-03-10 14:33:09,251] INFO  2861["http-bio-8090"-exec-7] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:57) - Filter session -> sessione scaduta
+[2014-03-10 14:33:09,254] INFO  2864["http-bio-8090"-exec-7] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:57) - Filter session -> sessione scaduta
+[2014-03-10 14:33:09,485] INFO  3095["http-bio-8090"-exec-7] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:57) - Filter session -> sessione scaduta
+[2014-03-10 14:33:09,492] INFO  3102["http-bio-8090"-exec-7] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:57) - Filter session -> sessione scaduta
+[2014-03-10 14:33:09,496] INFO  3106["http-bio-8090"-exec-7] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:57) - Filter session -> sessione scaduta
+[2014-03-10 14:33:09,499] INFO  3109["http-bio-8090"-exec-7] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:57) - Filter session -> sessione scaduta
+[2014-03-10 14:33:09,501] INFO  3111["http-bio-8090"-exec-7] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:57) - Filter session -> sessione scaduta
+[2014-03-10 14:33:09,503] INFO  3113["http-bio-8090"-exec-7] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:57) - Filter session -> sessione scaduta
+[2014-03-10 14:33:09,506] INFO  3116["http-bio-8090"-exec-7] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:57) - Filter session -> sessione scaduta
+[2014-03-10 14:33:09,508] INFO  3118["http-bio-8090"-exec-5] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:57) - Filter session -> sessione scaduta
+[2014-03-10 14:33:09,511] INFO  3121["http-bio-8090"-exec-5] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:57) - Filter session -> sessione scaduta
+[2014-03-10 14:33:09,513] INFO  3123["http-bio-8090"-exec-5] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:57) - Filter session -> sessione scaduta
+[2014-03-10 14:33:09,516] INFO  3126["http-bio-8090"-exec-5] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:57) - Filter session -> sessione scaduta
+[2014-03-10 14:33:09,518] INFO  3128["http-bio-8090"-exec-5] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:57) - Filter session -> sessione scaduta
+[2014-03-10 14:33:09,521] INFO  3131["http-bio-8090"-exec-5] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:57) - Filter session -> sessione scaduta
+[2014-03-10 14:33:09,523] INFO  3133["http-bio-8090"-exec-5] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:57) - Filter session -> sessione scaduta
+[2014-03-10 14:33:09,526] INFO  3136["http-bio-8090"-exec-5] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:57) - Filter session -> sessione scaduta
+[2014-03-10 14:33:09,528] INFO  3138["http-bio-8090"-exec-5] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:57) - Filter session -> sessione scaduta
+[2014-03-10 14:33:09,532] INFO  3142["http-bio-8090"-exec-6] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:57) - Filter session -> sessione scaduta
+[2014-03-10 14:33:09,535] INFO  3145["http-bio-8090"-exec-4] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:57) - Filter session -> sessione scaduta
+[2014-03-10 14:33:09,537] INFO  3147["http-bio-8090"-exec-4] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:57) - Filter session -> sessione scaduta
+[2014-03-10 14:33:09,540] INFO  3150["http-bio-8090"-exec-4] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:57) - Filter session -> sessione scaduta
+[2014-03-10 14:33:09,542] INFO  3152["http-bio-8090"-exec-4] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:57) - Filter session -> sessione scaduta
+[2014-03-10 14:33:53,323] INFO 46933["http-bio-8090"-exec-10] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:57) - Filter session -> sessione scaduta
+[2014-03-10 14:33:53,330] INFO 46940["http-bio-8090"-exec-10] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:57) - Filter session -> sessione scaduta
+[2014-03-10 14:33:53,334] INFO 46944["http-bio-8090"-exec-10] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:57) - Filter session -> sessione scaduta
+[2014-03-10 14:33:53,340] INFO 46950["http-bio-8090"-exec-10] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:57) - Filter session -> sessione scaduta
+[2014-03-10 14:33:53,345] INFO 46955["http-bio-8090"-exec-10] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:57) - Filter session -> sessione scaduta
+[2014-03-10 14:33:53,349] INFO 46959["http-bio-8090"-exec-10] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:57) - Filter session -> sessione scaduta
+[2014-03-10 14:33:53,354] INFO 46964["http-bio-8090"-exec-10] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:57) - Filter session -> sessione scaduta
+[2014-03-10 14:33:53,357] INFO 46967["http-bio-8090"-exec-10] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:57) - Filter session -> sessione scaduta
+[2014-03-10 14:33:53,359] INFO 46969["http-bio-8090"-exec-10] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:57) - Filter session -> sessione scaduta
+[2014-03-10 14:33:53,361] INFO 46971["http-bio-8090"-exec-10] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:57) - Filter session -> sessione scaduta
+[2014-03-10 14:33:53,364] INFO 46974["http-bio-8090"-exec-10] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:57) - Filter session -> sessione scaduta
+[2014-03-10 14:33:53,366] INFO 46976["http-bio-8090"-exec-10] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:57) - Filter session -> sessione scaduta
+[2014-03-10 14:33:53,368] INFO 46978["http-bio-8090"-exec-10] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:57) - Filter session -> sessione scaduta
+[2014-03-10 14:33:53,370] INFO 46980["http-bio-8090"-exec-10] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:57) - Filter session -> sessione scaduta
+[2014-03-10 14:33:53,372] INFO 46982["http-bio-8090"-exec-10] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:57) - Filter session -> sessione scaduta
+[2014-03-10 14:33:53,374] INFO 46984["http-bio-8090"-exec-10] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:57) - Filter session -> sessione scaduta
+[2014-03-10 14:33:53,376] INFO 46986["http-bio-8090"-exec-10] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:57) - Filter session -> sessione scaduta
+[2014-03-10 14:33:53,379] INFO 46989["http-bio-8090"-exec-10] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:57) - Filter session -> sessione scaduta
+[2014-03-10 14:33:53,381] INFO 46991["http-bio-8090"-exec-10] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:57) - Filter session -> sessione scaduta
+[2014-03-10 14:33:53,383] INFO 46993["http-bio-8090"-exec-10] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:57) - Filter session -> sessione scaduta
+[2014-03-10 14:33:53,385] INFO 46995["http-bio-8090"-exec-10] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:57) - Filter session -> sessione scaduta
+[2014-03-10 14:35:03,890] INFO     0["http-bio-8090"-exec-3] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:58) - Filter session -> sessione scaduta
+[2014-03-10 14:35:03,898] INFO     8["http-bio-8090"-exec-4] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:58) - Filter session -> sessione scaduta
+[2014-03-10 14:35:03,900] INFO    10["http-bio-8090"-exec-5] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:58) - Filter session -> sessione scaduta
+[2014-03-10 14:35:03,901] INFO    11["http-bio-8090"-exec-6] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:58) - Filter session -> sessione scaduta
+[2014-03-10 14:35:03,903] INFO    13["http-bio-8090"-exec-7] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:58) - Filter session -> sessione scaduta
+[2014-03-10 14:35:03,905] INFO    15["http-bio-8090"-exec-8] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:58) - Filter session -> sessione scaduta
+[2014-03-10 14:35:03,906] INFO    16["http-bio-8090"-exec-9] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:58) - Filter session -> sessione scaduta
+[2014-03-10 14:35:03,909] INFO    19["http-bio-8090"-exec-10] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:58) - Filter session -> sessione scaduta
+[2014-03-10 14:35:03,910] INFO    20["http-bio-8090"-exec-10] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:58) - Filter session -> sessione scaduta
+[2014-03-10 14:35:03,912] INFO    22["http-bio-8090"-exec-10] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:58) - Filter session -> sessione scaduta
+[2014-03-10 14:35:03,913] INFO    23["http-bio-8090"-exec-10] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:58) - Filter session -> sessione scaduta
+[2014-03-10 14:35:04,025] INFO   135["http-bio-8090"-exec-10] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:58) - Filter session -> sessione scaduta
+[2014-03-10 14:35:04,027] INFO   137["http-bio-8090"-exec-10] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:58) - Filter session -> sessione scaduta
+[2014-03-10 14:35:04,029] INFO   139["http-bio-8090"-exec-10] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:58) - Filter session -> sessione scaduta
+[2014-03-10 14:35:04,031] INFO   141["http-bio-8090"-exec-10] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:58) - Filter session -> sessione scaduta
+[2014-03-10 14:35:04,034] INFO   144["http-bio-8090"-exec-10] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:58) - Filter session -> sessione scaduta
+[2014-03-10 14:35:04,036] INFO   146["http-bio-8090"-exec-10] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:58) - Filter session -> sessione scaduta
+[2014-03-10 14:35:04,038] INFO   148["http-bio-8090"-exec-10] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:58) - Filter session -> sessione scaduta
+[2014-03-10 14:35:04,040] INFO   150["http-bio-8090"-exec-10] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:58) - Filter session -> sessione scaduta
+[2014-03-10 14:35:04,042] INFO   152["http-bio-8090"-exec-10] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:58) - Filter session -> sessione scaduta
+[2014-03-10 14:35:04,044] INFO   154["http-bio-8090"-exec-10] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:58) - Filter session -> sessione scaduta
+[2014-03-10 14:35:04,046] INFO   156["http-bio-8090"-exec-10] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:58) - Filter session -> sessione scaduta
+[2014-03-10 14:35:04,118] INFO   228["http-bio-8090"-exec-10] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:58) - Filter session -> sessione scaduta
+[2014-03-10 14:35:04,121] INFO   231["http-bio-8090"-exec-10] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:58) - Filter session -> sessione scaduta
+[2014-03-10 14:35:04,124] INFO   234["http-bio-8090"-exec-10] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:58) - Filter session -> sessione scaduta
+[2014-03-10 14:35:04,126] INFO   236["http-bio-8090"-exec-10] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:58) - Filter session -> sessione scaduta
+[2014-03-10 14:35:04,128] INFO   238["http-bio-8090"-exec-10] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:58) - Filter session -> sessione scaduta
+[2014-03-10 14:35:04,131] INFO   241["http-bio-8090"-exec-10] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:58) - Filter session -> sessione scaduta
+[2014-03-10 14:35:04,133] INFO   243["http-bio-8090"-exec-10] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:58) - Filter session -> sessione scaduta
+[2014-03-10 14:35:04,134] INFO   244["http-bio-8090"-exec-7] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:58) - Filter session -> sessione scaduta
+[2014-03-10 14:35:04,136] INFO   246["http-bio-8090"-exec-7] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:58) - Filter session -> sessione scaduta
+[2014-03-10 14:35:04,152] INFO   262["http-bio-8090"-exec-9] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:58) - Filter session -> sessione scaduta
+[2014-03-10 14:35:04,154] INFO   264["http-bio-8090"-exec-9] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:58) - Filter session -> sessione scaduta
+[2014-03-10 14:35:04,225] INFO   335["http-bio-8090"-exec-9] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:58) - Filter session -> sessione scaduta
+[2014-03-10 14:35:04,226] INFO   336["http-bio-8090"-exec-9] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:58) - Filter session -> sessione scaduta
+[2014-03-10 14:35:04,228] INFO   338["http-bio-8090"-exec-9] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:58) - Filter session -> sessione scaduta
+[2014-03-10 14:35:04,229] INFO   339["http-bio-8090"-exec-9] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:58) - Filter session -> sessione scaduta
+[2014-03-10 14:35:04,232] INFO   342["http-bio-8090"-exec-9] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:58) - Filter session -> sessione scaduta
+[2014-03-10 14:35:04,234] INFO   344["http-bio-8090"-exec-9] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:58) - Filter session -> sessione scaduta
+[2014-03-10 14:35:04,235] INFO   345["http-bio-8090"-exec-9] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:58) - Filter session -> sessione scaduta
+[2014-03-10 14:35:04,237] INFO   347["http-bio-8090"-exec-9] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:58) - Filter session -> sessione scaduta
+[2014-03-10 14:35:04,239] INFO   349["http-bio-8090"-exec-9] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:58) - Filter session -> sessione scaduta
+[2014-03-10 14:35:04,241] INFO   351["http-bio-8090"-exec-9] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:58) - Filter session -> sessione scaduta
+[2014-03-10 14:35:04,244] INFO   354["http-bio-8090"-exec-9] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:58) - Filter session -> sessione scaduta
+[2014-03-10 14:35:04,315] INFO   425["http-bio-8090"-exec-9] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:58) - Filter session -> sessione scaduta
+[2014-03-10 14:35:04,317] INFO   427["http-bio-8090"-exec-9] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:58) - Filter session -> sessione scaduta
+[2014-03-10 14:35:04,319] INFO   429["http-bio-8090"-exec-9] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:58) - Filter session -> sessione scaduta
+[2014-03-10 14:35:04,321] INFO   431["http-bio-8090"-exec-9] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:58) - Filter session -> sessione scaduta
+[2014-03-10 14:35:04,323] INFO   433["http-bio-8090"-exec-9] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:58) - Filter session -> sessione scaduta
+[2014-03-10 14:35:04,326] INFO   436["http-bio-8090"-exec-9] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:58) - Filter session -> sessione scaduta
+[2014-03-10 14:35:04,328] INFO   438["http-bio-8090"-exec-9] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:58) - Filter session -> sessione scaduta
+[2014-03-10 14:35:04,331] INFO   441["http-bio-8090"-exec-9] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:58) - Filter session -> sessione scaduta
+[2014-03-10 14:35:04,334] INFO   444["http-bio-8090"-exec-9] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:58) - Filter session -> sessione scaduta
+[2014-03-10 14:35:04,336] INFO   446["http-bio-8090"-exec-9] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:58) - Filter session -> sessione scaduta
+[2014-03-10 14:35:04,338] INFO   448["http-bio-8090"-exec-9] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:58) - Filter session -> sessione scaduta
+[2014-03-10 14:35:04,409] INFO   519["http-bio-8090"-exec-9] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:58) - Filter session -> sessione scaduta
+[2014-03-10 14:35:04,411] INFO   521["http-bio-8090"-exec-9] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:58) - Filter session -> sessione scaduta
+[2014-03-10 14:35:04,413] INFO   523["http-bio-8090"-exec-9] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:58) - Filter session -> sessione scaduta
+[2014-03-10 14:35:04,415] INFO   525["http-bio-8090"-exec-9] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:58) - Filter session -> sessione scaduta
+[2014-03-10 14:35:04,417] INFO   527["http-bio-8090"-exec-9] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:58) - Filter session -> sessione scaduta
+[2014-03-10 14:35:04,418] INFO   528["http-bio-8090"-exec-9] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:58) - Filter session -> sessione scaduta
+[2014-03-10 14:35:04,420] INFO   530["http-bio-8090"-exec-9] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:58) - Filter session -> sessione scaduta
+[2014-03-10 14:35:04,422] INFO   532["http-bio-8090"-exec-9] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:58) - Filter session -> sessione scaduta
+[2014-03-10 14:35:04,424] INFO   534["http-bio-8090"-exec-9] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:58) - Filter session -> sessione scaduta
+[2014-03-10 14:35:04,426] INFO   536["http-bio-8090"-exec-9] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:58) - Filter session -> sessione scaduta
+[2014-03-10 14:35:04,428] INFO   538["http-bio-8090"-exec-9] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:58) - Filter session -> sessione scaduta
+[2014-03-10 14:35:04,518] INFO   628["http-bio-8090"-exec-9] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:58) - Filter session -> sessione scaduta
+[2014-03-10 14:35:04,520] INFO   630["http-bio-8090"-exec-9] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:58) - Filter session -> sessione scaduta
+[2014-03-10 14:35:04,522] INFO   632["http-bio-8090"-exec-9] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:58) - Filter session -> sessione scaduta
+[2014-03-10 14:35:04,524] INFO   634["http-bio-8090"-exec-9] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:58) - Filter session -> sessione scaduta
+[2014-03-10 14:35:04,525] INFO   635["http-bio-8090"-exec-9] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:58) - Filter session -> sessione scaduta
+[2014-03-10 14:35:04,527] INFO   637["http-bio-8090"-exec-9] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:58) - Filter session -> sessione scaduta
+[2014-03-10 14:35:04,529] INFO   639["http-bio-8090"-exec-9] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:58) - Filter session -> sessione scaduta
+[2014-03-10 14:35:04,531] INFO   641["http-bio-8090"-exec-9] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:58) - Filter session -> sessione scaduta
+[2014-03-10 14:35:04,533] INFO   643["http-bio-8090"-exec-9] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:58) - Filter session -> sessione scaduta
+[2014-03-10 14:35:04,535] INFO   645["http-bio-8090"-exec-5] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:58) - Filter session -> sessione scaduta
+[2014-03-10 14:35:04,537] INFO   647["http-bio-8090"-exec-5] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:58) - Filter session -> sessione scaduta
+[2014-03-10 14:35:04,609] INFO   719["http-bio-8090"-exec-5] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:58) - Filter session -> sessione scaduta
+[2014-03-10 14:35:04,610] INFO   720["http-bio-8090"-exec-5] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:58) - Filter session -> sessione scaduta
+[2014-03-10 14:35:04,612] INFO   722["http-bio-8090"-exec-7] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:58) - Filter session -> sessione scaduta
+[2014-03-10 14:35:04,614] INFO   724["http-bio-8090"-exec-7] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:58) - Filter session -> sessione scaduta
+[2014-03-10 14:35:04,616] INFO   726["http-bio-8090"-exec-3] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:58) - Filter session -> sessione scaduta
+[2014-03-10 14:35:04,618] INFO   728["http-bio-8090"-exec-3] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:58) - Filter session -> sessione scaduta
+[2014-03-10 14:35:04,620] INFO   730["http-bio-8090"-exec-3] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:58) - Filter session -> sessione scaduta
+[2014-03-10 14:35:04,622] INFO   732["http-bio-8090"-exec-3] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:58) - Filter session -> sessione scaduta
+[2014-03-10 14:35:04,624] INFO   734["http-bio-8090"-exec-3] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:58) - Filter session -> sessione scaduta
+[2014-03-10 14:35:04,627] INFO   737["http-bio-8090"-exec-3] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:58) - Filter session -> sessione scaduta
+[2014-03-10 14:35:04,628] INFO   738["http-bio-8090"-exec-3] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:58) - Filter session -> sessione scaduta
+[2014-03-10 14:35:04,701] INFO   811["http-bio-8090"-exec-3] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:58) - Filter session -> sessione scaduta
+[2014-03-10 14:35:04,704] INFO   814["http-bio-8090"-exec-3] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:58) - Filter session -> sessione scaduta
+[2014-03-10 14:35:04,705] INFO   815["http-bio-8090"-exec-3] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:58) - Filter session -> sessione scaduta
+[2014-03-10 14:35:04,707] INFO   817["http-bio-8090"-exec-3] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:58) - Filter session -> sessione scaduta
+[2014-03-10 14:35:04,709] INFO   819["http-bio-8090"-exec-3] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:58) - Filter session -> sessione scaduta
+[2014-03-10 14:35:04,711] INFO   821["http-bio-8090"-exec-3] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:58) - Filter session -> sessione scaduta
+[2014-03-10 14:35:04,713] INFO   823["http-bio-8090"-exec-3] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:58) - Filter session -> sessione scaduta
+[2014-03-10 14:35:04,715] INFO   825["http-bio-8090"-exec-3] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:58) - Filter session -> sessione scaduta
+[2014-03-10 14:35:04,716] INFO   826["http-bio-8090"-exec-3] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:58) - Filter session -> sessione scaduta
+[2014-03-10 14:35:04,719] INFO   829["http-bio-8090"-exec-3] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:58) - Filter session -> sessione scaduta
+[2014-03-10 14:35:04,720] INFO   830["http-bio-8090"-exec-3] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:58) - Filter session -> sessione scaduta
+[2014-03-10 14:35:04,809] INFO   919["http-bio-8090"-exec-3] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:58) - Filter session -> sessione scaduta
+[2014-03-10 14:35:04,814] INFO   924["http-bio-8090"-exec-6] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:58) - Filter session -> sessione scaduta
+[2014-03-10 14:35:04,816] INFO   926["http-bio-8090"-exec-6] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:58) - Filter session -> sessione scaduta
+[2014-03-10 14:35:04,818] INFO   928["http-bio-8090"-exec-6] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:58) - Filter session -> sessione scaduta
+[2014-03-10 14:35:04,820] INFO   930["http-bio-8090"-exec-6] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:58) - Filter session -> sessione scaduta
+[2014-03-10 14:35:04,822] INFO   932["http-bio-8090"-exec-6] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:58) - Filter session -> sessione scaduta
+[2014-03-10 14:35:04,823] INFO   933["http-bio-8090"-exec-6] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:58) - Filter session -> sessione scaduta
+[2014-03-10 14:35:04,825] INFO   935["http-bio-8090"-exec-6] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:58) - Filter session -> sessione scaduta
+[2014-03-10 14:35:04,828] INFO   938["http-bio-8090"-exec-6] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:58) - Filter session -> sessione scaduta
+[2014-03-10 14:35:04,830] INFO   940["http-bio-8090"-exec-6] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:58) - Filter session -> sessione scaduta
+[2014-03-10 14:35:04,832] INFO   942["http-bio-8090"-exec-10] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:58) - Filter session -> sessione scaduta
+[2014-03-10 14:35:04,900] INFO  1010["http-bio-8090"-exec-10] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:58) - Filter session -> sessione scaduta
+[2014-03-10 14:35:04,902] INFO  1012["http-bio-8090"-exec-10] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:58) - Filter session -> sessione scaduta
+[2014-03-10 14:35:04,904] INFO  1014["http-bio-8090"-exec-10] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:58) - Filter session -> sessione scaduta
+[2014-03-10 14:35:04,906] INFO  1016["http-bio-8090"-exec-10] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:58) - Filter session -> sessione scaduta
+[2014-03-10 14:35:04,907] INFO  1017["http-bio-8090"-exec-10] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:58) - Filter session -> sessione scaduta
+[2014-03-10 14:35:04,909] INFO  1019["http-bio-8090"-exec-10] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:58) - Filter session -> sessione scaduta
+[2014-03-10 14:35:04,911] INFO  1021["http-bio-8090"-exec-10] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:58) - Filter session -> sessione scaduta
+[2014-03-10 14:35:04,913] INFO  1023["http-bio-8090"-exec-10] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:58) - Filter session -> sessione scaduta
+[2014-03-10 14:35:04,914] INFO  1024["http-bio-8090"-exec-10] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:58) - Filter session -> sessione scaduta
+[2014-03-10 14:35:04,917] INFO  1027["http-bio-8090"-exec-10] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:58) - Filter session -> sessione scaduta
+[2014-03-10 14:35:04,919] INFO  1029["http-bio-8090"-exec-10] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:58) - Filter session -> sessione scaduta
+[2014-03-10 15:15:37,350] INFO     0["http-bio-8090"-exec-5] - com.gestioneconferenze.sessione.sessioneBean.entra(sessioneBean.java:70) - inizio chiamata entra di sessioneBean
+[2014-03-10 15:15:37,361] INFO    11["http-bio-8090"-exec-5] - com.gestioneconferenze.sessione.sessioneBean.entra(sessioneBean.java:83) - L utente tiziano ha effettuato accesso
+[2014-03-10 15:15:37,361] INFO    11["http-bio-8090"-exec-5] - com.gestioneconferenze.util.UrlUtil.RedirectAPagina(UrlUtil.java:80) - Redirect a home.xhtml
+[2014-03-10 15:15:40,177] INFO  2827["http-bio-8090"-exec-5] - com.gestioneconferenze.sessione.sessioneBean.dettaglio(sessioneBean.java:92) - inizio chiamata dettaglio di sessioneBean
+[2014-03-10 16:14:40,176] INFO     0["http-bio-8090"-exec-6] - com.gestioneconferenze.sessione.sessioneBean.entra(sessioneBean.java:71) - inizio chiamata entra di sessioneBean
+[2014-03-10 16:14:40,244] INFO    68["http-bio-8090"-exec-6] - com.gestioneconferenze.sessione.sessioneBean.entra(sessioneBean.java:84) - L utente tiziano ha effettuato accesso
+[2014-03-10 16:14:40,244] INFO    68["http-bio-8090"-exec-6] - com.gestioneconferenze.util.UrlUtil.RedirectAPagina(UrlUtil.java:80) - Redirect a home.xhtml
+[2014-03-10 16:14:43,767] INFO  3591["http-bio-8090"-exec-8] - com.gestioneconferenze.sessione.sessioneBean.dettaglio(sessioneBean.java:93) - inizio chiamata dettaglio di sessioneBean
+[2014-03-10 16:27:19,133] INFO758957["http-bio-8090"-exec-7] - com.gestioneconferenze.sessione.sessioneBean.entra(sessioneBean.java:71) - inizio chiamata entra di sessioneBean
+[2014-03-10 16:27:19,133] INFO758957["http-bio-8090"-exec-7] - com.gestioneconferenze.sessione.sessioneBean.entra(sessioneBean.java:84) - L utente tiziano ha effettuato accesso
+[2014-03-10 16:27:19,133] INFO758957["http-bio-8090"-exec-7] - com.gestioneconferenze.util.UrlUtil.RedirectAPagina(UrlUtil.java:80) - Redirect a home.xhtml
+[2014-03-10 16:27:21,641] INFO761465["http-bio-8090"-exec-2] - com.gestioneconferenze.sessione.sessioneBean.dettaglio(sessioneBean.java:93) - inizio chiamata dettaglio di sessioneBean
+[2014-03-10 16:28:08,001] INFO807825["http-bio-8090"-exec-7] - com.gestioneconferenze.sessione.sessioneBean.entra(sessioneBean.java:71) - inizio chiamata entra di sessioneBean
+[2014-03-10 16:28:08,001] INFO807825["http-bio-8090"-exec-7] - com.gestioneconferenze.sessione.sessioneBean.entra(sessioneBean.java:84) - L utente tiziano ha effettuato accesso
+[2014-03-10 16:28:08,001] INFO807825["http-bio-8090"-exec-7] - com.gestioneconferenze.util.UrlUtil.RedirectAPagina(UrlUtil.java:80) - Redirect a home.xhtml
+[2014-03-10 16:28:10,052] INFO809876["http-bio-8090"-exec-7] - com.gestioneconferenze.sessione.sessioneBean.dettaglio(sessioneBean.java:93) - inizio chiamata dettaglio di sessioneBean
+[2014-03-10 16:44:38,457] INFO     1["http-bio-8090"-exec-6] - com.gestioneconferenze.sessione.sessioneBean.entra(sessioneBean.java:71) - inizio chiamata entra di sessioneBean
+[2014-03-10 16:44:38,459] INFO     3["http-bio-8090"-exec-6] - com.gestioneconferenze.sessione.sessioneBean.entra(sessioneBean.java:84) - L utente tiziano ha effettuato accesso
+[2014-03-10 16:44:38,459] INFO     3["http-bio-8090"-exec-6] - com.gestioneconferenze.util.UrlUtil.RedirectAPagina(UrlUtil.java:80) - Redirect a home.xhtml
+[2014-03-10 16:44:41,579] INFO  3123["http-bio-8090"-exec-8] - com.gestioneconferenze.sessione.sessioneBean.dettaglio(sessioneBean.java:104) - inizio chiamata dettaglio di sessioneBean
+[2014-03-10 16:44:47,744] INFO  9288["http-bio-8090"-exec-10] - com.gestioneconferenze.sessione.sessioneBean.salva(sessioneBean.java:92) - inizio chiamata salva di sessioneBean
+[2014-03-10 16:44:47,745] INFO  9289["http-bio-8090"-exec-10] - com.gestioneconferenze.sessione.sessioneBean.salva(sessioneBean.java:96) - L utente tiziano ha salvato i dati della propria utenza
+[2014-03-10 16:45:39,993] INFO 61537["http-bio-8090"-exec-3] - com.gestioneconferenze.sessione.sessioneBean.salva(sessioneBean.java:92) - inizio chiamata salva di sessioneBean
+[2014-03-10 16:45:39,993] INFO 61537["http-bio-8090"-exec-3] - com.gestioneconferenze.sessione.sessioneBean.salva(sessioneBean.java:96) - L utente tiziano ha salvato i dati della propria utenza
+[2014-03-10 16:47:49,304] INFO     0["http-bio-8090"-exec-6] - com.gestioneconferenze.sessione.sessioneBean.entra(sessioneBean.java:71) - inizio chiamata entra di sessioneBean
+[2014-03-10 16:47:49,307] INFO     3["http-bio-8090"-exec-6] - com.gestioneconferenze.sessione.sessioneBean.entra(sessioneBean.java:84) - L utente tiziano ha effettuato accesso
+[2014-03-10 16:47:49,307] INFO     3["http-bio-8090"-exec-6] - com.gestioneconferenze.util.UrlUtil.RedirectAPagina(UrlUtil.java:80) - Redirect a home.xhtml
+[2014-03-10 16:47:51,522] INFO  2218["http-bio-8090"-exec-8] - com.gestioneconferenze.sessione.sessioneBean.dettaglio(sessioneBean.java:104) - inizio chiamata dettaglio di sessioneBean
+[2014-03-10 16:47:56,386] INFO  7082["http-bio-8090"-exec-10] - com.gestioneconferenze.sessione.sessioneBean.salva(sessioneBean.java:92) - inizio chiamata salva di sessioneBean
+[2014-03-10 16:47:56,387] INFO  7083["http-bio-8090"-exec-10] - com.gestioneconferenze.sessione.sessioneBean.salva(sessioneBean.java:96) - L utente tiziano ha salvato i dati della propria utenza
