@@ -14,5 +14,10 @@
 		<managed-bean-class>com.gestioneconferenze.elencoConferenze.TableBean</managed-bean-class>
 		<managed-bean-scope>request</managed-bean-scope>
 	</managed-bean>
+	<managed-bean>
+		<managed-bean-name>utentiOnLineBean</managed-bean-name>
+		<managed-bean-class>com.gestioneconferenze.Bean.utentiOnLineBean</managed-bean-class>
+		<managed-bean-scope>request</managed-bean-scope>
+	</managed-bean>
 
 </faces-config>

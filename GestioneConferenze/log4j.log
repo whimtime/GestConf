@@ -435,3 +435,56 @@
 [2014-03-10 20:06:37,325] INFO  8412["http-bio-8090"-exec-10] - com.gestioneconferenze.sessione.sessioneBean.salva(sessioneBean.java:110) - inizio chiamata salva di sessioneBean
 [2014-03-10 20:06:37,342] INFO  8429["http-bio-8090"-exec-10] - com.gestioneconferenze.util.SendMail.send(SendMail.java:59) - Spedita mail
 [2014-03-10 20:06:37,342] INFO  8429["http-bio-8090"-exec-10] - com.gestioneconferenze.sessione.sessioneBean.salva(sessioneBean.java:130) - L utente tiziano ha salvato i dati della propria utenza
+[2014-03-11 21:03:30,005] INFO     0["http-bio-8090"-exec-1] - com.gestioneconferenze.sessione.sessioneBean.entra(sessioneBean.java:89) - inizio chiamata entra di sessioneBean
+[2014-03-11 21:03:30,031] INFO    26["http-bio-8090"-exec-1] - com.gestioneconferenze.sessione.sessioneBean.entra(sessioneBean.java:102) - L utente tiziano ha effettuato accesso
+[2014-03-11 21:03:47,974] INFO 17969["http-bio-8090"-exec-1] - com.gestioneconferenze.sessione.SingletonConf.getSingletonConf(SingletonConf.java:22) - Creato singleton elenco utenti
+[2014-03-11 21:04:00,875] INFO 30870["http-bio-8090"-exec-1] - com.gestioneconferenze.util.UrlUtil.RedirectAPagina(UrlUtil.java:80) - Redirect a home.xhtml
+[2014-03-11 21:04:52,605] INFO 82600["http-bio-8090"-exec-9] - com.gestioneconferenze.sessione.sessioneBean.entra(sessioneBean.java:89) - inizio chiamata entra di sessioneBean
+[2014-03-11 21:04:52,606] WARN 82601["http-bio-8090"-exec-9] - com.gestioneconferenze.sessione.sessioneBean.entra(sessioneBean.java:97) - l utente pino ha tentato di accedere senza successo
+[2014-03-11 21:05:04,549] INFO 94544["http-bio-8090"-exec-7] - com.gestioneconferenze.sessione.sessioneBean.entra(sessioneBean.java:89) - inizio chiamata entra di sessioneBean
+[2014-03-11 21:05:04,550] INFO 94545["http-bio-8090"-exec-7] - com.gestioneconferenze.sessione.sessioneBean.entra(sessioneBean.java:102) - L utente tiziano ha effettuato accesso
+[2014-03-11 21:05:40,304] INFO130299["http-bio-8090"-exec-7] - com.gestioneconferenze.util.UrlUtil.RedirectAPagina(UrlUtil.java:80) - Redirect a home.xhtml
+[2014-03-11 21:05:51,213] INFO141208["http-bio-8090"-exec-3] - com.gestioneconferenze.sessione.sessioneBean.entra(sessioneBean.java:89) - inizio chiamata entra di sessioneBean
+[2014-03-11 21:05:51,214] INFO141209["http-bio-8090"-exec-3] - com.gestioneconferenze.sessione.sessioneBean.entra(sessioneBean.java:102) - L utente tiziano ha effettuato accesso
+[2014-03-11 21:06:36,472] INFO186467["http-bio-8090"-exec-3] - com.gestioneconferenze.util.UrlUtil.RedirectAPagina(UrlUtil.java:80) - Redirect a home.xhtml
+[2014-03-11 21:07:17,886] INFO227881["http-bio-8090"-exec-9] - com.gestioneconferenze.sessione.sessioneBean.entra(sessioneBean.java:89) - inizio chiamata entra di sessioneBean
+[2014-03-11 21:07:17,886] INFO227881["http-bio-8090"-exec-9] - com.gestioneconferenze.sessione.sessioneBean.entra(sessioneBean.java:102) - L utente tiziano ha effettuato accesso
+[2014-03-11 21:07:40,458] INFO250453["http-bio-8090"-exec-9] - com.gestioneconferenze.util.UrlUtil.RedirectAPagina(UrlUtil.java:80) - Redirect a home.xhtml
+[2014-03-11 21:08:03,538] INFO273533["http-bio-8090"-exec-7] - com.gestioneconferenze.sessione.sessioneBean.dettaglio(sessioneBean.java:146) - inizio chiamata dettaglio di sessioneBean
+[2014-03-11 21:17:30,529] INFO     0["http-bio-8090"-exec-7] - com.gestioneconferenze.sessione.sessioneBean.entra(sessioneBean.java:89) - inizio chiamata entra di sessioneBean
+[2014-03-11 21:17:30,532] INFO     3["http-bio-8090"-exec-7] - com.gestioneconferenze.sessione.sessioneBean.entra(sessioneBean.java:102) - L utente tiziano ha effettuato accesso
+[2014-03-11 21:17:30,532] INFO     3["http-bio-8090"-exec-7] - com.gestioneconferenze.sessione.SingletonConf.getSingletonConf(SingletonConf.java:22) - Creato singleton elenco utenti
+[2014-03-11 21:17:30,532] INFO     3["http-bio-8090"-exec-7] - com.gestioneconferenze.util.UrlUtil.RedirectAPagina(UrlUtil.java:80) - Redirect a home.xhtml
+[2014-03-11 21:17:59,285] INFO 28756["http-bio-8090"-exec-10] - com.gestioneconferenze.sessione.sessioneBean.dettaglio(sessioneBean.java:146) - inizio chiamata dettaglio di sessioneBean
+[2014-03-11 21:49:05,603] INFO     0["http-bio-8090"-exec-6] - com.gestioneconferenze.sessione.sessioneBean.entra(sessioneBean.java:89) - inizio chiamata entra di sessioneBean
+[2014-03-11 21:49:05,606] INFO     3["http-bio-8090"-exec-6] - com.gestioneconferenze.sessione.sessioneBean.entra(sessioneBean.java:102) - L utente pino ha effettuato accesso
+[2014-03-11 21:49:05,606] INFO     3["http-bio-8090"-exec-6] - com.gestioneconferenze.sessione.SingletonConf.getSingletonConf(SingletonConf.java:22) - Creato singleton elenco utenti
+[2014-03-11 21:49:05,606] INFO     3["http-bio-8090"-exec-6] - com.gestioneconferenze.util.UrlUtil.RedirectAPagina(UrlUtil.java:80) - Redirect a home.xhtml
+[2014-03-11 21:51:39,145] INFO     0["http-bio-8090"-exec-6] - com.gestioneconferenze.sessione.sessioneBean.entra(sessioneBean.java:89) - inizio chiamata entra di sessioneBean
+[2014-03-11 21:51:39,148] INFO     3["http-bio-8090"-exec-6] - com.gestioneconferenze.sessione.sessioneBean.entra(sessioneBean.java:102) - L utente mjoisdjfisd ha effettuato accesso
+[2014-03-11 21:51:42,879] INFO  3734["http-bio-8090"-exec-6] - com.gestioneconferenze.sessione.SingletonConf.getSingletonConf(SingletonConf.java:22) - Creato singleton elenco utenti
+[2014-03-11 21:51:45,391] INFO  6246["http-bio-8090"-exec-6] - com.gestioneconferenze.util.UrlUtil.RedirectAPagina(UrlUtil.java:80) - Redirect a home.xhtml
+[2014-03-11 21:52:55,630] INFO 76485["http-bio-8090"-exec-1] - com.gestioneconferenze.sessione.sessioneBean.entra(sessioneBean.java:89) - inizio chiamata entra di sessioneBean
+[2014-03-11 21:52:55,631] INFO 76486["http-bio-8090"-exec-1] - com.gestioneconferenze.sessione.sessioneBean.entra(sessioneBean.java:102) - L utente mjoisdjfisd ha effettuato accesso
+[2014-03-11 21:57:22,355] INFO     0["http-bio-8090"-exec-6] - com.gestioneconferenze.sessione.sessioneBean.entra(sessioneBean.java:89) - inizio chiamata entra di sessioneBean
+[2014-03-11 21:57:22,358] INFO     3["http-bio-8090"-exec-6] - com.gestioneconferenze.sessione.sessioneBean.entra(sessioneBean.java:102) - L utente pinoasdjasdjidsfisdji ha effettuato accesso
+[2014-03-11 21:57:25,430] INFO  3075["http-bio-8090"-exec-6] - com.gestioneconferenze.sessione.SingletonConf.getSingletonConf(SingletonConf.java:22) - Creato singleton elenco utenti
+[2014-03-11 21:57:29,407] INFO  7052["http-bio-8090"-exec-6] - com.gestioneconferenze.util.UrlUtil.RedirectAPagina(UrlUtil.java:80) - Redirect a home.xhtml
+[2014-03-11 21:57:54,728] INFO 32373["http-bio-8090"-exec-10] - com.gestioneconferenze.sessione.sessioneBean.entra(sessioneBean.java:89) - inizio chiamata entra di sessioneBean
+[2014-03-11 21:57:54,729] INFO 32374["http-bio-8090"-exec-10] - com.gestioneconferenze.sessione.sessioneBean.entra(sessioneBean.java:102) - L utente huhuhuhuhu ha effettuato accesso
+[2014-03-11 21:58:06,996] INFO 44641["http-bio-8090"-exec-10] - com.gestioneconferenze.util.UrlUtil.RedirectAPagina(UrlUtil.java:80) - Redirect a home.xhtml
+[2014-03-11 21:58:20,518] INFO 58163["http-bio-8090"-exec-5] - com.gestioneconferenze.sessione.sessioneBean.entra(sessioneBean.java:89) - inizio chiamata entra di sessioneBean
+[2014-03-11 21:58:20,518] INFO 58163["http-bio-8090"-exec-5] - com.gestioneconferenze.sessione.sessioneBean.entra(sessioneBean.java:102) - L utente huhuhuhuhu ha effettuato accesso
+[2014-03-11 22:02:31,900] INFO     0["http-bio-8090"-exec-6] - com.gestioneconferenze.sessione.sessioneBean.entra(sessioneBean.java:89) - inizio chiamata entra di sessioneBean
+[2014-03-11 22:02:31,903] INFO     3["http-bio-8090"-exec-6] - com.gestioneconferenze.sessione.sessioneBean.entra(sessioneBean.java:102) - L utente PINORI ha effettuato accesso
+[2014-03-11 22:02:34,476] INFO  2576["http-bio-8090"-exec-6] - com.gestioneconferenze.sessione.SingletonConf.getSingletonConf(SingletonConf.java:22) - Creato singleton elenco utenti
+[2014-03-11 22:10:01,969] INFO     0["http-bio-8090"-exec-6] - com.gestioneconferenze.sessione.sessioneBean.entra(sessioneBean.java:89) - inizio chiamata entra di sessioneBean
+[2014-03-11 22:10:01,972] INFO     3["http-bio-8090"-exec-6] - com.gestioneconferenze.sessione.sessioneBean.entra(sessioneBean.java:102) - L utente tiziano ha effettuato accesso
+[2014-03-11 22:10:06,398] INFO  4429["http-bio-8090"-exec-6] - com.gestioneconferenze.sessione.SingletonConf.getSingletonConf(SingletonConf.java:22) - Creato singleton elenco utenti
+[2014-03-11 22:12:42,194] INFO     0["http-bio-8090"-exec-6] - com.gestioneconferenze.sessione.sessioneBean.entra(sessioneBean.java:89) - inizio chiamata entra di sessioneBean
+[2014-03-11 22:12:42,197] INFO     3["http-bio-8090"-exec-6] - com.gestioneconferenze.sessione.sessioneBean.entra(sessioneBean.java:102) - L utente kosdkosdfk ha effettuato accesso
+[2014-03-11 22:12:45,921] INFO  3727["http-bio-8090"-exec-6] - com.gestioneconferenze.sessione.SingletonConf.getSingletonConf(SingletonConf.java:22) - Creato singleton elenco utenti
+[2014-03-11 22:13:10,938] INFO 28744["http-bio-8090"-exec-6] - com.gestioneconferenze.util.UrlUtil.RedirectAPagina(UrlUtil.java:80) - Redirect a home.xhtml
+[2014-03-11 22:14:10,365] INFO 88171["http-bio-8090"-exec-4] - com.gestioneconferenze.sessione.sessioneBean.entra(sessioneBean.java:89) - inizio chiamata entra di sessioneBean
+[2014-03-11 22:14:10,365] INFO 88171["http-bio-8090"-exec-4] - com.gestioneconferenze.sessione.sessioneBean.entra(sessioneBean.java:102) - L utente pinone ha effettuato accesso
+[2014-03-11 22:14:14,542] INFO 92348["http-bio-8090"-exec-4] - com.gestioneconferenze.util.UrlUtil.RedirectAPagina(UrlUtil.java:80) - Redirect a home.xhtml

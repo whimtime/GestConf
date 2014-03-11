@@ -94,12 +94,20 @@ public class sessioneBean {
 		
 		if(!this.username.equals("tiziano"))
 		{
-			logger.warn("l utente " + this.username + " ha tentato di accedere senza successo");
+			/*logger.warn("l utente " + this.username + " ha tentato di accedere senza successo");
 			 FacesContext.getCurrentInstance().addMessage(null, new FacesMessage(FacesMessage.SEVERITY_FATAL,"Errore!", "Utenza non registrata"));  
-			return;
+			return;*/
 			
 		}		
 		logger.info("L utente " + this.username + " ha effettuato accesso");
+		
+		//iscrivo l utente nel singleton
+		SingletonConf oggettoSingleton = SingletonConf.getSingletonConf();
+		Utente utente= new Utente();
+		utente.setUsername(this.username);
+		utente.setEmail("");
+		utente.setDataaccesso(new Date());
+		oggettoSingleton.addSessionUser(utente);
 		UrlUtil.RedirectAPagina("home.xhtml");
 	}
 	
@@ -138,4 +146,7 @@ public class sessioneBean {
 		logger.info("inizio chiamata dettaglio di sessioneBean");		
 		UrlUtil.RedirectAjaxAPagina("dettaglioUtente.xhtml");
 	}
+
+	
+
 }

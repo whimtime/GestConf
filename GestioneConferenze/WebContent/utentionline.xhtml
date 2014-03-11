@@ -1,0 +1,33 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:p="http://primefaces.org/ui">
+
+<ui:composition template="/templates/principale.xhtml">
+
+	<ui:define name="content">
+	     <p:dataTable id="dataTable" var="usr" value="#{utentiOnLineBean.utenti}" sortMode="multiple" rows="5" paginator="true">
+        <f:facet name="header">
+            Elenco Utenti OnLine in questo momento
+        </f:facet>
+
+        <p:column sortBy="model" headerText="User">
+            <h:outputText value="#{usr.username}" />
+        </p:column>
+
+        <p:column sortBy="year" headerText="DataInizio">
+            <h:outputText value="#{usr.dataaccesso}" />
+        </p:column>
+
+       
+              
+      
+    </p:dataTable>
+	</ui:define>
+
+</ui:composition>
+</html>
