@@ -23,18 +23,47 @@
           <failOnMissingWebXml>false</failOnMissingWebXml>
         </configuration>
       </plugin>
+       <plugin>
+      	  <groupId>org.mybatis.generator</groupId>
+      	  <artifactId>mybatis-generator-maven-plugin</artifactId>
+          <version>1.3.0</version>
+        </plugin>
+         <plugin>
+            <artifactId>maven-compiler-plugin</artifactId>
+            <version>3.1</version>
+            <configuration>
+                <fork>true</fork>
+                <executable>C:\Program Files\Java\jdk1.7.0_51\bin\javac.exe</executable>
+            </configuration>
+        </plugin>
     </plugins>
   </build>
   <dependencies>
+  <dependency>
+	<groupId>javax.servlet</groupId>
+	<artifactId>servlet-api</artifactId>
+	<version>2.5</version>
+</dependency>            
   	<dependency>
   		<groupId>log4j</groupId>
   		<artifactId>log4j</artifactId>
   		<version>1.2.17</version>
   	</dependency>
   	<dependency>
-	<groupId>mysql</groupId>
-	<artifactId>mysql-connector-java</artifactId>
-	<version>5.1.29</version>
-</dependency>            
+		<groupId>mysql</groupId>
+		<artifactId>mysql-connector-java</artifactId>
+		<version>5.1.29</version>
+	</dependency>            
+	<dependency>
+		<groupId>org.mybatis</groupId>
+		<artifactId>mybatis</artifactId>
+		<version>3.2.5</version>
+	</dependency> 
+	 <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.8.1</version>
+      <scope>test</scope>
+    </dependency>           
   </dependencies>
 </project>
