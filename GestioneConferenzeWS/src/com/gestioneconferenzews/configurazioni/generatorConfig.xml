@@ -6,7 +6,9 @@
     <javaModelGenerator targetPackage="com.gestioneconferenzews.DAO.model" targetProject="GestioneConferenzeWS" />
     <sqlMapGenerator targetPackage="com.gestioneconferenzews.DAO.xml" targetProject="GestioneConferenzeWS" />
     <javaClientGenerator targetPackage="com.gestioneconferenzews.DAO.mapper" targetProject="GestioneConferenzeWS" type="XMLMAPPER" />
-    <table schema="gestconfdb" tableName="REGIONE" >      
-    </table>
+    <table schema="gestconfdb" tableName="REGIONE" />
+    <table schema="gestconfdb" tableName="PROVINCIA" />   
+    <table schema="gestconfdb" tableName="COMUNE_ISTAT" />   
+    <table schema="gestconfdb" tableName="RUOLO" />             
   </context>
 </generatorConfiguration>
