@@ -9,6 +9,11 @@
     <table schema="gestconfdb" tableName="REGIONE" />
     <table schema="gestconfdb" tableName="PROVINCIA" />   
     <table schema="gestconfdb" tableName="COMUNE_ISTAT" />   
-    <table schema="gestconfdb" tableName="RUOLO" />             
+    <table schema="gestconfdb" tableName="RUOLO" />
+    <table schema="gestconfdb" tableName="PERSONA" />      
+    <table schema="gestconfdb" tableName="UTENTE" />      
+    <table schema="gestconfdb" tableName="CONTATTO" />
+    <table schema="gestconfdb" tableName="RUOLO_PERSONA" />
+    <table schema="gestconfdb" tableName="INDIRIZZO" />                                
   </context>
 </generatorConfiguration>
