@@ -19,5 +19,6 @@
     <mapper resource="com/gestioneconferenzews/DAO/xml/ProvinciaMapper.xml"/>
     <mapper resource="com/gestioneconferenzews/DAO/xml/ComuneIstatMapper.xml"/>
     <mapper resource="com/gestioneconferenzews/DAO/xml/RuoloMapper.xml"/>
+    <mapper resource="com/gestioneconferenzews/DAO/xml/UtenteMapper.xml"/>
   </mappers>
 </configuration>

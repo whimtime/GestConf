@@ -256,3 +256,141 @@
 [2014-03-11 22:50:02,495]DEBUG 13944[main] - org.apache.ibatis.transaction.jdbc.JdbcTransaction.resetAutoCommit(JdbcTransaction.java:117) - Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@65d075]
 [2014-03-11 22:50:02,496]DEBUG 13945[main] - org.apache.ibatis.transaction.jdbc.JdbcTransaction.close(JdbcTransaction.java:85) - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@65d075]
 [2014-03-11 22:50:02,496]DEBUG 13945[main] - org.apache.ibatis.datasource.pooled.PooledDataSource.pushConnection(PooledDataSource.java:332) - Returned connection 6672501 to pool.
+[2014-03-12 23:20:59,601]DEBUG     0[main] - org.apache.ibatis.logging.LogFactory.setImplementation(LogFactory.java:124) - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[2014-03-12 23:20:59,693]DEBUG    92[main] - org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:304) - PooledDataSource forcefully closed/removed all connections.
+[2014-03-12 23:20:59,693]DEBUG    92[main] - org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:304) - PooledDataSource forcefully closed/removed all connections.
+[2014-03-12 23:20:59,694]DEBUG    93[main] - org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:304) - PooledDataSource forcefully closed/removed all connections.
+[2014-03-12 23:20:59,694]DEBUG    93[main] - org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:304) - PooledDataSource forcefully closed/removed all connections.
+[2014-03-12 23:21:00,261]DEBUG   660[main] - org.apache.ibatis.transaction.jdbc.JdbcTransaction.openConnection(JdbcTransaction.java:129) - Opening JDBC Connection
+[2014-03-12 23:21:00,708]DEBUG  1107[main] - org.apache.ibatis.datasource.pooled.PooledDataSource.popConnection(PooledDataSource.java:378) - Created connection 845885.
+[2014-03-12 23:21:00,708]DEBUG  1107[main] - org.apache.ibatis.transaction.jdbc.JdbcTransaction.setDesiredAutoCommit(JdbcTransaction.java:95) - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@ce83d]
+[2014-03-12 23:21:00,731]DEBUG  1130[main] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:132) - ooo Using Connection [com.mysql.jdbc.JDBC4Connection@ce83d]
+[2014-03-12 23:21:00,732]DEBUG  1131[main] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:132) - ==>  Preparing: select cd_username, cd_persona, username, password, data_creazione, data_annullamento, data_verifica from utente WHERE ( username = ? ) or( password = ? ) 
+[2014-03-12 23:21:00,819]DEBUG  1218[main] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:132) - ==> Parameters: tiziano(String), password(String)
+[2014-03-12 23:21:00,833]DEBUG  1232[main] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:132) - <==      Total: 0
+[2014-03-12 23:21:09,358]DEBUG  9757[main] - org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:304) - PooledDataSource forcefully closed/removed all connections.
+[2014-03-12 23:21:09,358]DEBUG  9757[main] - org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:304) - PooledDataSource forcefully closed/removed all connections.
+[2014-03-12 23:21:09,358]DEBUG  9757[main] - org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:304) - PooledDataSource forcefully closed/removed all connections.
+[2014-03-12 23:21:09,359]DEBUG  9758[main] - org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:304) - PooledDataSource forcefully closed/removed all connections.
+[2014-03-12 23:21:09,626]DEBUG 10025[main] - org.apache.ibatis.transaction.jdbc.JdbcTransaction.openConnection(JdbcTransaction.java:129) - Opening JDBC Connection
+[2014-03-12 23:21:09,634]DEBUG 10033[main] - org.apache.ibatis.datasource.pooled.PooledDataSource.popConnection(PooledDataSource.java:378) - Created connection 7932327.
+[2014-03-12 23:21:09,635]DEBUG 10034[main] - org.apache.ibatis.transaction.jdbc.JdbcTransaction.setDesiredAutoCommit(JdbcTransaction.java:95) - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@7909a7]
+[2014-03-12 23:21:09,635]DEBUG 10034[main] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:132) - ooo Using Connection [com.mysql.jdbc.JDBC4Connection@7909a7]
+[2014-03-12 23:21:09,636]DEBUG 10035[main] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:132) - ==>  Preparing: select cd_username, cd_persona, username, password, data_creazione, data_annullamento, data_verifica from utente WHERE ( username = ? ) or( password = ? ) 
+[2014-03-12 23:21:09,636]DEBUG 10035[main] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:132) - ==> Parameters: pino(String), password(String)
+[2014-03-12 23:21:09,637]DEBUG 10036[main] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:132) - <==      Total: 0
+[2014-03-12 23:27:08,593]DEBUG     0[main] - org.apache.ibatis.logging.LogFactory.setImplementation(LogFactory.java:124) - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[2014-03-12 23:27:08,653]DEBUG    60[main] - org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:304) - PooledDataSource forcefully closed/removed all connections.
+[2014-03-12 23:27:08,654]DEBUG    61[main] - org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:304) - PooledDataSource forcefully closed/removed all connections.
+[2014-03-12 23:27:08,655]DEBUG    62[main] - org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:304) - PooledDataSource forcefully closed/removed all connections.
+[2014-03-12 23:27:08,655]DEBUG    62[main] - org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:304) - PooledDataSource forcefully closed/removed all connections.
+[2014-03-12 23:27:18,965]DEBUG 10372[main] - org.apache.ibatis.transaction.jdbc.JdbcTransaction.openConnection(JdbcTransaction.java:129) - Opening JDBC Connection
+[2014-03-12 23:27:19,394]DEBUG 10801[main] - org.apache.ibatis.datasource.pooled.PooledDataSource.popConnection(PooledDataSource.java:378) - Created connection 2270206.
+[2014-03-12 23:27:19,395]DEBUG 10802[main] - org.apache.ibatis.transaction.jdbc.JdbcTransaction.setDesiredAutoCommit(JdbcTransaction.java:95) - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@22a3fe]
+[2014-03-12 23:27:19,399]DEBUG 10806[main] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:132) - ooo Using Connection [com.mysql.jdbc.JDBC4Connection@22a3fe]
+[2014-03-12 23:27:19,402]DEBUG 10809[main] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:132) - ==>  Preparing: select cd_username, cd_persona, username, password, data_creazione, data_annullamento, data_verifica from utente WHERE ( username = ? ) or( password = ? ) 
+[2014-03-12 23:27:19,641]DEBUG 11048[main] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:132) - ==> Parameters: tiziano(String), password(String)
+[2014-03-12 23:27:19,818]DEBUG 11225[main] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:132) - <==      Total: 1
+[2014-03-12 23:27:32,236]DEBUG 23643[main] - org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:304) - PooledDataSource forcefully closed/removed all connections.
+[2014-03-12 23:27:32,237]DEBUG 23644[main] - org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:304) - PooledDataSource forcefully closed/removed all connections.
+[2014-03-12 23:27:32,237]DEBUG 23644[main] - org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:304) - PooledDataSource forcefully closed/removed all connections.
+[2014-03-12 23:27:32,238]DEBUG 23645[main] - org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:304) - PooledDataSource forcefully closed/removed all connections.
+[2014-03-12 23:27:36,955]DEBUG 28362[main] - org.apache.ibatis.transaction.jdbc.JdbcTransaction.openConnection(JdbcTransaction.java:129) - Opening JDBC Connection
+[2014-03-12 23:27:36,990]DEBUG 28397[main] - org.apache.ibatis.datasource.pooled.PooledDataSource.popConnection(PooledDataSource.java:378) - Created connection 4370804.
+[2014-03-12 23:27:36,990]DEBUG 28397[main] - org.apache.ibatis.transaction.jdbc.JdbcTransaction.setDesiredAutoCommit(JdbcTransaction.java:95) - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@42b174]
+[2014-03-12 23:27:36,991]DEBUG 28398[main] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:132) - ooo Using Connection [com.mysql.jdbc.JDBC4Connection@42b174]
+[2014-03-12 23:27:36,992]DEBUG 28399[main] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:132) - ==>  Preparing: select cd_username, cd_persona, username, password, data_creazione, data_annullamento, data_verifica from utente WHERE ( username = ? ) or( password = ? ) 
+[2014-03-12 23:27:36,995]DEBUG 28402[main] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:132) - ==> Parameters: pino(String), password(String)
+[2014-03-12 23:27:36,999]DEBUG 28406[main] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:132) - <==      Total: 1
+[2014-03-12 23:28:04,317]DEBUG     0[main] - org.apache.ibatis.logging.LogFactory.setImplementation(LogFactory.java:124) - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[2014-03-12 23:28:04,370]DEBUG    53[main] - org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:304) - PooledDataSource forcefully closed/removed all connections.
+[2014-03-12 23:28:04,370]DEBUG    53[main] - org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:304) - PooledDataSource forcefully closed/removed all connections.
+[2014-03-12 23:28:04,371]DEBUG    54[main] - org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:304) - PooledDataSource forcefully closed/removed all connections.
+[2014-03-12 23:28:04,372]DEBUG    55[main] - org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:304) - PooledDataSource forcefully closed/removed all connections.
+[2014-03-12 23:28:11,590]DEBUG  7273[main] - org.apache.ibatis.transaction.jdbc.JdbcTransaction.openConnection(JdbcTransaction.java:129) - Opening JDBC Connection
+[2014-03-12 23:28:12,013]DEBUG  7696[main] - org.apache.ibatis.datasource.pooled.PooledDataSource.popConnection(PooledDataSource.java:378) - Created connection 10517936.
+[2014-03-12 23:28:12,014]DEBUG  7697[main] - org.apache.ibatis.transaction.jdbc.JdbcTransaction.setDesiredAutoCommit(JdbcTransaction.java:95) - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@a07db0]
+[2014-03-12 23:28:12,018]DEBUG  7701[main] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:132) - ooo Using Connection [com.mysql.jdbc.JDBC4Connection@a07db0]
+[2014-03-12 23:28:12,020]DEBUG  7703[main] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:132) - ==>  Preparing: select cd_username, cd_persona, username, password, data_creazione, data_annullamento, data_verifica from utente WHERE ( username = ? ) or( password = ? ) 
+[2014-03-12 23:28:12,252]DEBUG  7935[main] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:132) - ==> Parameters: tiziano(String), password(String)
+[2014-03-12 23:28:12,434]DEBUG  8117[main] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:132) - <==      Total: 1
+[2014-03-12 23:28:57,193]DEBUG 52876[main] - org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:304) - PooledDataSource forcefully closed/removed all connections.
+[2014-03-12 23:28:57,194]DEBUG 52877[main] - org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:304) - PooledDataSource forcefully closed/removed all connections.
+[2014-03-12 23:28:57,195]DEBUG 52878[main] - org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:304) - PooledDataSource forcefully closed/removed all connections.
+[2014-03-12 23:28:57,195]DEBUG 52878[main] - org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:304) - PooledDataSource forcefully closed/removed all connections.
+[2014-03-12 23:29:05,274]DEBUG 60957[main] - org.apache.ibatis.transaction.jdbc.JdbcTransaction.openConnection(JdbcTransaction.java:129) - Opening JDBC Connection
+[2014-03-12 23:29:05,316]DEBUG 60999[main] - org.apache.ibatis.datasource.pooled.PooledDataSource.popConnection(PooledDataSource.java:378) - Created connection 18114724.
+[2014-03-12 23:29:05,317]DEBUG 61000[main] - org.apache.ibatis.transaction.jdbc.JdbcTransaction.setDesiredAutoCommit(JdbcTransaction.java:95) - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@11468a4]
+[2014-03-12 23:29:05,318]DEBUG 61001[main] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:132) - ooo Using Connection [com.mysql.jdbc.JDBC4Connection@11468a4]
+[2014-03-12 23:29:05,320]DEBUG 61003[main] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:132) - ==>  Preparing: select cd_username, cd_persona, username, password, data_creazione, data_annullamento, data_verifica from utente WHERE ( username = ? ) or( password = ? ) 
+[2014-03-12 23:29:05,324]DEBUG 61007[main] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:132) - ==> Parameters: pino(String), password(String)
+[2014-03-12 23:29:05,329]DEBUG 61012[main] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:132) - <==      Total: 1
+[2014-03-12 23:30:25,109]DEBUG     0[main] - org.apache.ibatis.logging.LogFactory.setImplementation(LogFactory.java:124) - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[2014-03-12 23:30:25,162]DEBUG    53[main] - org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:304) - PooledDataSource forcefully closed/removed all connections.
+[2014-03-12 23:30:25,162]DEBUG    53[main] - org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:304) - PooledDataSource forcefully closed/removed all connections.
+[2014-03-12 23:30:25,163]DEBUG    54[main] - org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:304) - PooledDataSource forcefully closed/removed all connections.
+[2014-03-12 23:30:25,164]DEBUG    55[main] - org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:304) - PooledDataSource forcefully closed/removed all connections.
+[2014-03-12 23:30:29,811]DEBUG  4702[main] - org.apache.ibatis.transaction.jdbc.JdbcTransaction.openConnection(JdbcTransaction.java:129) - Opening JDBC Connection
+[2014-03-12 23:30:30,027]DEBUG  4918[main] - org.apache.ibatis.datasource.pooled.PooledDataSource.popConnection(PooledDataSource.java:378) - Created connection 19494158.
+[2014-03-12 23:30:30,027]DEBUG  4918[main] - org.apache.ibatis.transaction.jdbc.JdbcTransaction.setDesiredAutoCommit(JdbcTransaction.java:95) - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@129750e]
+[2014-03-12 23:30:30,029]DEBUG  4920[main] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:132) - ooo Using Connection [com.mysql.jdbc.JDBC4Connection@129750e]
+[2014-03-12 23:30:30,031]DEBUG  4922[main] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:132) - ==>  Preparing: select cd_username, cd_persona, username, password, data_creazione, data_annullamento, data_verifica from utente WHERE ( username = ? ) or( password = ? ) 
+[2014-03-12 23:30:30,063]DEBUG  4954[main] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:132) - ==> Parameters: tiziano(String), password(String)
+[2014-03-12 23:30:30,081]DEBUG  4972[main] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:132) - <==      Total: 1
+[2014-03-12 23:30:36,807]DEBUG 11698[main] - org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:304) - PooledDataSource forcefully closed/removed all connections.
+[2014-03-12 23:30:36,808]DEBUG 11699[main] - org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:304) - PooledDataSource forcefully closed/removed all connections.
+[2014-03-12 23:30:36,809]DEBUG 11700[main] - org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:304) - PooledDataSource forcefully closed/removed all connections.
+[2014-03-12 23:30:36,810]DEBUG 11701[main] - org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:304) - PooledDataSource forcefully closed/removed all connections.
+[2014-03-12 23:30:55,064]DEBUG 29955[main] - org.apache.ibatis.transaction.jdbc.JdbcTransaction.openConnection(JdbcTransaction.java:129) - Opening JDBC Connection
+[2014-03-12 23:30:55,094]DEBUG 29985[main] - org.apache.ibatis.datasource.pooled.PooledDataSource.popConnection(PooledDataSource.java:378) - Created connection 21208814.
+[2014-03-12 23:30:55,094]DEBUG 29985[main] - org.apache.ibatis.transaction.jdbc.JdbcTransaction.setDesiredAutoCommit(JdbcTransaction.java:95) - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@1439eee]
+[2014-03-12 23:30:55,095]DEBUG 29986[main] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:132) - ooo Using Connection [com.mysql.jdbc.JDBC4Connection@1439eee]
+[2014-03-12 23:30:55,096]DEBUG 29987[main] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:132) - ==>  Preparing: select cd_username, cd_persona, username, password, data_creazione, data_annullamento, data_verifica from utente WHERE ( username = ? ) or( password = ? ) 
+[2014-03-12 23:30:55,099]DEBUG 29990[main] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:132) - ==> Parameters: pino(String), password(String)
+[2014-03-12 23:30:55,103]DEBUG 29994[main] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:132) - <==      Total: 1
+[2014-03-12 23:34:01,493]DEBUG     0[main] - org.apache.ibatis.logging.LogFactory.setImplementation(LogFactory.java:124) - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[2014-03-12 23:34:01,513]DEBUG    20[main] - org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:304) - PooledDataSource forcefully closed/removed all connections.
+[2014-03-12 23:34:01,514]DEBUG    21[main] - org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:304) - PooledDataSource forcefully closed/removed all connections.
+[2014-03-12 23:34:01,514]DEBUG    21[main] - org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:304) - PooledDataSource forcefully closed/removed all connections.
+[2014-03-12 23:34:01,514]DEBUG    21[main] - org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:304) - PooledDataSource forcefully closed/removed all connections.
+[2014-03-12 23:34:19,692]DEBUG 18199[main] - org.apache.ibatis.transaction.jdbc.JdbcTransaction.openConnection(JdbcTransaction.java:129) - Opening JDBC Connection
+[2014-03-12 23:34:20,122]DEBUG 18629[main] - org.apache.ibatis.datasource.pooled.PooledDataSource.popConnection(PooledDataSource.java:378) - Created connection 22082284.
+[2014-03-12 23:34:20,122]DEBUG 18629[main] - org.apache.ibatis.transaction.jdbc.JdbcTransaction.setDesiredAutoCommit(JdbcTransaction.java:95) - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@150f2ec]
+[2014-03-12 23:34:20,127]DEBUG 18634[main] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:132) - ooo Using Connection [com.mysql.jdbc.JDBC4Connection@150f2ec]
+[2014-03-12 23:34:20,130]DEBUG 18637[main] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:132) - ==>  Preparing: select cd_username, cd_persona, username, password, data_creazione, data_annullamento, data_verifica from utente WHERE ( username = ? and password = ? ) or( username = ? and password = ? ) 
+[2014-03-12 23:34:20,361]DEBUG 18868[main] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:132) - ==> Parameters: tiziano(String), password(String), tiziano(String), password(String)
+[2014-03-12 23:34:20,538]DEBUG 19045[main] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:132) - <==      Total: 1
+[2014-03-12 23:34:36,212]DEBUG 34719[main] - org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:304) - PooledDataSource forcefully closed/removed all connections.
+[2014-03-12 23:34:36,212]DEBUG 34719[main] - org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:304) - PooledDataSource forcefully closed/removed all connections.
+[2014-03-12 23:34:36,213]DEBUG 34720[main] - org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:304) - PooledDataSource forcefully closed/removed all connections.
+[2014-03-12 23:34:36,213]DEBUG 34720[main] - org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:304) - PooledDataSource forcefully closed/removed all connections.
+[2014-03-12 23:34:39,777]DEBUG 38284[main] - org.apache.ibatis.transaction.jdbc.JdbcTransaction.openConnection(JdbcTransaction.java:129) - Opening JDBC Connection
+[2014-03-12 23:34:39,804]DEBUG 38311[main] - org.apache.ibatis.datasource.pooled.PooledDataSource.popConnection(PooledDataSource.java:378) - Created connection 32251291.
+[2014-03-12 23:34:39,805]DEBUG 38312[main] - org.apache.ibatis.transaction.jdbc.JdbcTransaction.setDesiredAutoCommit(JdbcTransaction.java:95) - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@1ec1d9b]
+[2014-03-12 23:34:39,806]DEBUG 38313[main] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:132) - ooo Using Connection [com.mysql.jdbc.JDBC4Connection@1ec1d9b]
+[2014-03-12 23:34:39,807]DEBUG 38314[main] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:132) - ==>  Preparing: select cd_username, cd_persona, username, password, data_creazione, data_annullamento, data_verifica from utente WHERE ( username = ? and password = ? ) or( username = ? and password = ? ) 
+[2014-03-12 23:34:39,813]DEBUG 38320[main] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:132) - ==> Parameters: pino(String), password(String), pino(String), password(String)
+[2014-03-12 23:34:39,814]DEBUG 38321[main] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:132) - <==      Total: 0
+[2014-03-12 23:35:01,783]DEBUG     0[main] - org.apache.ibatis.logging.LogFactory.setImplementation(LogFactory.java:124) - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[2014-03-12 23:35:01,804]DEBUG    21[main] - org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:304) - PooledDataSource forcefully closed/removed all connections.
+[2014-03-12 23:35:01,804]DEBUG    21[main] - org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:304) - PooledDataSource forcefully closed/removed all connections.
+[2014-03-12 23:35:01,804]DEBUG    21[main] - org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:304) - PooledDataSource forcefully closed/removed all connections.
+[2014-03-12 23:35:01,805]DEBUG    22[main] - org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:304) - PooledDataSource forcefully closed/removed all connections.
+[2014-03-12 23:35:03,207]DEBUG  1424[main] - org.apache.ibatis.transaction.jdbc.JdbcTransaction.openConnection(JdbcTransaction.java:129) - Opening JDBC Connection
+[2014-03-12 23:35:03,434]DEBUG  1651[main] - org.apache.ibatis.datasource.pooled.PooledDataSource.popConnection(PooledDataSource.java:378) - Created connection 22935854.
+[2014-03-12 23:35:03,435]DEBUG  1652[main] - org.apache.ibatis.transaction.jdbc.JdbcTransaction.setDesiredAutoCommit(JdbcTransaction.java:95) - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@15df92e]
+[2014-03-12 23:35:03,437]DEBUG  1654[main] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:132) - ooo Using Connection [com.mysql.jdbc.JDBC4Connection@15df92e]
+[2014-03-12 23:35:03,438]DEBUG  1655[main] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:132) - ==>  Preparing: select cd_username, cd_persona, username, password, data_creazione, data_annullamento, data_verifica from utente WHERE ( username = ? and password = ? ) or( username = ? and password = ? ) 
+[2014-03-12 23:35:03,473]DEBUG  1690[main] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:132) - ==> Parameters: tiziano(String), password(String), tiziano(String), password(String)
+[2014-03-12 23:35:03,493]DEBUG  1710[main] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:132) - <==      Total: 1
+[2014-03-12 23:35:05,493]DEBUG  3710[main] - org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:304) - PooledDataSource forcefully closed/removed all connections.
+[2014-03-12 23:35:05,493]DEBUG  3710[main] - org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:304) - PooledDataSource forcefully closed/removed all connections.
+[2014-03-12 23:35:05,494]DEBUG  3711[main] - org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:304) - PooledDataSource forcefully closed/removed all connections.
+[2014-03-12 23:35:05,494]DEBUG  3711[main] - org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:304) - PooledDataSource forcefully closed/removed all connections.
+[2014-03-12 23:35:06,588]DEBUG  4805[main] - org.apache.ibatis.transaction.jdbc.JdbcTransaction.openConnection(JdbcTransaction.java:129) - Opening JDBC Connection
+[2014-03-12 23:35:06,605]DEBUG  4822[main] - org.apache.ibatis.datasource.pooled.PooledDataSource.popConnection(PooledDataSource.java:378) - Created connection 10307693.
+[2014-03-12 23:35:06,605]DEBUG  4822[main] - org.apache.ibatis.transaction.jdbc.JdbcTransaction.setDesiredAutoCommit(JdbcTransaction.java:95) - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@9d486d]
+[2014-03-12 23:35:06,606]DEBUG  4823[main] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:132) - ooo Using Connection [com.mysql.jdbc.JDBC4Connection@9d486d]
+[2014-03-12 23:35:06,607]DEBUG  4824[main] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:132) - ==>  Preparing: select cd_username, cd_persona, username, password, data_creazione, data_annullamento, data_verifica from utente WHERE ( username = ? and password = ? ) or( username = ? and password = ? ) 
+[2014-03-12 23:35:06,609]DEBUG  4826[main] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:132) - ==> Parameters: pino(String), password(String), pino(String), password(String)
+[2014-03-12 23:35:06,610]DEBUG  4827[main] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:132) - <==      Total: 0
