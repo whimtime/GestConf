@@ -23,6 +23,14 @@
           <failOnMissingWebXml>false</failOnMissingWebXml>
         </configuration>
       </plugin>
+         <plugin>
+            <artifactId>maven-compiler-plugin</artifactId>
+            <version>3.1</version>
+            <configuration>
+                <fork>true</fork>
+                <executable>C:\Program Files\Java\jdk1.7.0_51\bin\javac.exe</executable>
+            </configuration>
+        </plugin>
     </plugins>
   </build>
   <dependencies>
@@ -51,6 +59,36 @@
 	<artifactId>mail</artifactId>
 	<version>1.4</version>
 </dependency>
+	<dependency>
+		<groupId>org.apache.axis</groupId>
+		<artifactId>axis</artifactId>
+		<version>1.4</version>
+	</dependency>  
+	<dependency>
+	<groupId>javax.xml</groupId>
+	<artifactId>jaxrpc-api</artifactId>
+	<version>1.1</version>
+</dependency>  
+<dependency>
+	<groupId>javax.faces</groupId>
+	<artifactId>jsf-api</artifactId>
+	<version>1.2</version>
+</dependency>                
+<dependency>
+	<groupId>commons-logging</groupId>
+	<artifactId>commons-logging</artifactId>
+	<version>1.1.3</version>
+</dependency>       
+<dependency>
+	<groupId>commons-discovery</groupId>
+	<artifactId>commons-discovery</artifactId>
+	<version>20040218.194635</version>
+</dependency>
+<dependency>
+	<groupId>wsdl4j</groupId>
+	<artifactId>wsdl4j</artifactId>
+	<version>1.6.3</version>
+</dependency>                                        
   </dependencies>
   <repositories>
 	<repository>

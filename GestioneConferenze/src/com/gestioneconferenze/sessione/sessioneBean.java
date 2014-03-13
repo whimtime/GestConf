@@ -7,6 +7,7 @@ import javax.faces.context.FacesContext;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpSession;
 
+import com.gestioneconferenze.facade.UtentiFacade;
 import com.gestioneconferenze.util.*;
 
 import org.apache.log4j.Logger;
@@ -81,7 +82,7 @@ public class sessioneBean {
 	public void setModifica(String modifica) {
 		this.modifica = modifica;
 	}
-	public void entra() 
+	public void entra() throws Exception 
 	{
 		String nome = this.username;
 		String psw= this.password;
@@ -92,11 +93,12 @@ public class sessioneBean {
 		
 		this.ipaddress =  UrlUtil.getRemoteAddr();
 		
-		if(!this.username.equals("tiziano"))
+		UtentiFacade ws= new UtentiFacade();
+		if(!ws.login(nome, psw))
 		{
-			/*logger.warn("l utente " + this.username + " ha tentato di accedere senza successo");
+			logger.warn("l utente " + this.username + " ha tentato di accedere senza successo");
 			 FacesContext.getCurrentInstance().addMessage(null, new FacesMessage(FacesMessage.SEVERITY_FATAL,"Errore!", "Utenza non registrata"));  
-			return;*/
+			return;
 			
 		}		
 		logger.info("L utente " + this.username + " ha effettuato accesso");

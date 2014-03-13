@@ -1,490 +1,554 @@
-[2014-03-09 21:48:38,437] INFO     0["http-bio-8090"-exec-6] - com.gestioneconferenze.sessione.sessioneBean.entra(sessioneBean.java:60) - inizio chiamata entra di sessioneBean
-[2014-03-09 22:00:07,385] INFO     0["http-bio-8090"-exec-6] - com.gestioneconferenze.sessione.sessioneBean.entra(sessioneBean.java:60) - inizio chiamata entra di sessioneBean
-[2014-03-09 22:00:07,387] INFO     2["http-bio-8090"-exec-6] - com.gestioneconferenze.util.UrlUtil.RedirectAPagina(UrlUtil.java:53) - Redirect a home.xhtml
-[2014-03-09 22:00:15,398] INFO  8013["http-bio-8090"-exec-8] - com.gestioneconferenze.sessione.sessioneBean.dettaglio(sessioneBean.java:79) - inizio chiamata dettaglio di sessioneBean
-[2014-03-09 22:00:15,399] INFO  8014["http-bio-8090"-exec-8] - com.gestioneconferenze.util.UrlUtil.RedirectAPagina(UrlUtil.java:53) - Redirect a dettaglioUtente.xhtml
-[2014-03-09 22:02:17,629] INFO130244["http-bio-8090"-exec-10] - com.gestioneconferenze.sessione.sessioneBean.dettaglio(sessioneBean.java:79) - inizio chiamata dettaglio di sessioneBean
-[2014-03-09 22:02:17,630] INFO130245["http-bio-8090"-exec-10] - com.gestioneconferenze.util.UrlUtil.RedirectAPagina(UrlUtil.java:53) - Redirect a dettaglioUtente.xhtml
-[2014-03-09 22:02:45,144] INFO157759["http-bio-8090"-exec-9] - com.gestioneconferenze.sessione.sessioneBean.dettaglio(sessioneBean.java:79) - inizio chiamata dettaglio di sessioneBean
-[2014-03-09 22:02:45,144] INFO157759["http-bio-8090"-exec-9] - com.gestioneconferenze.util.UrlUtil.RedirectAPagina(UrlUtil.java:53) - Redirect a dettaglioUtente.xhtml
-[2014-03-09 22:03:05,773] INFO178388["http-bio-8090"-exec-9] - com.gestioneconferenze.sessione.sessioneBean.dettaglio(sessioneBean.java:79) - inizio chiamata dettaglio di sessioneBean
-[2014-03-09 22:03:05,773] INFO178388["http-bio-8090"-exec-9] - com.gestioneconferenze.util.UrlUtil.RedirectAPagina(UrlUtil.java:53) - Redirect a dettaglioUtente.xhtml
-[2014-03-09 22:04:14,324] INFO246939["http-bio-8090"-exec-8] - com.gestioneconferenze.sessione.sessioneBean.dettaglio(sessioneBean.java:79) - inizio chiamata dettaglio di sessioneBean
-[2014-03-09 22:04:14,324] INFO246939["http-bio-8090"-exec-8] - com.gestioneconferenze.util.UrlUtil.RedirectAPagina(UrlUtil.java:53) - Redirect a dettaglioUtente.xhtml
-[2014-03-09 22:05:14,830] INFO307445["http-bio-8090"-exec-5] - com.gestioneconferenze.sessione.sessioneBean.entra(sessioneBean.java:60) - inizio chiamata entra di sessioneBean
-[2014-03-09 22:05:14,830] INFO307445["http-bio-8090"-exec-5] - com.gestioneconferenze.util.UrlUtil.RedirectAPagina(UrlUtil.java:53) - Redirect a home.xhtml
-[2014-03-09 22:05:22,159] INFO314774["http-bio-8090"-exec-5] - com.gestioneconferenze.sessione.sessioneBean.dettaglio(sessioneBean.java:79) - inizio chiamata dettaglio di sessioneBean
-[2014-03-09 22:05:22,160] INFO314775["http-bio-8090"-exec-5] - com.gestioneconferenze.util.UrlUtil.RedirectAPagina(UrlUtil.java:53) - Redirect a dettaglioUtente.xhtml
-[2014-03-09 22:07:20,834] INFO433449["http-bio-8090"-exec-1] - com.gestioneconferenze.sessione.sessioneBean.dettaglio(sessioneBean.java:79) - inizio chiamata dettaglio di sessioneBean
-[2014-03-09 22:07:20,835] INFO433450["http-bio-8090"-exec-1] - com.gestioneconferenze.util.UrlUtil.RedirectAPagina(UrlUtil.java:53) - Redirect a dettaglioUtente.xhtml
-[2014-03-09 22:07:26,872] INFO439487["http-bio-8090"-exec-1] - com.gestioneconferenze.sessione.sessioneBean.dettaglio(sessioneBean.java:79) - inizio chiamata dettaglio di sessioneBean
-[2014-03-09 22:07:26,873] INFO439488["http-bio-8090"-exec-1] - com.gestioneconferenze.util.UrlUtil.RedirectAPagina(UrlUtil.java:53) - Redirect a dettaglioUtente.xhtml
-[2014-03-09 22:08:09,252] INFO481867["http-bio-8090"-exec-8] - com.gestioneconferenze.sessione.sessioneBean.dettaglio(sessioneBean.java:79) - inizio chiamata dettaglio di sessioneBean
-[2014-03-09 22:08:09,252] INFO481867["http-bio-8090"-exec-8] - com.gestioneconferenze.util.UrlUtil.RedirectAPagina(UrlUtil.java:53) - Redirect a dettaglioUtente.xhtml
-[2014-03-09 22:09:12,592] INFO     0["http-bio-8090"-exec-4] - com.gestioneconferenze.sessione.sessioneBean.dettaglio(sessioneBean.java:79) - inizio chiamata dettaglio di sessioneBean
-[2014-03-09 22:09:12,594] INFO     2["http-bio-8090"-exec-4] - com.gestioneconferenze.util.UrlUtil.RedirectAPagina(UrlUtil.java:53) - Redirect a dettaglioUtente.xhtml
-[2014-03-09 22:09:57,904] INFO     0["http-bio-8090"-exec-6] - com.gestioneconferenze.sessione.sessioneBean.entra(sessioneBean.java:60) - inizio chiamata entra di sessioneBean
-[2014-03-09 22:10:06,578] INFO  8674["http-bio-8090"-exec-6] - com.gestioneconferenze.util.UrlUtil.RedirectAPagina(UrlUtil.java:53) - Redirect a home.xhtml
-[2014-03-09 22:10:28,552] INFO 30648["http-bio-8090"-exec-8] - com.gestioneconferenze.sessione.sessioneBean.dettaglio(sessioneBean.java:79) - inizio chiamata dettaglio di sessioneBean
-[2014-03-09 22:10:37,863] INFO 39959["http-bio-8090"-exec-8] - com.gestioneconferenze.util.UrlUtil.RedirectAPagina(UrlUtil.java:53) - Redirect a dettaglioUtente.xhtml
-[2014-03-09 22:12:32,821] INFO     0["http-bio-8090"-exec-4] - com.gestioneconferenze.sessione.sessioneBean.dettaglio(sessioneBean.java:79) - inizio chiamata dettaglio di sessioneBean
-[2014-03-09 22:12:32,824] INFO     3["http-bio-8090"-exec-4] - com.gestioneconferenze.util.UrlUtil.RedirectAPagina(UrlUtil.java:53) - Redirect a dettaglioUtente.xhtml
-[2014-03-09 22:12:54,036] INFO 21215["http-bio-8090"-exec-6] - com.gestioneconferenze.sessione.sessioneBean.dettaglio(sessioneBean.java:79) - inizio chiamata dettaglio di sessioneBean
-[2014-03-09 22:12:54,037] INFO 21216["http-bio-8090"-exec-6] - com.gestioneconferenze.util.UrlUtil.RedirectAPagina(UrlUtil.java:53) - Redirect a dettaglioUtente.xhtml
-[2014-03-09 22:17:08,801] INFO     0["http-bio-8090"-exec-6] - com.gestioneconferenze.sessione.sessioneBean.entra(sessioneBean.java:60) - inizio chiamata entra di sessioneBean
-[2014-03-09 22:17:16,264] INFO  7463["http-bio-8090"-exec-9] - com.gestioneconferenze.sessione.sessioneBean.entra(sessioneBean.java:60) - inizio chiamata entra di sessioneBean
-[2014-03-09 22:17:16,267] INFO  7466["http-bio-8090"-exec-9] - com.gestioneconferenze.util.UrlUtil.RedirectAPagina(UrlUtil.java:53) - Redirect a home.xhtml
-[2014-03-09 22:17:29,439] INFO 20638["http-bio-8090"-exec-10] - com.gestioneconferenze.sessione.sessioneBean.dettaglio(sessioneBean.java:79) - inizio chiamata dettaglio di sessioneBean
-[2014-03-09 22:17:44,750] INFO 35949["http-bio-8090"-exec-10] - com.gestioneconferenze.sessione.sessioneBean.dettaglio(sessioneBean.java:79) - inizio chiamata dettaglio di sessioneBean
-[2014-03-09 22:22:10,189] INFO     0["http-bio-8090"-exec-6] - com.gestioneconferenze.sessione.sessioneBean.entra(sessioneBean.java:60) - inizio chiamata entra di sessioneBean
-[2014-03-09 22:22:10,192] INFO     3["http-bio-8090"-exec-6] - com.gestioneconferenze.util.UrlUtil.RedirectAPagina(UrlUtil.java:53) - Redirect a home.xhtml
-[2014-03-09 22:22:14,810] INFO  4621["http-bio-8090"-exec-8] - com.gestioneconferenze.sessione.sessioneBean.dettaglio(sessioneBean.java:79) - inizio chiamata dettaglio di sessioneBean
-[2014-03-09 22:25:45,251] INFO215062["http-bio-8090"-exec-1] - com.gestioneconferenze.sessione.sessioneBean.dettaglio(sessioneBean.java:79) - inizio chiamata dettaglio di sessioneBean
-[2014-03-09 22:48:11,440] INFO     0["http-bio-8090"-exec-6] - com.gestioneconferenze.sessione.sessioneBean.entra(sessioneBean.java:56) - inizio chiamata entra di sessioneBean
-[2014-03-09 22:48:11,442] INFO     2["http-bio-8090"-exec-6] - com.gestioneconferenze.util.UrlUtil.RedirectAPagina(UrlUtil.java:79) - Redirect a home.xhtml
-[2014-03-09 22:52:25,981] INFO     1["http-bio-8090"-exec-6] - com.gestioneconferenze.sessione.sessioneBean.entra(sessioneBean.java:56) - inizio chiamata entra di sessioneBean
-[2014-03-09 22:52:25,983] WARN     3["http-bio-8090"-exec-6] - com.gestioneconferenze.sessione.sessioneBean.entra(sessioneBean.java:64) - l utente DRFTUYGIJH ha tentato di accedere senza successo
-[2014-03-09 22:52:43,956] INFO 17976["http-bio-8090"-exec-9] - com.gestioneconferenze.sessione.sessioneBean.entra(sessioneBean.java:56) - inizio chiamata entra di sessioneBean
-[2014-03-09 22:52:43,958] INFO 17978["http-bio-8090"-exec-9] - com.gestioneconferenze.sessione.sessioneBean.entra(sessioneBean.java:69) - L utente tiziano ha effettuato accesso
-[2014-03-09 22:52:43,958] INFO 17978["http-bio-8090"-exec-9] - com.gestioneconferenze.util.UrlUtil.RedirectAPagina(UrlUtil.java:79) - Redirect a home.xhtml
-[2014-03-09 22:52:57,949] INFO 31969["http-bio-8090"-exec-10] - com.gestioneconferenze.sessione.sessioneBean.dettaglio(sessioneBean.java:78) - inizio chiamata dettaglio di sessioneBean
-[2014-03-09 22:52:57,949] INFO 31969["http-bio-8090"-exec-10] - com.gestioneconferenze.util.UrlUtil.RedirectAPagina(UrlUtil.java:79) - Redirect a dettaglioUtente.xhtml
-[2014-03-09 22:53:02,736] INFO 36756["http-bio-8090"-exec-10] - com.gestioneconferenze.sessione.sessioneBean.dettaglio(sessioneBean.java:78) - inizio chiamata dettaglio di sessioneBean
-[2014-03-09 22:53:02,736] INFO 36756["http-bio-8090"-exec-10] - com.gestioneconferenze.util.UrlUtil.RedirectAPagina(UrlUtil.java:79) - Redirect a dettaglioUtente.xhtml
-[2014-03-09 22:53:12,279] INFO 46299["http-bio-8090"-exec-10] - com.gestioneconferenze.sessione.sessioneBean.dettaglio(sessioneBean.java:78) - inizio chiamata dettaglio di sessioneBean
-[2014-03-09 22:53:12,279] INFO 46299["http-bio-8090"-exec-10] - com.gestioneconferenze.util.UrlUtil.RedirectAPagina(UrlUtil.java:79) - Redirect a dettaglioUtente.xhtml
-[2014-03-09 23:01:14,697] INFO     0["http-bio-8090"-exec-6] - com.gestioneconferenze.sessione.sessioneBean.entra(sessioneBean.java:63) - inizio chiamata entra di sessioneBean
-[2014-03-09 23:01:14,699] INFO     2["http-bio-8090"-exec-6] - com.gestioneconferenze.sessione.sessioneBean.entra(sessioneBean.java:76) - L utente tiziano ha effettuato accesso
-[2014-03-09 23:01:14,700] INFO     3["http-bio-8090"-exec-6] - com.gestioneconferenze.util.UrlUtil.RedirectAPagina(UrlUtil.java:79) - Redirect a home.xhtml
-[2014-03-09 23:01:18,514] INFO  3817["http-bio-8090"-exec-8] - com.gestioneconferenze.sessione.sessioneBean.dettaglio(sessioneBean.java:85) - inizio chiamata dettaglio di sessioneBean
-[2014-03-09 23:02:19,286] INFO 64589["http-bio-8090"-exec-5] - com.gestioneconferenze.sessione.sessioneBean.dettaglio(sessioneBean.java:85) - inizio chiamata dettaglio di sessioneBean
-[2014-03-09 23:02:58,519] INFO103822["http-bio-8090"-exec-2] - com.gestioneconferenze.sessione.sessioneBean.dettaglio(sessioneBean.java:85) - inizio chiamata dettaglio di sessioneBean
-[2014-03-09 23:03:12,306] INFO117609["http-bio-8090"-exec-7] - com.gestioneconferenze.sessione.sessioneBean.entra(sessioneBean.java:63) - inizio chiamata entra di sessioneBean
-[2014-03-09 23:03:12,306] INFO117609["http-bio-8090"-exec-7] - com.gestioneconferenze.sessione.sessioneBean.entra(sessioneBean.java:76) - L utente tiziano ha effettuato accesso
-[2014-03-09 23:03:12,306] INFO117609["http-bio-8090"-exec-7] - com.gestioneconferenze.util.UrlUtil.RedirectAPagina(UrlUtil.java:79) - Redirect a home.xhtml
-[2014-03-09 23:03:15,557] INFO120860["http-bio-8090"-exec-7] - com.gestioneconferenze.sessione.sessioneBean.dettaglio(sessioneBean.java:85) - inizio chiamata dettaglio di sessioneBean
-[2014-03-09 23:05:00,497] INFO225800["http-bio-8090"-exec-2] - com.gestioneconferenze.sessione.sessioneBean.entra(sessioneBean.java:63) - inizio chiamata entra di sessioneBean
-[2014-03-09 23:05:00,498] INFO225801["http-bio-8090"-exec-2] - com.gestioneconferenze.sessione.sessioneBean.entra(sessioneBean.java:76) - L utente tiziano ha effettuato accesso
-[2014-03-09 23:05:00,498] INFO225801["http-bio-8090"-exec-2] - com.gestioneconferenze.util.UrlUtil.RedirectAPagina(UrlUtil.java:79) - Redirect a home.xhtml
-[2014-03-09 23:05:03,731] INFO229034["http-bio-8090"-exec-2] - com.gestioneconferenze.sessione.sessioneBean.dettaglio(sessioneBean.java:85) - inizio chiamata dettaglio di sessioneBean
-[2014-03-09 23:06:56,976] INFO342279["http-bio-8090"-exec-2] - com.gestioneconferenze.sessione.sessioneBean.entra(sessioneBean.java:63) - inizio chiamata entra di sessioneBean
-[2014-03-09 23:06:56,976] INFO342279["http-bio-8090"-exec-2] - com.gestioneconferenze.sessione.sessioneBean.entra(sessioneBean.java:76) - L utente tiziano ha effettuato accesso
-[2014-03-09 23:06:56,977] INFO342280["http-bio-8090"-exec-2] - com.gestioneconferenze.util.UrlUtil.RedirectAPagina(UrlUtil.java:79) - Redirect a home.xhtml
-[2014-03-09 23:07:00,718] INFO346021["http-bio-8090"-exec-2] - com.gestioneconferenze.sessione.sessioneBean.dettaglio(sessioneBean.java:85) - inizio chiamata dettaglio di sessioneBean
-[2014-03-09 23:09:56,564] INFO521867["http-bio-8090"-exec-6] - com.gestioneconferenze.sessione.sessioneBean.entra(sessioneBean.java:63) - inizio chiamata entra di sessioneBean
-[2014-03-09 23:09:56,564] INFO521867["http-bio-8090"-exec-6] - com.gestioneconferenze.sessione.sessioneBean.entra(sessioneBean.java:76) - L utente tiziano ha effettuato accesso
-[2014-03-09 23:09:56,564] INFO521867["http-bio-8090"-exec-6] - com.gestioneconferenze.util.UrlUtil.RedirectAPagina(UrlUtil.java:79) - Redirect a home.xhtml
-[2014-03-09 23:09:59,372] INFO524675["http-bio-8090"-exec-6] - com.gestioneconferenze.sessione.sessioneBean.dettaglio(sessioneBean.java:85) - inizio chiamata dettaglio di sessioneBean
-[2014-03-09 23:15:49,440] INFO874743["http-bio-8090"-exec-9] - com.gestioneconferenze.sessione.sessioneBean.entra(sessioneBean.java:63) - inizio chiamata entra di sessioneBean
-[2014-03-09 23:15:49,440] INFO874743["http-bio-8090"-exec-9] - com.gestioneconferenze.sessione.sessioneBean.entra(sessioneBean.java:76) - L utente tiziano ha effettuato accesso
-[2014-03-09 23:15:49,440] INFO874743["http-bio-8090"-exec-9] - com.gestioneconferenze.util.UrlUtil.RedirectAPagina(UrlUtil.java:79) - Redirect a home.xhtml
-[2014-03-09 23:15:54,241] INFO879544["http-bio-8090"-exec-9] - com.gestioneconferenze.sessione.sessioneBean.dettaglio(sessioneBean.java:85) - inizio chiamata dettaglio di sessioneBean
-[2014-03-10 11:14:31,788] INFO997091["http-bio-8090"-exec-9] - com.gestioneconferenze.sessione.sessioneBean.entra(sessioneBean.java:63) - inizio chiamata entra di sessioneBean
-[2014-03-10 11:14:31,836] INFO997139["http-bio-8090"-exec-9] - com.gestioneconferenze.sessione.sessioneBean.entra(sessioneBean.java:76) - L utente tiziano ha effettuato accesso
-[2014-03-10 11:14:31,837] INFO997140["http-bio-8090"-exec-9] - com.gestioneconferenze.util.UrlUtil.RedirectAPagina(UrlUtil.java:79) - Redirect a home.xhtml
-[2014-03-10 11:14:34,973] INFO000276["http-bio-8090"-exec-3] - com.gestioneconferenze.sessione.sessioneBean.dettaglio(sessioneBean.java:85) - inizio chiamata dettaglio di sessioneBean
-[2014-03-10 11:31:25,868] INFO011171["http-bio-8090"-exec-5] - com.gestioneconferenze.sessione.sessioneBean.entra(sessioneBean.java:63) - inizio chiamata entra di sessioneBean
-[2014-03-10 11:31:25,868] INFO011171["http-bio-8090"-exec-5] - com.gestioneconferenze.sessione.sessioneBean.entra(sessioneBean.java:76) - L utente tiziano ha effettuato accesso
-[2014-03-10 11:31:25,869] INFO011172["http-bio-8090"-exec-5] - com.gestioneconferenze.util.UrlUtil.RedirectAPagina(UrlUtil.java:79) - Redirect a home.xhtml
-[2014-03-10 11:31:30,395] INFO015698["http-bio-8090"-exec-5] - com.gestioneconferenze.sessione.sessioneBean.dettaglio(sessioneBean.java:85) - inizio chiamata dettaglio di sessioneBean
-[2014-03-10 12:06:24,742] INFO110045["http-bio-8090"-exec-7] - com.gestioneconferenze.sessione.sessioneBean.entra(sessioneBean.java:63) - inizio chiamata entra di sessioneBean
-[2014-03-10 12:06:24,742] INFO110045["http-bio-8090"-exec-7] - com.gestioneconferenze.sessione.sessioneBean.entra(sessioneBean.java:76) - L utente tiziano ha effettuato accesso
-[2014-03-10 12:06:24,742] INFO110045["http-bio-8090"-exec-7] - com.gestioneconferenze.util.UrlUtil.RedirectAPagina(UrlUtil.java:79) - Redirect a home.xhtml
-[2014-03-10 12:06:26,856] INFO112159["http-bio-8090"-exec-7] - com.gestioneconferenze.sessione.sessioneBean.dettaglio(sessioneBean.java:85) - inizio chiamata dettaglio di sessioneBean
-[2014-03-10 12:10:34,191] INFO359494["http-bio-8090"-exec-10] - com.gestioneconferenze.sessione.sessioneBean.entra(sessioneBean.java:63) - inizio chiamata entra di sessioneBean
-[2014-03-10 12:10:34,191] INFO359494["http-bio-8090"-exec-10] - com.gestioneconferenze.sessione.sessioneBean.entra(sessioneBean.java:76) - L utente tiziano ha effettuato accesso
-[2014-03-10 12:10:34,191] INFO359494["http-bio-8090"-exec-10] - com.gestioneconferenze.util.UrlUtil.RedirectAPagina(UrlUtil.java:79) - Redirect a home.xhtml
-[2014-03-10 12:10:38,075] INFO363378["http-bio-8090"-exec-10] - com.gestioneconferenze.sessione.sessioneBean.dettaglio(sessioneBean.java:85) - inizio chiamata dettaglio di sessioneBean
-[2014-03-10 14:24:35,921] INFO     0["http-bio-8090"-exec-7] - com.gestioneconferenze.sessione.sessioneBean.entra(sessioneBean.java:64) - inizio chiamata entra di sessioneBean
-[2014-03-10 14:24:35,953] INFO    32["http-bio-8090"-exec-7] - com.gestioneconferenze.sessione.sessioneBean.entra(sessioneBean.java:77) - L utente tiziano ha effettuato accesso
-[2014-03-10 14:24:35,954] INFO    33["http-bio-8090"-exec-7] - com.gestioneconferenze.util.UrlUtil.RedirectAPagina(UrlUtil.java:80) - Redirect a home.xhtml
-[2014-03-10 14:24:40,051] INFO  4130["http-bio-8090"-exec-4] - com.gestioneconferenze.sessione.sessioneBean.entra(sessioneBean.java:64) - inizio chiamata entra di sessioneBean
-[2014-03-10 14:24:40,052] INFO  4131["http-bio-8090"-exec-4] - com.gestioneconferenze.sessione.sessioneBean.entra(sessioneBean.java:77) - L utente tiziano ha effettuato accesso
-[2014-03-10 14:24:40,052] INFO  4131["http-bio-8090"-exec-4] - com.gestioneconferenze.util.UrlUtil.RedirectAPagina(UrlUtil.java:80) - Redirect a home.xhtml
-[2014-03-10 14:24:47,308] INFO 11387["http-bio-8090"-exec-4] - com.gestioneconferenze.sessione.sessioneBean.entra(sessioneBean.java:64) - inizio chiamata entra di sessioneBean
-[2014-03-10 14:24:47,308] INFO 11387["http-bio-8090"-exec-4] - com.gestioneconferenze.sessione.sessioneBean.entra(sessioneBean.java:77) - L utente tiziano ha effettuato accesso
-[2014-03-10 14:24:47,309] INFO 11388["http-bio-8090"-exec-4] - com.gestioneconferenze.util.UrlUtil.RedirectAPagina(UrlUtil.java:80) - Redirect a home.xhtml
-[2014-03-10 14:30:26,709] INFO     0["http-bio-8090"-exec-4] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:49) - Filter session -> doFilter
-[2014-03-10 14:30:31,183] INFO  4474["http-bio-8090"-exec-6] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:49) - Filter session -> doFilter
-[2014-03-10 14:30:31,202] INFO  4493["http-bio-8090"-exec-6] - com.gestioneconferenze.sessione.sessioneBean.entra(sessioneBean.java:64) - inizio chiamata entra di sessioneBean
-[2014-03-10 14:30:31,202] INFO  4493["http-bio-8090"-exec-6] - com.gestioneconferenze.sessione.sessioneBean.entra(sessioneBean.java:77) - L utente tiziano ha effettuato accesso
-[2014-03-10 14:30:31,203] INFO  4494["http-bio-8090"-exec-6] - com.gestioneconferenze.util.UrlUtil.RedirectAPagina(UrlUtil.java:80) - Redirect a home.xhtml
-[2014-03-10 14:33:06,390] INFO     0["http-bio-8090"-exec-3] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:57) - Filter session -> sessione scaduta
-[2014-03-10 14:33:06,395] INFO     5["http-bio-8090"-exec-4] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:57) - Filter session -> sessione scaduta
-[2014-03-10 14:33:06,400] INFO    10["http-bio-8090"-exec-5] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:57) - Filter session -> sessione scaduta
-[2014-03-10 14:33:06,403] INFO    13["http-bio-8090"-exec-6] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:57) - Filter session -> sessione scaduta
-[2014-03-10 14:33:06,406] INFO    16["http-bio-8090"-exec-7] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:57) - Filter session -> sessione scaduta
-[2014-03-10 14:33:06,408] INFO    18["http-bio-8090"-exec-8] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:57) - Filter session -> sessione scaduta
-[2014-03-10 14:33:06,413] INFO    23["http-bio-8090"-exec-9] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:57) - Filter session -> sessione scaduta
-[2014-03-10 14:33:06,416] INFO    26["http-bio-8090"-exec-10] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:57) - Filter session -> sessione scaduta
-[2014-03-10 14:33:06,421] INFO    31["http-bio-8090"-exec-10] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:57) - Filter session -> sessione scaduta
-[2014-03-10 14:33:06,440] INFO    50["http-bio-8090"-exec-10] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:57) - Filter session -> sessione scaduta
-[2014-03-10 14:33:06,442] INFO    52["http-bio-8090"-exec-4] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:57) - Filter session -> sessione scaduta
-[2014-03-10 14:33:06,445] INFO    55["http-bio-8090"-exec-4] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:57) - Filter session -> sessione scaduta
-[2014-03-10 14:33:06,447] INFO    57["http-bio-8090"-exec-4] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:57) - Filter session -> sessione scaduta
-[2014-03-10 14:33:06,450] INFO    60["http-bio-8090"-exec-4] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:57) - Filter session -> sessione scaduta
-[2014-03-10 14:33:06,453] INFO    63["http-bio-8090"-exec-4] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:57) - Filter session -> sessione scaduta
-[2014-03-10 14:33:06,455] INFO    65["http-bio-8090"-exec-4] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:57) - Filter session -> sessione scaduta
-[2014-03-10 14:33:06,459] INFO    69["http-bio-8090"-exec-4] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:57) - Filter session -> sessione scaduta
-[2014-03-10 14:33:06,462] INFO    72["http-bio-8090"-exec-4] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:57) - Filter session -> sessione scaduta
-[2014-03-10 14:33:06,465] INFO    75["http-bio-8090"-exec-4] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:57) - Filter session -> sessione scaduta
-[2014-03-10 14:33:06,467] INFO    77["http-bio-8090"-exec-4] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:57) - Filter session -> sessione scaduta
-[2014-03-10 14:33:06,469] INFO    79["http-bio-8090"-exec-4] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:57) - Filter session -> sessione scaduta
-[2014-03-10 14:33:07,865] INFO  1475["http-bio-8090"-exec-4] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:57) - Filter session -> sessione scaduta
-[2014-03-10 14:33:07,870] INFO  1480["http-bio-8090"-exec-4] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:57) - Filter session -> sessione scaduta
-[2014-03-10 14:33:07,874] INFO  1484["http-bio-8090"-exec-4] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:57) - Filter session -> sessione scaduta
-[2014-03-10 14:33:07,880] INFO  1490["http-bio-8090"-exec-4] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:57) - Filter session -> sessione scaduta
-[2014-03-10 14:33:07,883] INFO  1493["http-bio-8090"-exec-4] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:57) - Filter session -> sessione scaduta
-[2014-03-10 14:33:07,885] INFO  1495["http-bio-8090"-exec-4] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:57) - Filter session -> sessione scaduta
-[2014-03-10 14:33:07,888] INFO  1498["http-bio-8090"-exec-4] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:57) - Filter session -> sessione scaduta
-[2014-03-10 14:33:07,891] INFO  1501["http-bio-8090"-exec-4] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:57) - Filter session -> sessione scaduta
-[2014-03-10 14:33:07,894] INFO  1504["http-bio-8090"-exec-7] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:57) - Filter session -> sessione scaduta
-[2014-03-10 14:33:07,897] INFO  1507["http-bio-8090"-exec-7] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:57) - Filter session -> sessione scaduta
-[2014-03-10 14:33:07,900] INFO  1510["http-bio-8090"-exec-7] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:57) - Filter session -> sessione scaduta
-[2014-03-10 14:33:07,903] INFO  1513["http-bio-8090"-exec-7] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:57) - Filter session -> sessione scaduta
-[2014-03-10 14:33:07,905] INFO  1515["http-bio-8090"-exec-7] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:57) - Filter session -> sessione scaduta
-[2014-03-10 14:33:07,907] INFO  1517["http-bio-8090"-exec-7] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:57) - Filter session -> sessione scaduta
-[2014-03-10 14:33:07,910] INFO  1520["http-bio-8090"-exec-7] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:57) - Filter session -> sessione scaduta
-[2014-03-10 14:33:07,912] INFO  1522["http-bio-8090"-exec-7] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:57) - Filter session -> sessione scaduta
-[2014-03-10 14:33:07,916] INFO  1526["http-bio-8090"-exec-7] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:57) - Filter session -> sessione scaduta
-[2014-03-10 14:33:07,922] INFO  1532["http-bio-8090"-exec-7] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:57) - Filter session -> sessione scaduta
-[2014-03-10 14:33:07,924] INFO  1534["http-bio-8090"-exec-7] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:57) - Filter session -> sessione scaduta
-[2014-03-10 14:33:07,927] INFO  1537["http-bio-8090"-exec-7] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:57) - Filter session -> sessione scaduta
-[2014-03-10 14:33:07,930] INFO  1540["http-bio-8090"-exec-7] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:57) - Filter session -> sessione scaduta
-[2014-03-10 14:33:08,574] INFO  2184["http-bio-8090"-exec-7] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:57) - Filter session -> sessione scaduta
-[2014-03-10 14:33:08,580] INFO  2190["http-bio-8090"-exec-7] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:57) - Filter session -> sessione scaduta
-[2014-03-10 14:33:08,587] INFO  2197["http-bio-8090"-exec-7] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:57) - Filter session -> sessione scaduta
-[2014-03-10 14:33:08,590] INFO  2200["http-bio-8090"-exec-7] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:57) - Filter session -> sessione scaduta
-[2014-03-10 14:33:08,593] INFO  2203["http-bio-8090"-exec-7] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:57) - Filter session -> sessione scaduta
-[2014-03-10 14:33:08,596] INFO  2206["http-bio-8090"-exec-7] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:57) - Filter session -> sessione scaduta
-[2014-03-10 14:33:08,598] INFO  2208["http-bio-8090"-exec-7] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:57) - Filter session -> sessione scaduta
-[2014-03-10 14:33:08,601] INFO  2211["http-bio-8090"-exec-7] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:57) - Filter session -> sessione scaduta
-[2014-03-10 14:33:08,604] INFO  2214["http-bio-8090"-exec-7] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:57) - Filter session -> sessione scaduta
-[2014-03-10 14:33:08,606] INFO  2216["http-bio-8090"-exec-7] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:57) - Filter session -> sessione scaduta
-[2014-03-10 14:33:08,609] INFO  2219["http-bio-8090"-exec-7] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:57) - Filter session -> sessione scaduta
-[2014-03-10 14:33:08,612] INFO  2222["http-bio-8090"-exec-7] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:57) - Filter session -> sessione scaduta
-[2014-03-10 14:33:08,614] INFO  2224["http-bio-8090"-exec-7] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:57) - Filter session -> sessione scaduta
-[2014-03-10 14:33:08,616] INFO  2226["http-bio-8090"-exec-7] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:57) - Filter session -> sessione scaduta
-[2014-03-10 14:33:08,619] INFO  2229["http-bio-8090"-exec-7] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:57) - Filter session -> sessione scaduta
-[2014-03-10 14:33:08,621] INFO  2231["http-bio-8090"-exec-7] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:57) - Filter session -> sessione scaduta
-[2014-03-10 14:33:08,624] INFO  2234["http-bio-8090"-exec-7] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:57) - Filter session -> sessione scaduta
-[2014-03-10 14:33:08,626] INFO  2236["http-bio-8090"-exec-7] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:57) - Filter session -> sessione scaduta
-[2014-03-10 14:33:08,629] INFO  2239["http-bio-8090"-exec-7] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:57) - Filter session -> sessione scaduta
-[2014-03-10 14:33:08,631] INFO  2241["http-bio-8090"-exec-7] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:57) - Filter session -> sessione scaduta
-[2014-03-10 14:33:08,633] INFO  2243["http-bio-8090"-exec-7] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:57) - Filter session -> sessione scaduta
-[2014-03-10 14:33:09,201] INFO  2811["http-bio-8090"-exec-7] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:57) - Filter session -> sessione scaduta
-[2014-03-10 14:33:09,203] INFO  2813["http-bio-8090"-exec-7] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:57) - Filter session -> sessione scaduta
-[2014-03-10 14:33:09,206] INFO  2816["http-bio-8090"-exec-7] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:57) - Filter session -> sessione scaduta
-[2014-03-10 14:33:09,208] INFO  2818["http-bio-8090"-exec-7] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:57) - Filter session -> sessione scaduta
-[2014-03-10 14:33:09,212] INFO  2822["http-bio-8090"-exec-7] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:57) - Filter session -> sessione scaduta
-[2014-03-10 14:33:09,216] INFO  2826["http-bio-8090"-exec-7] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:57) - Filter session -> sessione scaduta
-[2014-03-10 14:33:09,219] INFO  2829["http-bio-8090"-exec-7] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:57) - Filter session -> sessione scaduta
-[2014-03-10 14:33:09,221] INFO  2831["http-bio-8090"-exec-7] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:57) - Filter session -> sessione scaduta
-[2014-03-10 14:33:09,224] INFO  2834["http-bio-8090"-exec-7] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:57) - Filter session -> sessione scaduta
-[2014-03-10 14:33:09,226] INFO  2836["http-bio-8090"-exec-7] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:57) - Filter session -> sessione scaduta
-[2014-03-10 14:33:09,229] INFO  2839["http-bio-8090"-exec-7] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:57) - Filter session -> sessione scaduta
-[2014-03-10 14:33:09,231] INFO  2841["http-bio-8090"-exec-7] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:57) - Filter session -> sessione scaduta
-[2014-03-10 14:33:09,234] INFO  2844["http-bio-8090"-exec-7] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:57) - Filter session -> sessione scaduta
-[2014-03-10 14:33:09,236] INFO  2846["http-bio-8090"-exec-7] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:57) - Filter session -> sessione scaduta
-[2014-03-10 14:33:09,239] INFO  2849["http-bio-8090"-exec-7] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:57) - Filter session -> sessione scaduta
-[2014-03-10 14:33:09,241] INFO  2851["http-bio-8090"-exec-7] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:57) - Filter session -> sessione scaduta
-[2014-03-10 14:33:09,244] INFO  2854["http-bio-8090"-exec-7] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:57) - Filter session -> sessione scaduta
-[2014-03-10 14:33:09,246] INFO  2856["http-bio-8090"-exec-7] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:57) - Filter session -> sessione scaduta
-[2014-03-10 14:33:09,249] INFO  2859["http-bio-8090"-exec-7] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:57) - Filter session -> sessione scaduta
-[2014-03-10 14:33:09,251] INFO  2861["http-bio-8090"-exec-7] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:57) - Filter session -> sessione scaduta
-[2014-03-10 14:33:09,254] INFO  2864["http-bio-8090"-exec-7] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:57) - Filter session -> sessione scaduta
-[2014-03-10 14:33:09,485] INFO  3095["http-bio-8090"-exec-7] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:57) - Filter session -> sessione scaduta
-[2014-03-10 14:33:09,492] INFO  3102["http-bio-8090"-exec-7] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:57) - Filter session -> sessione scaduta
-[2014-03-10 14:33:09,496] INFO  3106["http-bio-8090"-exec-7] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:57) - Filter session -> sessione scaduta
-[2014-03-10 14:33:09,499] INFO  3109["http-bio-8090"-exec-7] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:57) - Filter session -> sessione scaduta
-[2014-03-10 14:33:09,501] INFO  3111["http-bio-8090"-exec-7] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:57) - Filter session -> sessione scaduta
-[2014-03-10 14:33:09,503] INFO  3113["http-bio-8090"-exec-7] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:57) - Filter session -> sessione scaduta
-[2014-03-10 14:33:09,506] INFO  3116["http-bio-8090"-exec-7] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:57) - Filter session -> sessione scaduta
-[2014-03-10 14:33:09,508] INFO  3118["http-bio-8090"-exec-5] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:57) - Filter session -> sessione scaduta
-[2014-03-10 14:33:09,511] INFO  3121["http-bio-8090"-exec-5] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:57) - Filter session -> sessione scaduta
-[2014-03-10 14:33:09,513] INFO  3123["http-bio-8090"-exec-5] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:57) - Filter session -> sessione scaduta
-[2014-03-10 14:33:09,516] INFO  3126["http-bio-8090"-exec-5] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:57) - Filter session -> sessione scaduta
-[2014-03-10 14:33:09,518] INFO  3128["http-bio-8090"-exec-5] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:57) - Filter session -> sessione scaduta
-[2014-03-10 14:33:09,521] INFO  3131["http-bio-8090"-exec-5] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:57) - Filter session -> sessione scaduta
-[2014-03-10 14:33:09,523] INFO  3133["http-bio-8090"-exec-5] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:57) - Filter session -> sessione scaduta
-[2014-03-10 14:33:09,526] INFO  3136["http-bio-8090"-exec-5] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:57) - Filter session -> sessione scaduta
-[2014-03-10 14:33:09,528] INFO  3138["http-bio-8090"-exec-5] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:57) - Filter session -> sessione scaduta
-[2014-03-10 14:33:09,532] INFO  3142["http-bio-8090"-exec-6] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:57) - Filter session -> sessione scaduta
-[2014-03-10 14:33:09,535] INFO  3145["http-bio-8090"-exec-4] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:57) - Filter session -> sessione scaduta
-[2014-03-10 14:33:09,537] INFO  3147["http-bio-8090"-exec-4] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:57) - Filter session -> sessione scaduta
-[2014-03-10 14:33:09,540] INFO  3150["http-bio-8090"-exec-4] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:57) - Filter session -> sessione scaduta
-[2014-03-10 14:33:09,542] INFO  3152["http-bio-8090"-exec-4] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:57) - Filter session -> sessione scaduta
-[2014-03-10 14:33:53,323] INFO 46933["http-bio-8090"-exec-10] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:57) - Filter session -> sessione scaduta
-[2014-03-10 14:33:53,330] INFO 46940["http-bio-8090"-exec-10] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:57) - Filter session -> sessione scaduta
-[2014-03-10 14:33:53,334] INFO 46944["http-bio-8090"-exec-10] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:57) - Filter session -> sessione scaduta
-[2014-03-10 14:33:53,340] INFO 46950["http-bio-8090"-exec-10] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:57) - Filter session -> sessione scaduta
-[2014-03-10 14:33:53,345] INFO 46955["http-bio-8090"-exec-10] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:57) - Filter session -> sessione scaduta
-[2014-03-10 14:33:53,349] INFO 46959["http-bio-8090"-exec-10] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:57) - Filter session -> sessione scaduta
-[2014-03-10 14:33:53,354] INFO 46964["http-bio-8090"-exec-10] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:57) - Filter session -> sessione scaduta
-[2014-03-10 14:33:53,357] INFO 46967["http-bio-8090"-exec-10] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:57) - Filter session -> sessione scaduta
-[2014-03-10 14:33:53,359] INFO 46969["http-bio-8090"-exec-10] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:57) - Filter session -> sessione scaduta
-[2014-03-10 14:33:53,361] INFO 46971["http-bio-8090"-exec-10] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:57) - Filter session -> sessione scaduta
-[2014-03-10 14:33:53,364] INFO 46974["http-bio-8090"-exec-10] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:57) - Filter session -> sessione scaduta
-[2014-03-10 14:33:53,366] INFO 46976["http-bio-8090"-exec-10] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:57) - Filter session -> sessione scaduta
-[2014-03-10 14:33:53,368] INFO 46978["http-bio-8090"-exec-10] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:57) - Filter session -> sessione scaduta
-[2014-03-10 14:33:53,370] INFO 46980["http-bio-8090"-exec-10] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:57) - Filter session -> sessione scaduta
-[2014-03-10 14:33:53,372] INFO 46982["http-bio-8090"-exec-10] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:57) - Filter session -> sessione scaduta
-[2014-03-10 14:33:53,374] INFO 46984["http-bio-8090"-exec-10] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:57) - Filter session -> sessione scaduta
-[2014-03-10 14:33:53,376] INFO 46986["http-bio-8090"-exec-10] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:57) - Filter session -> sessione scaduta
-[2014-03-10 14:33:53,379] INFO 46989["http-bio-8090"-exec-10] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:57) - Filter session -> sessione scaduta
-[2014-03-10 14:33:53,381] INFO 46991["http-bio-8090"-exec-10] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:57) - Filter session -> sessione scaduta
-[2014-03-10 14:33:53,383] INFO 46993["http-bio-8090"-exec-10] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:57) - Filter session -> sessione scaduta
-[2014-03-10 14:33:53,385] INFO 46995["http-bio-8090"-exec-10] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:57) - Filter session -> sessione scaduta
-[2014-03-10 14:35:03,890] INFO     0["http-bio-8090"-exec-3] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:58) - Filter session -> sessione scaduta
-[2014-03-10 14:35:03,898] INFO     8["http-bio-8090"-exec-4] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:58) - Filter session -> sessione scaduta
-[2014-03-10 14:35:03,900] INFO    10["http-bio-8090"-exec-5] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:58) - Filter session -> sessione scaduta
-[2014-03-10 14:35:03,901] INFO    11["http-bio-8090"-exec-6] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:58) - Filter session -> sessione scaduta
-[2014-03-10 14:35:03,903] INFO    13["http-bio-8090"-exec-7] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:58) - Filter session -> sessione scaduta
-[2014-03-10 14:35:03,905] INFO    15["http-bio-8090"-exec-8] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:58) - Filter session -> sessione scaduta
-[2014-03-10 14:35:03,906] INFO    16["http-bio-8090"-exec-9] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:58) - Filter session -> sessione scaduta
-[2014-03-10 14:35:03,909] INFO    19["http-bio-8090"-exec-10] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:58) - Filter session -> sessione scaduta
-[2014-03-10 14:35:03,910] INFO    20["http-bio-8090"-exec-10] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:58) - Filter session -> sessione scaduta
-[2014-03-10 14:35:03,912] INFO    22["http-bio-8090"-exec-10] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:58) - Filter session -> sessione scaduta
-[2014-03-10 14:35:03,913] INFO    23["http-bio-8090"-exec-10] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:58) - Filter session -> sessione scaduta
-[2014-03-10 14:35:04,025] INFO   135["http-bio-8090"-exec-10] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:58) - Filter session -> sessione scaduta
-[2014-03-10 14:35:04,027] INFO   137["http-bio-8090"-exec-10] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:58) - Filter session -> sessione scaduta
-[2014-03-10 14:35:04,029] INFO   139["http-bio-8090"-exec-10] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:58) - Filter session -> sessione scaduta
-[2014-03-10 14:35:04,031] INFO   141["http-bio-8090"-exec-10] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:58) - Filter session -> sessione scaduta
-[2014-03-10 14:35:04,034] INFO   144["http-bio-8090"-exec-10] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:58) - Filter session -> sessione scaduta
-[2014-03-10 14:35:04,036] INFO   146["http-bio-8090"-exec-10] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:58) - Filter session -> sessione scaduta
-[2014-03-10 14:35:04,038] INFO   148["http-bio-8090"-exec-10] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:58) - Filter session -> sessione scaduta
-[2014-03-10 14:35:04,040] INFO   150["http-bio-8090"-exec-10] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:58) - Filter session -> sessione scaduta
-[2014-03-10 14:35:04,042] INFO   152["http-bio-8090"-exec-10] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:58) - Filter session -> sessione scaduta
-[2014-03-10 14:35:04,044] INFO   154["http-bio-8090"-exec-10] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:58) - Filter session -> sessione scaduta
-[2014-03-10 14:35:04,046] INFO   156["http-bio-8090"-exec-10] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:58) - Filter session -> sessione scaduta
-[2014-03-10 14:35:04,118] INFO   228["http-bio-8090"-exec-10] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:58) - Filter session -> sessione scaduta
-[2014-03-10 14:35:04,121] INFO   231["http-bio-8090"-exec-10] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:58) - Filter session -> sessione scaduta
-[2014-03-10 14:35:04,124] INFO   234["http-bio-8090"-exec-10] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:58) - Filter session -> sessione scaduta
-[2014-03-10 14:35:04,126] INFO   236["http-bio-8090"-exec-10] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:58) - Filter session -> sessione scaduta
-[2014-03-10 14:35:04,128] INFO   238["http-bio-8090"-exec-10] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:58) - Filter session -> sessione scaduta
-[2014-03-10 14:35:04,131] INFO   241["http-bio-8090"-exec-10] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:58) - Filter session -> sessione scaduta
-[2014-03-10 14:35:04,133] INFO   243["http-bio-8090"-exec-10] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:58) - Filter session -> sessione scaduta
-[2014-03-10 14:35:04,134] INFO   244["http-bio-8090"-exec-7] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:58) - Filter session -> sessione scaduta
-[2014-03-10 14:35:04,136] INFO   246["http-bio-8090"-exec-7] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:58) - Filter session -> sessione scaduta
-[2014-03-10 14:35:04,152] INFO   262["http-bio-8090"-exec-9] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:58) - Filter session -> sessione scaduta
-[2014-03-10 14:35:04,154] INFO   264["http-bio-8090"-exec-9] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:58) - Filter session -> sessione scaduta
-[2014-03-10 14:35:04,225] INFO   335["http-bio-8090"-exec-9] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:58) - Filter session -> sessione scaduta
-[2014-03-10 14:35:04,226] INFO   336["http-bio-8090"-exec-9] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:58) - Filter session -> sessione scaduta
-[2014-03-10 14:35:04,228] INFO   338["http-bio-8090"-exec-9] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:58) - Filter session -> sessione scaduta
-[2014-03-10 14:35:04,229] INFO   339["http-bio-8090"-exec-9] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:58) - Filter session -> sessione scaduta
-[2014-03-10 14:35:04,232] INFO   342["http-bio-8090"-exec-9] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:58) - Filter session -> sessione scaduta
-[2014-03-10 14:35:04,234] INFO   344["http-bio-8090"-exec-9] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:58) - Filter session -> sessione scaduta
-[2014-03-10 14:35:04,235] INFO   345["http-bio-8090"-exec-9] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:58) - Filter session -> sessione scaduta
-[2014-03-10 14:35:04,237] INFO   347["http-bio-8090"-exec-9] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:58) - Filter session -> sessione scaduta
-[2014-03-10 14:35:04,239] INFO   349["http-bio-8090"-exec-9] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:58) - Filter session -> sessione scaduta
-[2014-03-10 14:35:04,241] INFO   351["http-bio-8090"-exec-9] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:58) - Filter session -> sessione scaduta
-[2014-03-10 14:35:04,244] INFO   354["http-bio-8090"-exec-9] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:58) - Filter session -> sessione scaduta
-[2014-03-10 14:35:04,315] INFO   425["http-bio-8090"-exec-9] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:58) - Filter session -> sessione scaduta
-[2014-03-10 14:35:04,317] INFO   427["http-bio-8090"-exec-9] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:58) - Filter session -> sessione scaduta
-[2014-03-10 14:35:04,319] INFO   429["http-bio-8090"-exec-9] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:58) - Filter session -> sessione scaduta
-[2014-03-10 14:35:04,321] INFO   431["http-bio-8090"-exec-9] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:58) - Filter session -> sessione scaduta
-[2014-03-10 14:35:04,323] INFO   433["http-bio-8090"-exec-9] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:58) - Filter session -> sessione scaduta
-[2014-03-10 14:35:04,326] INFO   436["http-bio-8090"-exec-9] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:58) - Filter session -> sessione scaduta
-[2014-03-10 14:35:04,328] INFO   438["http-bio-8090"-exec-9] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:58) - Filter session -> sessione scaduta
-[2014-03-10 14:35:04,331] INFO   441["http-bio-8090"-exec-9] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:58) - Filter session -> sessione scaduta
-[2014-03-10 14:35:04,334] INFO   444["http-bio-8090"-exec-9] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:58) - Filter session -> sessione scaduta
-[2014-03-10 14:35:04,336] INFO   446["http-bio-8090"-exec-9] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:58) - Filter session -> sessione scaduta
-[2014-03-10 14:35:04,338] INFO   448["http-bio-8090"-exec-9] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:58) - Filter session -> sessione scaduta
-[2014-03-10 14:35:04,409] INFO   519["http-bio-8090"-exec-9] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:58) - Filter session -> sessione scaduta
-[2014-03-10 14:35:04,411] INFO   521["http-bio-8090"-exec-9] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:58) - Filter session -> sessione scaduta
-[2014-03-10 14:35:04,413] INFO   523["http-bio-8090"-exec-9] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:58) - Filter session -> sessione scaduta
-[2014-03-10 14:35:04,415] INFO   525["http-bio-8090"-exec-9] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:58) - Filter session -> sessione scaduta
-[2014-03-10 14:35:04,417] INFO   527["http-bio-8090"-exec-9] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:58) - Filter session -> sessione scaduta
-[2014-03-10 14:35:04,418] INFO   528["http-bio-8090"-exec-9] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:58) - Filter session -> sessione scaduta
-[2014-03-10 14:35:04,420] INFO   530["http-bio-8090"-exec-9] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:58) - Filter session -> sessione scaduta
-[2014-03-10 14:35:04,422] INFO   532["http-bio-8090"-exec-9] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:58) - Filter session -> sessione scaduta
-[2014-03-10 14:35:04,424] INFO   534["http-bio-8090"-exec-9] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:58) - Filter session -> sessione scaduta
-[2014-03-10 14:35:04,426] INFO   536["http-bio-8090"-exec-9] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:58) - Filter session -> sessione scaduta
-[2014-03-10 14:35:04,428] INFO   538["http-bio-8090"-exec-9] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:58) - Filter session -> sessione scaduta
-[2014-03-10 14:35:04,518] INFO   628["http-bio-8090"-exec-9] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:58) - Filter session -> sessione scaduta
-[2014-03-10 14:35:04,520] INFO   630["http-bio-8090"-exec-9] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:58) - Filter session -> sessione scaduta
-[2014-03-10 14:35:04,522] INFO   632["http-bio-8090"-exec-9] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:58) - Filter session -> sessione scaduta
-[2014-03-10 14:35:04,524] INFO   634["http-bio-8090"-exec-9] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:58) - Filter session -> sessione scaduta
-[2014-03-10 14:35:04,525] INFO   635["http-bio-8090"-exec-9] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:58) - Filter session -> sessione scaduta
-[2014-03-10 14:35:04,527] INFO   637["http-bio-8090"-exec-9] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:58) - Filter session -> sessione scaduta
-[2014-03-10 14:35:04,529] INFO   639["http-bio-8090"-exec-9] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:58) - Filter session -> sessione scaduta
-[2014-03-10 14:35:04,531] INFO   641["http-bio-8090"-exec-9] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:58) - Filter session -> sessione scaduta
-[2014-03-10 14:35:04,533] INFO   643["http-bio-8090"-exec-9] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:58) - Filter session -> sessione scaduta
-[2014-03-10 14:35:04,535] INFO   645["http-bio-8090"-exec-5] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:58) - Filter session -> sessione scaduta
-[2014-03-10 14:35:04,537] INFO   647["http-bio-8090"-exec-5] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:58) - Filter session -> sessione scaduta
-[2014-03-10 14:35:04,609] INFO   719["http-bio-8090"-exec-5] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:58) - Filter session -> sessione scaduta
-[2014-03-10 14:35:04,610] INFO   720["http-bio-8090"-exec-5] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:58) - Filter session -> sessione scaduta
-[2014-03-10 14:35:04,612] INFO   722["http-bio-8090"-exec-7] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:58) - Filter session -> sessione scaduta
-[2014-03-10 14:35:04,614] INFO   724["http-bio-8090"-exec-7] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:58) - Filter session -> sessione scaduta
-[2014-03-10 14:35:04,616] INFO   726["http-bio-8090"-exec-3] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:58) - Filter session -> sessione scaduta
-[2014-03-10 14:35:04,618] INFO   728["http-bio-8090"-exec-3] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:58) - Filter session -> sessione scaduta
-[2014-03-10 14:35:04,620] INFO   730["http-bio-8090"-exec-3] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:58) - Filter session -> sessione scaduta
-[2014-03-10 14:35:04,622] INFO   732["http-bio-8090"-exec-3] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:58) - Filter session -> sessione scaduta
-[2014-03-10 14:35:04,624] INFO   734["http-bio-8090"-exec-3] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:58) - Filter session -> sessione scaduta
-[2014-03-10 14:35:04,627] INFO   737["http-bio-8090"-exec-3] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:58) - Filter session -> sessione scaduta
-[2014-03-10 14:35:04,628] INFO   738["http-bio-8090"-exec-3] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:58) - Filter session -> sessione scaduta
-[2014-03-10 14:35:04,701] INFO   811["http-bio-8090"-exec-3] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:58) - Filter session -> sessione scaduta
-[2014-03-10 14:35:04,704] INFO   814["http-bio-8090"-exec-3] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:58) - Filter session -> sessione scaduta
-[2014-03-10 14:35:04,705] INFO   815["http-bio-8090"-exec-3] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:58) - Filter session -> sessione scaduta
-[2014-03-10 14:35:04,707] INFO   817["http-bio-8090"-exec-3] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:58) - Filter session -> sessione scaduta
-[2014-03-10 14:35:04,709] INFO   819["http-bio-8090"-exec-3] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:58) - Filter session -> sessione scaduta
-[2014-03-10 14:35:04,711] INFO   821["http-bio-8090"-exec-3] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:58) - Filter session -> sessione scaduta
-[2014-03-10 14:35:04,713] INFO   823["http-bio-8090"-exec-3] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:58) - Filter session -> sessione scaduta
-[2014-03-10 14:35:04,715] INFO   825["http-bio-8090"-exec-3] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:58) - Filter session -> sessione scaduta
-[2014-03-10 14:35:04,716] INFO   826["http-bio-8090"-exec-3] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:58) - Filter session -> sessione scaduta
-[2014-03-10 14:35:04,719] INFO   829["http-bio-8090"-exec-3] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:58) - Filter session -> sessione scaduta
-[2014-03-10 14:35:04,720] INFO   830["http-bio-8090"-exec-3] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:58) - Filter session -> sessione scaduta
-[2014-03-10 14:35:04,809] INFO   919["http-bio-8090"-exec-3] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:58) - Filter session -> sessione scaduta
-[2014-03-10 14:35:04,814] INFO   924["http-bio-8090"-exec-6] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:58) - Filter session -> sessione scaduta
-[2014-03-10 14:35:04,816] INFO   926["http-bio-8090"-exec-6] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:58) - Filter session -> sessione scaduta
-[2014-03-10 14:35:04,818] INFO   928["http-bio-8090"-exec-6] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:58) - Filter session -> sessione scaduta
-[2014-03-10 14:35:04,820] INFO   930["http-bio-8090"-exec-6] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:58) - Filter session -> sessione scaduta
-[2014-03-10 14:35:04,822] INFO   932["http-bio-8090"-exec-6] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:58) - Filter session -> sessione scaduta
-[2014-03-10 14:35:04,823] INFO   933["http-bio-8090"-exec-6] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:58) - Filter session -> sessione scaduta
-[2014-03-10 14:35:04,825] INFO   935["http-bio-8090"-exec-6] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:58) - Filter session -> sessione scaduta
-[2014-03-10 14:35:04,828] INFO   938["http-bio-8090"-exec-6] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:58) - Filter session -> sessione scaduta
-[2014-03-10 14:35:04,830] INFO   940["http-bio-8090"-exec-6] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:58) - Filter session -> sessione scaduta
-[2014-03-10 14:35:04,832] INFO   942["http-bio-8090"-exec-10] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:58) - Filter session -> sessione scaduta
-[2014-03-10 14:35:04,900] INFO  1010["http-bio-8090"-exec-10] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:58) - Filter session -> sessione scaduta
-[2014-03-10 14:35:04,902] INFO  1012["http-bio-8090"-exec-10] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:58) - Filter session -> sessione scaduta
-[2014-03-10 14:35:04,904] INFO  1014["http-bio-8090"-exec-10] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:58) - Filter session -> sessione scaduta
-[2014-03-10 14:35:04,906] INFO  1016["http-bio-8090"-exec-10] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:58) - Filter session -> sessione scaduta
-[2014-03-10 14:35:04,907] INFO  1017["http-bio-8090"-exec-10] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:58) - Filter session -> sessione scaduta
-[2014-03-10 14:35:04,909] INFO  1019["http-bio-8090"-exec-10] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:58) - Filter session -> sessione scaduta
-[2014-03-10 14:35:04,911] INFO  1021["http-bio-8090"-exec-10] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:58) - Filter session -> sessione scaduta
-[2014-03-10 14:35:04,913] INFO  1023["http-bio-8090"-exec-10] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:58) - Filter session -> sessione scaduta
-[2014-03-10 14:35:04,914] INFO  1024["http-bio-8090"-exec-10] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:58) - Filter session -> sessione scaduta
-[2014-03-10 14:35:04,917] INFO  1027["http-bio-8090"-exec-10] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:58) - Filter session -> sessione scaduta
-[2014-03-10 14:35:04,919] INFO  1029["http-bio-8090"-exec-10] - com.gestioneconferenze.filtri.SessionFilter.doFilter(SessionFilter.java:58) - Filter session -> sessione scaduta
-[2014-03-10 15:15:37,350] INFO     0["http-bio-8090"-exec-5] - com.gestioneconferenze.sessione.sessioneBean.entra(sessioneBean.java:70) - inizio chiamata entra di sessioneBean
-[2014-03-10 15:15:37,361] INFO    11["http-bio-8090"-exec-5] - com.gestioneconferenze.sessione.sessioneBean.entra(sessioneBean.java:83) - L utente tiziano ha effettuato accesso
-[2014-03-10 15:15:37,361] INFO    11["http-bio-8090"-exec-5] - com.gestioneconferenze.util.UrlUtil.RedirectAPagina(UrlUtil.java:80) - Redirect a home.xhtml
-[2014-03-10 15:15:40,177] INFO  2827["http-bio-8090"-exec-5] - com.gestioneconferenze.sessione.sessioneBean.dettaglio(sessioneBean.java:92) - inizio chiamata dettaglio di sessioneBean
-[2014-03-10 16:14:40,176] INFO     0["http-bio-8090"-exec-6] - com.gestioneconferenze.sessione.sessioneBean.entra(sessioneBean.java:71) - inizio chiamata entra di sessioneBean
-[2014-03-10 16:14:40,244] INFO    68["http-bio-8090"-exec-6] - com.gestioneconferenze.sessione.sessioneBean.entra(sessioneBean.java:84) - L utente tiziano ha effettuato accesso
-[2014-03-10 16:14:40,244] INFO    68["http-bio-8090"-exec-6] - com.gestioneconferenze.util.UrlUtil.RedirectAPagina(UrlUtil.java:80) - Redirect a home.xhtml
-[2014-03-10 16:14:43,767] INFO  3591["http-bio-8090"-exec-8] - com.gestioneconferenze.sessione.sessioneBean.dettaglio(sessioneBean.java:93) - inizio chiamata dettaglio di sessioneBean
-[2014-03-10 16:27:19,133] INFO758957["http-bio-8090"-exec-7] - com.gestioneconferenze.sessione.sessioneBean.entra(sessioneBean.java:71) - inizio chiamata entra di sessioneBean
-[2014-03-10 16:27:19,133] INFO758957["http-bio-8090"-exec-7] - com.gestioneconferenze.sessione.sessioneBean.entra(sessioneBean.java:84) - L utente tiziano ha effettuato accesso
-[2014-03-10 16:27:19,133] INFO758957["http-bio-8090"-exec-7] - com.gestioneconferenze.util.UrlUtil.RedirectAPagina(UrlUtil.java:80) - Redirect a home.xhtml
-[2014-03-10 16:27:21,641] INFO761465["http-bio-8090"-exec-2] - com.gestioneconferenze.sessione.sessioneBean.dettaglio(sessioneBean.java:93) - inizio chiamata dettaglio di sessioneBean
-[2014-03-10 16:28:08,001] INFO807825["http-bio-8090"-exec-7] - com.gestioneconferenze.sessione.sessioneBean.entra(sessioneBean.java:71) - inizio chiamata entra di sessioneBean
-[2014-03-10 16:28:08,001] INFO807825["http-bio-8090"-exec-7] - com.gestioneconferenze.sessione.sessioneBean.entra(sessioneBean.java:84) - L utente tiziano ha effettuato accesso
-[2014-03-10 16:28:08,001] INFO807825["http-bio-8090"-exec-7] - com.gestioneconferenze.util.UrlUtil.RedirectAPagina(UrlUtil.java:80) - Redirect a home.xhtml
-[2014-03-10 16:28:10,052] INFO809876["http-bio-8090"-exec-7] - com.gestioneconferenze.sessione.sessioneBean.dettaglio(sessioneBean.java:93) - inizio chiamata dettaglio di sessioneBean
-[2014-03-10 16:44:38,457] INFO     1["http-bio-8090"-exec-6] - com.gestioneconferenze.sessione.sessioneBean.entra(sessioneBean.java:71) - inizio chiamata entra di sessioneBean
-[2014-03-10 16:44:38,459] INFO     3["http-bio-8090"-exec-6] - com.gestioneconferenze.sessione.sessioneBean.entra(sessioneBean.java:84) - L utente tiziano ha effettuato accesso
-[2014-03-10 16:44:38,459] INFO     3["http-bio-8090"-exec-6] - com.gestioneconferenze.util.UrlUtil.RedirectAPagina(UrlUtil.java:80) - Redirect a home.xhtml
-[2014-03-10 16:44:41,579] INFO  3123["http-bio-8090"-exec-8] - com.gestioneconferenze.sessione.sessioneBean.dettaglio(sessioneBean.java:104) - inizio chiamata dettaglio di sessioneBean
-[2014-03-10 16:44:47,744] INFO  9288["http-bio-8090"-exec-10] - com.gestioneconferenze.sessione.sessioneBean.salva(sessioneBean.java:92) - inizio chiamata salva di sessioneBean
-[2014-03-10 16:44:47,745] INFO  9289["http-bio-8090"-exec-10] - com.gestioneconferenze.sessione.sessioneBean.salva(sessioneBean.java:96) - L utente tiziano ha salvato i dati della propria utenza
-[2014-03-10 16:45:39,993] INFO 61537["http-bio-8090"-exec-3] - com.gestioneconferenze.sessione.sessioneBean.salva(sessioneBean.java:92) - inizio chiamata salva di sessioneBean
-[2014-03-10 16:45:39,993] INFO 61537["http-bio-8090"-exec-3] - com.gestioneconferenze.sessione.sessioneBean.salva(sessioneBean.java:96) - L utente tiziano ha salvato i dati della propria utenza
-[2014-03-10 16:47:49,304] INFO     0["http-bio-8090"-exec-6] - com.gestioneconferenze.sessione.sessioneBean.entra(sessioneBean.java:71) - inizio chiamata entra di sessioneBean
-[2014-03-10 16:47:49,307] INFO     3["http-bio-8090"-exec-6] - com.gestioneconferenze.sessione.sessioneBean.entra(sessioneBean.java:84) - L utente tiziano ha effettuato accesso
-[2014-03-10 16:47:49,307] INFO     3["http-bio-8090"-exec-6] - com.gestioneconferenze.util.UrlUtil.RedirectAPagina(UrlUtil.java:80) - Redirect a home.xhtml
-[2014-03-10 16:47:51,522] INFO  2218["http-bio-8090"-exec-8] - com.gestioneconferenze.sessione.sessioneBean.dettaglio(sessioneBean.java:104) - inizio chiamata dettaglio di sessioneBean
-[2014-03-10 16:47:56,386] INFO  7082["http-bio-8090"-exec-10] - com.gestioneconferenze.sessione.sessioneBean.salva(sessioneBean.java:92) - inizio chiamata salva di sessioneBean
-[2014-03-10 16:47:56,387] INFO  7083["http-bio-8090"-exec-10] - com.gestioneconferenze.sessione.sessioneBean.salva(sessioneBean.java:96) - L utente tiziano ha salvato i dati della propria utenza
-[2014-03-10 19:03:37,484] INFO     0["http-bio-8090"-exec-6] - com.gestioneconferenze.sessione.sessioneBean.entra(sessioneBean.java:89) - inizio chiamata entra di sessioneBean
-[2014-03-10 19:03:37,492] INFO     8["http-bio-8090"-exec-6] - com.gestioneconferenze.sessione.sessioneBean.entra(sessioneBean.java:102) - L utente tiziano ha effettuato accesso
-[2014-03-10 19:03:40,960] INFO  3476["http-bio-8090"-exec-6] - com.gestioneconferenze.util.UrlUtil.RedirectAPagina(UrlUtil.java:80) - Redirect a home.xhtml
-[2014-03-10 19:03:49,444] INFO 11960["http-bio-8090"-exec-8] - com.gestioneconferenze.sessione.sessioneBean.dettaglio(sessioneBean.java:138) - inizio chiamata dettaglio di sessioneBean
-[2014-03-10 19:04:09,933] INFO 32449["http-bio-8090"-exec-1] - com.gestioneconferenze.sessione.sessioneBean.salva(sessioneBean.java:110) - inizio chiamata salva di sessioneBean
-[2014-03-10 19:04:09,933] INFO 32449["http-bio-8090"-exec-1] - com.gestioneconferenze.sessione.sessioneBean.salva(sessioneBean.java:115) - Per l utente tiziano le due password non coincidono
-[2014-03-10 19:04:33,430] INFO 55946["http-bio-8090"-exec-3] - com.gestioneconferenze.sessione.sessioneBean.salva(sessioneBean.java:110) - inizio chiamata salva di sessioneBean
-[2014-03-10 19:04:33,431] INFO 55947["http-bio-8090"-exec-3] - com.gestioneconferenze.sessione.sessioneBean.salva(sessioneBean.java:115) - Per l utente tiziano le due password non coincidono
-[2014-03-10 19:05:07,296] INFO 89812["http-bio-8090"-exec-5] - com.gestioneconferenze.sessione.sessioneBean.salva(sessioneBean.java:110) - inizio chiamata salva di sessioneBean
-[2014-03-10 19:05:19,748] INFO102264["http-bio-8090"-exec-5] - com.gestioneconferenze.sessione.sessioneBean.salva(sessioneBean.java:115) - Per l utente tiziano le due password non coincidono
-[2014-03-10 19:05:39,246] INFO121762["http-bio-8090"-exec-5] - com.gestioneconferenze.sessione.sessioneBean.salva(sessioneBean.java:110) - inizio chiamata salva di sessioneBean
-[2014-03-10 19:07:28,005] INFO     0["http-bio-8090"-exec-6] - com.gestioneconferenze.sessione.sessioneBean.entra(sessioneBean.java:89) - inizio chiamata entra di sessioneBean
-[2014-03-10 19:07:28,012] INFO     7["http-bio-8090"-exec-6] - com.gestioneconferenze.sessione.sessioneBean.entra(sessioneBean.java:102) - L utente tiziano ha effettuato accesso
-[2014-03-10 19:07:34,764] INFO  6759["http-bio-8090"-exec-6] - com.gestioneconferenze.util.UrlUtil.RedirectAPagina(UrlUtil.java:80) - Redirect a home.xhtml
-[2014-03-10 19:07:46,421] INFO 18416["http-bio-8090"-exec-8] - com.gestioneconferenze.sessione.sessioneBean.dettaglio(sessioneBean.java:138) - inizio chiamata dettaglio di sessioneBean
-[2014-03-10 19:08:01,916] INFO 33911["http-bio-8090"-exec-10] - com.gestioneconferenze.sessione.sessioneBean.salva(sessioneBean.java:110) - inizio chiamata salva di sessioneBean
-[2014-03-10 19:09:55,447] INFO     0["http-bio-8090"-exec-6] - com.gestioneconferenze.sessione.sessioneBean.entra(sessioneBean.java:89) - inizio chiamata entra di sessioneBean
-[2014-03-10 19:09:55,454] INFO     7["http-bio-8090"-exec-6] - com.gestioneconferenze.sessione.sessioneBean.entra(sessioneBean.java:102) - L utente tiziano ha effettuato accesso
-[2014-03-10 19:09:59,136] INFO  3689["http-bio-8090"-exec-6] - com.gestioneconferenze.util.UrlUtil.RedirectAPagina(UrlUtil.java:80) - Redirect a home.xhtml
-[2014-03-10 19:10:05,506] INFO 10059["http-bio-8090"-exec-8] - com.gestioneconferenze.sessione.sessioneBean.dettaglio(sessioneBean.java:138) - inizio chiamata dettaglio di sessioneBean
-[2014-03-10 19:10:18,706] INFO 23259["http-bio-8090"-exec-10] - com.gestioneconferenze.sessione.sessioneBean.salva(sessioneBean.java:110) - inizio chiamata salva di sessioneBean
-[2014-03-10 19:10:29,753] INFO 34306["http-bio-8090"-exec-10] - com.gestioneconferenze.sessione.sessioneBean.salva(sessioneBean.java:130) - L utente tiziano ha salvato i dati della propria utenza
-[2014-03-10 19:56:08,178] INFO     0["http-bio-8090"-exec-6] - com.gestioneconferenze.sessione.sessioneBean.entra(sessioneBean.java:89) - inizio chiamata entra di sessioneBean
-[2014-03-10 19:56:08,184] INFO     6["http-bio-8090"-exec-6] - com.gestioneconferenze.sessione.sessioneBean.entra(sessioneBean.java:102) - L utente tiziano ha effettuato accesso
-[2014-03-10 19:56:13,733] INFO  5555["http-bio-8090"-exec-6] - com.gestioneconferenze.util.UrlUtil.RedirectAPagina(UrlUtil.java:80) - Redirect a home.xhtml
-[2014-03-10 19:56:23,380] INFO 15202["http-bio-8090"-exec-8] - com.gestioneconferenze.sessione.sessioneBean.dettaglio(sessioneBean.java:138) - inizio chiamata dettaglio di sessioneBean
-[2014-03-10 19:56:41,734] INFO 33556["http-bio-8090"-exec-10] - com.gestioneconferenze.sessione.sessioneBean.salva(sessioneBean.java:110) - inizio chiamata salva di sessioneBean
-[2014-03-10 19:56:48,300] INFO 40122["http-bio-8090"-exec-10] - com.gestioneconferenze.sessione.sessioneBean.salva(sessioneBean.java:130) - L utente tiziano ha salvato i dati della propria utenza
-[2014-03-10 20:00:10,796] INFO     0["http-bio-8090"-exec-6] - com.gestioneconferenze.sessione.sessioneBean.entra(sessioneBean.java:89) - inizio chiamata entra di sessioneBean
-[2014-03-10 20:00:10,803] INFO     7["http-bio-8090"-exec-6] - com.gestioneconferenze.sessione.sessioneBean.entra(sessioneBean.java:102) - L utente tiziano ha effettuato accesso
-[2014-03-10 20:00:14,303] INFO  3507["http-bio-8090"-exec-6] - com.gestioneconferenze.util.UrlUtil.RedirectAPagina(UrlUtil.java:80) - Redirect a home.xhtml
-[2014-03-10 20:00:23,760] INFO 12964["http-bio-8090"-exec-8] - com.gestioneconferenze.sessione.sessioneBean.dettaglio(sessioneBean.java:138) - inizio chiamata dettaglio di sessioneBean
-[2014-03-10 20:00:30,950] INFO 20154["http-bio-8090"-exec-10] - com.gestioneconferenze.sessione.sessioneBean.salva(sessioneBean.java:110) - inizio chiamata salva di sessioneBean
-[2014-03-10 20:00:35,171] INFO 24375["http-bio-8090"-exec-10] - com.gestioneconferenze.sessione.sessioneBean.salva(sessioneBean.java:130) - L utente tiziano ha salvato i dati della propria utenza
-[2014-03-10 20:00:51,739] INFO 40943["http-bio-8090"-exec-10] - com.gestioneconferenze.sessione.sessioneBean.salva(sessioneBean.java:110) - inizio chiamata salva di sessioneBean
-[2014-03-10 20:00:59,751] INFO 48955["http-bio-8090"-exec-10] - com.gestioneconferenze.sessione.sessioneBean.salva(sessioneBean.java:130) - L utente tiziano ha salvato i dati della propria utenza
-[2014-03-10 20:01:59,573] INFO     0["http-bio-8090"-exec-6] - com.gestioneconferenze.sessione.sessioneBean.entra(sessioneBean.java:89) - inizio chiamata entra di sessioneBean
-[2014-03-10 20:01:59,579] INFO     6["http-bio-8090"-exec-6] - com.gestioneconferenze.sessione.sessioneBean.entra(sessioneBean.java:102) - L utente tiziano ha effettuato accesso
-[2014-03-10 20:02:02,338] INFO  2765["http-bio-8090"-exec-6] - com.gestioneconferenze.util.UrlUtil.RedirectAPagina(UrlUtil.java:80) - Redirect a home.xhtml
-[2014-03-10 20:02:07,959] INFO  8386["http-bio-8090"-exec-8] - com.gestioneconferenze.sessione.sessioneBean.dettaglio(sessioneBean.java:138) - inizio chiamata dettaglio di sessioneBean
-[2014-03-10 20:02:14,519] INFO 14946["http-bio-8090"-exec-10] - com.gestioneconferenze.sessione.sessioneBean.salva(sessioneBean.java:110) - inizio chiamata salva di sessioneBean
-[2014-03-10 20:03:12,693] INFO 73120["http-bio-8090"-exec-1] - com.gestioneconferenze.sessione.sessioneBean.salva(sessioneBean.java:110) - inizio chiamata salva di sessioneBean
-[2014-03-10 20:06:28,913] INFO     0["http-bio-8090"-exec-6] - com.gestioneconferenze.sessione.sessioneBean.entra(sessioneBean.java:89) - inizio chiamata entra di sessioneBean
-[2014-03-10 20:06:28,916] INFO     3["http-bio-8090"-exec-6] - com.gestioneconferenze.sessione.sessioneBean.entra(sessioneBean.java:102) - L utente tiziano ha effettuato accesso
-[2014-03-10 20:06:28,916] INFO     3["http-bio-8090"-exec-6] - com.gestioneconferenze.util.UrlUtil.RedirectAPagina(UrlUtil.java:80) - Redirect a home.xhtml
-[2014-03-10 20:06:32,228] INFO  3315["http-bio-8090"-exec-8] - com.gestioneconferenze.sessione.sessioneBean.dettaglio(sessioneBean.java:138) - inizio chiamata dettaglio di sessioneBean
-[2014-03-10 20:06:37,325] INFO  8412["http-bio-8090"-exec-10] - com.gestioneconferenze.sessione.sessioneBean.salva(sessioneBean.java:110) - inizio chiamata salva di sessioneBean
-[2014-03-10 20:06:37,342] INFO  8429["http-bio-8090"-exec-10] - com.gestioneconferenze.util.SendMail.send(SendMail.java:59) - Spedita mail
-[2014-03-10 20:06:37,342] INFO  8429["http-bio-8090"-exec-10] - com.gestioneconferenze.sessione.sessioneBean.salva(sessioneBean.java:130) - L utente tiziano ha salvato i dati della propria utenza
-[2014-03-11 21:03:30,005] INFO     0["http-bio-8090"-exec-1] - com.gestioneconferenze.sessione.sessioneBean.entra(sessioneBean.java:89) - inizio chiamata entra di sessioneBean
-[2014-03-11 21:03:30,031] INFO    26["http-bio-8090"-exec-1] - com.gestioneconferenze.sessione.sessioneBean.entra(sessioneBean.java:102) - L utente tiziano ha effettuato accesso
-[2014-03-11 21:03:47,974] INFO 17969["http-bio-8090"-exec-1] - com.gestioneconferenze.sessione.SingletonConf.getSingletonConf(SingletonConf.java:22) - Creato singleton elenco utenti
-[2014-03-11 21:04:00,875] INFO 30870["http-bio-8090"-exec-1] - com.gestioneconferenze.util.UrlUtil.RedirectAPagina(UrlUtil.java:80) - Redirect a home.xhtml
-[2014-03-11 21:04:52,605] INFO 82600["http-bio-8090"-exec-9] - com.gestioneconferenze.sessione.sessioneBean.entra(sessioneBean.java:89) - inizio chiamata entra di sessioneBean
-[2014-03-11 21:04:52,606] WARN 82601["http-bio-8090"-exec-9] - com.gestioneconferenze.sessione.sessioneBean.entra(sessioneBean.java:97) - l utente pino ha tentato di accedere senza successo
-[2014-03-11 21:05:04,549] INFO 94544["http-bio-8090"-exec-7] - com.gestioneconferenze.sessione.sessioneBean.entra(sessioneBean.java:89) - inizio chiamata entra di sessioneBean
-[2014-03-11 21:05:04,550] INFO 94545["http-bio-8090"-exec-7] - com.gestioneconferenze.sessione.sessioneBean.entra(sessioneBean.java:102) - L utente tiziano ha effettuato accesso
-[2014-03-11 21:05:40,304] INFO130299["http-bio-8090"-exec-7] - com.gestioneconferenze.util.UrlUtil.RedirectAPagina(UrlUtil.java:80) - Redirect a home.xhtml
-[2014-03-11 21:05:51,213] INFO141208["http-bio-8090"-exec-3] - com.gestioneconferenze.sessione.sessioneBean.entra(sessioneBean.java:89) - inizio chiamata entra di sessioneBean
-[2014-03-11 21:05:51,214] INFO141209["http-bio-8090"-exec-3] - com.gestioneconferenze.sessione.sessioneBean.entra(sessioneBean.java:102) - L utente tiziano ha effettuato accesso
-[2014-03-11 21:06:36,472] INFO186467["http-bio-8090"-exec-3] - com.gestioneconferenze.util.UrlUtil.RedirectAPagina(UrlUtil.java:80) - Redirect a home.xhtml
-[2014-03-11 21:07:17,886] INFO227881["http-bio-8090"-exec-9] - com.gestioneconferenze.sessione.sessioneBean.entra(sessioneBean.java:89) - inizio chiamata entra di sessioneBean
-[2014-03-11 21:07:17,886] INFO227881["http-bio-8090"-exec-9] - com.gestioneconferenze.sessione.sessioneBean.entra(sessioneBean.java:102) - L utente tiziano ha effettuato accesso
-[2014-03-11 21:07:40,458] INFO250453["http-bio-8090"-exec-9] - com.gestioneconferenze.util.UrlUtil.RedirectAPagina(UrlUtil.java:80) - Redirect a home.xhtml
-[2014-03-11 21:08:03,538] INFO273533["http-bio-8090"-exec-7] - com.gestioneconferenze.sessione.sessioneBean.dettaglio(sessioneBean.java:146) - inizio chiamata dettaglio di sessioneBean
-[2014-03-11 21:17:30,529] INFO     0["http-bio-8090"-exec-7] - com.gestioneconferenze.sessione.sessioneBean.entra(sessioneBean.java:89) - inizio chiamata entra di sessioneBean
-[2014-03-11 21:17:30,532] INFO     3["http-bio-8090"-exec-7] - com.gestioneconferenze.sessione.sessioneBean.entra(sessioneBean.java:102) - L utente tiziano ha effettuato accesso
-[2014-03-11 21:17:30,532] INFO     3["http-bio-8090"-exec-7] - com.gestioneconferenze.sessione.SingletonConf.getSingletonConf(SingletonConf.java:22) - Creato singleton elenco utenti
-[2014-03-11 21:17:30,532] INFO     3["http-bio-8090"-exec-7] - com.gestioneconferenze.util.UrlUtil.RedirectAPagina(UrlUtil.java:80) - Redirect a home.xhtml
-[2014-03-11 21:17:59,285] INFO 28756["http-bio-8090"-exec-10] - com.gestioneconferenze.sessione.sessioneBean.dettaglio(sessioneBean.java:146) - inizio chiamata dettaglio di sessioneBean
-[2014-03-11 21:49:05,603] INFO     0["http-bio-8090"-exec-6] - com.gestioneconferenze.sessione.sessioneBean.entra(sessioneBean.java:89) - inizio chiamata entra di sessioneBean
-[2014-03-11 21:49:05,606] INFO     3["http-bio-8090"-exec-6] - com.gestioneconferenze.sessione.sessioneBean.entra(sessioneBean.java:102) - L utente pino ha effettuato accesso
-[2014-03-11 21:49:05,606] INFO     3["http-bio-8090"-exec-6] - com.gestioneconferenze.sessione.SingletonConf.getSingletonConf(SingletonConf.java:22) - Creato singleton elenco utenti
-[2014-03-11 21:49:05,606] INFO     3["http-bio-8090"-exec-6] - com.gestioneconferenze.util.UrlUtil.RedirectAPagina(UrlUtil.java:80) - Redirect a home.xhtml
-[2014-03-11 21:51:39,145] INFO     0["http-bio-8090"-exec-6] - com.gestioneconferenze.sessione.sessioneBean.entra(sessioneBean.java:89) - inizio chiamata entra di sessioneBean
-[2014-03-11 21:51:39,148] INFO     3["http-bio-8090"-exec-6] - com.gestioneconferenze.sessione.sessioneBean.entra(sessioneBean.java:102) - L utente mjoisdjfisd ha effettuato accesso
-[2014-03-11 21:51:42,879] INFO  3734["http-bio-8090"-exec-6] - com.gestioneconferenze.sessione.SingletonConf.getSingletonConf(SingletonConf.java:22) - Creato singleton elenco utenti
-[2014-03-11 21:51:45,391] INFO  6246["http-bio-8090"-exec-6] - com.gestioneconferenze.util.UrlUtil.RedirectAPagina(UrlUtil.java:80) - Redirect a home.xhtml
-[2014-03-11 21:52:55,630] INFO 76485["http-bio-8090"-exec-1] - com.gestioneconferenze.sessione.sessioneBean.entra(sessioneBean.java:89) - inizio chiamata entra di sessioneBean
-[2014-03-11 21:52:55,631] INFO 76486["http-bio-8090"-exec-1] - com.gestioneconferenze.sessione.sessioneBean.entra(sessioneBean.java:102) - L utente mjoisdjfisd ha effettuato accesso
-[2014-03-11 21:57:22,355] INFO     0["http-bio-8090"-exec-6] - com.gestioneconferenze.sessione.sessioneBean.entra(sessioneBean.java:89) - inizio chiamata entra di sessioneBean
-[2014-03-11 21:57:22,358] INFO     3["http-bio-8090"-exec-6] - com.gestioneconferenze.sessione.sessioneBean.entra(sessioneBean.java:102) - L utente pinoasdjasdjidsfisdji ha effettuato accesso
-[2014-03-11 21:57:25,430] INFO  3075["http-bio-8090"-exec-6] - com.gestioneconferenze.sessione.SingletonConf.getSingletonConf(SingletonConf.java:22) - Creato singleton elenco utenti
-[2014-03-11 21:57:29,407] INFO  7052["http-bio-8090"-exec-6] - com.gestioneconferenze.util.UrlUtil.RedirectAPagina(UrlUtil.java:80) - Redirect a home.xhtml
-[2014-03-11 21:57:54,728] INFO 32373["http-bio-8090"-exec-10] - com.gestioneconferenze.sessione.sessioneBean.entra(sessioneBean.java:89) - inizio chiamata entra di sessioneBean
-[2014-03-11 21:57:54,729] INFO 32374["http-bio-8090"-exec-10] - com.gestioneconferenze.sessione.sessioneBean.entra(sessioneBean.java:102) - L utente huhuhuhuhu ha effettuato accesso
-[2014-03-11 21:58:06,996] INFO 44641["http-bio-8090"-exec-10] - com.gestioneconferenze.util.UrlUtil.RedirectAPagina(UrlUtil.java:80) - Redirect a home.xhtml
-[2014-03-11 21:58:20,518] INFO 58163["http-bio-8090"-exec-5] - com.gestioneconferenze.sessione.sessioneBean.entra(sessioneBean.java:89) - inizio chiamata entra di sessioneBean
-[2014-03-11 21:58:20,518] INFO 58163["http-bio-8090"-exec-5] - com.gestioneconferenze.sessione.sessioneBean.entra(sessioneBean.java:102) - L utente huhuhuhuhu ha effettuato accesso
-[2014-03-11 22:02:31,900] INFO     0["http-bio-8090"-exec-6] - com.gestioneconferenze.sessione.sessioneBean.entra(sessioneBean.java:89) - inizio chiamata entra di sessioneBean
-[2014-03-11 22:02:31,903] INFO     3["http-bio-8090"-exec-6] - com.gestioneconferenze.sessione.sessioneBean.entra(sessioneBean.java:102) - L utente PINORI ha effettuato accesso
-[2014-03-11 22:02:34,476] INFO  2576["http-bio-8090"-exec-6] - com.gestioneconferenze.sessione.SingletonConf.getSingletonConf(SingletonConf.java:22) - Creato singleton elenco utenti
-[2014-03-11 22:10:01,969] INFO     0["http-bio-8090"-exec-6] - com.gestioneconferenze.sessione.sessioneBean.entra(sessioneBean.java:89) - inizio chiamata entra di sessioneBean
-[2014-03-11 22:10:01,972] INFO     3["http-bio-8090"-exec-6] - com.gestioneconferenze.sessione.sessioneBean.entra(sessioneBean.java:102) - L utente tiziano ha effettuato accesso
-[2014-03-11 22:10:06,398] INFO  4429["http-bio-8090"-exec-6] - com.gestioneconferenze.sessione.SingletonConf.getSingletonConf(SingletonConf.java:22) - Creato singleton elenco utenti
-[2014-03-11 22:12:42,194] INFO     0["http-bio-8090"-exec-6] - com.gestioneconferenze.sessione.sessioneBean.entra(sessioneBean.java:89) - inizio chiamata entra di sessioneBean
-[2014-03-11 22:12:42,197] INFO     3["http-bio-8090"-exec-6] - com.gestioneconferenze.sessione.sessioneBean.entra(sessioneBean.java:102) - L utente kosdkosdfk ha effettuato accesso
-[2014-03-11 22:12:45,921] INFO  3727["http-bio-8090"-exec-6] - com.gestioneconferenze.sessione.SingletonConf.getSingletonConf(SingletonConf.java:22) - Creato singleton elenco utenti
-[2014-03-11 22:13:10,938] INFO 28744["http-bio-8090"-exec-6] - com.gestioneconferenze.util.UrlUtil.RedirectAPagina(UrlUtil.java:80) - Redirect a home.xhtml
-[2014-03-11 22:14:10,365] INFO 88171["http-bio-8090"-exec-4] - com.gestioneconferenze.sessione.sessioneBean.entra(sessioneBean.java:89) - inizio chiamata entra di sessioneBean
-[2014-03-11 22:14:10,365] INFO 88171["http-bio-8090"-exec-4] - com.gestioneconferenze.sessione.sessioneBean.entra(sessioneBean.java:102) - L utente pinone ha effettuato accesso
-[2014-03-11 22:14:14,542] INFO 92348["http-bio-8090"-exec-4] - com.gestioneconferenze.util.UrlUtil.RedirectAPagina(UrlUtil.java:80) - Redirect a home.xhtml
+[2014-03-13 17:21:41,907]DEBUG 28545["http-bio-8090"-exec-2] - org.apache.axis.message.SAXOutputter.endElement(SAXOutputter.java:109) - SAXOutputter.endElement ['' return]
+[2014-03-13 17:21:41,907]DEBUG 28545["http-bio-8090"-exec-2] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(endElem00)
+[2014-03-13 17:21:41,907]DEBUG 28545["http-bio-8090"-exec-2] - org.apache.axis.encoding.SerializationContext.endElement(SerializationContext.java:1208) - End element return
+[2014-03-13 17:21:41,908]DEBUG 28546["http-bio-8090"-exec-2] - org.apache.axis.message.SAXOutputter.endElement(SAXOutputter.java:109) - SAXOutputter.endElement ['http://servizi.gestioneconferenzews.com/' verificautenteloginResponse]
+[2014-03-13 17:21:41,908]DEBUG 28546["http-bio-8090"-exec-2] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(endElem00)
+[2014-03-13 17:21:41,908]DEBUG 28546["http-bio-8090"-exec-2] - org.apache.axis.encoding.SerializationContext.endElement(SerializationContext.java:1208) - End element ns2:verificautenteloginResponse
+[2014-03-13 17:21:41,908]DEBUG 28546["http-bio-8090"-exec-2] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(endElem00)
+[2014-03-13 17:21:41,908]DEBUG 28546["http-bio-8090"-exec-2] - org.apache.axis.encoding.SerializationContext.endElement(SerializationContext.java:1208) - End element S:Body
+[2014-03-13 17:21:41,908]DEBUG 28546["http-bio-8090"-exec-2] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(endElem00)
+[2014-03-13 17:21:41,908]DEBUG 28546["http-bio-8090"-exec-2] - org.apache.axis.encoding.SerializationContext.endElement(SerializationContext.java:1208) - End element S:Envelope
+[2014-03-13 17:21:41,909]DEBUG 28547["http-bio-8090"-exec-2] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(setMsgForm)
+[2014-03-13 17:21:41,909]DEBUG 28547["http-bio-8090"-exec-2] - org.apache.axis.SOAPPart.setCurrentForm(SOAPPart.java:374) - Setting current message form to: FORM_OPTIMIZED (currentMessage is now org.apache.axis.utils.ByteArray)
+[2014-03-13 17:21:41,909]DEBUG 28547["http-bio-8090"-exec-2] - org.apache.axis.SOAPPart.saveChanges(SOAPPart.java:537) - Exit: SOAPPart::saveChanges(): org.apache.axis.utils.ByteArray@645882
+[2014-03-13 17:21:42,605] INFO 29243["http-bio-8090"-exec-2] - com.gestioneconferenze.sessione.sessioneBean.entra(sessioneBean.java:104) - L utente tiziano ha effettuato accesso
+[2014-03-13 17:21:42,887] INFO 29525["http-bio-8090"-exec-2] - com.gestioneconferenze.sessione.SingletonConf.getSingletonConf(SingletonConf.java:22) - Creato singleton elenco utenti
+[2014-03-13 17:21:46,920] INFO 33558["http-bio-8090"-exec-2] - com.gestioneconferenze.util.UrlUtil.RedirectAPagina(UrlUtil.java:80) - Redirect a home.xhtml
+[2014-03-13 17:22:00,035]DEBUG 46673[Finalizer] - org.apache.axis.MessageContext.dispose(MessageContext.java:1349) - disposing of message context
+[2014-03-13 17:22:00,048] INFO 46686["http-bio-8090"-exec-10] - com.gestioneconferenze.sessione.sessioneBean.entra(sessioneBean.java:90) - inizio chiamata entra di sessioneBean
+[2014-03-13 17:22:05,765]DEBUG 52403["http-bio-8090"-exec-10] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(engineFactory)
+[2014-03-13 17:22:05,765]DEBUG 52403["http-bio-8090"-exec-10] - org.apache.axis.configuration.EngineConfigurationFactoryFinder$1.run(EngineConfigurationFactoryFinder.java:141) - Got EngineFactory: org.apache.axis.configuration.EngineConfigurationFactoryDefault
+[2014-03-13 17:22:05,766]DEBUG 52404["http-bio-8090"-exec-10] - org.apache.axis.AxisEngine.init(AxisEngine.java:165) - Enter: AxisEngine::init
+[2014-03-13 17:22:05,770]DEBUG 52408["http-bio-8090"-exec-10] - org.apache.axis.AxisEngine.init(AxisEngine.java:195) - Exit: AxisEngine::init
+[2014-03-13 17:22:06,187]DEBUG 52825["http-bio-8090"-exec-10] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(transport00)
+[2014-03-13 17:22:06,188]DEBUG 52826["http-bio-8090"-exec-10] - org.apache.axis.client.Call.setTransport(Call.java:2119) - Transport is org.apache.axis.transport.http.HTTPTransport@140edbb
+[2014-03-13 17:22:06,188]DEBUG 52826["http-bio-8090"-exec-10] - org.apache.axis.client.Call.invoke(Call.java:2351) - Enter: Call::invoke(ns, meth, args)
+[2014-03-13 17:22:06,188]DEBUG 52826["http-bio-8090"-exec-10] - org.apache.axis.client.Call.getParamList(Call.java:2043) - operation=name:        verificautentelogin
+returnQName: return
+returnType:  {http://www.w3.org/2001/XMLSchema}boolean
+returnClass: boolean
+elementQName:null
+soapAction:  null
+style:       wrapped
+use:         literal
+numInParams: 2
+method:null
+ ParameterDesc[0]:
+  name:       username
+  typeEntry:  null
+  mode:       IN
+  position:   0
+  isReturn:   false
+  typeQName:  {http://www.w3.org/2001/XMLSchema}string
+  javaType:   class java.lang.String
+  inHeader:   false
+  outHeader:  false
+
+ ParameterDesc[1]:
+  name:       password
+  typeEntry:  null
+  mode:       IN
+  position:   1
+  isReturn:   false
+  typeQName:  {http://www.w3.org/2001/XMLSchema}string
+  javaType:   class java.lang.String
+  inHeader:   false
+  outHeader:  false
+
+
+[2014-03-13 17:22:06,188]DEBUG 52826["http-bio-8090"-exec-10] - org.apache.axis.client.Call.getParamList(Call.java:2045) - operation.getNumParams()=2
+[2014-03-13 17:22:06,189]DEBUG 52827["http-bio-8090"-exec-10] - org.apache.axis.client.Call.getParamList(Call.java:2068) - getParamList number of params: 2
+[2014-03-13 17:22:06,189]DEBUG 52827["http-bio-8090"-exec-10] - org.apache.axis.client.Call.invoke(Call.java:2405) - Enter: Call::invoke(RPCElement)
+[2014-03-13 17:22:06,189]DEBUG 52827["http-bio-8090"-exec-10] - org.apache.axis.SOAPPart.<init>(SOAPPart.java:182) - Enter: SOAPPart ctor(FORM_SOAPENVELOPE)
+[2014-03-13 17:22:06,189]DEBUG 52827["http-bio-8090"-exec-10] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(setMsgForm)
+[2014-03-13 17:22:06,189]DEBUG 52827["http-bio-8090"-exec-10] - org.apache.axis.SOAPPart.setCurrentForm(SOAPPart.java:374) - Setting current message form to: FORM_SOAPENVELOPE (currentMessage is now org.apache.axis.message.SOAPEnvelope)
+[2014-03-13 17:22:06,189]DEBUG 52827["http-bio-8090"-exec-10] - org.apache.axis.SOAPPart.<init>(SOAPPart.java:188) - Exit: SOAPPart ctor()
+[2014-03-13 17:22:06,190]DEBUG 52828["http-bio-8090"-exec-10] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(addBody00)
+[2014-03-13 17:22:06,190]DEBUG 52828["http-bio-8090"-exec-10] - org.apache.axis.message.SOAPBody.addBodyElement(SOAPBody.java:168) - Adding body element to message...
+[2014-03-13 17:22:06,190]DEBUG 52828["http-bio-8090"-exec-10] - org.apache.axis.client.Call.invoke(Call.java:2638) - Enter: Call::invoke()
+[2014-03-13 17:22:06,190]DEBUG 52828["http-bio-8090"-exec-10] - org.apache.axis.MessageContext.setTargetService(MessageContext.java:749) - MessageContext: setTargetService(servizioutentiPort)
+[2014-03-13 17:22:06,190]DEBUG 52828["http-bio-8090"-exec-10] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(noService10)
+[2014-03-13 17:22:06,190]DEBUG 52828["http-bio-8090"-exec-10] - org.apache.axis.ConfigurationException.logException(ConfigurationException.java:110) - Exception: 
+org.apache.axis.ConfigurationException: No service named servizioutentiPort is available
+org.apache.axis.ConfigurationException: No service named servizioutentiPort is available
+	at org.apache.axis.configuration.FileProvider.getService(FileProvider.java:233)
+	at org.apache.axis.AxisEngine.getService(AxisEngine.java:311)
+	at org.apache.axis.MessageContext.setTargetService(MessageContext.java:756)
+	at org.apache.axis.client.Call.invoke(Call.java:2690)
+	at org.apache.axis.client.Call.invoke(Call.java:2443)
+	at org.apache.axis.client.Call.invoke(Call.java:2366)
+	at org.apache.axis.client.Call.invoke(Call.java:1812)
+	at com.gestioneconferenzews.servizi.ServizioutentiPortBindingStub.verificautentelogin(ServizioutentiPortBindingStub.java:110)
+	at com.gestioneconferenzews.servizi.ServizioutentiProxy.verificautentelogin(ServizioutentiProxy.java:50)
+	at com.gestioneconferenze.facade.UtentiFacade.login(UtentiFacade.java:25)
+	at com.gestioneconferenze.sessione.sessioneBean.entra(sessioneBean.java:97)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.apache.el.parser.AstValue.invoke(AstValue.java:262)
+	at org.apache.el.MethodExpressionImpl.invoke(MethodExpressionImpl.java:278)
+	at com.sun.faces.facelets.el.TagMethodExpression.invoke(TagMethodExpression.java:105)
+	at javax.faces.component.MethodBindingMethodExpressionAdapter.invoke(MethodBindingMethodExpressionAdapter.java:87)
+	at com.sun.faces.application.ActionListenerImpl.processAction(ActionListenerImpl.java:102)
+	at javax.faces.component.UICommand.broadcast(UICommand.java:315)
+	at javax.faces.component.UIViewRoot.broadcastEvents(UIViewRoot.java:790)
+	at javax.faces.component.UIViewRoot.processApplication(UIViewRoot.java:1282)
+	at com.sun.faces.lifecycle.InvokeApplicationPhase.execute(InvokeApplicationPhase.java:81)
+	at com.sun.faces.lifecycle.Phase.doPhase(Phase.java:101)
+	at com.sun.faces.lifecycle.LifecycleImpl.execute(LifecycleImpl.java:198)
+	at javax.faces.webapp.FacesServlet.service(FacesServlet.java:646)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:304)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:240)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:164)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:462)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:164)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:100)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:562)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:395)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:250)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:188)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:166)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:302)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+	at org.apache.axis.configuration.FileProvider.getService(FileProvider.java:233)
+	at org.apache.axis.AxisEngine.getService(AxisEngine.java:311)
+	at org.apache.axis.MessageContext.setTargetService(MessageContext.java:756)
+	at org.apache.axis.client.Call.invoke(Call.java:2690)
+	at org.apache.axis.client.Call.invoke(Call.java:2443)
+	at org.apache.axis.client.Call.invoke(Call.java:2366)
+	at org.apache.axis.client.Call.invoke(Call.java:1812)
+	at com.gestioneconferenzews.servizi.ServizioutentiPortBindingStub.verificautentelogin(ServizioutentiPortBindingStub.java:110)
+	at com.gestioneconferenzews.servizi.ServizioutentiProxy.verificautentelogin(ServizioutentiProxy.java:50)
+	at com.gestioneconferenze.facade.UtentiFacade.login(UtentiFacade.java:25)
+	at com.gestioneconferenze.sessione.sessioneBean.entra(sessioneBean.java:97)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.apache.el.parser.AstValue.invoke(AstValue.java:262)
+	at org.apache.el.MethodExpressionImpl.invoke(MethodExpressionImpl.java:278)
+	at com.sun.faces.facelets.el.TagMethodExpression.invoke(TagMethodExpression.java:105)
+	at javax.faces.component.MethodBindingMethodExpressionAdapter.invoke(MethodBindingMethodExpressionAdapter.java:87)
+	at com.sun.faces.application.ActionListenerImpl.processAction(ActionListenerImpl.java:102)
+	at javax.faces.component.UICommand.broadcast(UICommand.java:315)
+	at javax.faces.component.UIViewRoot.broadcastEvents(UIViewRoot.java:790)
+	at javax.faces.component.UIViewRoot.processApplication(UIViewRoot.java:1282)
+	at com.sun.faces.lifecycle.InvokeApplicationPhase.execute(InvokeApplicationPhase.java:81)
+	at com.sun.faces.lifecycle.Phase.doPhase(Phase.java:101)
+	at com.sun.faces.lifecycle.LifecycleImpl.execute(LifecycleImpl.java:198)
+	at javax.faces.webapp.FacesServlet.service(FacesServlet.java:646)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:304)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:240)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:164)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:462)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:164)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:100)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:562)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:395)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:250)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:188)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:166)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:302)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2014-03-13 17:22:06,191]DEBUG 52829["http-bio-8090"-exec-10] - org.apache.axis.MessageContext.setService(MessageContext.java:793) - MessageContext: setServiceHandler(null)
+[2014-03-13 17:22:06,191]DEBUG 52829["http-bio-8090"-exec-10] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(targetService)
+[2014-03-13 17:22:06,191]DEBUG 52829["http-bio-8090"-exec-10] - org.apache.axis.client.Call.invoke(Call.java:2715) - Target service:  servizioutentiPort
+[2014-03-13 17:22:06,192]DEBUG 52830["http-bio-8090"-exec-10] - org.apache.axis.MessageContext.setTargetService(MessageContext.java:749) - MessageContext: setTargetService()
+[2014-03-13 17:22:06,192]DEBUG 52830["http-bio-8090"-exec-10] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(noService10)
+[2014-03-13 17:22:06,192]DEBUG 52830["http-bio-8090"-exec-10] - org.apache.axis.ConfigurationException.logException(ConfigurationException.java:110) - Exception: 
+org.apache.axis.ConfigurationException: No service named  is available
+org.apache.axis.ConfigurationException: No service named  is available
+	at org.apache.axis.configuration.FileProvider.getService(FileProvider.java:233)
+	at org.apache.axis.AxisEngine.getService(AxisEngine.java:311)
+	at org.apache.axis.MessageContext.setTargetService(MessageContext.java:756)
+	at org.apache.axis.transport.http.HTTPTransport.setupMessageContextImpl(HTTPTransport.java:89)
+	at org.apache.axis.client.Transport.setupMessageContext(Transport.java:46)
+	at org.apache.axis.client.Call.invoke(Call.java:2738)
+	at org.apache.axis.client.Call.invoke(Call.java:2443)
+	at org.apache.axis.client.Call.invoke(Call.java:2366)
+	at org.apache.axis.client.Call.invoke(Call.java:1812)
+	at com.gestioneconferenzews.servizi.ServizioutentiPortBindingStub.verificautentelogin(ServizioutentiPortBindingStub.java:110)
+	at com.gestioneconferenzews.servizi.ServizioutentiProxy.verificautentelogin(ServizioutentiProxy.java:50)
+	at com.gestioneconferenze.facade.UtentiFacade.login(UtentiFacade.java:25)
+	at com.gestioneconferenze.sessione.sessioneBean.entra(sessioneBean.java:97)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.apache.el.parser.AstValue.invoke(AstValue.java:262)
+	at org.apache.el.MethodExpressionImpl.invoke(MethodExpressionImpl.java:278)
+	at com.sun.faces.facelets.el.TagMethodExpression.invoke(TagMethodExpression.java:105)
+	at javax.faces.component.MethodBindingMethodExpressionAdapter.invoke(MethodBindingMethodExpressionAdapter.java:87)
+	at com.sun.faces.application.ActionListenerImpl.processAction(ActionListenerImpl.java:102)
+	at javax.faces.component.UICommand.broadcast(UICommand.java:315)
+	at javax.faces.component.UIViewRoot.broadcastEvents(UIViewRoot.java:790)
+	at javax.faces.component.UIViewRoot.processApplication(UIViewRoot.java:1282)
+	at com.sun.faces.lifecycle.InvokeApplicationPhase.execute(InvokeApplicationPhase.java:81)
+	at com.sun.faces.lifecycle.Phase.doPhase(Phase.java:101)
+	at com.sun.faces.lifecycle.LifecycleImpl.execute(LifecycleImpl.java:198)
+	at javax.faces.webapp.FacesServlet.service(FacesServlet.java:646)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:304)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:240)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:164)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:462)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:164)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:100)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:562)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:395)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:250)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:188)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:166)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:302)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+	at org.apache.axis.configuration.FileProvider.getService(FileProvider.java:233)
+	at org.apache.axis.AxisEngine.getService(AxisEngine.java:311)
+	at org.apache.axis.MessageContext.setTargetService(MessageContext.java:756)
+	at org.apache.axis.transport.http.HTTPTransport.setupMessageContextImpl(HTTPTransport.java:89)
+	at org.apache.axis.client.Transport.setupMessageContext(Transport.java:46)
+	at org.apache.axis.client.Call.invoke(Call.java:2738)
+	at org.apache.axis.client.Call.invoke(Call.java:2443)
+	at org.apache.axis.client.Call.invoke(Call.java:2366)
+	at org.apache.axis.client.Call.invoke(Call.java:1812)
+	at com.gestioneconferenzews.servizi.ServizioutentiPortBindingStub.verificautentelogin(ServizioutentiPortBindingStub.java:110)
+	at com.gestioneconferenzews.servizi.ServizioutentiProxy.verificautentelogin(ServizioutentiProxy.java:50)
+	at com.gestioneconferenze.facade.UtentiFacade.login(UtentiFacade.java:25)
+	at com.gestioneconferenze.sessione.sessioneBean.entra(sessioneBean.java:97)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.apache.el.parser.AstValue.invoke(AstValue.java:262)
+	at org.apache.el.MethodExpressionImpl.invoke(MethodExpressionImpl.java:278)
+	at com.sun.faces.facelets.el.TagMethodExpression.invoke(TagMethodExpression.java:105)
+	at javax.faces.component.MethodBindingMethodExpressionAdapter.invoke(MethodBindingMethodExpressionAdapter.java:87)
+	at com.sun.faces.application.ActionListenerImpl.processAction(ActionListenerImpl.java:102)
+	at javax.faces.component.UICommand.broadcast(UICommand.java:315)
+	at javax.faces.component.UIViewRoot.broadcastEvents(UIViewRoot.java:790)
+	at javax.faces.component.UIViewRoot.processApplication(UIViewRoot.java:1282)
+	at com.sun.faces.lifecycle.InvokeApplicationPhase.execute(InvokeApplicationPhase.java:81)
+	at com.sun.faces.lifecycle.Phase.doPhase(Phase.java:101)
+	at com.sun.faces.lifecycle.LifecycleImpl.execute(LifecycleImpl.java:198)
+	at javax.faces.webapp.FacesServlet.service(FacesServlet.java:646)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:304)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:240)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:164)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:462)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:164)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:100)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:562)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:395)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:250)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:188)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:166)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:302)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[2014-03-13 17:22:06,193]DEBUG 52831["http-bio-8090"-exec-10] - org.apache.axis.MessageContext.setService(MessageContext.java:793) - MessageContext: setServiceHandler(null)
+[2014-03-13 17:22:06,193]DEBUG 52831["http-bio-8090"-exec-10] - org.apache.axis.SOAPPart.getAsSOAPEnvelope(SOAPPart.java:661) - Enter: SOAPPart::getAsSOAPEnvelope()
+[2014-03-13 17:22:06,193]DEBUG 52831["http-bio-8090"-exec-10] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(currForm)
+[2014-03-13 17:22:06,193]DEBUG 52831["http-bio-8090"-exec-10] - org.apache.axis.SOAPPart.getAsSOAPEnvelope(SOAPPart.java:662) - current form is FORM_SOAPENVELOPE
+[2014-03-13 17:22:06,193]DEBUG 52831["http-bio-8090"-exec-10] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(register00)
+[2014-03-13 17:22:06,193]DEBUG 52831["http-bio-8090"-exec-10] - org.apache.axis.encoding.SerializationContext.registerPrefixForURI(SerializationContext.java:472) - register 'soapenv' - 'http://schemas.xmlsoap.org/soap/envelope/'
+[2014-03-13 17:22:06,193]DEBUG 52831["http-bio-8090"-exec-10] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(register00)
+[2014-03-13 17:22:06,194]DEBUG 52832["http-bio-8090"-exec-10] - org.apache.axis.encoding.SerializationContext.registerPrefixForURI(SerializationContext.java:472) - register 'soapenv' - 'http://schemas.xmlsoap.org/soap/envelope/'
+[2014-03-13 17:22:06,194]DEBUG 52832["http-bio-8090"-exec-10] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(register00)
+[2014-03-13 17:22:06,194]DEBUG 52832["http-bio-8090"-exec-10] - org.apache.axis.encoding.SerializationContext.registerPrefixForURI(SerializationContext.java:472) - register 'xsd' - 'http://www.w3.org/2001/XMLSchema'
+[2014-03-13 17:22:06,194]DEBUG 52832["http-bio-8090"-exec-10] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(register00)
+[2014-03-13 17:22:06,194]DEBUG 52832["http-bio-8090"-exec-10] - org.apache.axis.encoding.SerializationContext.registerPrefixForURI(SerializationContext.java:472) - register 'xsi' - 'http://www.w3.org/2001/XMLSchema-instance'
+[2014-03-13 17:22:06,194]DEBUG 52832["http-bio-8090"-exec-10] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(startElem00)
+[2014-03-13 17:22:06,194]DEBUG 52832["http-bio-8090"-exec-10] - org.apache.axis.encoding.SerializationContext.startElement(SerializationContext.java:1098) - Start element [http://schemas.xmlsoap.org/soap/envelope/]:Envelope
+[2014-03-13 17:22:06,195]DEBUG 52833["http-bio-8090"-exec-10] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(startElem00)
+[2014-03-13 17:22:06,195]DEBUG 52833["http-bio-8090"-exec-10] - org.apache.axis.encoding.SerializationContext.startElement(SerializationContext.java:1098) - Start element [http://schemas.xmlsoap.org/soap/envelope/]:Body
+[2014-03-13 17:22:06,195]DEBUG 52833["http-bio-8090"-exec-10] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(register00)
+[2014-03-13 17:22:06,195]DEBUG 52833["http-bio-8090"-exec-10] - org.apache.axis.encoding.SerializationContext.registerPrefixForURI(SerializationContext.java:472) - register '' - 'http://servizi.gestioneconferenzews.com/'
+[2014-03-13 17:22:06,195]DEBUG 52833["http-bio-8090"-exec-10] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(startElem00)
+[2014-03-13 17:22:06,195]DEBUG 52833["http-bio-8090"-exec-10] - org.apache.axis.encoding.SerializationContext.startElement(SerializationContext.java:1098) - Start element [http://servizi.gestioneconferenzews.com/]:verificautentelogin
+[2014-03-13 17:22:06,195]DEBUG 52833["http-bio-8090"-exec-10] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(startElem00)
+[2014-03-13 17:22:06,196]DEBUG 52834["http-bio-8090"-exec-10] - org.apache.axis.encoding.SerializationContext.startElement(SerializationContext.java:1098) - Start element []:username
+[2014-03-13 17:22:06,196]DEBUG 52834["http-bio-8090"-exec-10] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(register00)
+[2014-03-13 17:22:06,196]DEBUG 52834["http-bio-8090"-exec-10] - org.apache.axis.encoding.SerializationContext.registerPrefixForURI(SerializationContext.java:472) - register '' - ''
+[2014-03-13 17:22:06,196]DEBUG 52834["http-bio-8090"-exec-10] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(endElem00)
+[2014-03-13 17:22:06,196]DEBUG 52834["http-bio-8090"-exec-10] - org.apache.axis.encoding.SerializationContext.endElement(SerializationContext.java:1208) - End element username
+[2014-03-13 17:22:06,196]DEBUG 52834["http-bio-8090"-exec-10] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(startElem00)
+[2014-03-13 17:22:06,196]DEBUG 52834["http-bio-8090"-exec-10] - org.apache.axis.encoding.SerializationContext.startElement(SerializationContext.java:1098) - Start element []:password
+[2014-03-13 17:22:06,197]DEBUG 52835["http-bio-8090"-exec-10] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(register00)
+[2014-03-13 17:22:06,197]DEBUG 52835["http-bio-8090"-exec-10] - org.apache.axis.encoding.SerializationContext.registerPrefixForURI(SerializationContext.java:472) - register '' - ''
+[2014-03-13 17:22:06,197]DEBUG 52835["http-bio-8090"-exec-10] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(endElem00)
+[2014-03-13 17:22:06,197]DEBUG 52835["http-bio-8090"-exec-10] - org.apache.axis.encoding.SerializationContext.endElement(SerializationContext.java:1208) - End element password
+[2014-03-13 17:22:06,198]DEBUG 52836["http-bio-8090"-exec-10] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(endElem00)
+[2014-03-13 17:22:06,198]DEBUG 52836["http-bio-8090"-exec-10] - org.apache.axis.encoding.SerializationContext.endElement(SerializationContext.java:1208) - End element verificautentelogin
+[2014-03-13 17:22:06,198]DEBUG 52836["http-bio-8090"-exec-10] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(endElem00)
+[2014-03-13 17:22:06,198]DEBUG 52836["http-bio-8090"-exec-10] - org.apache.axis.encoding.SerializationContext.endElement(SerializationContext.java:1208) - End element soapenv:Body
+[2014-03-13 17:22:06,198]DEBUG 52836["http-bio-8090"-exec-10] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(endElem00)
+[2014-03-13 17:22:06,198]DEBUG 52836["http-bio-8090"-exec-10] - org.apache.axis.encoding.SerializationContext.endElement(SerializationContext.java:1208) - End element soapenv:Envelope
+[2014-03-13 17:22:06,198]DEBUG 52836["http-bio-8090"-exec-10] - org.apache.axis.client.Call.invoke(Call.java:2762) - <?xml version="1.0" encoding="UTF-8"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><soapenv:Body><verificautentelogin xmlns="http://servizi.gestioneconferenzews.com/"><username xmlns="">tiziano</username><password xmlns="">non password</password></verificautentelogin></soapenv:Body></soapenv:Envelope>
+[2014-03-13 17:22:06,198]DEBUG 52836["http-bio-8090"-exec-10] - org.apache.axis.client.AxisClient.invoke(AxisClient.java:77) - Enter: AxisClient::invoke
+[2014-03-13 17:22:06,198]DEBUG 52836["http-bio-8090"-exec-10] - org.apache.axis.client.AxisClient.invoke(AxisClient.java:90) - EngineHandler: null
+[2014-03-13 17:22:06,199]DEBUG 52837["http-bio-8090"-exec-10] - org.apache.axis.SimpleChain.invoke(SimpleChain.java:79) - Enter: SimpleChain::invoke
+[2014-03-13 17:22:06,199]DEBUG 52837["http-bio-8090"-exec-10] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(enter00)
+[2014-03-13 17:22:06,199]DEBUG 52837["http-bio-8090"-exec-10] - org.apache.axis.transport.http.HTTPSender.invoke(HTTPSender.java:125) - Enter:  HTTPSender::invoke
+[2014-03-13 17:22:06,199]DEBUG 52837["http-bio-8090"-exec-10] - org.apache.axis.SOAPPart.saveChanges(SOAPPart.java:524) - Enter: SOAPPart::saveChanges
+[2014-03-13 17:22:06,199]DEBUG 52837["http-bio-8090"-exec-10] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(register00)
+[2014-03-13 17:22:06,199]DEBUG 52837["http-bio-8090"-exec-10] - org.apache.axis.encoding.SerializationContext.registerPrefixForURI(SerializationContext.java:472) - register 'soapenv' - 'http://schemas.xmlsoap.org/soap/envelope/'
+[2014-03-13 17:22:06,200]DEBUG 52838["http-bio-8090"-exec-10] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(register00)
+[2014-03-13 17:22:06,200]DEBUG 52838["http-bio-8090"-exec-10] - org.apache.axis.encoding.SerializationContext.registerPrefixForURI(SerializationContext.java:472) - register 'soapenv' - 'http://schemas.xmlsoap.org/soap/envelope/'
+[2014-03-13 17:22:06,200]DEBUG 52838["http-bio-8090"-exec-10] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(register00)
+[2014-03-13 17:22:06,200]DEBUG 52838["http-bio-8090"-exec-10] - org.apache.axis.encoding.SerializationContext.registerPrefixForURI(SerializationContext.java:472) - register 'xsd' - 'http://www.w3.org/2001/XMLSchema'
+[2014-03-13 17:22:06,200]DEBUG 52838["http-bio-8090"-exec-10] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(register00)
+[2014-03-13 17:22:06,200]DEBUG 52838["http-bio-8090"-exec-10] - org.apache.axis.encoding.SerializationContext.registerPrefixForURI(SerializationContext.java:472) - register 'xsi' - 'http://www.w3.org/2001/XMLSchema-instance'
+[2014-03-13 17:22:06,201]DEBUG 52839["http-bio-8090"-exec-10] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(startElem00)
+[2014-03-13 17:22:06,201]DEBUG 52839["http-bio-8090"-exec-10] - org.apache.axis.encoding.SerializationContext.startElement(SerializationContext.java:1098) - Start element [http://schemas.xmlsoap.org/soap/envelope/]:Envelope
+[2014-03-13 17:22:06,201]DEBUG 52839["http-bio-8090"-exec-10] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(startElem00)
+[2014-03-13 17:22:06,201]DEBUG 52839["http-bio-8090"-exec-10] - org.apache.axis.encoding.SerializationContext.startElement(SerializationContext.java:1098) - Start element [http://schemas.xmlsoap.org/soap/envelope/]:Body
+[2014-03-13 17:22:06,201]DEBUG 52839["http-bio-8090"-exec-10] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(register00)
+[2014-03-13 17:22:06,201]DEBUG 52839["http-bio-8090"-exec-10] - org.apache.axis.encoding.SerializationContext.registerPrefixForURI(SerializationContext.java:472) - register '' - 'http://servizi.gestioneconferenzews.com/'
+[2014-03-13 17:22:06,201]DEBUG 52839["http-bio-8090"-exec-10] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(startElem00)
+[2014-03-13 17:22:06,201]DEBUG 52839["http-bio-8090"-exec-10] - org.apache.axis.encoding.SerializationContext.startElement(SerializationContext.java:1098) - Start element [http://servizi.gestioneconferenzews.com/]:verificautentelogin
+[2014-03-13 17:22:06,202]DEBUG 52840["http-bio-8090"-exec-10] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(startElem00)
+[2014-03-13 17:22:06,202]DEBUG 52840["http-bio-8090"-exec-10] - org.apache.axis.encoding.SerializationContext.startElement(SerializationContext.java:1098) - Start element []:username
+[2014-03-13 17:22:06,202]DEBUG 52840["http-bio-8090"-exec-10] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(register00)
+[2014-03-13 17:22:06,202]DEBUG 52840["http-bio-8090"-exec-10] - org.apache.axis.encoding.SerializationContext.registerPrefixForURI(SerializationContext.java:472) - register '' - ''
+[2014-03-13 17:22:06,202]DEBUG 52840["http-bio-8090"-exec-10] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(endElem00)
+[2014-03-13 17:22:06,202]DEBUG 52840["http-bio-8090"-exec-10] - org.apache.axis.encoding.SerializationContext.endElement(SerializationContext.java:1208) - End element username
+[2014-03-13 17:22:06,203]DEBUG 52841["http-bio-8090"-exec-10] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(startElem00)
+[2014-03-13 17:22:06,203]DEBUG 52841["http-bio-8090"-exec-10] - org.apache.axis.encoding.SerializationContext.startElement(SerializationContext.java:1098) - Start element []:password
+[2014-03-13 17:22:06,203]DEBUG 52841["http-bio-8090"-exec-10] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(register00)
+[2014-03-13 17:22:06,203]DEBUG 52841["http-bio-8090"-exec-10] - org.apache.axis.encoding.SerializationContext.registerPrefixForURI(SerializationContext.java:472) - register '' - ''
+[2014-03-13 17:22:06,203]DEBUG 52841["http-bio-8090"-exec-10] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(endElem00)
+[2014-03-13 17:22:06,203]DEBUG 52841["http-bio-8090"-exec-10] - org.apache.axis.encoding.SerializationContext.endElement(SerializationContext.java:1208) - End element password
+[2014-03-13 17:22:06,203]DEBUG 52841["http-bio-8090"-exec-10] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(endElem00)
+[2014-03-13 17:22:06,203]DEBUG 52841["http-bio-8090"-exec-10] - org.apache.axis.encoding.SerializationContext.endElement(SerializationContext.java:1208) - End element verificautentelogin
+[2014-03-13 17:22:06,204]DEBUG 52842["http-bio-8090"-exec-10] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(endElem00)
+[2014-03-13 17:22:06,204]DEBUG 52842["http-bio-8090"-exec-10] - org.apache.axis.encoding.SerializationContext.endElement(SerializationContext.java:1208) - End element soapenv:Body
+[2014-03-13 17:22:06,204]DEBUG 52842["http-bio-8090"-exec-10] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(endElem00)
+[2014-03-13 17:22:06,204]DEBUG 52842["http-bio-8090"-exec-10] - org.apache.axis.encoding.SerializationContext.endElement(SerializationContext.java:1208) - End element soapenv:Envelope
+[2014-03-13 17:22:06,204]DEBUG 52842["http-bio-8090"-exec-10] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(setMsgForm)
+[2014-03-13 17:22:06,204]DEBUG 52842["http-bio-8090"-exec-10] - org.apache.axis.SOAPPart.setCurrentForm(SOAPPart.java:374) - Setting current message form to: FORM_OPTIMIZED (currentMessage is now org.apache.axis.utils.ByteArray)
+[2014-03-13 17:22:06,204]DEBUG 52842["http-bio-8090"-exec-10] - org.apache.axis.SOAPPart.saveChanges(SOAPPart.java:537) - Exit: SOAPPart::saveChanges(): org.apache.axis.utils.ByteArray@c27655
+[2014-03-13 17:22:06,205]DEBUG 52843["http-bio-8090"-exec-10] - org.apache.axis.SOAPPart.saveChanges(SOAPPart.java:524) - Enter: SOAPPart::saveChanges
+[2014-03-13 17:22:06,205]DEBUG 52843["http-bio-8090"-exec-10] - org.apache.axis.SOAPPart.saveChanges(SOAPPart.java:524) - Enter: SOAPPart::saveChanges
+[2014-03-13 17:22:06,205]DEBUG 52843["http-bio-8090"-exec-10] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(createdHTTP00)
+[2014-03-13 17:22:06,206]DEBUG 52844["http-bio-8090"-exec-10] - org.apache.axis.components.net.DefaultSocketFactory.create(DefaultSocketFactory.java:122) - Created an insecure HTTP connection
+[2014-03-13 17:22:06,206]DEBUG 52844["http-bio-8090"-exec-10] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(xmlSent00)
+[2014-03-13 17:22:06,206]DEBUG 52844["http-bio-8090"-exec-10] - org.apache.axis.transport.http.HTTPSender.writeToSocket(HTTPSender.java:484) - XML sent:
+[2014-03-13 17:22:06,206]DEBUG 52844["http-bio-8090"-exec-10] - org.apache.axis.transport.http.HTTPSender.writeToSocket(HTTPSender.java:485) - ---------------------------------------------------
+[2014-03-13 17:22:06,206]DEBUG 52844["http-bio-8090"-exec-10] - org.apache.axis.SOAPPart.saveChanges(SOAPPart.java:524) - Enter: SOAPPart::saveChanges
+[2014-03-13 17:22:06,207]DEBUG 52845["http-bio-8090"-exec-10] - org.apache.axis.transport.http.HTTPSender.writeToSocket(HTTPSender.java:519) - POST /GestioneConferenzeWS/ServizioUtenti HTTP/1.0
+Content-Type: text/xml; charset=utf-8
+Accept: application/soap+xml, application/dime, multipart/related, text/*
+User-Agent: Axis/1.4
+Host: localhost:8080
+Cache-Control: no-cache
+Pragma: no-cache
+SOAPAction: ""
+Content-Length: 432
+
+<?xml version="1.0" encoding="UTF-8"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><soapenv:Body><verificautentelogin xmlns="http://servizi.gestioneconferenzews.com/"><username xmlns="">tiziano</username><password xmlns="">non password</password></verificautentelogin></soapenv:Body></soapenv:Envelope>
+[2014-03-13 17:22:06,401]DEBUG 53039["http-bio-8090"-exec-10] - org.apache.axis.transport.http.HTTPSender.readHeadersFromSocket(HTTPSender.java:627) - HTTP/1.1 200 OK
+[2014-03-13 17:22:06,402]DEBUG 53040["http-bio-8090"-exec-10] - org.apache.axis.transport.http.HTTPSender.readHeadersFromSocket(HTTPSender.java:627) - Content-type text/xml; charset=utf-8
+[2014-03-13 17:22:06,402]DEBUG 53040["http-bio-8090"-exec-10] - org.apache.axis.transport.http.HTTPSender.readHeadersFromSocket(HTTPSender.java:627) - Content-length 258
+[2014-03-13 17:22:06,402]DEBUG 53040["http-bio-8090"-exec-10] - org.apache.axis.transport.http.HTTPSender.readHeadersFromSocket(HTTPSender.java:627) - Connection close
+[2014-03-13 17:22:06,402]DEBUG 53040["http-bio-8090"-exec-10] - org.apache.axis.transport.http.HTTPSender.readHeadersFromSocket(HTTPSender.java:627) - Date Thu, 13 Mar 2014 16:22:06 GMT
+[2014-03-13 17:22:06,403]DEBUG 53041["http-bio-8090"-exec-10] - org.apache.axis.SOAPPart.<init>(SOAPPart.java:182) - Enter: SOAPPart ctor(FORM_INPUTSTREAM)
+[2014-03-13 17:22:06,403]DEBUG 53041["http-bio-8090"-exec-10] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(setMsgForm)
+[2014-03-13 17:22:06,403]DEBUG 53041["http-bio-8090"-exec-10] - org.apache.axis.SOAPPart.setCurrentForm(SOAPPart.java:374) - Setting current message form to: FORM_INPUTSTREAM (currentMessage is now org.apache.axis.transport.http.SocketInputStream)
+[2014-03-13 17:22:06,403]DEBUG 53041["http-bio-8090"-exec-10] - org.apache.axis.SOAPPart.<init>(SOAPPart.java:188) - Exit: SOAPPart ctor()
+[2014-03-13 17:22:06,403]DEBUG 53041["http-bio-8090"-exec-10] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(xmlRecd00)
+[2014-03-13 17:22:06,403]DEBUG 53041["http-bio-8090"-exec-10] - org.apache.axis.transport.http.HTTPSender.readFromSocket(HTTPSender.java:794) - 
+XML received:
+[2014-03-13 17:22:06,403]DEBUG 53041["http-bio-8090"-exec-10] - org.apache.axis.transport.http.HTTPSender.readFromSocket(HTTPSender.java:795) - -----------------------------------------------
+[2014-03-13 17:22:06,404]DEBUG 53042["http-bio-8090"-exec-10] - org.apache.axis.SOAPPart.getAsSOAPEnvelope(SOAPPart.java:661) - Enter: SOAPPart::getAsSOAPEnvelope()
+[2014-03-13 17:22:06,404]DEBUG 53042["http-bio-8090"-exec-10] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(currForm)
+[2014-03-13 17:22:06,404]DEBUG 53042["http-bio-8090"-exec-10] - org.apache.axis.SOAPPart.getAsSOAPEnvelope(SOAPPart.java:662) - current form is FORM_INPUTSTREAM
+[2014-03-13 17:22:06,404]DEBUG 53042["http-bio-8090"-exec-10] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(pushHandler00)
+[2014-03-13 17:22:06,404]DEBUG 53042["http-bio-8090"-exec-10] - org.apache.axis.encoding.DeserializationContext.pushElementHandler(DeserializationContext.java:796) - Pushing handler org.apache.axis.message.EnvelopeHandler@18cf5ea
+[2014-03-13 17:22:06,405]DEBUG 53043["http-bio-8090"-exec-10] - org.apache.axis.encoding.DeserializationContext.startPrefixMapping(DeserializationContext.java:886) - Enter: DeserializationContext::startPrefixMapping(S, http://schemas.xmlsoap.org/soap/envelope/)
+[2014-03-13 17:22:06,405]DEBUG 53043["http-bio-8090"-exec-10] - org.apache.axis.encoding.DeserializationContext.startPrefixMapping(DeserializationContext.java:925) - Exit: DeserializationContext::startPrefixMapping()
+[2014-03-13 17:22:06,405]DEBUG 53043["http-bio-8090"-exec-10] - org.apache.axis.encoding.DeserializationContext.startElement(DeserializationContext.java:1003) - Enter: DeserializationContext::startElement(http://schemas.xmlsoap.org/soap/envelope/, Envelope)
+[2014-03-13 17:22:06,405]DEBUG 53043["http-bio-8090"-exec-10] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(pushHandler00)
+[2014-03-13 17:22:06,405]DEBUG 53043["http-bio-8090"-exec-10] - org.apache.axis.encoding.DeserializationContext.pushElementHandler(DeserializationContext.java:796) - Pushing handler org.apache.axis.message.EnvelopeBuilder@1505c9c
+[2014-03-13 17:22:06,406]DEBUG 53044["http-bio-8090"-exec-10] - org.apache.axis.encoding.DeserializationContext.pushNewElement(DeserializationContext.java:765) - Pushing element Envelope
+[2014-03-13 17:22:06,406]DEBUG 53044["http-bio-8090"-exec-10] - org.apache.axis.encoding.DeserializationContext.startElement(DeserializationContext.java:1067) - Exit: DeserializationContext::startElement()
+[2014-03-13 17:22:06,406]DEBUG 53044["http-bio-8090"-exec-10] - org.apache.axis.encoding.DeserializationContext.startElement(DeserializationContext.java:1003) - Enter: DeserializationContext::startElement(http://schemas.xmlsoap.org/soap/envelope/, Body)
+[2014-03-13 17:22:06,406]DEBUG 53044["http-bio-8090"-exec-10] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(pushHandler00)
+[2014-03-13 17:22:06,406]DEBUG 53044["http-bio-8090"-exec-10] - org.apache.axis.encoding.DeserializationContext.pushElementHandler(DeserializationContext.java:796) - Pushing handler org.apache.axis.message.BodyBuilder@f02744
+[2014-03-13 17:22:06,406]DEBUG 53044["http-bio-8090"-exec-10] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(newElem00)
+[2014-03-13 17:22:06,406]DEBUG 53044["http-bio-8090"-exec-10] - org.apache.axis.message.MessageElement.<init>(MessageElement.java:239) - New MessageElement (org.apache.axis.message.SOAPBody@a1e2dd) named {S}Body
+[2014-03-13 17:22:06,407]DEBUG 53045["http-bio-8090"-exec-10] - org.apache.axis.encoding.DeserializationContext.pushNewElement(DeserializationContext.java:765) - Pushing element Body
+[2014-03-13 17:22:06,407]DEBUG 53045["http-bio-8090"-exec-10] - org.apache.axis.encoding.DeserializationContext.startElement(DeserializationContext.java:1067) - Exit: DeserializationContext::startElement()
+[2014-03-13 17:22:06,407]DEBUG 53045["http-bio-8090"-exec-10] - org.apache.axis.encoding.DeserializationContext.startPrefixMapping(DeserializationContext.java:886) - Enter: DeserializationContext::startPrefixMapping(ns2, http://servizi.gestioneconferenzews.com/)
+[2014-03-13 17:22:06,407]DEBUG 53045["http-bio-8090"-exec-10] - org.apache.axis.encoding.DeserializationContext.startPrefixMapping(DeserializationContext.java:925) - Exit: DeserializationContext::startPrefixMapping()
+[2014-03-13 17:22:06,407]DEBUG 53045["http-bio-8090"-exec-10] - org.apache.axis.encoding.DeserializationContext.startElement(DeserializationContext.java:1003) - Enter: DeserializationContext::startElement(http://servizi.gestioneconferenzews.com/, verificautenteloginResponse)
+[2014-03-13 17:22:06,408]DEBUG 53046["http-bio-8090"-exec-10] - org.apache.axis.message.BodyBuilder.onStartChild(BodyBuilder.java:109) - Enter: BodyBuilder::onStartChild()
+[2014-03-13 17:22:06,408]DEBUG 53046["http-bio-8090"-exec-10] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(newElem00)
+[2014-03-13 17:22:06,408]DEBUG 53046["http-bio-8090"-exec-10] - org.apache.axis.message.MessageElement.<init>(MessageElement.java:239) - New MessageElement (org.apache.axis.message.RPCElement@1aa9ad1) named {ns2}verificautenteloginResponse
+[2014-03-13 17:22:06,408]DEBUG 53046["http-bio-8090"-exec-10] - org.apache.axis.message.BodyBuilder.onStartChild(BodyBuilder.java:222) - Exit: BodyBuilder::onStartChild()
+[2014-03-13 17:22:06,408]DEBUG 53046["http-bio-8090"-exec-10] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(pushHandler00)
+[2014-03-13 17:22:06,408]DEBUG 53046["http-bio-8090"-exec-10] - org.apache.axis.encoding.DeserializationContext.pushElementHandler(DeserializationContext.java:796) - Pushing handler org.apache.axis.message.SOAPHandler@19a4589
+[2014-03-13 17:22:06,408]DEBUG 53046["http-bio-8090"-exec-10] - org.apache.axis.encoding.DeserializationContext.pushNewElement(DeserializationContext.java:765) - Pushing element verificautenteloginResponse
+[2014-03-13 17:22:06,409]DEBUG 53047["http-bio-8090"-exec-10] - org.apache.axis.encoding.DeserializationContext.startElement(DeserializationContext.java:1067) - Exit: DeserializationContext::startElement()
+[2014-03-13 17:22:06,409]DEBUG 53047["http-bio-8090"-exec-10] - org.apache.axis.encoding.DeserializationContext.startElement(DeserializationContext.java:1003) - Enter: DeserializationContext::startElement(, return)
+[2014-03-13 17:22:06,409]DEBUG 53047["http-bio-8090"-exec-10] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(pushHandler00)
+[2014-03-13 17:22:06,409]DEBUG 53047["http-bio-8090"-exec-10] - org.apache.axis.encoding.DeserializationContext.pushElementHandler(DeserializationContext.java:796) - Pushing handler org.apache.axis.message.SOAPHandler@14b45fe
+[2014-03-13 17:22:06,409]DEBUG 53047["http-bio-8090"-exec-10] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(newElem00)
+[2014-03-13 17:22:06,409]DEBUG 53047["http-bio-8090"-exec-10] - org.apache.axis.message.MessageElement.<init>(MessageElement.java:239) - New MessageElement (org.apache.axis.message.MessageElement@e03be0) named {}return
+[2014-03-13 17:22:06,410]DEBUG 53048["http-bio-8090"-exec-10] - org.apache.axis.encoding.DeserializationContext.pushNewElement(DeserializationContext.java:765) - Pushing element return
+[2014-03-13 17:22:06,410]DEBUG 53048["http-bio-8090"-exec-10] - org.apache.axis.encoding.DeserializationContext.startElement(DeserializationContext.java:1067) - Exit: DeserializationContext::startElement()
+[2014-03-13 17:22:06,410]DEBUG 53048["http-bio-8090"-exec-10] - org.apache.axis.encoding.DeserializationContext.endElement(DeserializationContext.java:1078) - Enter: DeserializationContext::endElement(, return)
+[2014-03-13 17:22:06,410]DEBUG 53048["http-bio-8090"-exec-10] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(popHandler00)
+[2014-03-13 17:22:06,410]DEBUG 53048["http-bio-8090"-exec-10] - org.apache.axis.encoding.DeserializationContext.popElementHandler(DeserializationContext.java:829) - Popping handler org.apache.axis.message.SOAPHandler@14b45fe
+[2014-03-13 17:22:06,410]DEBUG 53048["http-bio-8090"-exec-10] - org.apache.axis.encoding.DeserializationContext.endElement(DeserializationContext.java:1106) - Popped element stack to org.apache.axis.message.RPCElement:verificautenteloginResponse
+[2014-03-13 17:22:06,410]DEBUG 53048["http-bio-8090"-exec-10] - org.apache.axis.encoding.DeserializationContext.endElement(DeserializationContext.java:1107) - Exit: DeserializationContext::endElement()
+[2014-03-13 17:22:06,411]DEBUG 53049["http-bio-8090"-exec-10] - org.apache.axis.encoding.DeserializationContext.endElement(DeserializationContext.java:1078) - Enter: DeserializationContext::endElement(http://servizi.gestioneconferenzews.com/, verificautenteloginResponse)
+[2014-03-13 17:22:06,411]DEBUG 53049["http-bio-8090"-exec-10] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(popHandler00)
+[2014-03-13 17:22:06,411]DEBUG 53049["http-bio-8090"-exec-10] - org.apache.axis.encoding.DeserializationContext.popElementHandler(DeserializationContext.java:829) - Popping handler org.apache.axis.message.SOAPHandler@19a4589
+[2014-03-13 17:22:06,411]DEBUG 53049["http-bio-8090"-exec-10] - org.apache.axis.encoding.DeserializationContext.endElement(DeserializationContext.java:1106) - Popped element stack to org.apache.axis.message.SOAPBody:Body
+[2014-03-13 17:22:06,411]DEBUG 53049["http-bio-8090"-exec-10] - org.apache.axis.encoding.DeserializationContext.endElement(DeserializationContext.java:1107) - Exit: DeserializationContext::endElement()
+[2014-03-13 17:22:06,411]DEBUG 53049["http-bio-8090"-exec-10] - org.apache.axis.encoding.DeserializationContext.endPrefixMapping(DeserializationContext.java:933) - Enter: DeserializationContext::endPrefixMapping(ns2)
+[2014-03-13 17:22:06,412]DEBUG 53050["http-bio-8090"-exec-10] - org.apache.axis.encoding.DeserializationContext.endPrefixMapping(DeserializationContext.java:945) - Exit: DeserializationContext::endPrefixMapping()
+[2014-03-13 17:22:06,412]DEBUG 53050["http-bio-8090"-exec-10] - org.apache.axis.encoding.DeserializationContext.endElement(DeserializationContext.java:1078) - Enter: DeserializationContext::endElement(http://schemas.xmlsoap.org/soap/envelope/, Body)
+[2014-03-13 17:22:06,412]DEBUG 53050["http-bio-8090"-exec-10] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(popHandler00)
+[2014-03-13 17:22:06,412]DEBUG 53050["http-bio-8090"-exec-10] - org.apache.axis.encoding.DeserializationContext.popElementHandler(DeserializationContext.java:829) - Popping handler org.apache.axis.message.BodyBuilder@f02744
+[2014-03-13 17:22:06,412]DEBUG 53050["http-bio-8090"-exec-10] - org.apache.axis.encoding.DeserializationContext.endElement(DeserializationContext.java:1106) - Popped element stack to org.apache.axis.message.SOAPEnvelope:Envelope
+[2014-03-13 17:22:06,412]DEBUG 53050["http-bio-8090"-exec-10] - org.apache.axis.encoding.DeserializationContext.endElement(DeserializationContext.java:1107) - Exit: DeserializationContext::endElement()
+[2014-03-13 17:22:06,412]DEBUG 53050["http-bio-8090"-exec-10] - org.apache.axis.encoding.DeserializationContext.endElement(DeserializationContext.java:1078) - Enter: DeserializationContext::endElement(http://schemas.xmlsoap.org/soap/envelope/, Envelope)
+[2014-03-13 17:22:06,413]DEBUG 53051["http-bio-8090"-exec-10] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(popHandler00)
+[2014-03-13 17:22:06,413]DEBUG 53051["http-bio-8090"-exec-10] - org.apache.axis.encoding.DeserializationContext.popElementHandler(DeserializationContext.java:829) - Popping handler org.apache.axis.message.EnvelopeBuilder@1505c9c
+[2014-03-13 17:22:06,413]DEBUG 53051["http-bio-8090"-exec-10] - org.apache.axis.encoding.DeserializationContext.endElement(DeserializationContext.java:1106) - Popped element stack to null
+[2014-03-13 17:22:06,413]DEBUG 53051["http-bio-8090"-exec-10] - org.apache.axis.encoding.DeserializationContext.endElement(DeserializationContext.java:1107) - Exit: DeserializationContext::endElement()
+[2014-03-13 17:22:06,413]DEBUG 53051["http-bio-8090"-exec-10] - org.apache.axis.encoding.DeserializationContext.endPrefixMapping(DeserializationContext.java:933) - Enter: DeserializationContext::endPrefixMapping(S)
+[2014-03-13 17:22:06,413]DEBUG 53051["http-bio-8090"-exec-10] - org.apache.axis.encoding.DeserializationContext.endPrefixMapping(DeserializationContext.java:945) - Exit: DeserializationContext::endPrefixMapping()
+[2014-03-13 17:22:06,414]DEBUG 53052["http-bio-8090"-exec-10] - org.apache.axis.encoding.DeserializationContext.endDocument(DeserializationContext.java:858) - Enter: DeserializationContext::endDocument()
+[2014-03-13 17:22:06,414]DEBUG 53052["http-bio-8090"-exec-10] - org.apache.axis.encoding.DeserializationContext.endDocument(DeserializationContext.java:866) - Exit: DeserializationContext::endDocument()
+[2014-03-13 17:22:06,414]DEBUG 53052["http-bio-8090"-exec-10] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(setMsgForm)
+[2014-03-13 17:22:06,414]DEBUG 53052["http-bio-8090"-exec-10] - org.apache.axis.SOAPPart.setCurrentForm(SOAPPart.java:374) - Setting current message form to: FORM_SOAPENVELOPE (currentMessage is now org.apache.axis.message.SOAPEnvelope)
+[2014-03-13 17:22:06,414]DEBUG 53052["http-bio-8090"-exec-10] - org.apache.axis.SOAPPart.getAsSOAPEnvelope(SOAPPart.java:724) - Exit: SOAPPart::getAsSOAPEnvelope
+[2014-03-13 17:22:06,414]DEBUG 53052["http-bio-8090"-exec-10] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(register00)
+[2014-03-13 17:22:06,415]DEBUG 53053["http-bio-8090"-exec-10] - org.apache.axis.encoding.SerializationContext.registerPrefixForURI(SerializationContext.java:472) - register 'S' - 'http://schemas.xmlsoap.org/soap/envelope/'
+[2014-03-13 17:22:06,415]DEBUG 53053["http-bio-8090"-exec-10] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(startElem00)
+[2014-03-13 17:22:06,415]DEBUG 53053["http-bio-8090"-exec-10] - org.apache.axis.encoding.SerializationContext.startElement(SerializationContext.java:1098) - Start element [http://schemas.xmlsoap.org/soap/envelope/]:Envelope
+[2014-03-13 17:22:06,415]DEBUG 53053["http-bio-8090"-exec-10] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(startElem00)
+[2014-03-13 17:22:06,415]DEBUG 53053["http-bio-8090"-exec-10] - org.apache.axis.encoding.SerializationContext.startElement(SerializationContext.java:1098) - Start element [http://schemas.xmlsoap.org/soap/envelope/]:Body
+[2014-03-13 17:22:06,415]DEBUG 53053["http-bio-8090"-exec-10] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(register00)
+[2014-03-13 17:22:06,415]DEBUG 53053["http-bio-8090"-exec-10] - org.apache.axis.encoding.SerializationContext.registerPrefixForURI(SerializationContext.java:472) - register 'ns2' - 'http://servizi.gestioneconferenzews.com/'
+[2014-03-13 17:22:06,416]DEBUG 53054["http-bio-8090"-exec-10] - org.apache.axis.message.SAXOutputter.startElement(SAXOutputter.java:94) - SAXOutputter.startElement ['http://servizi.gestioneconferenzews.com/' verificautenteloginResponse]
+[2014-03-13 17:22:06,416]DEBUG 53054["http-bio-8090"-exec-10] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(startElem00)
+[2014-03-13 17:22:06,416]DEBUG 53054["http-bio-8090"-exec-10] - org.apache.axis.encoding.SerializationContext.startElement(SerializationContext.java:1098) - Start element [http://servizi.gestioneconferenzews.com/]:verificautenteloginResponse
+[2014-03-13 17:22:06,416]DEBUG 53054["http-bio-8090"-exec-10] - org.apache.axis.message.SAXOutputter.startElement(SAXOutputter.java:94) - SAXOutputter.startElement ['' return]
+[2014-03-13 17:22:06,416]DEBUG 53054["http-bio-8090"-exec-10] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(startElem00)
+[2014-03-13 17:22:06,416]DEBUG 53054["http-bio-8090"-exec-10] - org.apache.axis.encoding.SerializationContext.startElement(SerializationContext.java:1098) - Start element []:return
+[2014-03-13 17:22:06,417]DEBUG 53055["http-bio-8090"-exec-10] - org.apache.axis.message.SAXOutputter.characters(SAXOutputter.java:63) - SAXOutputter.characters ['false']
+[2014-03-13 17:22:06,417]DEBUG 53055["http-bio-8090"-exec-10] - org.apache.axis.message.SAXOutputter.endElement(SAXOutputter.java:109) - SAXOutputter.endElement ['' return]
+[2014-03-13 17:22:06,417]DEBUG 53055["http-bio-8090"-exec-10] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(endElem00)
+[2014-03-13 17:22:06,417]DEBUG 53055["http-bio-8090"-exec-10] - org.apache.axis.encoding.SerializationContext.endElement(SerializationContext.java:1208) - End element return
+[2014-03-13 17:22:06,417]DEBUG 53055["http-bio-8090"-exec-10] - org.apache.axis.message.SAXOutputter.endElement(SAXOutputter.java:109) - SAXOutputter.endElement ['http://servizi.gestioneconferenzews.com/' verificautenteloginResponse]
+[2014-03-13 17:22:06,417]DEBUG 53055["http-bio-8090"-exec-10] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(endElem00)
+[2014-03-13 17:22:06,418]DEBUG 53056["http-bio-8090"-exec-10] - org.apache.axis.encoding.SerializationContext.endElement(SerializationContext.java:1208) - End element ns2:verificautenteloginResponse
+[2014-03-13 17:22:06,418]DEBUG 53056["http-bio-8090"-exec-10] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(endElem00)
+[2014-03-13 17:22:06,418]DEBUG 53056["http-bio-8090"-exec-10] - org.apache.axis.encoding.SerializationContext.endElement(SerializationContext.java:1208) - End element S:Body
+[2014-03-13 17:22:06,418]DEBUG 53056["http-bio-8090"-exec-10] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(endElem00)
+[2014-03-13 17:22:06,418]DEBUG 53056["http-bio-8090"-exec-10] - org.apache.axis.encoding.SerializationContext.endElement(SerializationContext.java:1208) - End element S:Envelope
+[2014-03-13 17:22:06,418]DEBUG 53056["http-bio-8090"-exec-10] - org.apache.axis.transport.http.HTTPSender.readFromSocket(HTTPSender.java:796) - <S:Envelope xmlns:S="http://schemas.xmlsoap.org/soap/envelope/"><S:Body><ns2:verificautenteloginResponse xmlns:ns2="http://servizi.gestioneconferenzews.com/"><return>false</return></ns2:verificautenteloginResponse></S:Body></S:Envelope>
+[2014-03-13 17:22:06,418]DEBUG 53056["http-bio-8090"-exec-10] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(exit00)
+[2014-03-13 17:22:06,419]DEBUG 53057["http-bio-8090"-exec-10] - org.apache.axis.transport.http.HTTPSender.invoke(HTTPSender.java:157) - Exit:  HTTPDispatchHandler::invoke
+[2014-03-13 17:22:06,419]DEBUG 53057["http-bio-8090"-exec-10] - org.apache.axis.SimpleChain.invoke(SimpleChain.java:86) - Exit: SimpleChain::invoke
+[2014-03-13 17:22:06,419]DEBUG 53057["http-bio-8090"-exec-10] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(semanticCheck00)
+[2014-03-13 17:22:06,419]DEBUG 53057["http-bio-8090"-exec-10] - org.apache.axis.handlers.soap.MustUnderstandChecker.invoke(MustUnderstandChecker.java:55) - Doing SOAP semantic checks...
+[2014-03-13 17:22:06,419]DEBUG 53057["http-bio-8090"-exec-10] - org.apache.axis.SOAPPart.getAsSOAPEnvelope(SOAPPart.java:661) - Enter: SOAPPart::getAsSOAPEnvelope()
+[2014-03-13 17:22:06,419]DEBUG 53057["http-bio-8090"-exec-10] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(currForm)
+[2014-03-13 17:22:06,420]DEBUG 53058["http-bio-8090"-exec-10] - org.apache.axis.SOAPPart.getAsSOAPEnvelope(SOAPPart.java:662) - current form is FORM_SOAPENVELOPE
+[2014-03-13 17:22:06,420]DEBUG 53058["http-bio-8090"-exec-10] - org.apache.axis.client.AxisClient.invoke(AxisClient.java:226) - Exit: AxisClient::invoke
+[2014-03-13 17:22:06,420]DEBUG 53058["http-bio-8090"-exec-10] - org.apache.axis.SOAPPart.getAsSOAPEnvelope(SOAPPart.java:661) - Enter: SOAPPart::getAsSOAPEnvelope()
+[2014-03-13 17:22:06,420]DEBUG 53058["http-bio-8090"-exec-10] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(currForm)
+[2014-03-13 17:22:06,420]DEBUG 53058["http-bio-8090"-exec-10] - org.apache.axis.SOAPPart.getAsSOAPEnvelope(SOAPPart.java:662) - current form is FORM_SOAPENVELOPE
+[2014-03-13 17:22:06,420]DEBUG 53058["http-bio-8090"-exec-10] - org.apache.axis.client.Call.invoke(Call.java:2773) - Exit: Call::invoke()
+[2014-03-13 17:22:06,420]DEBUG 53058["http-bio-8090"-exec-10] - org.apache.axis.SOAPPart.getAsSOAPEnvelope(SOAPPart.java:661) - Enter: SOAPPart::getAsSOAPEnvelope()
+[2014-03-13 17:22:06,420]DEBUG 53058["http-bio-8090"-exec-10] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(currForm)
+[2014-03-13 17:22:06,421]DEBUG 53059["http-bio-8090"-exec-10] - org.apache.axis.SOAPPart.getAsSOAPEnvelope(SOAPPart.java:662) - current form is FORM_SOAPENVELOPE
+[2014-03-13 17:22:06,421]DEBUG 53059["http-bio-8090"-exec-10] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(pushHandler00)
+[2014-03-13 17:22:06,421]DEBUG 53059["http-bio-8090"-exec-10] - org.apache.axis.encoding.DeserializationContext.pushElementHandler(DeserializationContext.java:796) - Pushing handler org.apache.axis.message.EnvelopeHandler@127e7c0
+[2014-03-13 17:22:06,421]DEBUG 53059["http-bio-8090"-exec-10] - org.apache.axis.encoding.DeserializationContext.startPrefixMapping(DeserializationContext.java:886) - Enter: DeserializationContext::startPrefixMapping(ns2, http://servizi.gestioneconferenzews.com/)
+[2014-03-13 17:22:06,421]DEBUG 53059["http-bio-8090"-exec-10] - org.apache.axis.encoding.DeserializationContext.startPrefixMapping(DeserializationContext.java:925) - Exit: DeserializationContext::startPrefixMapping()
+[2014-03-13 17:22:06,421]DEBUG 53059["http-bio-8090"-exec-10] - org.apache.axis.encoding.DeserializationContext.startElement(DeserializationContext.java:1003) - Enter: DeserializationContext::startElement(http://servizi.gestioneconferenzews.com/, verificautenteloginResponse)
+[2014-03-13 17:22:06,421]DEBUG 53059["http-bio-8090"-exec-10] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(pushHandler00)
+[2014-03-13 17:22:06,421]DEBUG 53059["http-bio-8090"-exec-10] - org.apache.axis.encoding.DeserializationContext.pushElementHandler(DeserializationContext.java:796) - Pushing handler org.apache.axis.message.RPCHandler@e0242f
+[2014-03-13 17:22:06,422]DEBUG 53060["http-bio-8090"-exec-10] - org.apache.axis.encoding.DeserializationContext.startElement(DeserializationContext.java:1067) - Exit: DeserializationContext::startElement()
+[2014-03-13 17:22:06,422]DEBUG 53060["http-bio-8090"-exec-10] - org.apache.axis.encoding.DeserializationContext.startElement(DeserializationContext.java:1003) - Enter: DeserializationContext::startElement(, return)
+[2014-03-13 17:22:06,422]DEBUG 53060["http-bio-8090"-exec-10] - org.apache.axis.message.RPCHandler.onStartChild(RPCHandler.java:125) - Enter: RPCHandler.onStartChild()
+[2014-03-13 17:22:06,422]DEBUG 53060["http-bio-8090"-exec-10] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(typeFromAttr00)
+[2014-03-13 17:22:06,422]DEBUG 53060["http-bio-8090"-exec-10] - org.apache.axis.message.RPCHandler.onStartChild(RPCHandler.java:169) - Type from attributes is:  null
+[2014-03-13 17:22:06,422]DEBUG 53060["http-bio-8090"-exec-10] - org.apache.axis.message.RPCHandler.onStartChild(RPCHandler.java:303) - Exit: RPCHandler.onStartChild()
+[2014-03-13 17:22:06,423]DEBUG 53061["http-bio-8090"-exec-10] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(pushHandler00)
+[2014-03-13 17:22:06,423]DEBUG 53061["http-bio-8090"-exec-10] - org.apache.axis.encoding.DeserializationContext.pushElementHandler(DeserializationContext.java:796) - Pushing handler org.apache.axis.encoding.ser.SimpleDeserializer@3d449d
+[2014-03-13 17:22:06,423]DEBUG 53061["http-bio-8090"-exec-10] - org.apache.axis.encoding.DeserializationContext.startElement(DeserializationContext.java:1067) - Exit: DeserializationContext::startElement()
+[2014-03-13 17:22:06,423]DEBUG 53061["http-bio-8090"-exec-10] - org.apache.axis.encoding.DeserializationContext.endElement(DeserializationContext.java:1078) - Enter: DeserializationContext::endElement(, return)
+[2014-03-13 17:22:06,423]DEBUG 53061["http-bio-8090"-exec-10] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(popHandler00)
+[2014-03-13 17:22:06,423]DEBUG 53061["http-bio-8090"-exec-10] - org.apache.axis.encoding.DeserializationContext.popElementHandler(DeserializationContext.java:829) - Popping handler org.apache.axis.encoding.ser.SimpleDeserializer@3d449d
+[2014-03-13 17:22:06,423]DEBUG 53061["http-bio-8090"-exec-10] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(setValueInTarget00)
+[2014-03-13 17:22:06,424]DEBUG 53062["http-bio-8090"-exec-10] - org.apache.axis.encoding.DeserializerImpl.valueComplete(DeserializerImpl.java:251) - Set value false in target org.apache.axis.message.RPCParamTarget@63d6ef
+[2014-03-13 17:22:06,424]DEBUG 53062["http-bio-8090"-exec-10] - org.apache.axis.encoding.DeserializationContext.endElement(DeserializationContext.java:1106) - Popped element stack to org.apache.axis.message.RPCElement:verificautenteloginResponse
+[2014-03-13 17:22:06,424]DEBUG 53062["http-bio-8090"-exec-10] - org.apache.axis.encoding.DeserializationContext.endElement(DeserializationContext.java:1107) - Exit: DeserializationContext::endElement()
+[2014-03-13 17:22:06,424]DEBUG 53062["http-bio-8090"-exec-10] - org.apache.axis.encoding.DeserializationContext.endElement(DeserializationContext.java:1078) - Enter: DeserializationContext::endElement(http://servizi.gestioneconferenzews.com/, verificautenteloginResponse)
+[2014-03-13 17:22:06,424]DEBUG 53062["http-bio-8090"-exec-10] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(popHandler00)
+[2014-03-13 17:22:06,424]DEBUG 53062["http-bio-8090"-exec-10] - org.apache.axis.encoding.DeserializationContext.popElementHandler(DeserializationContext.java:829) - Popping handler org.apache.axis.message.RPCHandler@e0242f
+[2014-03-13 17:22:06,424]DEBUG 53062["http-bio-8090"-exec-10] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(setProp00)
+[2014-03-13 17:22:06,424]DEBUG 53062["http-bio-8090"-exec-10] - org.apache.axis.message.RPCHandler.endElement(RPCHandler.java:317) - Setting MessageContext property in RPCHandler.endElement().
+[2014-03-13 17:22:06,425]DEBUG 53063["http-bio-8090"-exec-10] - org.apache.axis.encoding.DeserializationContext.endElement(DeserializationContext.java:1106) - Popped element stack to org.apache.axis.message.SOAPBody:Body
+[2014-03-13 17:22:06,425]DEBUG 53063["http-bio-8090"-exec-10] - org.apache.axis.encoding.DeserializationContext.endElement(DeserializationContext.java:1107) - Exit: DeserializationContext::endElement()
+[2014-03-13 17:22:06,425]DEBUG 53063["http-bio-8090"-exec-10] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(convert00)
+[2014-03-13 17:22:06,425]DEBUG 53063["http-bio-8090"-exec-10] - org.apache.axis.utils.JavaUtils.convert(JavaUtils.java:253) - Trying to convert java.lang.Boolean to boolean
+[2014-03-13 17:22:06,425]DEBUG 53063["http-bio-8090"-exec-10] - org.apache.axis.client.Call.invoke(Call.java:2594) - Exit: Call::invoke(RPCElement)
+[2014-03-13 17:22:06,425]DEBUG 53063["http-bio-8090"-exec-10] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(convert00)
+[2014-03-13 17:22:06,425]DEBUG 53063["http-bio-8090"-exec-10] - org.apache.axis.utils.JavaUtils.convert(JavaUtils.java:253) - Trying to convert java.lang.Boolean to boolean
+[2014-03-13 17:22:06,425]DEBUG 53063["http-bio-8090"-exec-10] - org.apache.axis.client.Call.invoke(Call.java:2369) - Exit: Call::invoke(ns, meth, args)
+[2014-03-13 17:22:06,426]DEBUG 53064["http-bio-8090"-exec-10] - org.apache.axis.client.Call.invoke(Call.java:1816) - axis.Call.invoke: 238 {http://servizi.gestioneconferenzews.com/}verificautentelogin
+[2014-03-13 17:22:06,426]DEBUG 53064["http-bio-8090"-exec-10] - org.apache.axis.SOAPPart.saveChanges(SOAPPart.java:524) - Enter: SOAPPart::saveChanges
+[2014-03-13 17:22:06,426]DEBUG 53064["http-bio-8090"-exec-10] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(register00)
+[2014-03-13 17:22:06,426]DEBUG 53064["http-bio-8090"-exec-10] - org.apache.axis.encoding.SerializationContext.registerPrefixForURI(SerializationContext.java:472) - register 'S' - 'http://schemas.xmlsoap.org/soap/envelope/'
+[2014-03-13 17:22:06,426]DEBUG 53064["http-bio-8090"-exec-10] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(startElem00)
+[2014-03-13 17:22:06,426]DEBUG 53064["http-bio-8090"-exec-10] - org.apache.axis.encoding.SerializationContext.startElement(SerializationContext.java:1098) - Start element [http://schemas.xmlsoap.org/soap/envelope/]:Envelope
+[2014-03-13 17:22:06,426]DEBUG 53064["http-bio-8090"-exec-10] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(headers00)
+[2014-03-13 17:22:06,427]DEBUG 53065["http-bio-8090"-exec-10] - org.apache.axis.message.SOAPHeader.outputImpl(SOAPHeader.java:318) - 0 headers
+[2014-03-13 17:22:06,427]DEBUG 53065["http-bio-8090"-exec-10] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(startElem00)
+[2014-03-13 17:22:06,427]DEBUG 53065["http-bio-8090"-exec-10] - org.apache.axis.encoding.SerializationContext.startElement(SerializationContext.java:1098) - Start element [http://schemas.xmlsoap.org/soap/envelope/]:Body
+[2014-03-13 17:22:06,427]DEBUG 53065["http-bio-8090"-exec-10] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(register00)
+[2014-03-13 17:22:06,427]DEBUG 53065["http-bio-8090"-exec-10] - org.apache.axis.encoding.SerializationContext.registerPrefixForURI(SerializationContext.java:472) - register 'ns2' - 'http://servizi.gestioneconferenzews.com/'
+[2014-03-13 17:22:06,427]DEBUG 53065["http-bio-8090"-exec-10] - org.apache.axis.message.SAXOutputter.startElement(SAXOutputter.java:94) - SAXOutputter.startElement ['http://servizi.gestioneconferenzews.com/' verificautenteloginResponse]
+[2014-03-13 17:22:06,427]DEBUG 53065["http-bio-8090"-exec-10] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(startElem00)
+[2014-03-13 17:22:06,427]DEBUG 53065["http-bio-8090"-exec-10] - org.apache.axis.encoding.SerializationContext.startElement(SerializationContext.java:1098) - Start element [http://servizi.gestioneconferenzews.com/]:verificautenteloginResponse
+[2014-03-13 17:22:06,428]DEBUG 53066["http-bio-8090"-exec-10] - org.apache.axis.message.SAXOutputter.startElement(SAXOutputter.java:94) - SAXOutputter.startElement ['' return]
+[2014-03-13 17:22:06,428]DEBUG 53066["http-bio-8090"-exec-10] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(startElem00)
+[2014-03-13 17:22:06,428]DEBUG 53066["http-bio-8090"-exec-10] - org.apache.axis.encoding.SerializationContext.startElement(SerializationContext.java:1098) - Start element []:return
+[2014-03-13 17:22:06,428]DEBUG 53066["http-bio-8090"-exec-10] - org.apache.axis.message.SAXOutputter.characters(SAXOutputter.java:63) - SAXOutputter.characters ['false']
+[2014-03-13 17:22:06,428]DEBUG 53066["http-bio-8090"-exec-10] - org.apache.axis.message.SAXOutputter.endElement(SAXOutputter.java:109) - SAXOutputter.endElement ['' return]
+[2014-03-13 17:22:06,428]DEBUG 53066["http-bio-8090"-exec-10] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(endElem00)
+[2014-03-13 17:22:06,428]DEBUG 53066["http-bio-8090"-exec-10] - org.apache.axis.encoding.SerializationContext.endElement(SerializationContext.java:1208) - End element return
+[2014-03-13 17:22:06,429]DEBUG 53067["http-bio-8090"-exec-10] - org.apache.axis.message.SAXOutputter.endElement(SAXOutputter.java:109) - SAXOutputter.endElement ['http://servizi.gestioneconferenzews.com/' verificautenteloginResponse]
+[2014-03-13 17:22:06,429]DEBUG 53067["http-bio-8090"-exec-10] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(endElem00)
+[2014-03-13 17:22:06,429]DEBUG 53067["http-bio-8090"-exec-10] - org.apache.axis.encoding.SerializationContext.endElement(SerializationContext.java:1208) - End element ns2:verificautenteloginResponse
+[2014-03-13 17:22:06,429]DEBUG 53067["http-bio-8090"-exec-10] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(endElem00)
+[2014-03-13 17:22:06,429]DEBUG 53067["http-bio-8090"-exec-10] - org.apache.axis.encoding.SerializationContext.endElement(SerializationContext.java:1208) - End element S:Body
+[2014-03-13 17:22:06,429]DEBUG 53067["http-bio-8090"-exec-10] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(endElem00)
+[2014-03-13 17:22:06,429]DEBUG 53067["http-bio-8090"-exec-10] - org.apache.axis.encoding.SerializationContext.endElement(SerializationContext.java:1208) - End element S:Envelope
+[2014-03-13 17:22:06,429]DEBUG 53067["http-bio-8090"-exec-10] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(setMsgForm)
+[2014-03-13 17:22:06,430]DEBUG 53068["http-bio-8090"-exec-10] - org.apache.axis.SOAPPart.setCurrentForm(SOAPPart.java:374) - Setting current message form to: FORM_OPTIMIZED (currentMessage is now org.apache.axis.utils.ByteArray)
+[2014-03-13 17:22:06,430]DEBUG 53068["http-bio-8090"-exec-10] - org.apache.axis.SOAPPart.saveChanges(SOAPPart.java:537) - Exit: SOAPPart::saveChanges(): org.apache.axis.utils.ByteArray@b3faa7
+[2014-03-13 17:22:07,032] WARN 53670["http-bio-8090"-exec-10] - com.gestioneconferenze.sessione.sessioneBean.entra(sessioneBean.java:99) - l utente tiziano ha tentato di accedere senza successo
