@@ -1,357 +1,94 @@
-[2014-03-13 17:21:41,907]DEBUG 28545["http-bio-8090"-exec-2] - org.apache.axis.message.SAXOutputter.endElement(SAXOutputter.java:109) - SAXOutputter.endElement ['' return]
-[2014-03-13 17:21:41,907]DEBUG 28545["http-bio-8090"-exec-2] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(endElem00)
-[2014-03-13 17:21:41,907]DEBUG 28545["http-bio-8090"-exec-2] - org.apache.axis.encoding.SerializationContext.endElement(SerializationContext.java:1208) - End element return
-[2014-03-13 17:21:41,908]DEBUG 28546["http-bio-8090"-exec-2] - org.apache.axis.message.SAXOutputter.endElement(SAXOutputter.java:109) - SAXOutputter.endElement ['http://servizi.gestioneconferenzews.com/' verificautenteloginResponse]
-[2014-03-13 17:21:41,908]DEBUG 28546["http-bio-8090"-exec-2] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(endElem00)
-[2014-03-13 17:21:41,908]DEBUG 28546["http-bio-8090"-exec-2] - org.apache.axis.encoding.SerializationContext.endElement(SerializationContext.java:1208) - End element ns2:verificautenteloginResponse
-[2014-03-13 17:21:41,908]DEBUG 28546["http-bio-8090"-exec-2] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(endElem00)
-[2014-03-13 17:21:41,908]DEBUG 28546["http-bio-8090"-exec-2] - org.apache.axis.encoding.SerializationContext.endElement(SerializationContext.java:1208) - End element S:Body
-[2014-03-13 17:21:41,908]DEBUG 28546["http-bio-8090"-exec-2] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(endElem00)
-[2014-03-13 17:21:41,908]DEBUG 28546["http-bio-8090"-exec-2] - org.apache.axis.encoding.SerializationContext.endElement(SerializationContext.java:1208) - End element S:Envelope
-[2014-03-13 17:21:41,909]DEBUG 28547["http-bio-8090"-exec-2] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(setMsgForm)
-[2014-03-13 17:21:41,909]DEBUG 28547["http-bio-8090"-exec-2] - org.apache.axis.SOAPPart.setCurrentForm(SOAPPart.java:374) - Setting current message form to: FORM_OPTIMIZED (currentMessage is now org.apache.axis.utils.ByteArray)
-[2014-03-13 17:21:41,909]DEBUG 28547["http-bio-8090"-exec-2] - org.apache.axis.SOAPPart.saveChanges(SOAPPart.java:537) - Exit: SOAPPart::saveChanges(): org.apache.axis.utils.ByteArray@645882
-[2014-03-13 17:21:42,605] INFO 29243["http-bio-8090"-exec-2] - com.gestioneconferenze.sessione.sessioneBean.entra(sessioneBean.java:104) - L utente tiziano ha effettuato accesso
-[2014-03-13 17:21:42,887] INFO 29525["http-bio-8090"-exec-2] - com.gestioneconferenze.sessione.SingletonConf.getSingletonConf(SingletonConf.java:22) - Creato singleton elenco utenti
-[2014-03-13 17:21:46,920] INFO 33558["http-bio-8090"-exec-2] - com.gestioneconferenze.util.UrlUtil.RedirectAPagina(UrlUtil.java:80) - Redirect a home.xhtml
-[2014-03-13 17:22:00,035]DEBUG 46673[Finalizer] - org.apache.axis.MessageContext.dispose(MessageContext.java:1349) - disposing of message context
-[2014-03-13 17:22:00,048] INFO 46686["http-bio-8090"-exec-10] - com.gestioneconferenze.sessione.sessioneBean.entra(sessioneBean.java:90) - inizio chiamata entra di sessioneBean
-[2014-03-13 17:22:05,765]DEBUG 52403["http-bio-8090"-exec-10] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(engineFactory)
-[2014-03-13 17:22:05,765]DEBUG 52403["http-bio-8090"-exec-10] - org.apache.axis.configuration.EngineConfigurationFactoryFinder$1.run(EngineConfigurationFactoryFinder.java:141) - Got EngineFactory: org.apache.axis.configuration.EngineConfigurationFactoryDefault
-[2014-03-13 17:22:05,766]DEBUG 52404["http-bio-8090"-exec-10] - org.apache.axis.AxisEngine.init(AxisEngine.java:165) - Enter: AxisEngine::init
-[2014-03-13 17:22:05,770]DEBUG 52408["http-bio-8090"-exec-10] - org.apache.axis.AxisEngine.init(AxisEngine.java:195) - Exit: AxisEngine::init
-[2014-03-13 17:22:06,187]DEBUG 52825["http-bio-8090"-exec-10] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(transport00)
-[2014-03-13 17:22:06,188]DEBUG 52826["http-bio-8090"-exec-10] - org.apache.axis.client.Call.setTransport(Call.java:2119) - Transport is org.apache.axis.transport.http.HTTPTransport@140edbb
-[2014-03-13 17:22:06,188]DEBUG 52826["http-bio-8090"-exec-10] - org.apache.axis.client.Call.invoke(Call.java:2351) - Enter: Call::invoke(ns, meth, args)
-[2014-03-13 17:22:06,188]DEBUG 52826["http-bio-8090"-exec-10] - org.apache.axis.client.Call.getParamList(Call.java:2043) - operation=name:        verificautentelogin
-returnQName: return
-returnType:  {http://www.w3.org/2001/XMLSchema}boolean
-returnClass: boolean
-elementQName:null
-soapAction:  null
-style:       wrapped
-use:         literal
-numInParams: 2
-method:null
- ParameterDesc[0]:
-  name:       username
-  typeEntry:  null
-  mode:       IN
-  position:   0
-  isReturn:   false
-  typeQName:  {http://www.w3.org/2001/XMLSchema}string
-  javaType:   class java.lang.String
-  inHeader:   false
-  outHeader:  false
-
- ParameterDesc[1]:
-  name:       password
-  typeEntry:  null
-  mode:       IN
-  position:   1
-  isReturn:   false
-  typeQName:  {http://www.w3.org/2001/XMLSchema}string
-  javaType:   class java.lang.String
-  inHeader:   false
-  outHeader:  false
-
-
-[2014-03-13 17:22:06,188]DEBUG 52826["http-bio-8090"-exec-10] - org.apache.axis.client.Call.getParamList(Call.java:2045) - operation.getNumParams()=2
-[2014-03-13 17:22:06,189]DEBUG 52827["http-bio-8090"-exec-10] - org.apache.axis.client.Call.getParamList(Call.java:2068) - getParamList number of params: 2
-[2014-03-13 17:22:06,189]DEBUG 52827["http-bio-8090"-exec-10] - org.apache.axis.client.Call.invoke(Call.java:2405) - Enter: Call::invoke(RPCElement)
-[2014-03-13 17:22:06,189]DEBUG 52827["http-bio-8090"-exec-10] - org.apache.axis.SOAPPart.<init>(SOAPPart.java:182) - Enter: SOAPPart ctor(FORM_SOAPENVELOPE)
-[2014-03-13 17:22:06,189]DEBUG 52827["http-bio-8090"-exec-10] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(setMsgForm)
-[2014-03-13 17:22:06,189]DEBUG 52827["http-bio-8090"-exec-10] - org.apache.axis.SOAPPart.setCurrentForm(SOAPPart.java:374) - Setting current message form to: FORM_SOAPENVELOPE (currentMessage is now org.apache.axis.message.SOAPEnvelope)
-[2014-03-13 17:22:06,189]DEBUG 52827["http-bio-8090"-exec-10] - org.apache.axis.SOAPPart.<init>(SOAPPart.java:188) - Exit: SOAPPart ctor()
-[2014-03-13 17:22:06,190]DEBUG 52828["http-bio-8090"-exec-10] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(addBody00)
-[2014-03-13 17:22:06,190]DEBUG 52828["http-bio-8090"-exec-10] - org.apache.axis.message.SOAPBody.addBodyElement(SOAPBody.java:168) - Adding body element to message...
-[2014-03-13 17:22:06,190]DEBUG 52828["http-bio-8090"-exec-10] - org.apache.axis.client.Call.invoke(Call.java:2638) - Enter: Call::invoke()
-[2014-03-13 17:22:06,190]DEBUG 52828["http-bio-8090"-exec-10] - org.apache.axis.MessageContext.setTargetService(MessageContext.java:749) - MessageContext: setTargetService(servizioutentiPort)
-[2014-03-13 17:22:06,190]DEBUG 52828["http-bio-8090"-exec-10] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(noService10)
-[2014-03-13 17:22:06,190]DEBUG 52828["http-bio-8090"-exec-10] - org.apache.axis.ConfigurationException.logException(ConfigurationException.java:110) - Exception: 
-org.apache.axis.ConfigurationException: No service named servizioutentiPort is available
-org.apache.axis.ConfigurationException: No service named servizioutentiPort is available
-	at org.apache.axis.configuration.FileProvider.getService(FileProvider.java:233)
-	at org.apache.axis.AxisEngine.getService(AxisEngine.java:311)
-	at org.apache.axis.MessageContext.setTargetService(MessageContext.java:756)
-	at org.apache.axis.client.Call.invoke(Call.java:2690)
-	at org.apache.axis.client.Call.invoke(Call.java:2443)
-	at org.apache.axis.client.Call.invoke(Call.java:2366)
-	at org.apache.axis.client.Call.invoke(Call.java:1812)
-	at com.gestioneconferenzews.servizi.ServizioutentiPortBindingStub.verificautentelogin(ServizioutentiPortBindingStub.java:110)
-	at com.gestioneconferenzews.servizi.ServizioutentiProxy.verificautentelogin(ServizioutentiProxy.java:50)
-	at com.gestioneconferenze.facade.UtentiFacade.login(UtentiFacade.java:25)
-	at com.gestioneconferenze.sessione.sessioneBean.entra(sessioneBean.java:97)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.apache.el.parser.AstValue.invoke(AstValue.java:262)
-	at org.apache.el.MethodExpressionImpl.invoke(MethodExpressionImpl.java:278)
-	at com.sun.faces.facelets.el.TagMethodExpression.invoke(TagMethodExpression.java:105)
-	at javax.faces.component.MethodBindingMethodExpressionAdapter.invoke(MethodBindingMethodExpressionAdapter.java:87)
-	at com.sun.faces.application.ActionListenerImpl.processAction(ActionListenerImpl.java:102)
-	at javax.faces.component.UICommand.broadcast(UICommand.java:315)
-	at javax.faces.component.UIViewRoot.broadcastEvents(UIViewRoot.java:790)
-	at javax.faces.component.UIViewRoot.processApplication(UIViewRoot.java:1282)
-	at com.sun.faces.lifecycle.InvokeApplicationPhase.execute(InvokeApplicationPhase.java:81)
-	at com.sun.faces.lifecycle.Phase.doPhase(Phase.java:101)
-	at com.sun.faces.lifecycle.LifecycleImpl.execute(LifecycleImpl.java:198)
-	at javax.faces.webapp.FacesServlet.service(FacesServlet.java:646)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:304)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
-	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:240)
-	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:164)
-	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:462)
-	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:164)
-	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:100)
-	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:562)
-	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
-	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:395)
-	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:250)
-	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:188)
-	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:166)
-	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:302)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
-	at java.lang.Thread.run(Unknown Source)
-
-	at org.apache.axis.configuration.FileProvider.getService(FileProvider.java:233)
-	at org.apache.axis.AxisEngine.getService(AxisEngine.java:311)
-	at org.apache.axis.MessageContext.setTargetService(MessageContext.java:756)
-	at org.apache.axis.client.Call.invoke(Call.java:2690)
-	at org.apache.axis.client.Call.invoke(Call.java:2443)
-	at org.apache.axis.client.Call.invoke(Call.java:2366)
-	at org.apache.axis.client.Call.invoke(Call.java:1812)
-	at com.gestioneconferenzews.servizi.ServizioutentiPortBindingStub.verificautentelogin(ServizioutentiPortBindingStub.java:110)
-	at com.gestioneconferenzews.servizi.ServizioutentiProxy.verificautentelogin(ServizioutentiProxy.java:50)
-	at com.gestioneconferenze.facade.UtentiFacade.login(UtentiFacade.java:25)
-	at com.gestioneconferenze.sessione.sessioneBean.entra(sessioneBean.java:97)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.apache.el.parser.AstValue.invoke(AstValue.java:262)
-	at org.apache.el.MethodExpressionImpl.invoke(MethodExpressionImpl.java:278)
-	at com.sun.faces.facelets.el.TagMethodExpression.invoke(TagMethodExpression.java:105)
-	at javax.faces.component.MethodBindingMethodExpressionAdapter.invoke(MethodBindingMethodExpressionAdapter.java:87)
-	at com.sun.faces.application.ActionListenerImpl.processAction(ActionListenerImpl.java:102)
-	at javax.faces.component.UICommand.broadcast(UICommand.java:315)
-	at javax.faces.component.UIViewRoot.broadcastEvents(UIViewRoot.java:790)
-	at javax.faces.component.UIViewRoot.processApplication(UIViewRoot.java:1282)
-	at com.sun.faces.lifecycle.InvokeApplicationPhase.execute(InvokeApplicationPhase.java:81)
-	at com.sun.faces.lifecycle.Phase.doPhase(Phase.java:101)
-	at com.sun.faces.lifecycle.LifecycleImpl.execute(LifecycleImpl.java:198)
-	at javax.faces.webapp.FacesServlet.service(FacesServlet.java:646)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:304)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
-	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:240)
-	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:164)
-	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:462)
-	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:164)
-	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:100)
-	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:562)
-	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
-	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:395)
-	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:250)
-	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:188)
-	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:166)
-	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:302)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
-	at java.lang.Thread.run(Unknown Source)
-[2014-03-13 17:22:06,191]DEBUG 52829["http-bio-8090"-exec-10] - org.apache.axis.MessageContext.setService(MessageContext.java:793) - MessageContext: setServiceHandler(null)
-[2014-03-13 17:22:06,191]DEBUG 52829["http-bio-8090"-exec-10] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(targetService)
-[2014-03-13 17:22:06,191]DEBUG 52829["http-bio-8090"-exec-10] - org.apache.axis.client.Call.invoke(Call.java:2715) - Target service:  servizioutentiPort
-[2014-03-13 17:22:06,192]DEBUG 52830["http-bio-8090"-exec-10] - org.apache.axis.MessageContext.setTargetService(MessageContext.java:749) - MessageContext: setTargetService()
-[2014-03-13 17:22:06,192]DEBUG 52830["http-bio-8090"-exec-10] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(noService10)
-[2014-03-13 17:22:06,192]DEBUG 52830["http-bio-8090"-exec-10] - org.apache.axis.ConfigurationException.logException(ConfigurationException.java:110) - Exception: 
-org.apache.axis.ConfigurationException: No service named  is available
-org.apache.axis.ConfigurationException: No service named  is available
-	at org.apache.axis.configuration.FileProvider.getService(FileProvider.java:233)
-	at org.apache.axis.AxisEngine.getService(AxisEngine.java:311)
-	at org.apache.axis.MessageContext.setTargetService(MessageContext.java:756)
-	at org.apache.axis.transport.http.HTTPTransport.setupMessageContextImpl(HTTPTransport.java:89)
-	at org.apache.axis.client.Transport.setupMessageContext(Transport.java:46)
-	at org.apache.axis.client.Call.invoke(Call.java:2738)
-	at org.apache.axis.client.Call.invoke(Call.java:2443)
-	at org.apache.axis.client.Call.invoke(Call.java:2366)
-	at org.apache.axis.client.Call.invoke(Call.java:1812)
-	at com.gestioneconferenzews.servizi.ServizioutentiPortBindingStub.verificautentelogin(ServizioutentiPortBindingStub.java:110)
-	at com.gestioneconferenzews.servizi.ServizioutentiProxy.verificautentelogin(ServizioutentiProxy.java:50)
-	at com.gestioneconferenze.facade.UtentiFacade.login(UtentiFacade.java:25)
-	at com.gestioneconferenze.sessione.sessioneBean.entra(sessioneBean.java:97)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.apache.el.parser.AstValue.invoke(AstValue.java:262)
-	at org.apache.el.MethodExpressionImpl.invoke(MethodExpressionImpl.java:278)
-	at com.sun.faces.facelets.el.TagMethodExpression.invoke(TagMethodExpression.java:105)
-	at javax.faces.component.MethodBindingMethodExpressionAdapter.invoke(MethodBindingMethodExpressionAdapter.java:87)
-	at com.sun.faces.application.ActionListenerImpl.processAction(ActionListenerImpl.java:102)
-	at javax.faces.component.UICommand.broadcast(UICommand.java:315)
-	at javax.faces.component.UIViewRoot.broadcastEvents(UIViewRoot.java:790)
-	at javax.faces.component.UIViewRoot.processApplication(UIViewRoot.java:1282)
-	at com.sun.faces.lifecycle.InvokeApplicationPhase.execute(InvokeApplicationPhase.java:81)
-	at com.sun.faces.lifecycle.Phase.doPhase(Phase.java:101)
-	at com.sun.faces.lifecycle.LifecycleImpl.execute(LifecycleImpl.java:198)
-	at javax.faces.webapp.FacesServlet.service(FacesServlet.java:646)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:304)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
-	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:240)
-	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:164)
-	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:462)
-	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:164)
-	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:100)
-	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:562)
-	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
-	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:395)
-	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:250)
-	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:188)
-	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:166)
-	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:302)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
-	at java.lang.Thread.run(Unknown Source)
-
-	at org.apache.axis.configuration.FileProvider.getService(FileProvider.java:233)
-	at org.apache.axis.AxisEngine.getService(AxisEngine.java:311)
-	at org.apache.axis.MessageContext.setTargetService(MessageContext.java:756)
-	at org.apache.axis.transport.http.HTTPTransport.setupMessageContextImpl(HTTPTransport.java:89)
-	at org.apache.axis.client.Transport.setupMessageContext(Transport.java:46)
-	at org.apache.axis.client.Call.invoke(Call.java:2738)
-	at org.apache.axis.client.Call.invoke(Call.java:2443)
-	at org.apache.axis.client.Call.invoke(Call.java:2366)
-	at org.apache.axis.client.Call.invoke(Call.java:1812)
-	at com.gestioneconferenzews.servizi.ServizioutentiPortBindingStub.verificautentelogin(ServizioutentiPortBindingStub.java:110)
-	at com.gestioneconferenzews.servizi.ServizioutentiProxy.verificautentelogin(ServizioutentiProxy.java:50)
-	at com.gestioneconferenze.facade.UtentiFacade.login(UtentiFacade.java:25)
-	at com.gestioneconferenze.sessione.sessioneBean.entra(sessioneBean.java:97)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.apache.el.parser.AstValue.invoke(AstValue.java:262)
-	at org.apache.el.MethodExpressionImpl.invoke(MethodExpressionImpl.java:278)
-	at com.sun.faces.facelets.el.TagMethodExpression.invoke(TagMethodExpression.java:105)
-	at javax.faces.component.MethodBindingMethodExpressionAdapter.invoke(MethodBindingMethodExpressionAdapter.java:87)
-	at com.sun.faces.application.ActionListenerImpl.processAction(ActionListenerImpl.java:102)
-	at javax.faces.component.UICommand.broadcast(UICommand.java:315)
-	at javax.faces.component.UIViewRoot.broadcastEvents(UIViewRoot.java:790)
-	at javax.faces.component.UIViewRoot.processApplication(UIViewRoot.java:1282)
-	at com.sun.faces.lifecycle.InvokeApplicationPhase.execute(InvokeApplicationPhase.java:81)
-	at com.sun.faces.lifecycle.Phase.doPhase(Phase.java:101)
-	at com.sun.faces.lifecycle.LifecycleImpl.execute(LifecycleImpl.java:198)
-	at javax.faces.webapp.FacesServlet.service(FacesServlet.java:646)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:304)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
-	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:240)
-	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:164)
-	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:462)
-	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:164)
-	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:100)
-	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:562)
-	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
-	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:395)
-	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:250)
-	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:188)
-	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:166)
-	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:302)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
-	at java.lang.Thread.run(Unknown Source)
-[2014-03-13 17:22:06,193]DEBUG 52831["http-bio-8090"-exec-10] - org.apache.axis.MessageContext.setService(MessageContext.java:793) - MessageContext: setServiceHandler(null)
-[2014-03-13 17:22:06,193]DEBUG 52831["http-bio-8090"-exec-10] - org.apache.axis.SOAPPart.getAsSOAPEnvelope(SOAPPart.java:661) - Enter: SOAPPart::getAsSOAPEnvelope()
-[2014-03-13 17:22:06,193]DEBUG 52831["http-bio-8090"-exec-10] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(currForm)
-[2014-03-13 17:22:06,193]DEBUG 52831["http-bio-8090"-exec-10] - org.apache.axis.SOAPPart.getAsSOAPEnvelope(SOAPPart.java:662) - current form is FORM_SOAPENVELOPE
-[2014-03-13 17:22:06,193]DEBUG 52831["http-bio-8090"-exec-10] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(register00)
-[2014-03-13 17:22:06,193]DEBUG 52831["http-bio-8090"-exec-10] - org.apache.axis.encoding.SerializationContext.registerPrefixForURI(SerializationContext.java:472) - register 'soapenv' - 'http://schemas.xmlsoap.org/soap/envelope/'
-[2014-03-13 17:22:06,193]DEBUG 52831["http-bio-8090"-exec-10] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(register00)
-[2014-03-13 17:22:06,194]DEBUG 52832["http-bio-8090"-exec-10] - org.apache.axis.encoding.SerializationContext.registerPrefixForURI(SerializationContext.java:472) - register 'soapenv' - 'http://schemas.xmlsoap.org/soap/envelope/'
-[2014-03-13 17:22:06,194]DEBUG 52832["http-bio-8090"-exec-10] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(register00)
-[2014-03-13 17:22:06,194]DEBUG 52832["http-bio-8090"-exec-10] - org.apache.axis.encoding.SerializationContext.registerPrefixForURI(SerializationContext.java:472) - register 'xsd' - 'http://www.w3.org/2001/XMLSchema'
-[2014-03-13 17:22:06,194]DEBUG 52832["http-bio-8090"-exec-10] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(register00)
-[2014-03-13 17:22:06,194]DEBUG 52832["http-bio-8090"-exec-10] - org.apache.axis.encoding.SerializationContext.registerPrefixForURI(SerializationContext.java:472) - register 'xsi' - 'http://www.w3.org/2001/XMLSchema-instance'
-[2014-03-13 17:22:06,194]DEBUG 52832["http-bio-8090"-exec-10] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(startElem00)
-[2014-03-13 17:22:06,194]DEBUG 52832["http-bio-8090"-exec-10] - org.apache.axis.encoding.SerializationContext.startElement(SerializationContext.java:1098) - Start element [http://schemas.xmlsoap.org/soap/envelope/]:Envelope
-[2014-03-13 17:22:06,195]DEBUG 52833["http-bio-8090"-exec-10] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(startElem00)
-[2014-03-13 17:22:06,195]DEBUG 52833["http-bio-8090"-exec-10] - org.apache.axis.encoding.SerializationContext.startElement(SerializationContext.java:1098) - Start element [http://schemas.xmlsoap.org/soap/envelope/]:Body
-[2014-03-13 17:22:06,195]DEBUG 52833["http-bio-8090"-exec-10] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(register00)
-[2014-03-13 17:22:06,195]DEBUG 52833["http-bio-8090"-exec-10] - org.apache.axis.encoding.SerializationContext.registerPrefixForURI(SerializationContext.java:472) - register '' - 'http://servizi.gestioneconferenzews.com/'
-[2014-03-13 17:22:06,195]DEBUG 52833["http-bio-8090"-exec-10] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(startElem00)
-[2014-03-13 17:22:06,195]DEBUG 52833["http-bio-8090"-exec-10] - org.apache.axis.encoding.SerializationContext.startElement(SerializationContext.java:1098) - Start element [http://servizi.gestioneconferenzews.com/]:verificautentelogin
-[2014-03-13 17:22:06,195]DEBUG 52833["http-bio-8090"-exec-10] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(startElem00)
-[2014-03-13 17:22:06,196]DEBUG 52834["http-bio-8090"-exec-10] - org.apache.axis.encoding.SerializationContext.startElement(SerializationContext.java:1098) - Start element []:username
-[2014-03-13 17:22:06,196]DEBUG 52834["http-bio-8090"-exec-10] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(register00)
-[2014-03-13 17:22:06,196]DEBUG 52834["http-bio-8090"-exec-10] - org.apache.axis.encoding.SerializationContext.registerPrefixForURI(SerializationContext.java:472) - register '' - ''
-[2014-03-13 17:22:06,196]DEBUG 52834["http-bio-8090"-exec-10] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(endElem00)
-[2014-03-13 17:22:06,196]DEBUG 52834["http-bio-8090"-exec-10] - org.apache.axis.encoding.SerializationContext.endElement(SerializationContext.java:1208) - End element username
-[2014-03-13 17:22:06,196]DEBUG 52834["http-bio-8090"-exec-10] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(startElem00)
-[2014-03-13 17:22:06,196]DEBUG 52834["http-bio-8090"-exec-10] - org.apache.axis.encoding.SerializationContext.startElement(SerializationContext.java:1098) - Start element []:password
-[2014-03-13 17:22:06,197]DEBUG 52835["http-bio-8090"-exec-10] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(register00)
-[2014-03-13 17:22:06,197]DEBUG 52835["http-bio-8090"-exec-10] - org.apache.axis.encoding.SerializationContext.registerPrefixForURI(SerializationContext.java:472) - register '' - ''
-[2014-03-13 17:22:06,197]DEBUG 52835["http-bio-8090"-exec-10] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(endElem00)
-[2014-03-13 17:22:06,197]DEBUG 52835["http-bio-8090"-exec-10] - org.apache.axis.encoding.SerializationContext.endElement(SerializationContext.java:1208) - End element password
-[2014-03-13 17:22:06,198]DEBUG 52836["http-bio-8090"-exec-10] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(endElem00)
-[2014-03-13 17:22:06,198]DEBUG 52836["http-bio-8090"-exec-10] - org.apache.axis.encoding.SerializationContext.endElement(SerializationContext.java:1208) - End element verificautentelogin
-[2014-03-13 17:22:06,198]DEBUG 52836["http-bio-8090"-exec-10] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(endElem00)
-[2014-03-13 17:22:06,198]DEBUG 52836["http-bio-8090"-exec-10] - org.apache.axis.encoding.SerializationContext.endElement(SerializationContext.java:1208) - End element soapenv:Body
-[2014-03-13 17:22:06,198]DEBUG 52836["http-bio-8090"-exec-10] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(endElem00)
-[2014-03-13 17:22:06,198]DEBUG 52836["http-bio-8090"-exec-10] - org.apache.axis.encoding.SerializationContext.endElement(SerializationContext.java:1208) - End element soapenv:Envelope
-[2014-03-13 17:22:06,198]DEBUG 52836["http-bio-8090"-exec-10] - org.apache.axis.client.Call.invoke(Call.java:2762) - <?xml version="1.0" encoding="UTF-8"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><soapenv:Body><verificautentelogin xmlns="http://servizi.gestioneconferenzews.com/"><username xmlns="">tiziano</username><password xmlns="">non password</password></verificautentelogin></soapenv:Body></soapenv:Envelope>
-[2014-03-13 17:22:06,198]DEBUG 52836["http-bio-8090"-exec-10] - org.apache.axis.client.AxisClient.invoke(AxisClient.java:77) - Enter: AxisClient::invoke
-[2014-03-13 17:22:06,198]DEBUG 52836["http-bio-8090"-exec-10] - org.apache.axis.client.AxisClient.invoke(AxisClient.java:90) - EngineHandler: null
-[2014-03-13 17:22:06,199]DEBUG 52837["http-bio-8090"-exec-10] - org.apache.axis.SimpleChain.invoke(SimpleChain.java:79) - Enter: SimpleChain::invoke
-[2014-03-13 17:22:06,199]DEBUG 52837["http-bio-8090"-exec-10] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(enter00)
-[2014-03-13 17:22:06,199]DEBUG 52837["http-bio-8090"-exec-10] - org.apache.axis.transport.http.HTTPSender.invoke(HTTPSender.java:125) - Enter:  HTTPSender::invoke
-[2014-03-13 17:22:06,199]DEBUG 52837["http-bio-8090"-exec-10] - org.apache.axis.SOAPPart.saveChanges(SOAPPart.java:524) - Enter: SOAPPart::saveChanges
-[2014-03-13 17:22:06,199]DEBUG 52837["http-bio-8090"-exec-10] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(register00)
-[2014-03-13 17:22:06,199]DEBUG 52837["http-bio-8090"-exec-10] - org.apache.axis.encoding.SerializationContext.registerPrefixForURI(SerializationContext.java:472) - register 'soapenv' - 'http://schemas.xmlsoap.org/soap/envelope/'
-[2014-03-13 17:22:06,200]DEBUG 52838["http-bio-8090"-exec-10] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(register00)
-[2014-03-13 17:22:06,200]DEBUG 52838["http-bio-8090"-exec-10] - org.apache.axis.encoding.SerializationContext.registerPrefixForURI(SerializationContext.java:472) - register 'soapenv' - 'http://schemas.xmlsoap.org/soap/envelope/'
-[2014-03-13 17:22:06,200]DEBUG 52838["http-bio-8090"-exec-10] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(register00)
-[2014-03-13 17:22:06,200]DEBUG 52838["http-bio-8090"-exec-10] - org.apache.axis.encoding.SerializationContext.registerPrefixForURI(SerializationContext.java:472) - register 'xsd' - 'http://www.w3.org/2001/XMLSchema'
-[2014-03-13 17:22:06,200]DEBUG 52838["http-bio-8090"-exec-10] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(register00)
-[2014-03-13 17:22:06,200]DEBUG 52838["http-bio-8090"-exec-10] - org.apache.axis.encoding.SerializationContext.registerPrefixForURI(SerializationContext.java:472) - register 'xsi' - 'http://www.w3.org/2001/XMLSchema-instance'
-[2014-03-13 17:22:06,201]DEBUG 52839["http-bio-8090"-exec-10] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(startElem00)
-[2014-03-13 17:22:06,201]DEBUG 52839["http-bio-8090"-exec-10] - org.apache.axis.encoding.SerializationContext.startElement(SerializationContext.java:1098) - Start element [http://schemas.xmlsoap.org/soap/envelope/]:Envelope
-[2014-03-13 17:22:06,201]DEBUG 52839["http-bio-8090"-exec-10] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(startElem00)
-[2014-03-13 17:22:06,201]DEBUG 52839["http-bio-8090"-exec-10] - org.apache.axis.encoding.SerializationContext.startElement(SerializationContext.java:1098) - Start element [http://schemas.xmlsoap.org/soap/envelope/]:Body
-[2014-03-13 17:22:06,201]DEBUG 52839["http-bio-8090"-exec-10] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(register00)
-[2014-03-13 17:22:06,201]DEBUG 52839["http-bio-8090"-exec-10] - org.apache.axis.encoding.SerializationContext.registerPrefixForURI(SerializationContext.java:472) - register '' - 'http://servizi.gestioneconferenzews.com/'
-[2014-03-13 17:22:06,201]DEBUG 52839["http-bio-8090"-exec-10] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(startElem00)
-[2014-03-13 17:22:06,201]DEBUG 52839["http-bio-8090"-exec-10] - org.apache.axis.encoding.SerializationContext.startElement(SerializationContext.java:1098) - Start element [http://servizi.gestioneconferenzews.com/]:verificautentelogin
-[2014-03-13 17:22:06,202]DEBUG 52840["http-bio-8090"-exec-10] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(startElem00)
-[2014-03-13 17:22:06,202]DEBUG 52840["http-bio-8090"-exec-10] - org.apache.axis.encoding.SerializationContext.startElement(SerializationContext.java:1098) - Start element []:username
-[2014-03-13 17:22:06,202]DEBUG 52840["http-bio-8090"-exec-10] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(register00)
-[2014-03-13 17:22:06,202]DEBUG 52840["http-bio-8090"-exec-10] - org.apache.axis.encoding.SerializationContext.registerPrefixForURI(SerializationContext.java:472) - register '' - ''
-[2014-03-13 17:22:06,202]DEBUG 52840["http-bio-8090"-exec-10] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(endElem00)
-[2014-03-13 17:22:06,202]DEBUG 52840["http-bio-8090"-exec-10] - org.apache.axis.encoding.SerializationContext.endElement(SerializationContext.java:1208) - End element username
-[2014-03-13 17:22:06,203]DEBUG 52841["http-bio-8090"-exec-10] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(startElem00)
-[2014-03-13 17:22:06,203]DEBUG 52841["http-bio-8090"-exec-10] - org.apache.axis.encoding.SerializationContext.startElement(SerializationContext.java:1098) - Start element []:password
-[2014-03-13 17:22:06,203]DEBUG 52841["http-bio-8090"-exec-10] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(register00)
-[2014-03-13 17:22:06,203]DEBUG 52841["http-bio-8090"-exec-10] - org.apache.axis.encoding.SerializationContext.registerPrefixForURI(SerializationContext.java:472) - register '' - ''
-[2014-03-13 17:22:06,203]DEBUG 52841["http-bio-8090"-exec-10] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(endElem00)
-[2014-03-13 17:22:06,203]DEBUG 52841["http-bio-8090"-exec-10] - org.apache.axis.encoding.SerializationContext.endElement(SerializationContext.java:1208) - End element password
-[2014-03-13 17:22:06,203]DEBUG 52841["http-bio-8090"-exec-10] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(endElem00)
-[2014-03-13 17:22:06,203]DEBUG 52841["http-bio-8090"-exec-10] - org.apache.axis.encoding.SerializationContext.endElement(SerializationContext.java:1208) - End element verificautentelogin
-[2014-03-13 17:22:06,204]DEBUG 52842["http-bio-8090"-exec-10] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(endElem00)
-[2014-03-13 17:22:06,204]DEBUG 52842["http-bio-8090"-exec-10] - org.apache.axis.encoding.SerializationContext.endElement(SerializationContext.java:1208) - End element soapenv:Body
-[2014-03-13 17:22:06,204]DEBUG 52842["http-bio-8090"-exec-10] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(endElem00)
-[2014-03-13 17:22:06,204]DEBUG 52842["http-bio-8090"-exec-10] - org.apache.axis.encoding.SerializationContext.endElement(SerializationContext.java:1208) - End element soapenv:Envelope
-[2014-03-13 17:22:06,204]DEBUG 52842["http-bio-8090"-exec-10] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(setMsgForm)
-[2014-03-13 17:22:06,204]DEBUG 52842["http-bio-8090"-exec-10] - org.apache.axis.SOAPPart.setCurrentForm(SOAPPart.java:374) - Setting current message form to: FORM_OPTIMIZED (currentMessage is now org.apache.axis.utils.ByteArray)
-[2014-03-13 17:22:06,204]DEBUG 52842["http-bio-8090"-exec-10] - org.apache.axis.SOAPPart.saveChanges(SOAPPart.java:537) - Exit: SOAPPart::saveChanges(): org.apache.axis.utils.ByteArray@c27655
-[2014-03-13 17:22:06,205]DEBUG 52843["http-bio-8090"-exec-10] - org.apache.axis.SOAPPart.saveChanges(SOAPPart.java:524) - Enter: SOAPPart::saveChanges
-[2014-03-13 17:22:06,205]DEBUG 52843["http-bio-8090"-exec-10] - org.apache.axis.SOAPPart.saveChanges(SOAPPart.java:524) - Enter: SOAPPart::saveChanges
-[2014-03-13 17:22:06,205]DEBUG 52843["http-bio-8090"-exec-10] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(createdHTTP00)
-[2014-03-13 17:22:06,206]DEBUG 52844["http-bio-8090"-exec-10] - org.apache.axis.components.net.DefaultSocketFactory.create(DefaultSocketFactory.java:122) - Created an insecure HTTP connection
-[2014-03-13 17:22:06,206]DEBUG 52844["http-bio-8090"-exec-10] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(xmlSent00)
-[2014-03-13 17:22:06,206]DEBUG 52844["http-bio-8090"-exec-10] - org.apache.axis.transport.http.HTTPSender.writeToSocket(HTTPSender.java:484) - XML sent:
-[2014-03-13 17:22:06,206]DEBUG 52844["http-bio-8090"-exec-10] - org.apache.axis.transport.http.HTTPSender.writeToSocket(HTTPSender.java:485) - ---------------------------------------------------
-[2014-03-13 17:22:06,206]DEBUG 52844["http-bio-8090"-exec-10] - org.apache.axis.SOAPPart.saveChanges(SOAPPart.java:524) - Enter: SOAPPart::saveChanges
-[2014-03-13 17:22:06,207]DEBUG 52845["http-bio-8090"-exec-10] - org.apache.axis.transport.http.HTTPSender.writeToSocket(HTTPSender.java:519) - POST /GestioneConferenzeWS/ServizioUtenti HTTP/1.0
+[2014-03-14 09:59:40,687]DEBUG651916["http-bio-8090"-exec-1] - org.apache.axis.MessageContext.setService(MessageContext.java:793) - MessageContext: setServiceHandler(null)
+[2014-03-14 09:59:40,687]DEBUG651916["http-bio-8090"-exec-1] - org.apache.axis.SOAPPart.getAsSOAPEnvelope(SOAPPart.java:661) - Enter: SOAPPart::getAsSOAPEnvelope()
+[2014-03-14 09:59:40,688]DEBUG651917["http-bio-8090"-exec-1] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(currForm)
+[2014-03-14 09:59:40,688]DEBUG651917["http-bio-8090"-exec-1] - org.apache.axis.SOAPPart.getAsSOAPEnvelope(SOAPPart.java:662) - current form is FORM_SOAPENVELOPE
+[2014-03-14 09:59:40,689]DEBUG651918["http-bio-8090"-exec-1] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(register00)
+[2014-03-14 09:59:40,689]DEBUG651918["http-bio-8090"-exec-1] - org.apache.axis.encoding.SerializationContext.registerPrefixForURI(SerializationContext.java:472) - register 'soapenv' - 'http://schemas.xmlsoap.org/soap/envelope/'
+[2014-03-14 09:59:40,689]DEBUG651918["http-bio-8090"-exec-1] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(register00)
+[2014-03-14 09:59:40,689]DEBUG651918["http-bio-8090"-exec-1] - org.apache.axis.encoding.SerializationContext.registerPrefixForURI(SerializationContext.java:472) - register 'soapenv' - 'http://schemas.xmlsoap.org/soap/envelope/'
+[2014-03-14 09:59:40,689]DEBUG651918["http-bio-8090"-exec-1] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(register00)
+[2014-03-14 09:59:40,689]DEBUG651918["http-bio-8090"-exec-1] - org.apache.axis.encoding.SerializationContext.registerPrefixForURI(SerializationContext.java:472) - register 'xsd' - 'http://www.w3.org/2001/XMLSchema'
+[2014-03-14 09:59:40,690]DEBUG651919["http-bio-8090"-exec-1] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(register00)
+[2014-03-14 09:59:40,690]DEBUG651919["http-bio-8090"-exec-1] - org.apache.axis.encoding.SerializationContext.registerPrefixForURI(SerializationContext.java:472) - register 'xsi' - 'http://www.w3.org/2001/XMLSchema-instance'
+[2014-03-14 09:59:40,690]DEBUG651919["http-bio-8090"-exec-1] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(startElem00)
+[2014-03-14 09:59:40,690]DEBUG651919["http-bio-8090"-exec-1] - org.apache.axis.encoding.SerializationContext.startElement(SerializationContext.java:1098) - Start element [http://schemas.xmlsoap.org/soap/envelope/]:Envelope
+[2014-03-14 09:59:40,690]DEBUG651919["http-bio-8090"-exec-1] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(startElem00)
+[2014-03-14 09:59:40,691]DEBUG651920["http-bio-8090"-exec-1] - org.apache.axis.encoding.SerializationContext.startElement(SerializationContext.java:1098) - Start element [http://schemas.xmlsoap.org/soap/envelope/]:Body
+[2014-03-14 09:59:40,691]DEBUG651920["http-bio-8090"-exec-1] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(register00)
+[2014-03-14 09:59:40,691]DEBUG651920["http-bio-8090"-exec-1] - org.apache.axis.encoding.SerializationContext.registerPrefixForURI(SerializationContext.java:472) - register '' - 'http://servizi.gestioneconferenzews.com/'
+[2014-03-14 09:59:40,691]DEBUG651920["http-bio-8090"-exec-1] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(startElem00)
+[2014-03-14 09:59:40,691]DEBUG651920["http-bio-8090"-exec-1] - org.apache.axis.encoding.SerializationContext.startElement(SerializationContext.java:1098) - Start element [http://servizi.gestioneconferenzews.com/]:verificautentelogin
+[2014-03-14 09:59:40,692]DEBUG651921["http-bio-8090"-exec-1] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(startElem00)
+[2014-03-14 09:59:40,692]DEBUG651921["http-bio-8090"-exec-1] - org.apache.axis.encoding.SerializationContext.startElement(SerializationContext.java:1098) - Start element []:username
+[2014-03-14 09:59:40,692]DEBUG651921["http-bio-8090"-exec-1] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(register00)
+[2014-03-14 09:59:40,692]DEBUG651921["http-bio-8090"-exec-1] - org.apache.axis.encoding.SerializationContext.registerPrefixForURI(SerializationContext.java:472) - register '' - ''
+[2014-03-14 09:59:40,693]DEBUG651922["http-bio-8090"-exec-1] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(endElem00)
+[2014-03-14 09:59:40,693]DEBUG651922["http-bio-8090"-exec-1] - org.apache.axis.encoding.SerializationContext.endElement(SerializationContext.java:1208) - End element username
+[2014-03-14 09:59:40,693]DEBUG651922["http-bio-8090"-exec-1] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(startElem00)
+[2014-03-14 09:59:40,694]DEBUG651923["http-bio-8090"-exec-1] - org.apache.axis.encoding.SerializationContext.startElement(SerializationContext.java:1098) - Start element []:password
+[2014-03-14 09:59:40,694]DEBUG651923["http-bio-8090"-exec-1] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(register00)
+[2014-03-14 09:59:40,694]DEBUG651923["http-bio-8090"-exec-1] - org.apache.axis.encoding.SerializationContext.registerPrefixForURI(SerializationContext.java:472) - register '' - ''
+[2014-03-14 09:59:40,694]DEBUG651923["http-bio-8090"-exec-1] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(endElem00)
+[2014-03-14 09:59:40,694]DEBUG651923["http-bio-8090"-exec-1] - org.apache.axis.encoding.SerializationContext.endElement(SerializationContext.java:1208) - End element password
+[2014-03-14 09:59:40,695]DEBUG651924["http-bio-8090"-exec-1] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(endElem00)
+[2014-03-14 09:59:40,695]DEBUG651924["http-bio-8090"-exec-1] - org.apache.axis.encoding.SerializationContext.endElement(SerializationContext.java:1208) - End element verificautentelogin
+[2014-03-14 09:59:40,695]DEBUG651924["http-bio-8090"-exec-1] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(endElem00)
+[2014-03-14 09:59:40,695]DEBUG651924["http-bio-8090"-exec-1] - org.apache.axis.encoding.SerializationContext.endElement(SerializationContext.java:1208) - End element soapenv:Body
+[2014-03-14 09:59:40,695]DEBUG651924["http-bio-8090"-exec-1] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(endElem00)
+[2014-03-14 09:59:40,695]DEBUG651924["http-bio-8090"-exec-1] - org.apache.axis.encoding.SerializationContext.endElement(SerializationContext.java:1208) - End element soapenv:Envelope
+[2014-03-14 09:59:40,696]DEBUG651925["http-bio-8090"-exec-1] - org.apache.axis.client.Call.invoke(Call.java:2762) - <?xml version="1.0" encoding="UTF-8"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><soapenv:Body><verificautentelogin xmlns="http://servizi.gestioneconferenzews.com/"><username xmlns="">tiziano</username><password xmlns="">jji</password></verificautentelogin></soapenv:Body></soapenv:Envelope>
+[2014-03-14 09:59:40,696]DEBUG651925["http-bio-8090"-exec-1] - org.apache.axis.client.AxisClient.invoke(AxisClient.java:77) - Enter: AxisClient::invoke
+[2014-03-14 09:59:40,696]DEBUG651925["http-bio-8090"-exec-1] - org.apache.axis.client.AxisClient.invoke(AxisClient.java:90) - EngineHandler: null
+[2014-03-14 09:59:40,696]DEBUG651925["http-bio-8090"-exec-1] - org.apache.axis.SimpleChain.invoke(SimpleChain.java:79) - Enter: SimpleChain::invoke
+[2014-03-14 09:59:40,696]DEBUG651925["http-bio-8090"-exec-1] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(enter00)
+[2014-03-14 09:59:40,697]DEBUG651926["http-bio-8090"-exec-1] - org.apache.axis.transport.http.HTTPSender.invoke(HTTPSender.java:125) - Enter:  HTTPSender::invoke
+[2014-03-14 09:59:40,697]DEBUG651926["http-bio-8090"-exec-1] - org.apache.axis.SOAPPart.saveChanges(SOAPPart.java:524) - Enter: SOAPPart::saveChanges
+[2014-03-14 09:59:40,697]DEBUG651926["http-bio-8090"-exec-1] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(register00)
+[2014-03-14 09:59:40,697]DEBUG651926["http-bio-8090"-exec-1] - org.apache.axis.encoding.SerializationContext.registerPrefixForURI(SerializationContext.java:472) - register 'soapenv' - 'http://schemas.xmlsoap.org/soap/envelope/'
+[2014-03-14 09:59:40,697]DEBUG651926["http-bio-8090"-exec-1] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(register00)
+[2014-03-14 09:59:40,698]DEBUG651927["http-bio-8090"-exec-1] - org.apache.axis.encoding.SerializationContext.registerPrefixForURI(SerializationContext.java:472) - register 'soapenv' - 'http://schemas.xmlsoap.org/soap/envelope/'
+[2014-03-14 09:59:40,698]DEBUG651927["http-bio-8090"-exec-1] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(register00)
+[2014-03-14 09:59:40,698]DEBUG651927["http-bio-8090"-exec-1] - org.apache.axis.encoding.SerializationContext.registerPrefixForURI(SerializationContext.java:472) - register 'xsd' - 'http://www.w3.org/2001/XMLSchema'
+[2014-03-14 09:59:40,698]DEBUG651927["http-bio-8090"-exec-1] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(register00)
+[2014-03-14 09:59:40,698]DEBUG651927["http-bio-8090"-exec-1] - org.apache.axis.encoding.SerializationContext.registerPrefixForURI(SerializationContext.java:472) - register 'xsi' - 'http://www.w3.org/2001/XMLSchema-instance'
+[2014-03-14 09:59:40,699]DEBUG651928["http-bio-8090"-exec-1] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(startElem00)
+[2014-03-14 09:59:40,699]DEBUG651928["http-bio-8090"-exec-1] - org.apache.axis.encoding.SerializationContext.startElement(SerializationContext.java:1098) - Start element [http://schemas.xmlsoap.org/soap/envelope/]:Envelope
+[2014-03-14 09:59:40,699]DEBUG651928["http-bio-8090"-exec-1] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(startElem00)
+[2014-03-14 09:59:40,699]DEBUG651928["http-bio-8090"-exec-1] - org.apache.axis.encoding.SerializationContext.startElement(SerializationContext.java:1098) - Start element [http://schemas.xmlsoap.org/soap/envelope/]:Body
+[2014-03-14 09:59:40,699]DEBUG651928["http-bio-8090"-exec-1] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(register00)
+[2014-03-14 09:59:40,699]DEBUG651928["http-bio-8090"-exec-1] - org.apache.axis.encoding.SerializationContext.registerPrefixForURI(SerializationContext.java:472) - register '' - 'http://servizi.gestioneconferenzews.com/'
+[2014-03-14 09:59:40,699]DEBUG651928["http-bio-8090"-exec-1] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(startElem00)
+[2014-03-14 09:59:40,699]DEBUG651928["http-bio-8090"-exec-1] - org.apache.axis.encoding.SerializationContext.startElement(SerializationContext.java:1098) - Start element [http://servizi.gestioneconferenzews.com/]:verificautentelogin
+[2014-03-14 09:59:40,700]DEBUG651929["http-bio-8090"-exec-1] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(startElem00)
+[2014-03-14 09:59:40,700]DEBUG651929["http-bio-8090"-exec-1] - org.apache.axis.encoding.SerializationContext.startElement(SerializationContext.java:1098) - Start element []:username
+[2014-03-14 09:59:40,700]DEBUG651929["http-bio-8090"-exec-1] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(register00)
+[2014-03-14 09:59:40,700]DEBUG651929["http-bio-8090"-exec-1] - org.apache.axis.encoding.SerializationContext.registerPrefixForURI(SerializationContext.java:472) - register '' - ''
+[2014-03-14 09:59:40,700]DEBUG651929["http-bio-8090"-exec-1] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(endElem00)
+[2014-03-14 09:59:40,700]DEBUG651929["http-bio-8090"-exec-1] - org.apache.axis.encoding.SerializationContext.endElement(SerializationContext.java:1208) - End element username
+[2014-03-14 09:59:40,701]DEBUG651930["http-bio-8090"-exec-1] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(startElem00)
+[2014-03-14 09:59:40,701]DEBUG651930["http-bio-8090"-exec-1] - org.apache.axis.encoding.SerializationContext.startElement(SerializationContext.java:1098) - Start element []:password
+[2014-03-14 09:59:40,701]DEBUG651930["http-bio-8090"-exec-1] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(register00)
+[2014-03-14 09:59:40,701]DEBUG651930["http-bio-8090"-exec-1] - org.apache.axis.encoding.SerializationContext.registerPrefixForURI(SerializationContext.java:472) - register '' - ''
+[2014-03-14 09:59:40,701]DEBUG651930["http-bio-8090"-exec-1] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(endElem00)
+[2014-03-14 09:59:40,701]DEBUG651930["http-bio-8090"-exec-1] - org.apache.axis.encoding.SerializationContext.endElement(SerializationContext.java:1208) - End element password
+[2014-03-14 09:59:40,701]DEBUG651930["http-bio-8090"-exec-1] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(endElem00)
+[2014-03-14 09:59:40,701]DEBUG651930["http-bio-8090"-exec-1] - org.apache.axis.encoding.SerializationContext.endElement(SerializationContext.java:1208) - End element verificautentelogin
+[2014-03-14 09:59:40,702]DEBUG651931["http-bio-8090"-exec-1] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(endElem00)
+[2014-03-14 09:59:40,702]DEBUG651931["http-bio-8090"-exec-1] - org.apache.axis.encoding.SerializationContext.endElement(SerializationContext.java:1208) - End element soapenv:Body
+[2014-03-14 09:59:40,702]DEBUG651931["http-bio-8090"-exec-1] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(endElem00)
+[2014-03-14 09:59:40,702]DEBUG651931["http-bio-8090"-exec-1] - org.apache.axis.encoding.SerializationContext.endElement(SerializationContext.java:1208) - End element soapenv:Envelope
+[2014-03-14 09:59:40,702]DEBUG651931["http-bio-8090"-exec-1] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(setMsgForm)
+[2014-03-14 09:59:40,702]DEBUG651931["http-bio-8090"-exec-1] - org.apache.axis.SOAPPart.setCurrentForm(SOAPPart.java:374) - Setting current message form to: FORM_OPTIMIZED (currentMessage is now org.apache.axis.utils.ByteArray)
+[2014-03-14 09:59:40,702]DEBUG651931["http-bio-8090"-exec-1] - org.apache.axis.SOAPPart.saveChanges(SOAPPart.java:537) - Exit: SOAPPart::saveChanges(): org.apache.axis.utils.ByteArray@17910b0
+[2014-03-14 09:59:40,703]DEBUG651932["http-bio-8090"-exec-1] - org.apache.axis.SOAPPart.saveChanges(SOAPPart.java:524) - Enter: SOAPPart::saveChanges
+[2014-03-14 09:59:40,703]DEBUG651932["http-bio-8090"-exec-1] - org.apache.axis.SOAPPart.saveChanges(SOAPPart.java:524) - Enter: SOAPPart::saveChanges
+[2014-03-14 09:59:40,703]DEBUG651932["http-bio-8090"-exec-1] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(createdHTTP00)
+[2014-03-14 09:59:40,703]DEBUG651932["http-bio-8090"-exec-1] - org.apache.axis.components.net.DefaultSocketFactory.create(DefaultSocketFactory.java:122) - Created an insecure HTTP connection
+[2014-03-14 09:59:40,703]DEBUG651932["http-bio-8090"-exec-1] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(xmlSent00)
+[2014-03-14 09:59:40,704]DEBUG651933["http-bio-8090"-exec-1] - org.apache.axis.transport.http.HTTPSender.writeToSocket(HTTPSender.java:484) - XML sent:
+[2014-03-14 09:59:40,704]DEBUG651933["http-bio-8090"-exec-1] - org.apache.axis.transport.http.HTTPSender.writeToSocket(HTTPSender.java:485) - ---------------------------------------------------
+[2014-03-14 09:59:40,704]DEBUG651933["http-bio-8090"-exec-1] - org.apache.axis.SOAPPart.saveChanges(SOAPPart.java:524) - Enter: SOAPPart::saveChanges
+[2014-03-14 09:59:40,704]DEBUG651933["http-bio-8090"-exec-1] - org.apache.axis.transport.http.HTTPSender.writeToSocket(HTTPSender.java:519) - POST /GestioneConferenzeWS/ServizioUtenti HTTP/1.0
 Content-Type: text/xml; charset=utf-8
 Accept: application/soap+xml, application/dime, multipart/related, text/*
 User-Agent: Axis/1.4
@@ -359,196 +96,197 @@ Host: localhost:8080
 Cache-Control: no-cache
 Pragma: no-cache
 SOAPAction: ""
-Content-Length: 432
+Content-Length: 423
 
-<?xml version="1.0" encoding="UTF-8"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><soapenv:Body><verificautentelogin xmlns="http://servizi.gestioneconferenzews.com/"><username xmlns="">tiziano</username><password xmlns="">non password</password></verificautentelogin></soapenv:Body></soapenv:Envelope>
-[2014-03-13 17:22:06,401]DEBUG 53039["http-bio-8090"-exec-10] - org.apache.axis.transport.http.HTTPSender.readHeadersFromSocket(HTTPSender.java:627) - HTTP/1.1 200 OK
-[2014-03-13 17:22:06,402]DEBUG 53040["http-bio-8090"-exec-10] - org.apache.axis.transport.http.HTTPSender.readHeadersFromSocket(HTTPSender.java:627) - Content-type text/xml; charset=utf-8
-[2014-03-13 17:22:06,402]DEBUG 53040["http-bio-8090"-exec-10] - org.apache.axis.transport.http.HTTPSender.readHeadersFromSocket(HTTPSender.java:627) - Content-length 258
-[2014-03-13 17:22:06,402]DEBUG 53040["http-bio-8090"-exec-10] - org.apache.axis.transport.http.HTTPSender.readHeadersFromSocket(HTTPSender.java:627) - Connection close
-[2014-03-13 17:22:06,402]DEBUG 53040["http-bio-8090"-exec-10] - org.apache.axis.transport.http.HTTPSender.readHeadersFromSocket(HTTPSender.java:627) - Date Thu, 13 Mar 2014 16:22:06 GMT
-[2014-03-13 17:22:06,403]DEBUG 53041["http-bio-8090"-exec-10] - org.apache.axis.SOAPPart.<init>(SOAPPart.java:182) - Enter: SOAPPart ctor(FORM_INPUTSTREAM)
-[2014-03-13 17:22:06,403]DEBUG 53041["http-bio-8090"-exec-10] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(setMsgForm)
-[2014-03-13 17:22:06,403]DEBUG 53041["http-bio-8090"-exec-10] - org.apache.axis.SOAPPart.setCurrentForm(SOAPPart.java:374) - Setting current message form to: FORM_INPUTSTREAM (currentMessage is now org.apache.axis.transport.http.SocketInputStream)
-[2014-03-13 17:22:06,403]DEBUG 53041["http-bio-8090"-exec-10] - org.apache.axis.SOAPPart.<init>(SOAPPart.java:188) - Exit: SOAPPart ctor()
-[2014-03-13 17:22:06,403]DEBUG 53041["http-bio-8090"-exec-10] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(xmlRecd00)
-[2014-03-13 17:22:06,403]DEBUG 53041["http-bio-8090"-exec-10] - org.apache.axis.transport.http.HTTPSender.readFromSocket(HTTPSender.java:794) - 
+<?xml version="1.0" encoding="UTF-8"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><soapenv:Body><verificautentelogin xmlns="http://servizi.gestioneconferenzews.com/"><username xmlns="">tiziano</username><password xmlns="">jji</password></verificautentelogin></soapenv:Body></soapenv:Envelope>
+[2014-03-14 09:59:40,910]DEBUG652139["http-bio-8090"-exec-1] - org.apache.axis.transport.http.HTTPSender.readHeadersFromSocket(HTTPSender.java:627) - HTTP/1.1 200 OK
+[2014-03-14 09:59:40,910]DEBUG652139["http-bio-8090"-exec-1] - org.apache.axis.transport.http.HTTPSender.readHeadersFromSocket(HTTPSender.java:627) - Content-type text/xml; charset=utf-8
+[2014-03-14 09:59:40,910]DEBUG652139["http-bio-8090"-exec-1] - org.apache.axis.transport.http.HTTPSender.readHeadersFromSocket(HTTPSender.java:627) - Content-length 258
+[2014-03-14 09:59:40,910]DEBUG652139["http-bio-8090"-exec-1] - org.apache.axis.transport.http.HTTPSender.readHeadersFromSocket(HTTPSender.java:627) - Connection close
+[2014-03-14 09:59:40,911]DEBUG652140["http-bio-8090"-exec-1] - org.apache.axis.transport.http.HTTPSender.readHeadersFromSocket(HTTPSender.java:627) - Date Fri, 14 Mar 2014 08:59:40 GMT
+[2014-03-14 09:59:40,911]DEBUG652140["http-bio-8090"-exec-1] - org.apache.axis.SOAPPart.<init>(SOAPPart.java:182) - Enter: SOAPPart ctor(FORM_INPUTSTREAM)
+[2014-03-14 09:59:40,911]DEBUG652140["http-bio-8090"-exec-1] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(setMsgForm)
+[2014-03-14 09:59:40,911]DEBUG652140["http-bio-8090"-exec-1] - org.apache.axis.SOAPPart.setCurrentForm(SOAPPart.java:374) - Setting current message form to: FORM_INPUTSTREAM (currentMessage is now org.apache.axis.transport.http.SocketInputStream)
+[2014-03-14 09:59:40,911]DEBUG652140["http-bio-8090"-exec-1] - org.apache.axis.SOAPPart.<init>(SOAPPart.java:188) - Exit: SOAPPart ctor()
+[2014-03-14 09:59:40,911]DEBUG652140["http-bio-8090"-exec-1] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(xmlRecd00)
+[2014-03-14 09:59:40,911]DEBUG652140["http-bio-8090"-exec-1] - org.apache.axis.transport.http.HTTPSender.readFromSocket(HTTPSender.java:794) - 
 XML received:
-[2014-03-13 17:22:06,403]DEBUG 53041["http-bio-8090"-exec-10] - org.apache.axis.transport.http.HTTPSender.readFromSocket(HTTPSender.java:795) - -----------------------------------------------
-[2014-03-13 17:22:06,404]DEBUG 53042["http-bio-8090"-exec-10] - org.apache.axis.SOAPPart.getAsSOAPEnvelope(SOAPPart.java:661) - Enter: SOAPPart::getAsSOAPEnvelope()
-[2014-03-13 17:22:06,404]DEBUG 53042["http-bio-8090"-exec-10] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(currForm)
-[2014-03-13 17:22:06,404]DEBUG 53042["http-bio-8090"-exec-10] - org.apache.axis.SOAPPart.getAsSOAPEnvelope(SOAPPart.java:662) - current form is FORM_INPUTSTREAM
-[2014-03-13 17:22:06,404]DEBUG 53042["http-bio-8090"-exec-10] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(pushHandler00)
-[2014-03-13 17:22:06,404]DEBUG 53042["http-bio-8090"-exec-10] - org.apache.axis.encoding.DeserializationContext.pushElementHandler(DeserializationContext.java:796) - Pushing handler org.apache.axis.message.EnvelopeHandler@18cf5ea
-[2014-03-13 17:22:06,405]DEBUG 53043["http-bio-8090"-exec-10] - org.apache.axis.encoding.DeserializationContext.startPrefixMapping(DeserializationContext.java:886) - Enter: DeserializationContext::startPrefixMapping(S, http://schemas.xmlsoap.org/soap/envelope/)
-[2014-03-13 17:22:06,405]DEBUG 53043["http-bio-8090"-exec-10] - org.apache.axis.encoding.DeserializationContext.startPrefixMapping(DeserializationContext.java:925) - Exit: DeserializationContext::startPrefixMapping()
-[2014-03-13 17:22:06,405]DEBUG 53043["http-bio-8090"-exec-10] - org.apache.axis.encoding.DeserializationContext.startElement(DeserializationContext.java:1003) - Enter: DeserializationContext::startElement(http://schemas.xmlsoap.org/soap/envelope/, Envelope)
-[2014-03-13 17:22:06,405]DEBUG 53043["http-bio-8090"-exec-10] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(pushHandler00)
-[2014-03-13 17:22:06,405]DEBUG 53043["http-bio-8090"-exec-10] - org.apache.axis.encoding.DeserializationContext.pushElementHandler(DeserializationContext.java:796) - Pushing handler org.apache.axis.message.EnvelopeBuilder@1505c9c
-[2014-03-13 17:22:06,406]DEBUG 53044["http-bio-8090"-exec-10] - org.apache.axis.encoding.DeserializationContext.pushNewElement(DeserializationContext.java:765) - Pushing element Envelope
-[2014-03-13 17:22:06,406]DEBUG 53044["http-bio-8090"-exec-10] - org.apache.axis.encoding.DeserializationContext.startElement(DeserializationContext.java:1067) - Exit: DeserializationContext::startElement()
-[2014-03-13 17:22:06,406]DEBUG 53044["http-bio-8090"-exec-10] - org.apache.axis.encoding.DeserializationContext.startElement(DeserializationContext.java:1003) - Enter: DeserializationContext::startElement(http://schemas.xmlsoap.org/soap/envelope/, Body)
-[2014-03-13 17:22:06,406]DEBUG 53044["http-bio-8090"-exec-10] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(pushHandler00)
-[2014-03-13 17:22:06,406]DEBUG 53044["http-bio-8090"-exec-10] - org.apache.axis.encoding.DeserializationContext.pushElementHandler(DeserializationContext.java:796) - Pushing handler org.apache.axis.message.BodyBuilder@f02744
-[2014-03-13 17:22:06,406]DEBUG 53044["http-bio-8090"-exec-10] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(newElem00)
-[2014-03-13 17:22:06,406]DEBUG 53044["http-bio-8090"-exec-10] - org.apache.axis.message.MessageElement.<init>(MessageElement.java:239) - New MessageElement (org.apache.axis.message.SOAPBody@a1e2dd) named {S}Body
-[2014-03-13 17:22:06,407]DEBUG 53045["http-bio-8090"-exec-10] - org.apache.axis.encoding.DeserializationContext.pushNewElement(DeserializationContext.java:765) - Pushing element Body
-[2014-03-13 17:22:06,407]DEBUG 53045["http-bio-8090"-exec-10] - org.apache.axis.encoding.DeserializationContext.startElement(DeserializationContext.java:1067) - Exit: DeserializationContext::startElement()
-[2014-03-13 17:22:06,407]DEBUG 53045["http-bio-8090"-exec-10] - org.apache.axis.encoding.DeserializationContext.startPrefixMapping(DeserializationContext.java:886) - Enter: DeserializationContext::startPrefixMapping(ns2, http://servizi.gestioneconferenzews.com/)
-[2014-03-13 17:22:06,407]DEBUG 53045["http-bio-8090"-exec-10] - org.apache.axis.encoding.DeserializationContext.startPrefixMapping(DeserializationContext.java:925) - Exit: DeserializationContext::startPrefixMapping()
-[2014-03-13 17:22:06,407]DEBUG 53045["http-bio-8090"-exec-10] - org.apache.axis.encoding.DeserializationContext.startElement(DeserializationContext.java:1003) - Enter: DeserializationContext::startElement(http://servizi.gestioneconferenzews.com/, verificautenteloginResponse)
-[2014-03-13 17:22:06,408]DEBUG 53046["http-bio-8090"-exec-10] - org.apache.axis.message.BodyBuilder.onStartChild(BodyBuilder.java:109) - Enter: BodyBuilder::onStartChild()
-[2014-03-13 17:22:06,408]DEBUG 53046["http-bio-8090"-exec-10] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(newElem00)
-[2014-03-13 17:22:06,408]DEBUG 53046["http-bio-8090"-exec-10] - org.apache.axis.message.MessageElement.<init>(MessageElement.java:239) - New MessageElement (org.apache.axis.message.RPCElement@1aa9ad1) named {ns2}verificautenteloginResponse
-[2014-03-13 17:22:06,408]DEBUG 53046["http-bio-8090"-exec-10] - org.apache.axis.message.BodyBuilder.onStartChild(BodyBuilder.java:222) - Exit: BodyBuilder::onStartChild()
-[2014-03-13 17:22:06,408]DEBUG 53046["http-bio-8090"-exec-10] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(pushHandler00)
-[2014-03-13 17:22:06,408]DEBUG 53046["http-bio-8090"-exec-10] - org.apache.axis.encoding.DeserializationContext.pushElementHandler(DeserializationContext.java:796) - Pushing handler org.apache.axis.message.SOAPHandler@19a4589
-[2014-03-13 17:22:06,408]DEBUG 53046["http-bio-8090"-exec-10] - org.apache.axis.encoding.DeserializationContext.pushNewElement(DeserializationContext.java:765) - Pushing element verificautenteloginResponse
-[2014-03-13 17:22:06,409]DEBUG 53047["http-bio-8090"-exec-10] - org.apache.axis.encoding.DeserializationContext.startElement(DeserializationContext.java:1067) - Exit: DeserializationContext::startElement()
-[2014-03-13 17:22:06,409]DEBUG 53047["http-bio-8090"-exec-10] - org.apache.axis.encoding.DeserializationContext.startElement(DeserializationContext.java:1003) - Enter: DeserializationContext::startElement(, return)
-[2014-03-13 17:22:06,409]DEBUG 53047["http-bio-8090"-exec-10] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(pushHandler00)
-[2014-03-13 17:22:06,409]DEBUG 53047["http-bio-8090"-exec-10] - org.apache.axis.encoding.DeserializationContext.pushElementHandler(DeserializationContext.java:796) - Pushing handler org.apache.axis.message.SOAPHandler@14b45fe
-[2014-03-13 17:22:06,409]DEBUG 53047["http-bio-8090"-exec-10] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(newElem00)
-[2014-03-13 17:22:06,409]DEBUG 53047["http-bio-8090"-exec-10] - org.apache.axis.message.MessageElement.<init>(MessageElement.java:239) - New MessageElement (org.apache.axis.message.MessageElement@e03be0) named {}return
-[2014-03-13 17:22:06,410]DEBUG 53048["http-bio-8090"-exec-10] - org.apache.axis.encoding.DeserializationContext.pushNewElement(DeserializationContext.java:765) - Pushing element return
-[2014-03-13 17:22:06,410]DEBUG 53048["http-bio-8090"-exec-10] - org.apache.axis.encoding.DeserializationContext.startElement(DeserializationContext.java:1067) - Exit: DeserializationContext::startElement()
-[2014-03-13 17:22:06,410]DEBUG 53048["http-bio-8090"-exec-10] - org.apache.axis.encoding.DeserializationContext.endElement(DeserializationContext.java:1078) - Enter: DeserializationContext::endElement(, return)
-[2014-03-13 17:22:06,410]DEBUG 53048["http-bio-8090"-exec-10] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(popHandler00)
-[2014-03-13 17:22:06,410]DEBUG 53048["http-bio-8090"-exec-10] - org.apache.axis.encoding.DeserializationContext.popElementHandler(DeserializationContext.java:829) - Popping handler org.apache.axis.message.SOAPHandler@14b45fe
-[2014-03-13 17:22:06,410]DEBUG 53048["http-bio-8090"-exec-10] - org.apache.axis.encoding.DeserializationContext.endElement(DeserializationContext.java:1106) - Popped element stack to org.apache.axis.message.RPCElement:verificautenteloginResponse
-[2014-03-13 17:22:06,410]DEBUG 53048["http-bio-8090"-exec-10] - org.apache.axis.encoding.DeserializationContext.endElement(DeserializationContext.java:1107) - Exit: DeserializationContext::endElement()
-[2014-03-13 17:22:06,411]DEBUG 53049["http-bio-8090"-exec-10] - org.apache.axis.encoding.DeserializationContext.endElement(DeserializationContext.java:1078) - Enter: DeserializationContext::endElement(http://servizi.gestioneconferenzews.com/, verificautenteloginResponse)
-[2014-03-13 17:22:06,411]DEBUG 53049["http-bio-8090"-exec-10] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(popHandler00)
-[2014-03-13 17:22:06,411]DEBUG 53049["http-bio-8090"-exec-10] - org.apache.axis.encoding.DeserializationContext.popElementHandler(DeserializationContext.java:829) - Popping handler org.apache.axis.message.SOAPHandler@19a4589
-[2014-03-13 17:22:06,411]DEBUG 53049["http-bio-8090"-exec-10] - org.apache.axis.encoding.DeserializationContext.endElement(DeserializationContext.java:1106) - Popped element stack to org.apache.axis.message.SOAPBody:Body
-[2014-03-13 17:22:06,411]DEBUG 53049["http-bio-8090"-exec-10] - org.apache.axis.encoding.DeserializationContext.endElement(DeserializationContext.java:1107) - Exit: DeserializationContext::endElement()
-[2014-03-13 17:22:06,411]DEBUG 53049["http-bio-8090"-exec-10] - org.apache.axis.encoding.DeserializationContext.endPrefixMapping(DeserializationContext.java:933) - Enter: DeserializationContext::endPrefixMapping(ns2)
-[2014-03-13 17:22:06,412]DEBUG 53050["http-bio-8090"-exec-10] - org.apache.axis.encoding.DeserializationContext.endPrefixMapping(DeserializationContext.java:945) - Exit: DeserializationContext::endPrefixMapping()
-[2014-03-13 17:22:06,412]DEBUG 53050["http-bio-8090"-exec-10] - org.apache.axis.encoding.DeserializationContext.endElement(DeserializationContext.java:1078) - Enter: DeserializationContext::endElement(http://schemas.xmlsoap.org/soap/envelope/, Body)
-[2014-03-13 17:22:06,412]DEBUG 53050["http-bio-8090"-exec-10] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(popHandler00)
-[2014-03-13 17:22:06,412]DEBUG 53050["http-bio-8090"-exec-10] - org.apache.axis.encoding.DeserializationContext.popElementHandler(DeserializationContext.java:829) - Popping handler org.apache.axis.message.BodyBuilder@f02744
-[2014-03-13 17:22:06,412]DEBUG 53050["http-bio-8090"-exec-10] - org.apache.axis.encoding.DeserializationContext.endElement(DeserializationContext.java:1106) - Popped element stack to org.apache.axis.message.SOAPEnvelope:Envelope
-[2014-03-13 17:22:06,412]DEBUG 53050["http-bio-8090"-exec-10] - org.apache.axis.encoding.DeserializationContext.endElement(DeserializationContext.java:1107) - Exit: DeserializationContext::endElement()
-[2014-03-13 17:22:06,412]DEBUG 53050["http-bio-8090"-exec-10] - org.apache.axis.encoding.DeserializationContext.endElement(DeserializationContext.java:1078) - Enter: DeserializationContext::endElement(http://schemas.xmlsoap.org/soap/envelope/, Envelope)
-[2014-03-13 17:22:06,413]DEBUG 53051["http-bio-8090"-exec-10] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(popHandler00)
-[2014-03-13 17:22:06,413]DEBUG 53051["http-bio-8090"-exec-10] - org.apache.axis.encoding.DeserializationContext.popElementHandler(DeserializationContext.java:829) - Popping handler org.apache.axis.message.EnvelopeBuilder@1505c9c
-[2014-03-13 17:22:06,413]DEBUG 53051["http-bio-8090"-exec-10] - org.apache.axis.encoding.DeserializationContext.endElement(DeserializationContext.java:1106) - Popped element stack to null
-[2014-03-13 17:22:06,413]DEBUG 53051["http-bio-8090"-exec-10] - org.apache.axis.encoding.DeserializationContext.endElement(DeserializationContext.java:1107) - Exit: DeserializationContext::endElement()
-[2014-03-13 17:22:06,413]DEBUG 53051["http-bio-8090"-exec-10] - org.apache.axis.encoding.DeserializationContext.endPrefixMapping(DeserializationContext.java:933) - Enter: DeserializationContext::endPrefixMapping(S)
-[2014-03-13 17:22:06,413]DEBUG 53051["http-bio-8090"-exec-10] - org.apache.axis.encoding.DeserializationContext.endPrefixMapping(DeserializationContext.java:945) - Exit: DeserializationContext::endPrefixMapping()
-[2014-03-13 17:22:06,414]DEBUG 53052["http-bio-8090"-exec-10] - org.apache.axis.encoding.DeserializationContext.endDocument(DeserializationContext.java:858) - Enter: DeserializationContext::endDocument()
-[2014-03-13 17:22:06,414]DEBUG 53052["http-bio-8090"-exec-10] - org.apache.axis.encoding.DeserializationContext.endDocument(DeserializationContext.java:866) - Exit: DeserializationContext::endDocument()
-[2014-03-13 17:22:06,414]DEBUG 53052["http-bio-8090"-exec-10] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(setMsgForm)
-[2014-03-13 17:22:06,414]DEBUG 53052["http-bio-8090"-exec-10] - org.apache.axis.SOAPPart.setCurrentForm(SOAPPart.java:374) - Setting current message form to: FORM_SOAPENVELOPE (currentMessage is now org.apache.axis.message.SOAPEnvelope)
-[2014-03-13 17:22:06,414]DEBUG 53052["http-bio-8090"-exec-10] - org.apache.axis.SOAPPart.getAsSOAPEnvelope(SOAPPart.java:724) - Exit: SOAPPart::getAsSOAPEnvelope
-[2014-03-13 17:22:06,414]DEBUG 53052["http-bio-8090"-exec-10] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(register00)
-[2014-03-13 17:22:06,415]DEBUG 53053["http-bio-8090"-exec-10] - org.apache.axis.encoding.SerializationContext.registerPrefixForURI(SerializationContext.java:472) - register 'S' - 'http://schemas.xmlsoap.org/soap/envelope/'
-[2014-03-13 17:22:06,415]DEBUG 53053["http-bio-8090"-exec-10] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(startElem00)
-[2014-03-13 17:22:06,415]DEBUG 53053["http-bio-8090"-exec-10] - org.apache.axis.encoding.SerializationContext.startElement(SerializationContext.java:1098) - Start element [http://schemas.xmlsoap.org/soap/envelope/]:Envelope
-[2014-03-13 17:22:06,415]DEBUG 53053["http-bio-8090"-exec-10] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(startElem00)
-[2014-03-13 17:22:06,415]DEBUG 53053["http-bio-8090"-exec-10] - org.apache.axis.encoding.SerializationContext.startElement(SerializationContext.java:1098) - Start element [http://schemas.xmlsoap.org/soap/envelope/]:Body
-[2014-03-13 17:22:06,415]DEBUG 53053["http-bio-8090"-exec-10] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(register00)
-[2014-03-13 17:22:06,415]DEBUG 53053["http-bio-8090"-exec-10] - org.apache.axis.encoding.SerializationContext.registerPrefixForURI(SerializationContext.java:472) - register 'ns2' - 'http://servizi.gestioneconferenzews.com/'
-[2014-03-13 17:22:06,416]DEBUG 53054["http-bio-8090"-exec-10] - org.apache.axis.message.SAXOutputter.startElement(SAXOutputter.java:94) - SAXOutputter.startElement ['http://servizi.gestioneconferenzews.com/' verificautenteloginResponse]
-[2014-03-13 17:22:06,416]DEBUG 53054["http-bio-8090"-exec-10] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(startElem00)
-[2014-03-13 17:22:06,416]DEBUG 53054["http-bio-8090"-exec-10] - org.apache.axis.encoding.SerializationContext.startElement(SerializationContext.java:1098) - Start element [http://servizi.gestioneconferenzews.com/]:verificautenteloginResponse
-[2014-03-13 17:22:06,416]DEBUG 53054["http-bio-8090"-exec-10] - org.apache.axis.message.SAXOutputter.startElement(SAXOutputter.java:94) - SAXOutputter.startElement ['' return]
-[2014-03-13 17:22:06,416]DEBUG 53054["http-bio-8090"-exec-10] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(startElem00)
-[2014-03-13 17:22:06,416]DEBUG 53054["http-bio-8090"-exec-10] - org.apache.axis.encoding.SerializationContext.startElement(SerializationContext.java:1098) - Start element []:return
-[2014-03-13 17:22:06,417]DEBUG 53055["http-bio-8090"-exec-10] - org.apache.axis.message.SAXOutputter.characters(SAXOutputter.java:63) - SAXOutputter.characters ['false']
-[2014-03-13 17:22:06,417]DEBUG 53055["http-bio-8090"-exec-10] - org.apache.axis.message.SAXOutputter.endElement(SAXOutputter.java:109) - SAXOutputter.endElement ['' return]
-[2014-03-13 17:22:06,417]DEBUG 53055["http-bio-8090"-exec-10] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(endElem00)
-[2014-03-13 17:22:06,417]DEBUG 53055["http-bio-8090"-exec-10] - org.apache.axis.encoding.SerializationContext.endElement(SerializationContext.java:1208) - End element return
-[2014-03-13 17:22:06,417]DEBUG 53055["http-bio-8090"-exec-10] - org.apache.axis.message.SAXOutputter.endElement(SAXOutputter.java:109) - SAXOutputter.endElement ['http://servizi.gestioneconferenzews.com/' verificautenteloginResponse]
-[2014-03-13 17:22:06,417]DEBUG 53055["http-bio-8090"-exec-10] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(endElem00)
-[2014-03-13 17:22:06,418]DEBUG 53056["http-bio-8090"-exec-10] - org.apache.axis.encoding.SerializationContext.endElement(SerializationContext.java:1208) - End element ns2:verificautenteloginResponse
-[2014-03-13 17:22:06,418]DEBUG 53056["http-bio-8090"-exec-10] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(endElem00)
-[2014-03-13 17:22:06,418]DEBUG 53056["http-bio-8090"-exec-10] - org.apache.axis.encoding.SerializationContext.endElement(SerializationContext.java:1208) - End element S:Body
-[2014-03-13 17:22:06,418]DEBUG 53056["http-bio-8090"-exec-10] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(endElem00)
-[2014-03-13 17:22:06,418]DEBUG 53056["http-bio-8090"-exec-10] - org.apache.axis.encoding.SerializationContext.endElement(SerializationContext.java:1208) - End element S:Envelope
-[2014-03-13 17:22:06,418]DEBUG 53056["http-bio-8090"-exec-10] - org.apache.axis.transport.http.HTTPSender.readFromSocket(HTTPSender.java:796) - <S:Envelope xmlns:S="http://schemas.xmlsoap.org/soap/envelope/"><S:Body><ns2:verificautenteloginResponse xmlns:ns2="http://servizi.gestioneconferenzews.com/"><return>false</return></ns2:verificautenteloginResponse></S:Body></S:Envelope>
-[2014-03-13 17:22:06,418]DEBUG 53056["http-bio-8090"-exec-10] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(exit00)
-[2014-03-13 17:22:06,419]DEBUG 53057["http-bio-8090"-exec-10] - org.apache.axis.transport.http.HTTPSender.invoke(HTTPSender.java:157) - Exit:  HTTPDispatchHandler::invoke
-[2014-03-13 17:22:06,419]DEBUG 53057["http-bio-8090"-exec-10] - org.apache.axis.SimpleChain.invoke(SimpleChain.java:86) - Exit: SimpleChain::invoke
-[2014-03-13 17:22:06,419]DEBUG 53057["http-bio-8090"-exec-10] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(semanticCheck00)
-[2014-03-13 17:22:06,419]DEBUG 53057["http-bio-8090"-exec-10] - org.apache.axis.handlers.soap.MustUnderstandChecker.invoke(MustUnderstandChecker.java:55) - Doing SOAP semantic checks...
-[2014-03-13 17:22:06,419]DEBUG 53057["http-bio-8090"-exec-10] - org.apache.axis.SOAPPart.getAsSOAPEnvelope(SOAPPart.java:661) - Enter: SOAPPart::getAsSOAPEnvelope()
-[2014-03-13 17:22:06,419]DEBUG 53057["http-bio-8090"-exec-10] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(currForm)
-[2014-03-13 17:22:06,420]DEBUG 53058["http-bio-8090"-exec-10] - org.apache.axis.SOAPPart.getAsSOAPEnvelope(SOAPPart.java:662) - current form is FORM_SOAPENVELOPE
-[2014-03-13 17:22:06,420]DEBUG 53058["http-bio-8090"-exec-10] - org.apache.axis.client.AxisClient.invoke(AxisClient.java:226) - Exit: AxisClient::invoke
-[2014-03-13 17:22:06,420]DEBUG 53058["http-bio-8090"-exec-10] - org.apache.axis.SOAPPart.getAsSOAPEnvelope(SOAPPart.java:661) - Enter: SOAPPart::getAsSOAPEnvelope()
-[2014-03-13 17:22:06,420]DEBUG 53058["http-bio-8090"-exec-10] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(currForm)
-[2014-03-13 17:22:06,420]DEBUG 53058["http-bio-8090"-exec-10] - org.apache.axis.SOAPPart.getAsSOAPEnvelope(SOAPPart.java:662) - current form is FORM_SOAPENVELOPE
-[2014-03-13 17:22:06,420]DEBUG 53058["http-bio-8090"-exec-10] - org.apache.axis.client.Call.invoke(Call.java:2773) - Exit: Call::invoke()
-[2014-03-13 17:22:06,420]DEBUG 53058["http-bio-8090"-exec-10] - org.apache.axis.SOAPPart.getAsSOAPEnvelope(SOAPPart.java:661) - Enter: SOAPPart::getAsSOAPEnvelope()
-[2014-03-13 17:22:06,420]DEBUG 53058["http-bio-8090"-exec-10] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(currForm)
-[2014-03-13 17:22:06,421]DEBUG 53059["http-bio-8090"-exec-10] - org.apache.axis.SOAPPart.getAsSOAPEnvelope(SOAPPart.java:662) - current form is FORM_SOAPENVELOPE
-[2014-03-13 17:22:06,421]DEBUG 53059["http-bio-8090"-exec-10] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(pushHandler00)
-[2014-03-13 17:22:06,421]DEBUG 53059["http-bio-8090"-exec-10] - org.apache.axis.encoding.DeserializationContext.pushElementHandler(DeserializationContext.java:796) - Pushing handler org.apache.axis.message.EnvelopeHandler@127e7c0
-[2014-03-13 17:22:06,421]DEBUG 53059["http-bio-8090"-exec-10] - org.apache.axis.encoding.DeserializationContext.startPrefixMapping(DeserializationContext.java:886) - Enter: DeserializationContext::startPrefixMapping(ns2, http://servizi.gestioneconferenzews.com/)
-[2014-03-13 17:22:06,421]DEBUG 53059["http-bio-8090"-exec-10] - org.apache.axis.encoding.DeserializationContext.startPrefixMapping(DeserializationContext.java:925) - Exit: DeserializationContext::startPrefixMapping()
-[2014-03-13 17:22:06,421]DEBUG 53059["http-bio-8090"-exec-10] - org.apache.axis.encoding.DeserializationContext.startElement(DeserializationContext.java:1003) - Enter: DeserializationContext::startElement(http://servizi.gestioneconferenzews.com/, verificautenteloginResponse)
-[2014-03-13 17:22:06,421]DEBUG 53059["http-bio-8090"-exec-10] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(pushHandler00)
-[2014-03-13 17:22:06,421]DEBUG 53059["http-bio-8090"-exec-10] - org.apache.axis.encoding.DeserializationContext.pushElementHandler(DeserializationContext.java:796) - Pushing handler org.apache.axis.message.RPCHandler@e0242f
-[2014-03-13 17:22:06,422]DEBUG 53060["http-bio-8090"-exec-10] - org.apache.axis.encoding.DeserializationContext.startElement(DeserializationContext.java:1067) - Exit: DeserializationContext::startElement()
-[2014-03-13 17:22:06,422]DEBUG 53060["http-bio-8090"-exec-10] - org.apache.axis.encoding.DeserializationContext.startElement(DeserializationContext.java:1003) - Enter: DeserializationContext::startElement(, return)
-[2014-03-13 17:22:06,422]DEBUG 53060["http-bio-8090"-exec-10] - org.apache.axis.message.RPCHandler.onStartChild(RPCHandler.java:125) - Enter: RPCHandler.onStartChild()
-[2014-03-13 17:22:06,422]DEBUG 53060["http-bio-8090"-exec-10] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(typeFromAttr00)
-[2014-03-13 17:22:06,422]DEBUG 53060["http-bio-8090"-exec-10] - org.apache.axis.message.RPCHandler.onStartChild(RPCHandler.java:169) - Type from attributes is:  null
-[2014-03-13 17:22:06,422]DEBUG 53060["http-bio-8090"-exec-10] - org.apache.axis.message.RPCHandler.onStartChild(RPCHandler.java:303) - Exit: RPCHandler.onStartChild()
-[2014-03-13 17:22:06,423]DEBUG 53061["http-bio-8090"-exec-10] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(pushHandler00)
-[2014-03-13 17:22:06,423]DEBUG 53061["http-bio-8090"-exec-10] - org.apache.axis.encoding.DeserializationContext.pushElementHandler(DeserializationContext.java:796) - Pushing handler org.apache.axis.encoding.ser.SimpleDeserializer@3d449d
-[2014-03-13 17:22:06,423]DEBUG 53061["http-bio-8090"-exec-10] - org.apache.axis.encoding.DeserializationContext.startElement(DeserializationContext.java:1067) - Exit: DeserializationContext::startElement()
-[2014-03-13 17:22:06,423]DEBUG 53061["http-bio-8090"-exec-10] - org.apache.axis.encoding.DeserializationContext.endElement(DeserializationContext.java:1078) - Enter: DeserializationContext::endElement(, return)
-[2014-03-13 17:22:06,423]DEBUG 53061["http-bio-8090"-exec-10] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(popHandler00)
-[2014-03-13 17:22:06,423]DEBUG 53061["http-bio-8090"-exec-10] - org.apache.axis.encoding.DeserializationContext.popElementHandler(DeserializationContext.java:829) - Popping handler org.apache.axis.encoding.ser.SimpleDeserializer@3d449d
-[2014-03-13 17:22:06,423]DEBUG 53061["http-bio-8090"-exec-10] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(setValueInTarget00)
-[2014-03-13 17:22:06,424]DEBUG 53062["http-bio-8090"-exec-10] - org.apache.axis.encoding.DeserializerImpl.valueComplete(DeserializerImpl.java:251) - Set value false in target org.apache.axis.message.RPCParamTarget@63d6ef
-[2014-03-13 17:22:06,424]DEBUG 53062["http-bio-8090"-exec-10] - org.apache.axis.encoding.DeserializationContext.endElement(DeserializationContext.java:1106) - Popped element stack to org.apache.axis.message.RPCElement:verificautenteloginResponse
-[2014-03-13 17:22:06,424]DEBUG 53062["http-bio-8090"-exec-10] - org.apache.axis.encoding.DeserializationContext.endElement(DeserializationContext.java:1107) - Exit: DeserializationContext::endElement()
-[2014-03-13 17:22:06,424]DEBUG 53062["http-bio-8090"-exec-10] - org.apache.axis.encoding.DeserializationContext.endElement(DeserializationContext.java:1078) - Enter: DeserializationContext::endElement(http://servizi.gestioneconferenzews.com/, verificautenteloginResponse)
-[2014-03-13 17:22:06,424]DEBUG 53062["http-bio-8090"-exec-10] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(popHandler00)
-[2014-03-13 17:22:06,424]DEBUG 53062["http-bio-8090"-exec-10] - org.apache.axis.encoding.DeserializationContext.popElementHandler(DeserializationContext.java:829) - Popping handler org.apache.axis.message.RPCHandler@e0242f
-[2014-03-13 17:22:06,424]DEBUG 53062["http-bio-8090"-exec-10] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(setProp00)
-[2014-03-13 17:22:06,424]DEBUG 53062["http-bio-8090"-exec-10] - org.apache.axis.message.RPCHandler.endElement(RPCHandler.java:317) - Setting MessageContext property in RPCHandler.endElement().
-[2014-03-13 17:22:06,425]DEBUG 53063["http-bio-8090"-exec-10] - org.apache.axis.encoding.DeserializationContext.endElement(DeserializationContext.java:1106) - Popped element stack to org.apache.axis.message.SOAPBody:Body
-[2014-03-13 17:22:06,425]DEBUG 53063["http-bio-8090"-exec-10] - org.apache.axis.encoding.DeserializationContext.endElement(DeserializationContext.java:1107) - Exit: DeserializationContext::endElement()
-[2014-03-13 17:22:06,425]DEBUG 53063["http-bio-8090"-exec-10] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(convert00)
-[2014-03-13 17:22:06,425]DEBUG 53063["http-bio-8090"-exec-10] - org.apache.axis.utils.JavaUtils.convert(JavaUtils.java:253) - Trying to convert java.lang.Boolean to boolean
-[2014-03-13 17:22:06,425]DEBUG 53063["http-bio-8090"-exec-10] - org.apache.axis.client.Call.invoke(Call.java:2594) - Exit: Call::invoke(RPCElement)
-[2014-03-13 17:22:06,425]DEBUG 53063["http-bio-8090"-exec-10] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(convert00)
-[2014-03-13 17:22:06,425]DEBUG 53063["http-bio-8090"-exec-10] - org.apache.axis.utils.JavaUtils.convert(JavaUtils.java:253) - Trying to convert java.lang.Boolean to boolean
-[2014-03-13 17:22:06,425]DEBUG 53063["http-bio-8090"-exec-10] - org.apache.axis.client.Call.invoke(Call.java:2369) - Exit: Call::invoke(ns, meth, args)
-[2014-03-13 17:22:06,426]DEBUG 53064["http-bio-8090"-exec-10] - org.apache.axis.client.Call.invoke(Call.java:1816) - axis.Call.invoke: 238 {http://servizi.gestioneconferenzews.com/}verificautentelogin
-[2014-03-13 17:22:06,426]DEBUG 53064["http-bio-8090"-exec-10] - org.apache.axis.SOAPPart.saveChanges(SOAPPart.java:524) - Enter: SOAPPart::saveChanges
-[2014-03-13 17:22:06,426]DEBUG 53064["http-bio-8090"-exec-10] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(register00)
-[2014-03-13 17:22:06,426]DEBUG 53064["http-bio-8090"-exec-10] - org.apache.axis.encoding.SerializationContext.registerPrefixForURI(SerializationContext.java:472) - register 'S' - 'http://schemas.xmlsoap.org/soap/envelope/'
-[2014-03-13 17:22:06,426]DEBUG 53064["http-bio-8090"-exec-10] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(startElem00)
-[2014-03-13 17:22:06,426]DEBUG 53064["http-bio-8090"-exec-10] - org.apache.axis.encoding.SerializationContext.startElement(SerializationContext.java:1098) - Start element [http://schemas.xmlsoap.org/soap/envelope/]:Envelope
-[2014-03-13 17:22:06,426]DEBUG 53064["http-bio-8090"-exec-10] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(headers00)
-[2014-03-13 17:22:06,427]DEBUG 53065["http-bio-8090"-exec-10] - org.apache.axis.message.SOAPHeader.outputImpl(SOAPHeader.java:318) - 0 headers
-[2014-03-13 17:22:06,427]DEBUG 53065["http-bio-8090"-exec-10] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(startElem00)
-[2014-03-13 17:22:06,427]DEBUG 53065["http-bio-8090"-exec-10] - org.apache.axis.encoding.SerializationContext.startElement(SerializationContext.java:1098) - Start element [http://schemas.xmlsoap.org/soap/envelope/]:Body
-[2014-03-13 17:22:06,427]DEBUG 53065["http-bio-8090"-exec-10] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(register00)
-[2014-03-13 17:22:06,427]DEBUG 53065["http-bio-8090"-exec-10] - org.apache.axis.encoding.SerializationContext.registerPrefixForURI(SerializationContext.java:472) - register 'ns2' - 'http://servizi.gestioneconferenzews.com/'
-[2014-03-13 17:22:06,427]DEBUG 53065["http-bio-8090"-exec-10] - org.apache.axis.message.SAXOutputter.startElement(SAXOutputter.java:94) - SAXOutputter.startElement ['http://servizi.gestioneconferenzews.com/' verificautenteloginResponse]
-[2014-03-13 17:22:06,427]DEBUG 53065["http-bio-8090"-exec-10] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(startElem00)
-[2014-03-13 17:22:06,427]DEBUG 53065["http-bio-8090"-exec-10] - org.apache.axis.encoding.SerializationContext.startElement(SerializationContext.java:1098) - Start element [http://servizi.gestioneconferenzews.com/]:verificautenteloginResponse
-[2014-03-13 17:22:06,428]DEBUG 53066["http-bio-8090"-exec-10] - org.apache.axis.message.SAXOutputter.startElement(SAXOutputter.java:94) - SAXOutputter.startElement ['' return]
-[2014-03-13 17:22:06,428]DEBUG 53066["http-bio-8090"-exec-10] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(startElem00)
-[2014-03-13 17:22:06,428]DEBUG 53066["http-bio-8090"-exec-10] - org.apache.axis.encoding.SerializationContext.startElement(SerializationContext.java:1098) - Start element []:return
-[2014-03-13 17:22:06,428]DEBUG 53066["http-bio-8090"-exec-10] - org.apache.axis.message.SAXOutputter.characters(SAXOutputter.java:63) - SAXOutputter.characters ['false']
-[2014-03-13 17:22:06,428]DEBUG 53066["http-bio-8090"-exec-10] - org.apache.axis.message.SAXOutputter.endElement(SAXOutputter.java:109) - SAXOutputter.endElement ['' return]
-[2014-03-13 17:22:06,428]DEBUG 53066["http-bio-8090"-exec-10] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(endElem00)
-[2014-03-13 17:22:06,428]DEBUG 53066["http-bio-8090"-exec-10] - org.apache.axis.encoding.SerializationContext.endElement(SerializationContext.java:1208) - End element return
-[2014-03-13 17:22:06,429]DEBUG 53067["http-bio-8090"-exec-10] - org.apache.axis.message.SAXOutputter.endElement(SAXOutputter.java:109) - SAXOutputter.endElement ['http://servizi.gestioneconferenzews.com/' verificautenteloginResponse]
-[2014-03-13 17:22:06,429]DEBUG 53067["http-bio-8090"-exec-10] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(endElem00)
-[2014-03-13 17:22:06,429]DEBUG 53067["http-bio-8090"-exec-10] - org.apache.axis.encoding.SerializationContext.endElement(SerializationContext.java:1208) - End element ns2:verificautenteloginResponse
-[2014-03-13 17:22:06,429]DEBUG 53067["http-bio-8090"-exec-10] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(endElem00)
-[2014-03-13 17:22:06,429]DEBUG 53067["http-bio-8090"-exec-10] - org.apache.axis.encoding.SerializationContext.endElement(SerializationContext.java:1208) - End element S:Body
-[2014-03-13 17:22:06,429]DEBUG 53067["http-bio-8090"-exec-10] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(endElem00)
-[2014-03-13 17:22:06,429]DEBUG 53067["http-bio-8090"-exec-10] - org.apache.axis.encoding.SerializationContext.endElement(SerializationContext.java:1208) - End element S:Envelope
-[2014-03-13 17:22:06,429]DEBUG 53067["http-bio-8090"-exec-10] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(setMsgForm)
-[2014-03-13 17:22:06,430]DEBUG 53068["http-bio-8090"-exec-10] - org.apache.axis.SOAPPart.setCurrentForm(SOAPPart.java:374) - Setting current message form to: FORM_OPTIMIZED (currentMessage is now org.apache.axis.utils.ByteArray)
-[2014-03-13 17:22:06,430]DEBUG 53068["http-bio-8090"-exec-10] - org.apache.axis.SOAPPart.saveChanges(SOAPPart.java:537) - Exit: SOAPPart::saveChanges(): org.apache.axis.utils.ByteArray@b3faa7
-[2014-03-13 17:22:07,032] WARN 53670["http-bio-8090"-exec-10] - com.gestioneconferenze.sessione.sessioneBean.entra(sessioneBean.java:99) - l utente tiziano ha tentato di accedere senza successo
+[2014-03-14 09:59:40,911]DEBUG652140["http-bio-8090"-exec-1] - org.apache.axis.transport.http.HTTPSender.readFromSocket(HTTPSender.java:795) - -----------------------------------------------
+[2014-03-14 09:59:40,912]DEBUG652141["http-bio-8090"-exec-1] - org.apache.axis.SOAPPart.getAsSOAPEnvelope(SOAPPart.java:661) - Enter: SOAPPart::getAsSOAPEnvelope()
+[2014-03-14 09:59:40,912]DEBUG652141["http-bio-8090"-exec-1] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(currForm)
+[2014-03-14 09:59:40,912]DEBUG652141["http-bio-8090"-exec-1] - org.apache.axis.SOAPPart.getAsSOAPEnvelope(SOAPPart.java:662) - current form is FORM_INPUTSTREAM
+[2014-03-14 09:59:40,912]DEBUG652141["http-bio-8090"-exec-1] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(pushHandler00)
+[2014-03-14 09:59:40,912]DEBUG652141["http-bio-8090"-exec-1] - org.apache.axis.encoding.DeserializationContext.pushElementHandler(DeserializationContext.java:796) - Pushing handler org.apache.axis.message.EnvelopeHandler@136c2c1
+[2014-03-14 09:59:40,913]DEBUG652142["http-bio-8090"-exec-1] - org.apache.axis.encoding.DeserializationContext.startPrefixMapping(DeserializationContext.java:886) - Enter: DeserializationContext::startPrefixMapping(S, http://schemas.xmlsoap.org/soap/envelope/)
+[2014-03-14 09:59:40,913]DEBUG652142["http-bio-8090"-exec-1] - org.apache.axis.encoding.DeserializationContext.startPrefixMapping(DeserializationContext.java:925) - Exit: DeserializationContext::startPrefixMapping()
+[2014-03-14 09:59:40,913]DEBUG652142["http-bio-8090"-exec-1] - org.apache.axis.encoding.DeserializationContext.startElement(DeserializationContext.java:1003) - Enter: DeserializationContext::startElement(http://schemas.xmlsoap.org/soap/envelope/, Envelope)
+[2014-03-14 09:59:40,913]DEBUG652142["http-bio-8090"-exec-1] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(pushHandler00)
+[2014-03-14 09:59:40,913]DEBUG652142["http-bio-8090"-exec-1] - org.apache.axis.encoding.DeserializationContext.pushElementHandler(DeserializationContext.java:796) - Pushing handler org.apache.axis.message.EnvelopeBuilder@e8f062
+[2014-03-14 09:59:40,913]DEBUG652142["http-bio-8090"-exec-1] - org.apache.axis.encoding.DeserializationContext.pushNewElement(DeserializationContext.java:765) - Pushing element Envelope
+[2014-03-14 09:59:40,913]DEBUG652142["http-bio-8090"-exec-1] - org.apache.axis.encoding.DeserializationContext.startElement(DeserializationContext.java:1067) - Exit: DeserializationContext::startElement()
+[2014-03-14 09:59:40,914]DEBUG652143["http-bio-8090"-exec-1] - org.apache.axis.encoding.DeserializationContext.startElement(DeserializationContext.java:1003) - Enter: DeserializationContext::startElement(http://schemas.xmlsoap.org/soap/envelope/, Body)
+[2014-03-14 09:59:40,914]DEBUG652143["http-bio-8090"-exec-1] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(pushHandler00)
+[2014-03-14 09:59:40,914]DEBUG652143["http-bio-8090"-exec-1] - org.apache.axis.encoding.DeserializationContext.pushElementHandler(DeserializationContext.java:796) - Pushing handler org.apache.axis.message.BodyBuilder@fdb993
+[2014-03-14 09:59:40,914]DEBUG652143["http-bio-8090"-exec-1] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(newElem00)
+[2014-03-14 09:59:40,914]DEBUG652143["http-bio-8090"-exec-1] - org.apache.axis.message.MessageElement.<init>(MessageElement.java:239) - New MessageElement (org.apache.axis.message.SOAPBody@1a2929d) named {S}Body
+[2014-03-14 09:59:40,914]DEBUG652143["http-bio-8090"-exec-1] - org.apache.axis.encoding.DeserializationContext.pushNewElement(DeserializationContext.java:765) - Pushing element Body
+[2014-03-14 09:59:40,914]DEBUG652143["http-bio-8090"-exec-1] - org.apache.axis.encoding.DeserializationContext.startElement(DeserializationContext.java:1067) - Exit: DeserializationContext::startElement()
+[2014-03-14 09:59:40,914]DEBUG652143["http-bio-8090"-exec-1] - org.apache.axis.encoding.DeserializationContext.startPrefixMapping(DeserializationContext.java:886) - Enter: DeserializationContext::startPrefixMapping(ns2, http://servizi.gestioneconferenzews.com/)
+[2014-03-14 09:59:40,915]DEBUG652144["http-bio-8090"-exec-1] - org.apache.axis.encoding.DeserializationContext.startPrefixMapping(DeserializationContext.java:925) - Exit: DeserializationContext::startPrefixMapping()
+[2014-03-14 09:59:40,915]DEBUG652144["http-bio-8090"-exec-1] - org.apache.axis.encoding.DeserializationContext.startElement(DeserializationContext.java:1003) - Enter: DeserializationContext::startElement(http://servizi.gestioneconferenzews.com/, verificautenteloginResponse)
+[2014-03-14 09:59:40,915]DEBUG652144["http-bio-8090"-exec-1] - org.apache.axis.message.BodyBuilder.onStartChild(BodyBuilder.java:109) - Enter: BodyBuilder::onStartChild()
+[2014-03-14 09:59:40,915]DEBUG652144["http-bio-8090"-exec-1] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(newElem00)
+[2014-03-14 09:59:40,915]DEBUG652144["http-bio-8090"-exec-1] - org.apache.axis.message.MessageElement.<init>(MessageElement.java:239) - New MessageElement (org.apache.axis.message.RPCElement@d3aa04) named {ns2}verificautenteloginResponse
+[2014-03-14 09:59:40,915]DEBUG652144["http-bio-8090"-exec-1] - org.apache.axis.message.BodyBuilder.onStartChild(BodyBuilder.java:222) - Exit: BodyBuilder::onStartChild()
+[2014-03-14 09:59:40,915]DEBUG652144["http-bio-8090"-exec-1] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(pushHandler00)
+[2014-03-14 09:59:40,916]DEBUG652145["http-bio-8090"-exec-1] - org.apache.axis.encoding.DeserializationContext.pushElementHandler(DeserializationContext.java:796) - Pushing handler org.apache.axis.message.SOAPHandler@3f018c
+[2014-03-14 09:59:40,916]DEBUG652145["http-bio-8090"-exec-1] - org.apache.axis.encoding.DeserializationContext.pushNewElement(DeserializationContext.java:765) - Pushing element verificautenteloginResponse
+[2014-03-14 09:59:40,916]DEBUG652145["http-bio-8090"-exec-1] - org.apache.axis.encoding.DeserializationContext.startElement(DeserializationContext.java:1067) - Exit: DeserializationContext::startElement()
+[2014-03-14 09:59:40,916]DEBUG652145["http-bio-8090"-exec-1] - org.apache.axis.encoding.DeserializationContext.startElement(DeserializationContext.java:1003) - Enter: DeserializationContext::startElement(, return)
+[2014-03-14 09:59:40,916]DEBUG652145["http-bio-8090"-exec-1] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(pushHandler00)
+[2014-03-14 09:59:40,916]DEBUG652145["http-bio-8090"-exec-1] - org.apache.axis.encoding.DeserializationContext.pushElementHandler(DeserializationContext.java:796) - Pushing handler org.apache.axis.message.SOAPHandler@7ebfb1
+[2014-03-14 09:59:40,916]DEBUG652145["http-bio-8090"-exec-1] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(newElem00)
+[2014-03-14 09:59:40,917]DEBUG652146["http-bio-8090"-exec-1] - org.apache.axis.message.MessageElement.<init>(MessageElement.java:239) - New MessageElement (org.apache.axis.message.MessageElement@15b22a5) named {}return
+[2014-03-14 09:59:40,917]DEBUG652146["http-bio-8090"-exec-1] - org.apache.axis.encoding.DeserializationContext.pushNewElement(DeserializationContext.java:765) - Pushing element return
+[2014-03-14 09:59:40,917]DEBUG652146["http-bio-8090"-exec-1] - org.apache.axis.encoding.DeserializationContext.startElement(DeserializationContext.java:1067) - Exit: DeserializationContext::startElement()
+[2014-03-14 09:59:40,917]DEBUG652146["http-bio-8090"-exec-1] - org.apache.axis.encoding.DeserializationContext.endElement(DeserializationContext.java:1078) - Enter: DeserializationContext::endElement(, return)
+[2014-03-14 09:59:40,917]DEBUG652146["http-bio-8090"-exec-1] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(popHandler00)
+[2014-03-14 09:59:40,917]DEBUG652146["http-bio-8090"-exec-1] - org.apache.axis.encoding.DeserializationContext.popElementHandler(DeserializationContext.java:829) - Popping handler org.apache.axis.message.SOAPHandler@7ebfb1
+[2014-03-14 09:59:40,917]DEBUG652146["http-bio-8090"-exec-1] - org.apache.axis.encoding.DeserializationContext.endElement(DeserializationContext.java:1106) - Popped element stack to org.apache.axis.message.RPCElement:verificautenteloginResponse
+[2014-03-14 09:59:40,917]DEBUG652146["http-bio-8090"-exec-1] - org.apache.axis.encoding.DeserializationContext.endElement(DeserializationContext.java:1107) - Exit: DeserializationContext::endElement()
+[2014-03-14 09:59:40,918]DEBUG652147["http-bio-8090"-exec-1] - org.apache.axis.encoding.DeserializationContext.endElement(DeserializationContext.java:1078) - Enter: DeserializationContext::endElement(http://servizi.gestioneconferenzews.com/, verificautenteloginResponse)
+[2014-03-14 09:59:40,918]DEBUG652147["http-bio-8090"-exec-1] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(popHandler00)
+[2014-03-14 09:59:40,918]DEBUG652147["http-bio-8090"-exec-1] - org.apache.axis.encoding.DeserializationContext.popElementHandler(DeserializationContext.java:829) - Popping handler org.apache.axis.message.SOAPHandler@3f018c
+[2014-03-14 09:59:40,918]DEBUG652147["http-bio-8090"-exec-1] - org.apache.axis.encoding.DeserializationContext.endElement(DeserializationContext.java:1106) - Popped element stack to org.apache.axis.message.SOAPBody:Body
+[2014-03-14 09:59:40,918]DEBUG652147["http-bio-8090"-exec-1] - org.apache.axis.encoding.DeserializationContext.endElement(DeserializationContext.java:1107) - Exit: DeserializationContext::endElement()
+[2014-03-14 09:59:40,918]DEBUG652147["http-bio-8090"-exec-1] - org.apache.axis.encoding.DeserializationContext.endPrefixMapping(DeserializationContext.java:933) - Enter: DeserializationContext::endPrefixMapping(ns2)
+[2014-03-14 09:59:40,918]DEBUG652147["http-bio-8090"-exec-1] - org.apache.axis.encoding.DeserializationContext.endPrefixMapping(DeserializationContext.java:945) - Exit: DeserializationContext::endPrefixMapping()
+[2014-03-14 09:59:40,918]DEBUG652147["http-bio-8090"-exec-1] - org.apache.axis.encoding.DeserializationContext.endElement(DeserializationContext.java:1078) - Enter: DeserializationContext::endElement(http://schemas.xmlsoap.org/soap/envelope/, Body)
+[2014-03-14 09:59:40,919]DEBUG652148["http-bio-8090"-exec-1] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(popHandler00)
+[2014-03-14 09:59:40,919]DEBUG652148["http-bio-8090"-exec-1] - org.apache.axis.encoding.DeserializationContext.popElementHandler(DeserializationContext.java:829) - Popping handler org.apache.axis.message.BodyBuilder@fdb993
+[2014-03-14 09:59:40,919]DEBUG652148["http-bio-8090"-exec-1] - org.apache.axis.encoding.DeserializationContext.endElement(DeserializationContext.java:1106) - Popped element stack to org.apache.axis.message.SOAPEnvelope:Envelope
+[2014-03-14 09:59:40,919]DEBUG652148["http-bio-8090"-exec-1] - org.apache.axis.encoding.DeserializationContext.endElement(DeserializationContext.java:1107) - Exit: DeserializationContext::endElement()
+[2014-03-14 09:59:40,919]DEBUG652148["http-bio-8090"-exec-1] - org.apache.axis.encoding.DeserializationContext.endElement(DeserializationContext.java:1078) - Enter: DeserializationContext::endElement(http://schemas.xmlsoap.org/soap/envelope/, Envelope)
+[2014-03-14 09:59:40,919]DEBUG652148["http-bio-8090"-exec-1] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(popHandler00)
+[2014-03-14 09:59:40,919]DEBUG652148["http-bio-8090"-exec-1] - org.apache.axis.encoding.DeserializationContext.popElementHandler(DeserializationContext.java:829) - Popping handler org.apache.axis.message.EnvelopeBuilder@e8f062
+[2014-03-14 09:59:40,920]DEBUG652149["http-bio-8090"-exec-1] - org.apache.axis.encoding.DeserializationContext.endElement(DeserializationContext.java:1106) - Popped element stack to null
+[2014-03-14 09:59:40,920]DEBUG652149["http-bio-8090"-exec-1] - org.apache.axis.encoding.DeserializationContext.endElement(DeserializationContext.java:1107) - Exit: DeserializationContext::endElement()
+[2014-03-14 09:59:40,920]DEBUG652149["http-bio-8090"-exec-1] - org.apache.axis.encoding.DeserializationContext.endPrefixMapping(DeserializationContext.java:933) - Enter: DeserializationContext::endPrefixMapping(S)
+[2014-03-14 09:59:40,920]DEBUG652149["http-bio-8090"-exec-1] - org.apache.axis.encoding.DeserializationContext.endPrefixMapping(DeserializationContext.java:945) - Exit: DeserializationContext::endPrefixMapping()
+[2014-03-14 09:59:40,920]DEBUG652149["http-bio-8090"-exec-1] - org.apache.axis.encoding.DeserializationContext.endDocument(DeserializationContext.java:858) - Enter: DeserializationContext::endDocument()
+[2014-03-14 09:59:40,920]DEBUG652149["http-bio-8090"-exec-1] - org.apache.axis.encoding.DeserializationContext.endDocument(DeserializationContext.java:866) - Exit: DeserializationContext::endDocument()
+[2014-03-14 09:59:40,920]DEBUG652149["http-bio-8090"-exec-1] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(setMsgForm)
+[2014-03-14 09:59:40,921]DEBUG652150["http-bio-8090"-exec-1] - org.apache.axis.SOAPPart.setCurrentForm(SOAPPart.java:374) - Setting current message form to: FORM_SOAPENVELOPE (currentMessage is now org.apache.axis.message.SOAPEnvelope)
+[2014-03-14 09:59:40,921]DEBUG652150["http-bio-8090"-exec-1] - org.apache.axis.SOAPPart.getAsSOAPEnvelope(SOAPPart.java:724) - Exit: SOAPPart::getAsSOAPEnvelope
+[2014-03-14 09:59:40,921]DEBUG652150["http-bio-8090"-exec-1] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(register00)
+[2014-03-14 09:59:40,921]DEBUG652150["http-bio-8090"-exec-1] - org.apache.axis.encoding.SerializationContext.registerPrefixForURI(SerializationContext.java:472) - register 'S' - 'http://schemas.xmlsoap.org/soap/envelope/'
+[2014-03-14 09:59:40,921]DEBUG652150["http-bio-8090"-exec-1] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(startElem00)
+[2014-03-14 09:59:40,921]DEBUG652150["http-bio-8090"-exec-1] - org.apache.axis.encoding.SerializationContext.startElement(SerializationContext.java:1098) - Start element [http://schemas.xmlsoap.org/soap/envelope/]:Envelope
+[2014-03-14 09:59:40,922]DEBUG652151["http-bio-8090"-exec-1] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(startElem00)
+[2014-03-14 09:59:40,922]DEBUG652151["http-bio-8090"-exec-1] - org.apache.axis.encoding.SerializationContext.startElement(SerializationContext.java:1098) - Start element [http://schemas.xmlsoap.org/soap/envelope/]:Body
+[2014-03-14 09:59:40,922]DEBUG652151["http-bio-8090"-exec-1] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(register00)
+[2014-03-14 09:59:40,922]DEBUG652151["http-bio-8090"-exec-1] - org.apache.axis.encoding.SerializationContext.registerPrefixForURI(SerializationContext.java:472) - register 'ns2' - 'http://servizi.gestioneconferenzews.com/'
+[2014-03-14 09:59:40,922]DEBUG652151["http-bio-8090"-exec-1] - org.apache.axis.message.SAXOutputter.startElement(SAXOutputter.java:94) - SAXOutputter.startElement ['http://servizi.gestioneconferenzews.com/' verificautenteloginResponse]
+[2014-03-14 09:59:40,922]DEBUG652151["http-bio-8090"-exec-1] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(startElem00)
+[2014-03-14 09:59:40,922]DEBUG652151["http-bio-8090"-exec-1] - org.apache.axis.encoding.SerializationContext.startElement(SerializationContext.java:1098) - Start element [http://servizi.gestioneconferenzews.com/]:verificautenteloginResponse
+[2014-03-14 09:59:40,922]DEBUG652151["http-bio-8090"-exec-1] - org.apache.axis.message.SAXOutputter.startElement(SAXOutputter.java:94) - SAXOutputter.startElement ['' return]
+[2014-03-14 09:59:40,923]DEBUG652152["http-bio-8090"-exec-1] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(startElem00)
+[2014-03-14 09:59:40,923]DEBUG652152["http-bio-8090"-exec-1] - org.apache.axis.encoding.SerializationContext.startElement(SerializationContext.java:1098) - Start element []:return
+[2014-03-14 09:59:40,923]DEBUG652152["http-bio-8090"-exec-1] - org.apache.axis.message.SAXOutputter.characters(SAXOutputter.java:63) - SAXOutputter.characters ['false']
+[2014-03-14 09:59:40,923]DEBUG652152["http-bio-8090"-exec-1] - org.apache.axis.message.SAXOutputter.endElement(SAXOutputter.java:109) - SAXOutputter.endElement ['' return]
+[2014-03-14 09:59:40,923]DEBUG652152["http-bio-8090"-exec-1] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(endElem00)
+[2014-03-14 09:59:40,924]DEBUG652153["http-bio-8090"-exec-1] - org.apache.axis.encoding.SerializationContext.endElement(SerializationContext.java:1208) - End element return
+[2014-03-14 09:59:40,924]DEBUG652153["http-bio-8090"-exec-1] - org.apache.axis.message.SAXOutputter.endElement(SAXOutputter.java:109) - SAXOutputter.endElement ['http://servizi.gestioneconferenzews.com/' verificautenteloginResponse]
+[2014-03-14 09:59:40,924]DEBUG652153["http-bio-8090"-exec-1] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(endElem00)
+[2014-03-14 09:59:40,924]DEBUG652153["http-bio-8090"-exec-1] - org.apache.axis.encoding.SerializationContext.endElement(SerializationContext.java:1208) - End element ns2:verificautenteloginResponse
+[2014-03-14 09:59:40,924]DEBUG652153["http-bio-8090"-exec-1] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(endElem00)
+[2014-03-14 09:59:40,924]DEBUG652153["http-bio-8090"-exec-1] - org.apache.axis.encoding.SerializationContext.endElement(SerializationContext.java:1208) - End element S:Body
+[2014-03-14 09:59:40,924]DEBUG652153["http-bio-8090"-exec-1] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(endElem00)
+[2014-03-14 09:59:40,925]DEBUG652154["http-bio-8090"-exec-1] - org.apache.axis.encoding.SerializationContext.endElement(SerializationContext.java:1208) - End element S:Envelope
+[2014-03-14 09:59:40,925]DEBUG652154["http-bio-8090"-exec-1] - org.apache.axis.transport.http.HTTPSender.readFromSocket(HTTPSender.java:796) - <S:Envelope xmlns:S="http://schemas.xmlsoap.org/soap/envelope/"><S:Body><ns2:verificautenteloginResponse xmlns:ns2="http://servizi.gestioneconferenzews.com/"><return>false</return></ns2:verificautenteloginResponse></S:Body></S:Envelope>
+[2014-03-14 09:59:40,925]DEBUG652154["http-bio-8090"-exec-1] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(exit00)
+[2014-03-14 09:59:40,925]DEBUG652154["http-bio-8090"-exec-1] - org.apache.axis.transport.http.HTTPSender.invoke(HTTPSender.java:157) - Exit:  HTTPDispatchHandler::invoke
+[2014-03-14 09:59:40,925]DEBUG652154["http-bio-8090"-exec-1] - org.apache.axis.SimpleChain.invoke(SimpleChain.java:86) - Exit: SimpleChain::invoke
+[2014-03-14 09:59:40,925]DEBUG652154["http-bio-8090"-exec-1] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(semanticCheck00)
+[2014-03-14 09:59:40,925]DEBUG652154["http-bio-8090"-exec-1] - org.apache.axis.handlers.soap.MustUnderstandChecker.invoke(MustUnderstandChecker.java:55) - Doing SOAP semantic checks...
+[2014-03-14 09:59:40,926]DEBUG652155["http-bio-8090"-exec-1] - org.apache.axis.SOAPPart.getAsSOAPEnvelope(SOAPPart.java:661) - Enter: SOAPPart::getAsSOAPEnvelope()
+[2014-03-14 09:59:40,926]DEBUG652155["http-bio-8090"-exec-1] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(currForm)
+[2014-03-14 09:59:40,926]DEBUG652155["http-bio-8090"-exec-1] - org.apache.axis.SOAPPart.getAsSOAPEnvelope(SOAPPart.java:662) - current form is FORM_SOAPENVELOPE
+[2014-03-14 09:59:40,926]DEBUG652155["http-bio-8090"-exec-1] - org.apache.axis.client.AxisClient.invoke(AxisClient.java:226) - Exit: AxisClient::invoke
+[2014-03-14 09:59:40,926]DEBUG652155["http-bio-8090"-exec-1] - org.apache.axis.SOAPPart.getAsSOAPEnvelope(SOAPPart.java:661) - Enter: SOAPPart::getAsSOAPEnvelope()
+[2014-03-14 09:59:40,927]DEBUG652156["http-bio-8090"-exec-1] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(currForm)
+[2014-03-14 09:59:40,927]DEBUG652156["http-bio-8090"-exec-1] - org.apache.axis.SOAPPart.getAsSOAPEnvelope(SOAPPart.java:662) - current form is FORM_SOAPENVELOPE
+[2014-03-14 09:59:40,927]DEBUG652156["http-bio-8090"-exec-1] - org.apache.axis.client.Call.invoke(Call.java:2773) - Exit: Call::invoke()
+[2014-03-14 09:59:40,927]DEBUG652156["http-bio-8090"-exec-1] - org.apache.axis.SOAPPart.getAsSOAPEnvelope(SOAPPart.java:661) - Enter: SOAPPart::getAsSOAPEnvelope()
+[2014-03-14 09:59:40,927]DEBUG652156["http-bio-8090"-exec-1] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(currForm)
+[2014-03-14 09:59:40,927]DEBUG652156["http-bio-8090"-exec-1] - org.apache.axis.SOAPPart.getAsSOAPEnvelope(SOAPPart.java:662) - current form is FORM_SOAPENVELOPE
+[2014-03-14 09:59:40,927]DEBUG652156["http-bio-8090"-exec-1] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(pushHandler00)
+[2014-03-14 09:59:40,927]DEBUG652156["http-bio-8090"-exec-1] - org.apache.axis.encoding.DeserializationContext.pushElementHandler(DeserializationContext.java:796) - Pushing handler org.apache.axis.message.EnvelopeHandler@12cb805
+[2014-03-14 09:59:40,928]DEBUG652157["http-bio-8090"-exec-1] - org.apache.axis.encoding.DeserializationContext.startPrefixMapping(DeserializationContext.java:886) - Enter: DeserializationContext::startPrefixMapping(ns2, http://servizi.gestioneconferenzews.com/)
+[2014-03-14 09:59:40,928]DEBUG652157["http-bio-8090"-exec-1] - org.apache.axis.encoding.DeserializationContext.startPrefixMapping(DeserializationContext.java:925) - Exit: DeserializationContext::startPrefixMapping()
+[2014-03-14 09:59:40,928]DEBUG652157["http-bio-8090"-exec-1] - org.apache.axis.encoding.DeserializationContext.startElement(DeserializationContext.java:1003) - Enter: DeserializationContext::startElement(http://servizi.gestioneconferenzews.com/, verificautenteloginResponse)
+[2014-03-14 09:59:40,928]DEBUG652157["http-bio-8090"-exec-1] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(pushHandler00)
+[2014-03-14 09:59:40,928]DEBUG652157["http-bio-8090"-exec-1] - org.apache.axis.encoding.DeserializationContext.pushElementHandler(DeserializationContext.java:796) - Pushing handler org.apache.axis.message.RPCHandler@e55d2c
+[2014-03-14 09:59:40,928]DEBUG652157["http-bio-8090"-exec-1] - org.apache.axis.encoding.DeserializationContext.startElement(DeserializationContext.java:1067) - Exit: DeserializationContext::startElement()
+[2014-03-14 09:59:40,928]DEBUG652157["http-bio-8090"-exec-1] - org.apache.axis.encoding.DeserializationContext.startElement(DeserializationContext.java:1003) - Enter: DeserializationContext::startElement(, return)
+[2014-03-14 09:59:40,928]DEBUG652157["http-bio-8090"-exec-1] - org.apache.axis.message.RPCHandler.onStartChild(RPCHandler.java:125) - Enter: RPCHandler.onStartChild()
+[2014-03-14 09:59:40,928]DEBUG652157["http-bio-8090"-exec-1] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(typeFromAttr00)
+[2014-03-14 09:59:40,929]DEBUG652158["http-bio-8090"-exec-1] - org.apache.axis.message.RPCHandler.onStartChild(RPCHandler.java:169) - Type from attributes is:  null
+[2014-03-14 09:59:40,929]DEBUG652158["http-bio-8090"-exec-1] - org.apache.axis.message.RPCHandler.onStartChild(RPCHandler.java:303) - Exit: RPCHandler.onStartChild()
+[2014-03-14 09:59:40,929]DEBUG652158["http-bio-8090"-exec-1] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(pushHandler00)
+[2014-03-14 09:59:40,929]DEBUG652158["http-bio-8090"-exec-1] - org.apache.axis.encoding.DeserializationContext.pushElementHandler(DeserializationContext.java:796) - Pushing handler org.apache.axis.encoding.ser.SimpleDeserializer@481810
+[2014-03-14 09:59:40,929]DEBUG652158["http-bio-8090"-exec-1] - org.apache.axis.encoding.DeserializationContext.startElement(DeserializationContext.java:1067) - Exit: DeserializationContext::startElement()
+[2014-03-14 09:59:40,929]DEBUG652158["http-bio-8090"-exec-1] - org.apache.axis.encoding.DeserializationContext.endElement(DeserializationContext.java:1078) - Enter: DeserializationContext::endElement(, return)
+[2014-03-14 09:59:40,929]DEBUG652158["http-bio-8090"-exec-1] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(popHandler00)
+[2014-03-14 09:59:40,929]DEBUG652158["http-bio-8090"-exec-1] - org.apache.axis.encoding.DeserializationContext.popElementHandler(DeserializationContext.java:829) - Popping handler org.apache.axis.encoding.ser.SimpleDeserializer@481810
+[2014-03-14 09:59:40,929]DEBUG652158["http-bio-8090"-exec-1] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(setValueInTarget00)
+[2014-03-14 09:59:40,930]DEBUG652159["http-bio-8090"-exec-1] - org.apache.axis.encoding.DeserializerImpl.valueComplete(DeserializerImpl.java:251) - Set value false in target org.apache.axis.message.RPCParamTarget@124022e
+[2014-03-14 09:59:40,930]DEBUG652159["http-bio-8090"-exec-1] - org.apache.axis.encoding.DeserializationContext.endElement(DeserializationContext.java:1106) - Popped element stack to org.apache.axis.message.RPCElement:verificautenteloginResponse
+[2014-03-14 09:59:40,930]DEBUG652159["http-bio-8090"-exec-1] - org.apache.axis.encoding.DeserializationContext.endElement(DeserializationContext.java:1107) - Exit: DeserializationContext::endElement()
+[2014-03-14 09:59:40,930]DEBUG652159["http-bio-8090"-exec-1] - org.apache.axis.encoding.DeserializationContext.endElement(DeserializationContext.java:1078) - Enter: DeserializationContext::endElement(http://servizi.gestioneconferenzews.com/, verificautenteloginResponse)
+[2014-03-14 09:59:40,930]DEBUG652159["http-bio-8090"-exec-1] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(popHandler00)
+[2014-03-14 09:59:40,930]DEBUG652159["http-bio-8090"-exec-1] - org.apache.axis.encoding.DeserializationContext.popElementHandler(DeserializationContext.java:829) - Popping handler org.apache.axis.message.RPCHandler@e55d2c
+[2014-03-14 09:59:40,930]DEBUG652159["http-bio-8090"-exec-1] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(setProp00)
+[2014-03-14 09:59:40,930]DEBUG652159["http-bio-8090"-exec-1] - org.apache.axis.message.RPCHandler.endElement(RPCHandler.java:317) - Setting MessageContext property in RPCHandler.endElement().
+[2014-03-14 09:59:40,930]DEBUG652159["http-bio-8090"-exec-1] - org.apache.axis.encoding.DeserializationContext.endElement(DeserializationContext.java:1106) - Popped element stack to org.apache.axis.message.SOAPBody:Body
+[2014-03-14 09:59:40,931]DEBUG652160["http-bio-8090"-exec-1] - org.apache.axis.encoding.DeserializationContext.endElement(DeserializationContext.java:1107) - Exit: DeserializationContext::endElement()
+[2014-03-14 09:59:40,931]DEBUG652160["http-bio-8090"-exec-1] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(convert00)
+[2014-03-14 09:59:40,931]DEBUG652160["http-bio-8090"-exec-1] - org.apache.axis.utils.JavaUtils.convert(JavaUtils.java:253) - Trying to convert java.lang.Boolean to boolean
+[2014-03-14 09:59:40,931]DEBUG652160["http-bio-8090"-exec-1] - org.apache.axis.client.Call.invoke(Call.java:2594) - Exit: Call::invoke(RPCElement)
+[2014-03-14 09:59:40,931]DEBUG652160["http-bio-8090"-exec-1] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(convert00)
+[2014-03-14 09:59:40,931]DEBUG652160["http-bio-8090"-exec-1] - org.apache.axis.utils.JavaUtils.convert(JavaUtils.java:253) - Trying to convert java.lang.Boolean to boolean
+[2014-03-14 09:59:40,931]DEBUG652160["http-bio-8090"-exec-1] - org.apache.axis.client.Call.invoke(Call.java:2369) - Exit: Call::invoke(ns, meth, args)
+[2014-03-14 09:59:40,931]DEBUG652160["http-bio-8090"-exec-1] - org.apache.axis.client.Call.invoke(Call.java:1816) - axis.Call.invoke: 260 {http://servizi.gestioneconferenzews.com/}verificautentelogin
+[2014-03-14 09:59:40,931]DEBUG652160["http-bio-8090"-exec-1] - org.apache.axis.SOAPPart.saveChanges(SOAPPart.java:524) - Enter: SOAPPart::saveChanges
+[2014-03-14 09:59:40,931]DEBUG652160["http-bio-8090"-exec-1] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(register00)
+[2014-03-14 09:59:40,932]DEBUG652161["http-bio-8090"-exec-1] - org.apache.axis.encoding.SerializationContext.registerPrefixForURI(SerializationContext.java:472) - register 'S' - 'http://schemas.xmlsoap.org/soap/envelope/'
+[2014-03-14 09:59:40,932]DEBUG652161["http-bio-8090"-exec-1] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(startElem00)
+[2014-03-14 09:59:40,932]DEBUG652161["http-bio-8090"-exec-1] - org.apache.axis.encoding.SerializationContext.startElement(SerializationContext.java:1098) - Start element [http://schemas.xmlsoap.org/soap/envelope/]:Envelope
+[2014-03-14 09:59:40,932]DEBUG652161["http-bio-8090"-exec-1] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(headers00)
+[2014-03-14 09:59:40,932]DEBUG652161["http-bio-8090"-exec-1] - org.apache.axis.message.SOAPHeader.outputImpl(SOAPHeader.java:318) - 0 headers
+[2014-03-14 09:59:40,932]DEBUG652161["http-bio-8090"-exec-1] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(startElem00)
+[2014-03-14 09:59:40,932]DEBUG652161["http-bio-8090"-exec-1] - org.apache.axis.encoding.SerializationContext.startElement(SerializationContext.java:1098) - Start element [http://schemas.xmlsoap.org/soap/envelope/]:Body
+[2014-03-14 09:59:40,932]DEBUG652161["http-bio-8090"-exec-1] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(register00)
+[2014-03-14 09:59:40,932]DEBUG652161["http-bio-8090"-exec-1] - org.apache.axis.encoding.SerializationContext.registerPrefixForURI(SerializationContext.java:472) - register 'ns2' - 'http://servizi.gestioneconferenzews.com/'
+[2014-03-14 09:59:40,933]DEBUG652162["http-bio-8090"-exec-1] - org.apache.axis.message.SAXOutputter.startElement(SAXOutputter.java:94) - SAXOutputter.startElement ['http://servizi.gestioneconferenzews.com/' verificautenteloginResponse]
+[2014-03-14 09:59:40,933]DEBUG652162["http-bio-8090"-exec-1] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(startElem00)
+[2014-03-14 09:59:40,933]DEBUG652162["http-bio-8090"-exec-1] - org.apache.axis.encoding.SerializationContext.startElement(SerializationContext.java:1098) - Start element [http://servizi.gestioneconferenzews.com/]:verificautenteloginResponse
+[2014-03-14 09:59:40,933]DEBUG652162["http-bio-8090"-exec-1] - org.apache.axis.message.SAXOutputter.startElement(SAXOutputter.java:94) - SAXOutputter.startElement ['' return]
+[2014-03-14 09:59:40,933]DEBUG652162["http-bio-8090"-exec-1] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(startElem00)
+[2014-03-14 09:59:40,933]DEBUG652162["http-bio-8090"-exec-1] - org.apache.axis.encoding.SerializationContext.startElement(SerializationContext.java:1098) - Start element []:return
+[2014-03-14 09:59:40,933]DEBUG652162["http-bio-8090"-exec-1] - org.apache.axis.message.SAXOutputter.characters(SAXOutputter.java:63) - SAXOutputter.characters ['false']
+[2014-03-14 09:59:40,933]DEBUG652162["http-bio-8090"-exec-1] - org.apache.axis.message.SAXOutputter.endElement(SAXOutputter.java:109) - SAXOutputter.endElement ['' return]
+[2014-03-14 09:59:40,933]DEBUG652162["http-bio-8090"-exec-1] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(endElem00)
+[2014-03-14 09:59:40,934]DEBUG652163["http-bio-8090"-exec-1] - org.apache.axis.encoding.SerializationContext.endElement(SerializationContext.java:1208) - End element return
+[2014-03-14 09:59:40,934]DEBUG652163["http-bio-8090"-exec-1] - org.apache.axis.message.SAXOutputter.endElement(SAXOutputter.java:109) - SAXOutputter.endElement ['http://servizi.gestioneconferenzews.com/' verificautenteloginResponse]
+[2014-03-14 09:59:40,934]DEBUG652163["http-bio-8090"-exec-1] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(endElem00)
+[2014-03-14 09:59:40,934]DEBUG652163["http-bio-8090"-exec-1] - org.apache.axis.encoding.SerializationContext.endElement(SerializationContext.java:1208) - End element ns2:verificautenteloginResponse
+[2014-03-14 09:59:40,934]DEBUG652163["http-bio-8090"-exec-1] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(endElem00)
+[2014-03-14 09:59:40,934]DEBUG652163["http-bio-8090"-exec-1] - org.apache.axis.encoding.SerializationContext.endElement(SerializationContext.java:1208) - End element S:Body
+[2014-03-14 09:59:40,934]DEBUG652163["http-bio-8090"-exec-1] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(endElem00)
+[2014-03-14 09:59:40,934]DEBUG652163["http-bio-8090"-exec-1] - org.apache.axis.encoding.SerializationContext.endElement(SerializationContext.java:1208) - End element S:Envelope
+[2014-03-14 09:59:40,934]DEBUG652163["http-bio-8090"-exec-1] - org.apache.axis.i18n.ProjectResourceBundle.handleGetObject(ProjectResourceBundle.java:72) - org.apache.axis.i18n.resource::handleGetObject(setMsgForm)
+[2014-03-14 09:59:40,935]DEBUG652164["http-bio-8090"-exec-1] - org.apache.axis.SOAPPart.setCurrentForm(SOAPPart.java:374) - Setting current message form to: FORM_OPTIMIZED (currentMessage is now org.apache.axis.utils.ByteArray)
+[2014-03-14 09:59:40,935]DEBUG652164["http-bio-8090"-exec-1] - org.apache.axis.SOAPPart.saveChanges(SOAPPart.java:537) - Exit: SOAPPart::saveChanges(): org.apache.axis.utils.ByteArray@10b4bd5
+[2014-03-14 09:59:40,935] WARN652164["http-bio-8090"-exec-1] - com.gestioneconferenze.sessione.sessioneBean.entra(sessioneBean.java:99) - l utente tiziano ha tentato di accedere senza successo
+[2014-03-14 10:03:38,217]DEBUG889446[Finalizer] - org.apache.axis.MessageContext.dispose(MessageContext.java:1349) - disposing of message context

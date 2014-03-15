@@ -88,11 +88,7 @@ public class sessioneBean {
 		String psw= this.password;
 		Logger  logger = Logger.getLogger("com.foo");
 		logger.info("inizio chiamata entra di sessioneBean");
-		psw=psw + "";
-		nome=nome + "";
-		
-		this.ipaddress =  UrlUtil.getRemoteAddr();
-		
+						
 		UtentiFacade ws= new UtentiFacade();
 		if(!ws.login(nome, psw))
 		{
@@ -101,17 +97,19 @@ public class sessioneBean {
 			return;
 			
 		}		
-		logger.info("L utente " + this.username + " ha effettuato accesso");
+		logger.info("L utente " + this.username + " ha effettuato accesso");		
+
+		boolean risposta = ws.creaSessionUtente(username);
+		if(!risposta)
+		{
+			logger.warn("l utente " + this.username + " - errore nella creazione della sessione");
+			 FacesContext.getCurrentInstance().addMessage(null, new FacesMessage(FacesMessage.SEVERITY_FATAL,"Errore!", "Impossibile accedere"));
+			 return;
+		}
 		
-		//iscrivo l utente nel singleton
-		SingletonConf oggettoSingleton = SingletonConf.getSingletonConf();
-		Utente utente= new Utente();
-		utente.setUsername(this.username);
-		utente.setEmail("");
-		utente.setDataaccesso(new Date());
-		oggettoSingleton.addSessionUser(utente);
 		UrlUtil.RedirectAPagina("home.xhtml");
 	}
+	
 	
 	public void salva() 
 	{
@@ -119,27 +117,23 @@ public class sessioneBean {
 		Logger  logger = Logger.getLogger("com.foo");
 		logger.info("inizio chiamata salva di sessioneBean");
 	
-		 if(!password.equals(password2))
+		if(!password.equals(password2))
 		 {
 			 FacesContext.getCurrentInstance().addMessage(null, new FacesMessage(FacesMessage.SEVERITY_FATAL,"!", "le due password devono coincidere"));
-			 logger.info("Per l utente " + this.username + " le due password non coincidono");
+			 logger.info("Per l utente " + username + " le due password non coincidono");
 			 return;
 		 }
 		 
 		 if(!mail.equals(mail2))
 		 {
 			 FacesContext.getCurrentInstance().addMessage(null, new FacesMessage(FacesMessage.SEVERITY_FATAL,"!", "le due password devono coincidere"));
-			 logger.info("Per l utente " + this.username + " le due mail non coincidono");
+			 logger.info("Per l utente " + username + " le due mail non coincidono");
 			 return;
 		 }
-		 
-			FacesContext.getCurrentInstance().addMessage(null, new FacesMessage(FacesMessage.SEVERITY_INFO,"!", "Utenza salvata con successo"));
-			 FacesContext.getCurrentInstance().addMessage(null, new FacesMessage(FacesMessage.SEVERITY_WARN,"!", "Ti è stata mandata una mail per confermare la tua mail"));
-		
-		 new SendMail("info@gestioneconferenzeweb.com", "tiziano.interlandi@gmail.com", "modifica dati utente", "i tuoi dati sono stati modificati").send();
 		logger.info("L utente " + this.username + " ha salvato i dati della propria utenza");
 		
 	}
+
 	
 	
 	public void dettaglio()

@@ -6,6 +6,29 @@ public class Utente
 {
 
 	String username="";
+	public String getPassword() {
+		return password;
+	}
+	public void setPassword(String password) {
+		this.password = password;
+	}
+
+
+
+
+	String ipaddress="";
+	String email="";	
+	String password="";	
+	Date dataaccesso;
+	
+
+	
+	public String getIpaddress() {
+		return ipaddress;
+	}
+	public void setIpaddress(String ipaddress) {
+		this.ipaddress = ipaddress;
+	}
 	public String getUsername() {
 		return username;
 	}
@@ -24,8 +47,7 @@ public class Utente
 	public void setDataaccesso(Date dataaccesso) {
 		this.dataaccesso = dataaccesso;
 	}
-	String email="";
-	Date dataaccesso;
+
 	@Override
 	public int hashCode() {
 		final int prime = 31;
@@ -51,6 +73,12 @@ public class Utente
 		return true;
 	}
 	
-	
+
+	public boolean valida()
+	{
+		
+		return true;
 	}
+	
+}
 
