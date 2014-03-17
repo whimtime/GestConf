@@ -236,4 +236,7 @@
     set REGIONE = #{regione,jdbcType=VARCHAR}
     where CODICE_ISTAT_REGIONE = #{codiceIstatRegione,jdbcType=VARCHAR}
   </update>
+   <select id="selectRegioniTutte" resultMap="BaseResultMap">
+  SELECT * FROM REGIONE
+</select>
 </mapper>

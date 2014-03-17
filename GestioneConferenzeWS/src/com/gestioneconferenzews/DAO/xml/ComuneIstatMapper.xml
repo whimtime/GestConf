@@ -283,4 +283,7 @@
       SIGLA_PROVINCIA = #{siglaProvincia,jdbcType=VARCHAR}
     where CD_COMUNE = #{cdComune,jdbcType=VARCHAR}
   </update>
+  <select id="selectComuniTutti" resultMap="BaseResultMap">
+  SELECT * FROM COMUNE_ISTAT 
+</select>
 </mapper>

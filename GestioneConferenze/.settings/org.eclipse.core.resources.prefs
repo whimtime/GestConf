@@ -1,4 +1,12 @@
 eclipse.preferences.version=1
+encoding//src/com/gestioneconferenzews/servizi/ComuneIstat.java=UTF-8
+encoding//src/com/gestioneconferenzews/servizi/DatiGeografici.java=UTF-8
+encoding//src/com/gestioneconferenzews/servizi/Provincia.java=UTF-8
+encoding//src/com/gestioneconferenzews/servizi/Regione.java=UTF-8
+encoding//src/com/gestioneconferenzews/servizi/Serviziogeografico.java=UTF-8
+encoding//src/com/gestioneconferenzews/servizi/ServiziogeograficoPortBindingStub.java=UTF-8
+encoding//src/com/gestioneconferenzews/servizi/ServiziogeograficoService.java=UTF-8
+encoding//src/com/gestioneconferenzews/servizi/ServiziogeograficoServiceLocator.java=UTF-8
 encoding//src/com/gestioneconferenzews/servizi/Servizioutenti.java=UTF-8
 encoding//src/com/gestioneconferenzews/servizi/ServizioutentiPortBindingStub.java=UTF-8
 encoding//src/com/gestioneconferenzews/servizi/ServizioutentiService.java=UTF-8

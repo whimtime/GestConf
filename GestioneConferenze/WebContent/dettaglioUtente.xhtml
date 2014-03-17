@@ -48,6 +48,28 @@
     </p:panel>        
       </h:form>
     </p:tab>   
+	<p:tab title="Dati Anagrafici">
+		<p:panelGrid columns="6">
+		  	 Nome<h:inputText id="nomeinput" value="#{sessioneBean.username}" readonly="true"/>
+        	 <p:message for="nomeinput" display="icon" />             
+              	 Cognome<h:inputText id="cognomeinput" value="#{sessioneBean.username}" readonly="true"/>
+        	 <p:message for="nomeinput" display="icon" />     	  
+  			  	 Data Di Nascita<p:calendar  id="datanascitainput" /> 
+        	 <p:message for="nomeinput" display="icon" />                
+         	 CodiceFiscale<h:inputText id="cfinput" value="#{sessioneBean.username}" readonly="true"/>
+        	 <p:message for="nomeinput" display="icon" />   
+        	  	 Piva<h:inputText id="pivainput" value="#{sessioneBean.username}" readonly="true"/>
+        	 <p:message for="nomeinput" display="icon" />   
+        	 	     
+  
+		</p:panelGrid>	
+		 <f:facet name="footer">  
+           <p:commandButton value="Salva" action="#{sessioneBean.salva}" 
+                    ajax="false" />
+                          <p:messages id="messages" showDetail="true" autoUpdate="true" closable="true" globalOnly="true" />  
+		</f:facet>
+	</p:tab>
+	
 </p:tabView>
 
 </ui:define>

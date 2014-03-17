@@ -25,7 +25,7 @@
   <servlet-mapping>
     <servlet-name>AxisServlet</servlet-name>
     <url-pattern>/services/*</url-pattern>
-  </servlet-mapping>
+  </servlet-mapping> 
   <servlet>
     <display-name>Axis Admin Servlet</display-name>
     <servlet-name>AdminServlet</servlet-name>

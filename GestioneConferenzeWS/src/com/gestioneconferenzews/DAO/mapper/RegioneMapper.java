@@ -74,4 +74,6 @@ public interface RegioneMapper {
 	 * @mbggenerated  Wed Mar 12 22:35:50 CET 2014
 	 */
 	int updateByPrimaryKey(Regione record);
+	
+	List<Regione> selectRegioniTutte();
 }

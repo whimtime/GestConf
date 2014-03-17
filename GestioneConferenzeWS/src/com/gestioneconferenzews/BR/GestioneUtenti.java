@@ -28,7 +28,7 @@ public class GestioneUtenti
 		Logger logger= Logger.getLogger("com.foo");
 		try{
 		//eseguo la query sulla tabella utenti
-		String resource = "C:\\Users\\cg07060\\git\\GestioneConferenzeDef\\GestioneConferenzeWS\\src\\com\\gestioneconferenzews\\configurazioni\\mybatis-config.xml";
+		String resource = "C:\\impostazioni\\mybatis-config.xml";
 	    File file = new File(resource);
 	    System.out.println(file.exists());
 	    Reader reader = new FileReader(resource);
