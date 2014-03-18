@@ -22,7 +22,7 @@ public class ServiziogeograficoServiceLocator extends org.apache.axis.client.Ser
     }
 
     // Use to get a proxy class for serviziogeograficoPort
-    private java.lang.String serviziogeograficoPort_address = "http://localhost:8090/GestioneConferenzeWS/ServizioGeografia";
+    private java.lang.String serviziogeograficoPort_address = "http://localhost:8099/GestioneConferenzeWS/ServizioGeografia";
 
     public java.lang.String getserviziogeograficoPortAddress() {
         return serviziogeograficoPort_address;

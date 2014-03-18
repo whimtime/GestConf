@@ -268,4 +268,7 @@
       PROVINCIA = #{provincia,jdbcType=VARCHAR}
     where SIGLA_PROVINCIA = #{siglaProvincia,jdbcType=VARCHAR}
   </update>
+    <select id="selectProvinceTutte" resultMap="BaseResultMap">
+  		SELECT * FROM PROVINCIA ORDER BY PROVINCIA ASC
+	</select>
 </mapper>

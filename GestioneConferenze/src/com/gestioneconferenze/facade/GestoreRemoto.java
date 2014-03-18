@@ -26,6 +26,10 @@ public class GestoreRemoto
 		{
 			return FILE_AMBIENTE.getString("url_gestione_utenti");
 		}
+		if(chiamante.equals("com.gestioneconferenze.facade.GeografiaFacade"))
+		{
+			return FILE_AMBIENTE.getString("url_gestione_geografia");
+		}
 		
 		throw new Exception("Url remota non trovata");
 		

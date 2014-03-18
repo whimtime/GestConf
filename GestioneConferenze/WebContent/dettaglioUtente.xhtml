@@ -14,10 +14,11 @@
 
 	<ui:define name="content">				
 <p:tabView orientation="top" widgetVar="50" >
+  
     <p:tab title="Dati Utenza">  
-    <h:form id="form">                           
+                        <h:form id="form">        
     <p:panel header="Utenza">
- 
+     
     <p:panelGrid columns="3">
 
         	 Username<h:inputText id="userinput" value="#{sessioneBean.username}" readonly="true"/>
@@ -39,35 +40,84 @@
   		  
             </p:panelGrid>
              <f:facet name="footer">  
+          
            <p:commandButton value="Salva" action="#{sessioneBean.salva}" 
                     ajax="false" />
                           <p:messages id="messages" showDetail="true" autoUpdate="true" closable="true" globalOnly="true" />  
-
+			
     </f:facet>  
        
     </p:panel>        
-      </h:form>
-    </p:tab>   
-	<p:tab title="Dati Anagrafici">
+   </h:form>
+    </p:tab>
+
+	<p:tab title="Dati Anagrafici" >
+	     <h:form id="form2">
+	   <p:panel header="Utenza">
+	             
 		<p:panelGrid columns="6">
-		  	 Nome<h:inputText id="nomeinput" value="#{sessioneBean.username}" readonly="true"/>
+		  	 Nome<h:inputText id="nomeinput" value="#{sessioneBean.username}" readonly="false"/>
         	 <p:message for="nomeinput" display="icon" />             
-              	 Cognome<h:inputText id="cognomeinput" value="#{sessioneBean.username}" readonly="true"/>
+              	 Cognome<h:inputText id="cognomeinput" value="#{sessioneBean.username}" readonly="false"/>
         	 <p:message for="nomeinput" display="icon" />     	  
   			  	 Data Di Nascita<p:calendar  id="datanascitainput" /> 
         	 <p:message for="nomeinput" display="icon" />                
-         	 CodiceFiscale<h:inputText id="cfinput" value="#{sessioneBean.username}" readonly="true"/>
+         	 CodiceFiscale<h:inputText id="cfinput" value="#{sessioneBean.username}" readonly="false"/>
         	 <p:message for="nomeinput" display="icon" />   
-        	  	 Piva<h:inputText id="pivainput" value="#{sessioneBean.username}" readonly="true"/>
-        	 <p:message for="nomeinput" display="icon" />   
-        	 	     
+        	  	 Piva<h:inputText id="pivainput" value="#{sessioneBean.username}" readonly="false"/>
+        	 <p:message for="pivainput" display="icon" />
+        	 
+        	
+  
   
 		</p:panelGrid>	
+		
+		
 		 <f:facet name="footer">  
            <p:commandButton value="Salva" action="#{sessioneBean.salva}" 
                     ajax="false" />
                           <p:messages id="messages" showDetail="true" autoUpdate="true" closable="true" globalOnly="true" />  
 		</f:facet>
+		
+		</p:panel>
+		</h:form>
+	</p:tab>
+	
+	
+	<p:tab title="Indirizzi" >
+	     <h:form id="form3">
+	   <p:panel header="Utenza">
+		     
+		<p:panelGrid columns="6">
+			
+			 Comune Residenza
+        	 <p:selectOneMenu id="dropcomuni" value="#{sessioneBean.comunecodice}" effect="fade"   filter="true" filterMatchMode="startsWith">  	          
+	            <f:selectItems value="#{geografiaBean.comuni}" var ="r" itemValue="#{r.codiceIstatComune}" itemLabel="#{r.denominazioneComune}" />  
+        </p:selectOneMenu>   	     
+  		 <p:message for="dropcomuni" display="icon" />
+  		 
+  	  	 Indirizzo residenza<h:inputText id="indirizzoinput" value="#{sessioneBean.username}" readonly="false"/>
+        	 <p:message for="indirizzoinput" display="icon" />
+  	
+   	 Comune Fatturazione
+        	 <p:selectOneMenu id="dropcomunifatt" value="#{sessioneBean.comunecodice}" effect="fade"   filter="true" filterMatchMode="startsWith">  	          
+	            <f:selectItems value="#{geografiaBean.comuni}" var ="r" itemValue="#{r.codiceIstatComune}" itemLabel="#{r.denominazioneComune}" />  
+        </p:selectOneMenu>   	     
+  		 <p:message for="dropcomuni" display="icon" />
+  		 
+  			 
+  	  	 Indirizzo Fatturazione<h:inputText id="indirizzofattinput" value="#{sessioneBean.username}" readonly="false"/>
+        	 <p:message for="indirizzofattinput" display="icon" />
+  		 
+			</p:panelGrid>
+			 <f:facet name="footer">  
+           <p:commandButton value="Salva" action="#{sessioneBean.salva}" 
+                    ajax="false" />
+                          <p:messages id="messages" showDetail="true" autoUpdate="true" closable="true" globalOnly="true" />  
+			</f:facet>
+			
+			</p:panel>
+			     </h:form>
 	</p:tab>
 	
 </p:tabView>

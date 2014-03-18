@@ -13,6 +13,8 @@ import com.gestioneconferenze.util.*;
 import org.apache.log4j.Logger;
 
 import com.gestioneconferenze.util.*;
+import com.gestioneconferenzews.servizi.ComuneIstat;
+import com.gestioneconferenzews.servizi.Regione;
 
 public class sessioneBean {
 
@@ -38,9 +40,26 @@ public class sessioneBean {
 	String modifica="www.corriere.it";
 	String mail="";
 	String mail2="";
+	public String getComunecodice() {
+		return comunecodice;
+	}
+	public void setComunecodice(String comunecodice) {
+		this.comunecodice = comunecodice;
+	}
+	public ComuneIstat getComune() {
+		return comune;
+	}
+	public void setComune(ComuneIstat comune) {
+		this.comune = comune;
+	}
+
+
+	String comunecodice="";
+	ComuneIstat comune;
 	
 	
 	
+
 	public String getMail() {
 		return mail;
 	}

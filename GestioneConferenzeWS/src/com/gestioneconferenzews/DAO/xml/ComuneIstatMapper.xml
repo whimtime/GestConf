@@ -284,6 +284,6 @@
     where CD_COMUNE = #{cdComune,jdbcType=VARCHAR}
   </update>
   <select id="selectComuniTutti" resultMap="BaseResultMap">
-  SELECT * FROM COMUNE_ISTAT 
+  SELECT * FROM COMUNE_ISTAT ORDER BY DENOMINAZIONE_COMUNE ASC
 </select>
 </mapper>

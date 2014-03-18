@@ -237,6 +237,6 @@
     where CODICE_ISTAT_REGIONE = #{codiceIstatRegione,jdbcType=VARCHAR}
   </update>
    <select id="selectRegioniTutte" resultMap="BaseResultMap">
-  SELECT * FROM REGIONE
+  SELECT * FROM REGIONE ORDER BY REGIONE ASC
 </select>
 </mapper>

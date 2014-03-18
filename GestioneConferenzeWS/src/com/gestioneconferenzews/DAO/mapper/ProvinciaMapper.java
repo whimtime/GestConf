@@ -2,7 +2,10 @@ package com.gestioneconferenzews.DAO.mapper;
 
 import com.gestioneconferenzews.DAO.model.Provincia;
 import com.gestioneconferenzews.DAO.model.ProvinciaExample;
+import com.gestioneconferenzews.DAO.model.Regione;
+
 import java.util.List;
+
 import org.apache.ibatis.annotations.Param;
 
 public interface ProvinciaMapper {
@@ -74,4 +77,6 @@ public interface ProvinciaMapper {
 	 * @mbggenerated  Wed Mar 12 22:35:50 CET 2014
 	 */
 	int updateByPrimaryKey(Provincia record);
+	
+	List<Provincia> selectProvinceTutte();
 }
