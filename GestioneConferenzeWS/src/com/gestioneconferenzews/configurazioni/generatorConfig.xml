@@ -14,6 +14,8 @@
     <table schema="gestconfdb" tableName="UTENTE" />      
     <table schema="gestconfdb" tableName="CONTATTO" />
     <table schema="gestconfdb" tableName="RUOLO_PERSONA" />
-    <table schema="gestconfdb" tableName="INDIRIZZO" />                                
+    <table schema="gestconfdb" tableName="INDIRIZZO" />
+    <table schema="gestconfdb" tableName="COMPETENZA" />   
+    <table schema="gestconfdb" tableName="PERSONA_COMPETENZA" />                                   
   </context>
 </generatorConfiguration>

@@ -11,6 +11,9 @@ public class Server {
          
         Endpoint.publish("http://localhost:8099/GestioneConferenzeWS/ServizioGeografia", new serviziogeografico());        
         System.out.println("Installazione ServioGeografia completata");
+        
+        Endpoint.publish("http://localhost:8099/GestioneConferenzeWS/ServizioCompetenze", new serviziocompetenze());        
+        System.out.println("Installazione ServioCompetenze completata");
     }
  
 }

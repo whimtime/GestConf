@@ -120,6 +120,20 @@
 			     </h:form>
 	</p:tab>
 	
+	<p:tab title="Competenze" >
+	     <h:form id="form3d">
+	   <p:panel header="Utenza">
+	   
+	<p:pickList id="pickList" value="#{pickListBean.competenze}" var="c"   
+                itemLabel="#{c.competenza}" itemValue="#{c.cdCompetenza}" />  
+  
+   
+		     
+		
+		</p:panel>
+		</h:form>
+		</p:tab>
+	
 </p:tabView>
 
 </ui:define>

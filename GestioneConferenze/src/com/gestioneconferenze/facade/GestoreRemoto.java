@@ -30,6 +30,10 @@ public class GestoreRemoto
 		{
 			return FILE_AMBIENTE.getString("url_gestione_geografia");
 		}
+		if(chiamante.equals("com.gestioneconferenze.Bean.PickListBean"))
+		{
+			return FILE_AMBIENTE.getString("url_gestione_competenze");
+		}
 		
 		throw new Exception("Url remota non trovata");
 		
