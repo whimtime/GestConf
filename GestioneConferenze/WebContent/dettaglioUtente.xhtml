@@ -125,14 +125,36 @@
 	   <p:panel header="Utenza">
 	   
 	<p:pickList id="pickList" value="#{pickListBean.competenze}" var="c"   
-                itemLabel="#{c.competenza}" itemValue="#{c.cdCompetenza}" />  
+                itemLabel="#{c}" itemValue="#{c}" />  
   
+				  
+    
    
 		     
 		
 		</p:panel>
+		  <p:commandButton value="Salva" action="#{pickListBean.salvacompetenza}" 
+                    ajax="false" />
+		
 		</h:form>
 		</p:tab>
+		
+		
+		<p:tab title="Pagamenti" >
+	     <h:form id="form3dp">
+	   		<p:panel header="PreferenzePagamento">
+	   	
+	   			 	 <p:selectOneMenu id="droptipopag" value="#{pagamentiBean.preferred}" effect="fade"   filter="true" filterMatchMode="startsWith">  	          
+	            <f:selectItems value="#{pagamentiBean.pagamenti}" var ="r" itemValue="#{r.cdTipoPagamento}" itemLabel="#{r.tipoPagamento}" />  
+        </p:selectOneMenu>  
+	   
+	   		</p:panel>
+	   		<br></br>
+	   			  <p:commandButton value="Salva" action="#{pickListBean.salvacompetenza}" 
+                    ajax="false" />
+		
+	   </h:form>
+	   </p:tab>
 	
 </p:tabView>
 

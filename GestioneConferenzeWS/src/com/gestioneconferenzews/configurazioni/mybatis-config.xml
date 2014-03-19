@@ -21,5 +21,8 @@
     <mapper resource="com/gestioneconferenzews/DAO/xml/RuoloMapper.xml"/>
     <mapper resource="com/gestioneconferenzews/DAO/xml/UtenteMapper.xml"/>
     <mapper resource="com/gestioneconferenzews/DAO/xml/CompetenzaMapper.xml"/>
+    <mapper resource="com/gestioneconferenzews/DAO/xml/TipoPagamentoMapper.xml"/>
+    <mapper resource="com/gestioneconferenzews/DAO/xml/ConferenzaMapper.xml"/>
+    <mapper resource="com/gestioneconferenzews/DAO/xml/ReportMapper.xml"/>
   </mappers>
 </configuration>

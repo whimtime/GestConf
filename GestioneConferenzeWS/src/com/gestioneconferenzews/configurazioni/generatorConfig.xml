@@ -16,6 +16,9 @@
     <table schema="gestconfdb" tableName="RUOLO_PERSONA" />
     <table schema="gestconfdb" tableName="INDIRIZZO" />
     <table schema="gestconfdb" tableName="COMPETENZA" />   
-    <table schema="gestconfdb" tableName="PERSONA_COMPETENZA" />                                   
+    <table schema="gestconfdb" tableName="PERSONA_COMPETENZA" />
+    <table schema="gestconfdb" tableName="TIPO_PAGAMENTO" />
+    <table schema="gestconfdb" tableName="REPORT" /> 
+    <table schema="gestconfdb" tableName="CONFERENZA" />                                     
   </context>
 </generatorConfiguration>

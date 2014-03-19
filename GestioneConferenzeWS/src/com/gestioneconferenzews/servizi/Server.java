@@ -10,10 +10,13 @@ public class Server {
         System.out.println("Installazione ServizioUtenti completata");
          
         Endpoint.publish("http://localhost:8099/GestioneConferenzeWS/ServizioGeografia", new serviziogeografico());        
-        System.out.println("Installazione ServioGeografia completata");
+        System.out.println("Installazione ServizioGeografia completata");
         
         Endpoint.publish("http://localhost:8099/GestioneConferenzeWS/ServizioCompetenze", new serviziocompetenze());        
-        System.out.println("Installazione ServioCompetenze completata");
+        System.out.println("Installazione ServizioCompetenze completata");
+        
+        Endpoint.publish("http://localhost:8099/GestioneConferenzeWS/ServizioTipoPagamentiVal", new serviziopagamentival());        
+        System.out.println("Installazione ServizoTipoPagamentiVal completata");
     }
  
 }

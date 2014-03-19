@@ -27,6 +27,16 @@
 	<managed-bean>
 		<managed-bean-name>pickListBean</managed-bean-name>
 		<managed-bean-class>com.gestioneconferenze.Bean.PickListBean</managed-bean-class>
+		<managed-bean-scope>session</managed-bean-scope>
+	</managed-bean>
+	<managed-bean>
+		<managed-bean-name>pagamentiBean</managed-bean-name>
+		<managed-bean-class>com.gestioneconferenze.Bean.PagamentiBean</managed-bean-class>
+		<managed-bean-scope>session</managed-bean-scope>
+	</managed-bean>
+	<managed-bean>
+		<managed-bean-name>fileUploadController</managed-bean-name>
+		<managed-bean-class>com.gestioneconferenze.Bean.FileUploadController</managed-bean-class>
 		<managed-bean-scope>request</managed-bean-scope>
 	</managed-bean>
 
