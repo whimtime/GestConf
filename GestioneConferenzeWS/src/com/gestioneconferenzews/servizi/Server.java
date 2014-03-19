@@ -15,8 +15,11 @@ public class Server {
         Endpoint.publish("http://localhost:8099/GestioneConferenzeWS/ServizioCompetenze", new serviziocompetenze());        
         System.out.println("Installazione ServizioCompetenze completata");
         
-        Endpoint.publish("http://localhost:8099/GestioneConferenzeWS/ServizioTipoPagamentiVal", new serviziopagamentival());        
+        Endpoint.publish("http://localhost:8099/GestioneConferenzeWS/ServizioTipoPagamentiVal", new serviziopagamentival());    
         System.out.println("Installazione ServizoTipoPagamentiVal completata");
+        
+        Endpoint.publish("http://localhost:8099/GestioneConferenzeWS/ServizioConferenze", new servizioconferenze());        
+        System.out.println("Installazione ServizoConferenze completata");
     }
  
 }

@@ -169,6 +169,12 @@ public class sessioneBean {
 		UrlUtil.RedirectAjaxAPagina("caricareport.xhtml");
 	}
 
-	
+	public void nuovaconferenza()
+	{
+		Logger  logger = Logger.getLogger("com.foo");
+		logger.info("inizio chiamata dettaglio di sessioneBean");		
+		UrlUtil.RedirectAjaxAPagina("nuovaconferenza.xhtml");
+	}
+
 
 }
