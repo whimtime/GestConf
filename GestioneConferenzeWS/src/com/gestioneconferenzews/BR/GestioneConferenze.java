@@ -3,6 +3,7 @@ package com.gestioneconferenzews.BR;
 import java.io.File;
 import java.io.FileReader;
 import java.io.Reader;
+import java.util.List;
 
 import org.apache.ibatis.session.SqlSession;
 import org.apache.ibatis.session.SqlSessionFactory;
@@ -36,15 +37,54 @@ public class GestioneConferenze
 			
 			ConferenzaMapper mapperConferenza = session.getMapper(ConferenzaMapper.class);
 			
+		
+			
+			
 			int righeInserite = mapperConferenza.insert(conferenza);
+			session.commit();
+			
 			if(righeInserite>0) return true;
 			return false;
 			
 
 		}catch(Exception er)
 		{
+			logger.fatal(er.getMessage());
 			return false;
 		}
 	}
 
+	
+	public DatiConferenze getconferenze()
+	{
+		Logger logger= Logger.getLogger("com.foo");
+		try{
+			//eseguo la query sulla tabella utenti
+			String resource = "C:\\impostazioni\\mybatis-config.xml";
+		    File file = new File(resource);
+		    System.out.println(file.exists());
+		    DatiConferenze datiRest= new DatiConferenze();
+		    Reader reader = new FileReader(resource);
+			logger.info("dopo reader");
+			SqlSessionFactory sqlSessionFactory = new SqlSessionFactoryBuilder().build(reader);				   
+			SqlSession session = sqlSessionFactory.openSession();			
+			ConferenzaMapper mapperConferenza = session.getMapper(ConferenzaMapper.class);
+			
+			List<Conferenza> conferenze = mapperConferenza.selectConferenzeTutte();
+			
+			datiRest.setConferenze(conferenze);
+			
+			return datiRest;
+			
+			
+			
+		
+		}catch(Exception er)
+		{
+			logger.fatal(er.getMessage());
+			return null;
+		}
+		
+	}
+	
 }

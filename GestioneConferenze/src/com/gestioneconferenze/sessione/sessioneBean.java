@@ -175,6 +175,13 @@ public class sessioneBean {
 		logger.info("inizio chiamata dettaglio di sessioneBean");		
 		UrlUtil.RedirectAjaxAPagina("nuovaconferenza.xhtml");
 	}
+	
+	public void elencoconferenze()
+	{
+		Logger  logger = Logger.getLogger("com.foo");
+		logger.info("inizio chiamata dettaglio di sessioneBean");		
+		UrlUtil.RedirectAjaxAPagina("elencoConferenze.xhtml");
+	}
 
 
 }

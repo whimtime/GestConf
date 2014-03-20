@@ -74,4 +74,7 @@ public interface ConferenzaMapper {
 	 * @mbggenerated  Wed Mar 19 21:34:13 CET 2014
 	 */
 	int updateByPrimaryKey(Conferenza record);
+	
+	List<Conferenza> selectConferenzeTutte();
+	
 }

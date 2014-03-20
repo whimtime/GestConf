@@ -8,41 +8,35 @@
 	xmlns:p="http://primefaces.org/ui"
 	>
 
-<ui:composition template="/templates/principale.xhtml">
-	<ui:define name="header">
-	  	<p>Benvenuto : </p>
-	    <h:outputLabel value="#{sessioneBean.username}"></h:outputLabel>
-	</ui:define>
+<ui:composition template="/templates/principale.xhtml">	
 	<ui:define name="content">
 	<h:form>
 
-    <p:dataTable id="dataTable" var="conf" value="#{tableBean.conferenze}" sortMode="multiple" rows="5" paginator="true">
+    <p:dataTable id="dataTable" var="conf" value="#{conferenzeElencoBean.conferenze}" sortMode="multiple" rows="105" paginator="true">
         <f:facet name="header">
             Elenco Delle Conferenze Create
         </f:facet>
 
-        <p:column sortBy="model" headerText="Nome">
+        <p:column sortBy="nome" headerText="Titolo">
             <h:outputText value="#{conf.nome}" />
         </p:column>
 
-        <p:column sortBy="year" headerText="DataInizio">
-            <h:outputText value="#{conf.dataConferenzaInizio}" />
+        <p:column sortBy="sottotitolo" headerText="Sottotitolo">
+            <h:outputText value="#{conf.sottotitolo}" />
         </p:column>
 
-        <p:column sortBy="manufacturer" headerText="DataFine">
-            <h:outputText value="#{conf.dataConferenzaFine}" />
+        <p:column sortBy="dataInizioString" headerText="DataInizio">
+            <h:outputText value="#{conf.dataInizioString}" />
         </p:column>
 
-        <p:column sortBy="color" headerText="Luogo">
-            <h:outputText value="#{conf.luogo}" />
+        <p:column sortBy="dataFineString" headerText="DataFine">
+            <h:outputText value="#{conf.dataFineString}" />
         </p:column>
         
          <p:column style="width:4%">
              
 	    
-        <p:column  headerText="Modifica">
-       <a href="#{conf.modifica}" >Modifica</a>
-        </p:column>
+        <a href="#{conf.urlmodifica}">Modifica</a>
               
         </p:column>
     </p:dataTable>

@@ -315,4 +315,7 @@
       indirizzo = #{indirizzo,jdbcType=VARCHAR}
     where cd_conferenza = #{cdConferenza,jdbcType=INTEGER}
   </update>
+    <select id="selectConferenzeTutte" resultMap="BaseResultMap">
+ 	SELECT * FROM conferenza order by data_inizio asc
+</select>
 </mapper>

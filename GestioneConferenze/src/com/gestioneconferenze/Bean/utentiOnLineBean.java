@@ -3,7 +3,7 @@ package com.gestioneconferenze.Bean;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.gestioneconferenze.conferenze.Conferenza;
+
 import com.gestioneconferenze.sessione.SingletonConf;
 import com.gestioneconferenze.sessione.Utente;
 
