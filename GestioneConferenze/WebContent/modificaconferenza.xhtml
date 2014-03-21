@@ -11,23 +11,23 @@
 	<ui:define name="content">
 	<h:form id="form1">
 	   <p:panelGrid columns="6">
-		  	 Titolo della conferenza<h:inputText id="nomeinput" value="#{conferenzeBean.titolo}" readonly="false"/>
+		  	 Titolo della conferenza<h:inputText id="nomeinput" value="#{conferenzeBeanModifica.nome}" readonly="false"/>
         	 <p:message for="nomeinput" display="icon" />             
-              	 Sottotitolo <h:inputText id="cognomeinput" value="#{conferenzeBean.sottotitolo}" readonly="false"/>
+              	 Sottotitolo <h:inputText id="cognomeinput" value="#{conferenzeBeanModifica.sottotitolo}" readonly="false"/>
         	 <p:message for="cognomeinput" display="icon" />     	  
-  			  	 Data inizio<p:calendar id="datainizioinput" value="#{conferenzeBean.datainizio}" />
+  			  	 Data inizio<p:calendar id="datainizioinput" value="#{conferenzeBeanModifica.datainiziodate}" />
 			<p:message for="nomeinput" display="icon" />                
-         		  	 Data fine<p:calendar id="datafineinput" value="#{conferenzeBean.datafine}"  />
+         		  	 Data fine<p:calendar id="datafineinput" value="#{conferenzeBeanModifica.datafinedate}"  />
 			<p:message for="nomeinput" display="icon" />  
-				indirizzo<h:inputText id="indinput" value="#{conferenzeBean.indirizzo}" readonly="false"/>
+				indirizzo<h:inputText id="indinput" value="#{conferenzeBeanModifica.indirizzo}" readonly="false"/>
         	 <p:message for="nomeinput" display="icon" />     
         	 	 Comune 
-        	 <p:selectOneMenu id="dropcomuni" value="#{conferenzeBean.cdcomuneistat}" effect="fade"   filter="true" filterMatchMode="startsWith">  	          
+        	 <p:selectOneMenu id="dropcomuni" value="#{conferenzeBeanModifica.cdComuneIstat}" effect="fade"   filter="true" filterMatchMode="startsWith">  	          
 	            <f:selectItems value="#{geografiaBean.comuni}" var ="r" itemValue="#{r.cdComune}" itemLabel="#{r.denominazioneComune}" />  
         </p:selectOneMenu>   	     
   		 <p:message for="dropcomuni" display="icon" />
         	  
-           <p:commandButton value="Salva" action="#{conferenzeBean.salva}" 
+           <p:commandButton value="Salva" action="#{conferenzeBeanModifica.salva}" 
                     ajax="false" />
   
   

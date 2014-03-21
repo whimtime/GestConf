@@ -44,16 +44,28 @@ public class ServizioconferenzeProxy implements com.gestioneconferenzews.servizi
     return servizioconferenze;
   }
   
+  public com.gestioneconferenzews.servizi.Conferenza[] getconferenze() throws java.rmi.RemoteException{
+    if (servizioconferenze == null)
+      _initServizioconferenzeProxy();
+    return servizioconferenze.getconferenze();
+  }
+  
   public boolean salvanuovaconferenza(com.gestioneconferenzews.servizi.Conferenza conferenza) throws java.rmi.RemoteException{
     if (servizioconferenze == null)
       _initServizioconferenzeProxy();
     return servizioconferenze.salvanuovaconferenza(conferenza);
   }
   
-  public com.gestioneconferenzews.servizi.Conferenza[] getconferenze() throws java.rmi.RemoteException{
+  public com.gestioneconferenzews.servizi.Conferenza getconferenzaid(int cdconferenza) throws java.rmi.RemoteException{
     if (servizioconferenze == null)
       _initServizioconferenzeProxy();
-    return servizioconferenze.getconferenze();
+    return servizioconferenze.getconferenzaid(cdconferenza);
+  }
+  
+  public boolean aggiornaconferenza(com.gestioneconferenzews.servizi.Conferenza conferenza) throws java.rmi.RemoteException{
+    if (servizioconferenze == null)
+      _initServizioconferenzeProxy();
+    return servizioconferenze.aggiornaconferenza(conferenza);
   }
   
   

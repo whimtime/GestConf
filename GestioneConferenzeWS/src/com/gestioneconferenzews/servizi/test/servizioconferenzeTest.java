@@ -37,5 +37,16 @@ public class servizioconferenzeTest {
 		DatiConferenze dati = obj.getconferenze();
 		String s="";
 	}
+	
+	@Test
+	public void testAggiornaConferenze()
+	{
+		GestioneConferenze conferenza = new GestioneConferenze();
+		Conferenza c = conferenza.getconferenze(14);
+		c.setNome("modificata da test");
+		
+		assertTrue(conferenza.aggiornaconferenza(c));
+		
+	}
 
 }

@@ -17,7 +17,22 @@ public class conferenzeBean
 	Date datafine;
 	String cdcomuneistat="";
 	String indirizzo="";
+	String datainiziostring="";
+	String datafinestring="";
 	
+	
+	public String getDatainiziostring() {
+		return datainiziostring;
+	}
+	public void setDatainiziostring(String datainiziostring) {
+		this.datainiziostring = datainiziostring;
+	}
+	public String getDatafinestring() {
+		return datafinestring;
+	}
+	public void setDatafinestring(String datafinestring) {
+		this.datafinestring = datafinestring;
+	}
 	public String getIndirizzo() {
 		return indirizzo;
 	}

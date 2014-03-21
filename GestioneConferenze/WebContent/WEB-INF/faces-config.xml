@@ -49,5 +49,15 @@
 		<managed-bean-class>com.gestioneconferenze.Bean.conferenzeElencoBean</managed-bean-class>
 		<managed-bean-scope>request</managed-bean-scope>
 	</managed-bean>
+	<managed-bean>
+		<managed-bean-name>conferenzaSingolaBean</managed-bean-name>
+		<managed-bean-class>com.gestioneconferenze.Bean.conferenzaSingolaBean</managed-bean-class>
+		<managed-bean-scope>request</managed-bean-scope>
+	</managed-bean>
+	<managed-bean>
+		<managed-bean-name>conferenzeBeanModifica</managed-bean-name>
+		<managed-bean-class>com.gestioneconferenze.Bean.conferenzeBeanModifica</managed-bean-class>
+		<managed-bean-scope>session</managed-bean-scope>
+	</managed-bean>
 
 </faces-config>

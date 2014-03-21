@@ -9,5 +9,7 @@ package com.gestioneconferenzews.servizi;
 
 public interface Servizioconferenze extends java.rmi.Remote {
     public boolean salvanuovaconferenza(com.gestioneconferenzews.servizi.Conferenza conferenza) throws java.rmi.RemoteException;
+    public com.gestioneconferenzews.servizi.Conferenza getconferenzaid(int cdconferenza) throws java.rmi.RemoteException;
+    public boolean aggiornaconferenza(com.gestioneconferenzews.servizi.Conferenza conferenza) throws java.rmi.RemoteException;
     public com.gestioneconferenzews.servizi.Conferenza[] getconferenze() throws java.rmi.RemoteException;
 }

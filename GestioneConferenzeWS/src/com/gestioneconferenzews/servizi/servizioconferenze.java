@@ -22,4 +22,16 @@ public class servizioconferenze
 	{
 		return new GestioneConferenze().getconferenze();
 	}
+	
+	@WebMethod
+	public Conferenza getconferenzaid(@WebParam(name="cdconferenza")int cdconferenza)
+	{
+		return new GestioneConferenze().getconferenze(cdconferenza);
+	}
+	
+	@WebMethod
+	public boolean aggiornaconferenza(@WebParam(name="conferenza")Conferenza conferenza)
+	{
+		return new GestioneConferenze().aggiornaconferenza(conferenza);
+	}
 }

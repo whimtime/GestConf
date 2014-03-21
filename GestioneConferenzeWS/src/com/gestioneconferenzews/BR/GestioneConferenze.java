@@ -87,4 +87,63 @@ public class GestioneConferenze
 		
 	}
 	
+	public Conferenza getconferenze(int cdConferenza)
+	{
+		Logger logger= Logger.getLogger("com.foo");
+		try{
+			//eseguo la query sulla tabella utenti
+			String resource = "C:\\impostazioni\\mybatis-config.xml";
+		    File file = new File(resource);
+		    System.out.println(file.exists());
+		    DatiConferenze datiRest= new DatiConferenze();
+		    Reader reader = new FileReader(resource);
+			logger.info("dopo reader");
+			SqlSessionFactory sqlSessionFactory = new SqlSessionFactoryBuilder().build(reader);				   
+			SqlSession session = sqlSessionFactory.openSession();			
+			ConferenzaMapper mapperConferenza = session.getMapper(ConferenzaMapper.class);			
+			Conferenza conferenza = mapperConferenza.selectByPrimaryKey(cdConferenza);
+									
+			return conferenza;
+											
+		}catch(Exception er)
+		{
+			logger.fatal(er.getMessage());
+			return null;
+		}
+		
+	}
+	
+	
+	public boolean aggiornaconferenza(Conferenza conferenza)
+	{
+		Logger logger= Logger.getLogger("com.foo");
+		try{
+			//eseguo la query sulla tabella utenti
+			String resource = "C:\\impostazioni\\mybatis-config.xml";
+		    File file = new File(resource);
+		    System.out.println(file.exists());
+		    Reader reader = new FileReader(resource);
+			logger.info("dopo reader");
+			SqlSessionFactory sqlSessionFactory = new SqlSessionFactoryBuilder().build(reader);
+				    
+			SqlSession session = sqlSessionFactory.openSession();
+			
+			ConferenzaMapper mapperConferenza = session.getMapper(ConferenzaMapper.class);
+			
+		
+			
+			
+			int righeInserite = mapperConferenza.updateByPrimaryKey(conferenza);
+			session.commit();
+			
+			if(righeInserite>0) return true;
+			return false;
+			
+
+		}catch(Exception er)
+		{
+			logger.fatal(er.getMessage());
+			return false;
+		}
+	}
 }

@@ -23,5 +23,15 @@ public class ConferenzeFacade
 		return ws.getconferenze(); 		
 	}
 	
+	public Conferenza getconferenzaid(int cdconferenza) throws RemoteException
+	{
+		ServizioconferenzeProxy ws= new ServizioconferenzeProxy();
+		return ws.getconferenzaid(cdconferenza); 			
+	}
 	
+	public boolean aggiorna(Conferenza conferenza) throws Exception
+	{
+		ServizioconferenzeProxy ws = new ServizioconferenzeProxy(GestoreRemoto.getIndirizzo(this));
+		return ws.aggiornaconferenza(conferenza);			
+	}
 }
