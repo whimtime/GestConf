@@ -1,5 +1,6 @@
 package com.gestioneconferenze.Bean;
 
+import java.rmi.RemoteException;
 import java.text.DateFormat;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
@@ -10,6 +11,7 @@ import java.util.List;
 import com.gestioneconferenze.facade.ConferenzeFacade;
 import com.gestioneconferenze.facade.GestoreRemoto;
 import com.gestioneconferenzews.servizi.*;
+import com.gestioneconferenzews.servizi.Exception;
 
 public class conferenzeElencoBean 
 {
@@ -36,7 +38,7 @@ public class conferenzeElencoBean
 
 
 
-	public conferenzeElencoBean() throws Exception 
+	public conferenzeElencoBean() throws RemoteException 
 	{				
 		ConferenzeFacade ws= new ConferenzeFacade();
 		Conferenza[] conftemp= ws.getconferenze();

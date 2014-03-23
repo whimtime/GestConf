@@ -22,7 +22,7 @@ public class ServizioutentiServiceLocator extends org.apache.axis.client.Service
     }
 
     // Use to get a proxy class for servizioutentiPort
-    private java.lang.String servizioutentiPort_address = "http://localhost:8080/GestioneConferenzeWS/ServizioUtenti";
+    private java.lang.String servizioutentiPort_address = "http://localhost:8099/GestioneConferenzeWS/ServizioUtenti";
 
     public java.lang.String getservizioutentiPortAddress() {
         return servizioutentiPort_address;

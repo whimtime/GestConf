@@ -36,6 +36,7 @@
          <p:submenu label="Utenza">
             <p:menuitem value="Dettaglio Mia Utenza" actionListener="#{sessioneBean.dettaglio}" icon="ui-icon-disk" />
             <p:menuitem value="Carica Report" actionListener="#{sessioneBean.caricareport}" icon="ui-icon-disk" />
+            <p:menuitem value="Logout" actionListener="#{sessioneBean.logout}" icon="ui-icon-disk" />
             
             </p:submenu>
         <p:submenu label="Conferenze">
@@ -49,7 +50,7 @@
         </p:submenu>
           
         <p:submenu label="Comitati">
-            <p:menuitem value="Save" actionListener="#{buttonBean.save}" icon="ui-icon-disk" />
+            <p:menuitem value="Nuovo Comitato" actionListener="#{sessioneBean.nuovocomitato}" icon="ui-icon-disk" />
             <p:menuitem value="Update" actionListener="#{buttonBean.update}"  icon="ui-icon-arrowrefresh-1-w" />
         </p:submenu>
           

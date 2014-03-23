@@ -1,0 +1,39 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core"
+		xmlns:p="http://primefaces.org/ui">
+
+<ui:composition template="/templates/principale.xhtml">
+	<ui:define name="content">
+	   
+	    <h:form id="form">
+	    <p:panel header="Se sei già iscritto">
+        <h:panelGrid columns="2" >
+	   
+	   <h:outputText value="Tipo Comitato:  " />  
+        <p:selectOneRadio id="options" value="#{comitatoBean.tipo}">  
+            <f:selectItem itemLabel="Organizzativo" itemValue="1" />  
+            <f:selectItem itemLabel="Valutazione" itemValue="2" />              
+        </p:selectOneRadio> 
+        <h:outputText value="Conferenza  " />  
+         <p:selectOneMenu id="dropconferenze" value="#{comitatoBean.cdconferenza}" effect="fade"   filter="true" filterMatchMode="startsWith">  	          
+	            <f:selectItems value="#{conferenzeElencoBean.conferenze}" var ="r" itemValue="#{r.cdConferenza}" itemLabel="#{r.nome}" />  
+        </p:selectOneMenu>
+        	<h:outputLabel>Nome</h:outputLabel>
+  		<p:inputText id="codfisc" value="#{comitatoBean.nome}"  required="true"></p:inputText>
+  		  
+        </h:panelGrid>
+        </p:panel>
+         <p:commandButton value="Accedi Alla prossima fase" action="#{comitatoBean.salva}" 
+                    ajax="false" />
+                        <p:messages id="messages2" showDetail="true" autoUpdate="true" closable="true" globalOnly="true" />
+        </h:form>
+	   
+	   
+	</ui:define>	
+</ui:composition>
+</html>

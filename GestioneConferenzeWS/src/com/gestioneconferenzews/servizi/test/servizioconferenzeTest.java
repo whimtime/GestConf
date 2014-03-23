@@ -42,11 +42,21 @@ public class servizioconferenzeTest {
 	public void testAggiornaConferenze()
 	{
 		GestioneConferenze conferenza = new GestioneConferenze();
-		Conferenza c = conferenza.getconferenze(14);
+		Conferenza c = conferenza.getconferenze(1);
 		c.setNome("modificata da test");
 		
 		assertTrue(conferenza.aggiornaconferenza(c));
 		
+	}
+	
+	@Test
+	public void testNuovoComitato() throws Exception
+	{
+		Comitato comitato = new Comitato();
+		comitato.setCdTipo(1);
+		comitato.setNome("prova da testo");
+		
+		assertTrue(new GestioneConferenze().nuovocomitato(comitato));
 	}
 
 }

@@ -1,10 +1,10 @@
 CREATE DATABASE  IF NOT EXISTS `gestconfdb` /*!40100 DEFAULT CHARACTER SET latin1 */;
 USE `gestconfdb`;
--- MySQL dump 10.13  Distrib 5.5.16, for Win32 (x86)
+-- MySQL dump 10.13  Distrib 5.6.13, for Win32 (x86)
 --
 -- Host: localhost    Database: gestconfdb
 -- ------------------------------------------------------
--- Server version	5.5.28
+-- Server version	5.6.16
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
@@ -36,7 +36,7 @@ CREATE TABLE `utente` (
   UNIQUE KEY `username` (`username`),
   KEY `FK_persona` (`cd_persona`),
   CONSTRAINT `FK_persona` FOREIGN KEY (`cd_persona`) REFERENCES `persona` (`cd_persona`)
-) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=latin1;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -45,7 +45,7 @@ CREATE TABLE `utente` (
 
 LOCK TABLES `utente` WRITE;
 /*!40000 ALTER TABLE `utente` DISABLE KEYS */;
-INSERT INTO `utente` VALUES (1,1,'tiziano','password','2014-03-12 21:25:43',NULL,NULL);
+INSERT INTO `utente` VALUES (1,1,'tiziano','password','2014-03-12 21:25:43',NULL,NULL),(2,5,'m.rossi','password','2014-03-23 10:59:01',NULL,NULL),(3,6,'p.verdi','password','2014-03-23 17:44:18',NULL,NULL);
 /*!40000 ALTER TABLE `utente` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -58,4 +58,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2014-03-19 17:00:47
+-- Dump completed on 2014-03-23 22:22:30

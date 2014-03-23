@@ -1,5 +1,6 @@
 package com.gestioneconferenze.sessione;
 
+import java.util.Calendar;
 import java.util.Date;
 
 import javax.faces.application.FacesMessage;
@@ -7,6 +8,8 @@ import javax.faces.context.FacesContext;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpSession;
 
+import com.gestioneconferenze.Bean.contattoBean;
+import com.gestioneconferenze.Bean.personaBean;
 import com.gestioneconferenze.facade.UtentiFacade;
 import com.gestioneconferenze.util.*;
 
@@ -14,10 +17,34 @@ import org.apache.log4j.Logger;
 
 import com.gestioneconferenze.util.*;
 import com.gestioneconferenzews.servizi.ComuneIstat;
+import com.gestioneconferenzews.servizi.Contatto;
+import com.gestioneconferenzews.servizi.Persona;
 import com.gestioneconferenzews.servizi.Regione;
 
 public class sessioneBean {
 
+	
+	public sessioneBean()
+	{
+		if(beanpersona==null) beanpersona= new personaBean();
+		if(beancontatto==null) beancontatto = new contattoBean();
+	}
+	
+	personaBean beanpersona;
+	contattoBean beancontatto;
+	
+	public contattoBean getBeancontatto() {
+		return beancontatto;
+	}
+	public void setBeancontatto(contattoBean beancontatto) {
+		this.beancontatto = beancontatto;
+	}
+	public personaBean getBeanpersona() {
+		return beanpersona;
+	}
+	public void setBeanpersona(personaBean beanpersona) {
+		this.beanpersona = beanpersona;
+	}
 	public String getPassword2() {
 		return password2;
 	}
@@ -181,6 +208,63 @@ public class sessioneBean {
 		Logger  logger = Logger.getLogger("com.foo");
 		logger.info("inizio chiamata dettaglio di sessioneBean");		
 		UrlUtil.RedirectAjaxAPagina("elencoConferenze.xhtml");
+	}
+	
+	public void nuovocomitato()
+	{
+		Logger  logger = Logger.getLogger("com.foo");
+		logger.info("inizio chiamata dettaglio di sessioneBean");		
+		UrlUtil.RedirectAjaxAPagina("nuovocomitato.xhtml");
+	}
+	
+
+	public void logout()
+	{
+		Logger  logger = Logger.getLogger("com.foo");
+		this.username="";
+		this.password="";
+		
+		logger.info("inizio chiamata dettaglio di sessioneBean");		
+		UrlUtil.RedirectAjaxAPagina("loginPage.xhtml");
+	}
+	
+	public void nuovoutente() throws Exception
+	{
+		//creo in sequenza Persona, Utenza, Contatto
+		Persona persona = new Persona();
+		persona.setCdComuneIstatNascita(this.beanpersona.getCdcomunenascita());
+		persona.setCdPersona(0);
+		persona.setCodiceFiscale(this.beanpersona.getCodicefiscale());
+		persona.setCognome(this.beanpersona.getCognome());
+		Calendar cal= Calendar.getInstance();
+		cal.setTime(this.beanpersona.getDatanascita());
+		persona.setDataNascita(cal);
+		persona.setNome(this.beanpersona.getNome());
+		persona.setPartitaIva(this.beanpersona.getPartitaiva());
+		
+		
+		com.gestioneconferenzews.servizi.Utente utente= new com.gestioneconferenzews.servizi.Utente();
+		utente.setPassword(this.password);
+		utente.setUsername(this.username);
+		
+		
+		Contatto contatto = new Contatto();
+		contatto.setCdContatto(0);
+		contatto.setCdPersona(0);
+		contatto.setContatto(this.mail);
+		contatto.setTipo("MAIL");
+		
+		UtentiFacade fa= new UtentiFacade();
+		boolean risposta= fa.nuovoutente(persona, utente, contatto);
+		
+		if(!risposta)
+		{
+			
+			 FacesContext.getCurrentInstance().addMessage(null, new FacesMessage(FacesMessage.SEVERITY_FATAL,"Errore!", "Impossibile creare"));
+			 return;
+		}
+	
+		
 	}
 
 

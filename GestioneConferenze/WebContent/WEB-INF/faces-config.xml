@@ -59,5 +59,20 @@
 		<managed-bean-class>com.gestioneconferenze.Bean.conferenzeBeanModifica</managed-bean-class>
 		<managed-bean-scope>session</managed-bean-scope>
 	</managed-bean>
+	<managed-bean>
+		<managed-bean-name>personaBean</managed-bean-name>
+		<managed-bean-class>com.gestioneconferenze.Bean.personaBean</managed-bean-class>
+		<managed-bean-scope>session</managed-bean-scope>
+	</managed-bean>
+	<managed-bean>
+		<managed-bean-name>contattoBean</managed-bean-name>
+		<managed-bean-class>com.gestioneconferenze.Bean.contattoBean</managed-bean-class>
+		<managed-bean-scope>session</managed-bean-scope>
+	</managed-bean>
+	<managed-bean>
+		<managed-bean-name>comitatoBean</managed-bean-name>
+		<managed-bean-class>com.gestioneconferenze.Bean.comitatoBean</managed-bean-class>
+		<managed-bean-scope>session</managed-bean-scope>
+	</managed-bean>
 
 </faces-config>

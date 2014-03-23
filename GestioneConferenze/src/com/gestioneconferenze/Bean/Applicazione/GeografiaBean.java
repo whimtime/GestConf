@@ -9,6 +9,7 @@ import org.apache.log4j.Logger;
 
 import com.gestioneconferenze.facade.GeografiaFacade;
 import com.gestioneconferenzews.servizi.*;
+import com.gestioneconferenzews.servizi.Exception;
 
 public class GeografiaBean 
 {
@@ -20,7 +21,7 @@ public class GeografiaBean
 	DatiGeografici dati;
 	Logger logger = Logger.getLogger("com.foo");
 	
-	public GeografiaBean()
+	public GeografiaBean() throws java.lang.Exception
 	{
 		//inizializzo dal servizio e cast delle liste
 		facade= new GeografiaFacade();

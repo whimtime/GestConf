@@ -1,10 +1,10 @@
 CREATE DATABASE  IF NOT EXISTS `gestconfdb` /*!40100 DEFAULT CHARACTER SET latin1 */;
 USE `gestconfdb`;
--- MySQL dump 10.13  Distrib 5.5.16, for Win32 (x86)
+-- MySQL dump 10.13  Distrib 5.6.13, for Win32 (x86)
 --
 -- Host: localhost    Database: gestconfdb
 -- ------------------------------------------------------
--- Server version	5.5.28
+-- Server version	5.6.16
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
@@ -33,7 +33,7 @@ CREATE TABLE `contatto` (
   PRIMARY KEY (`cd_contatto`),
   KEY `FK_persona_contatto` (`cd_persona`),
   CONSTRAINT `FK_persona_contatto` FOREIGN KEY (`cd_persona`) REFERENCES `persona` (`cd_persona`)
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=latin1;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -42,6 +42,7 @@ CREATE TABLE `contatto` (
 
 LOCK TABLES `contatto` WRITE;
 /*!40000 ALTER TABLE `contatto` DISABLE KEYS */;
+INSERT INTO `contatto` VALUES (1,'MAIL','m.rossi@gmail.com','2014-03-23 10:59:03',5),(2,'MAIL','P.VERDI@GMAIL.COM','2014-03-23 17:44:18',6);
 /*!40000 ALTER TABLE `contatto` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -54,4 +55,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2014-03-19 17:00:47
+-- Dump completed on 2014-03-23 22:22:30

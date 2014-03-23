@@ -44,6 +44,12 @@ public class ServizioconferenzeProxy implements com.gestioneconferenzews.servizi
     return servizioconferenze;
   }
   
+  public boolean nuovocomitato(com.gestioneconferenzews.servizi.Comitato arg0) throws java.rmi.RemoteException, com.gestioneconferenzews.servizi.Exception{
+    if (servizioconferenze == null)
+      _initServizioconferenzeProxy();
+    return servizioconferenze.nuovocomitato(arg0);
+  }
+  
   public com.gestioneconferenzews.servizi.Conferenza[] getconferenze() throws java.rmi.RemoteException{
     if (servizioconferenze == null)
       _initServizioconferenzeProxy();

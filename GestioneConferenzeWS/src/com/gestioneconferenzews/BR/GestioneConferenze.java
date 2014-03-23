@@ -10,8 +10,10 @@ import org.apache.ibatis.session.SqlSessionFactory;
 import org.apache.ibatis.session.SqlSessionFactoryBuilder;
 import org.apache.log4j.Logger;
 
+import com.gestioneconferenzews.DAO.mapper.ComitatoMapper;
 import com.gestioneconferenzews.DAO.mapper.ConferenzaMapper;
 import com.gestioneconferenzews.DAO.mapper.UtenteMapper;
+import com.gestioneconferenzews.DAO.model.Comitato;
 import com.gestioneconferenzews.DAO.model.Conferenza;
 
 public class GestioneConferenze 
@@ -144,6 +146,38 @@ public class GestioneConferenze
 		{
 			logger.fatal(er.getMessage());
 			return false;
+		}
+	}
+
+	public boolean aggiornaComitato(Comitato comitato)
+	{
+		return true;
+	}
+	
+	public boolean nuovocomitato(Comitato comitato) throws Exception
+	{
+		Logger logger= Logger.getLogger("com.foo");
+		try{
+			//eseguo la query sulla tabella utenti
+			String resource = "C:\\impostazioni\\mybatis-config.xml";
+		    File file = new File(resource);
+		    System.out.println(file.exists());
+		    DatiConferenze datiRest= new DatiConferenze();
+		    Reader reader = new FileReader(resource);
+			logger.info("dopo reader");
+			SqlSessionFactory sqlSessionFactory = new SqlSessionFactoryBuilder().build(reader);				   
+			SqlSession session = sqlSessionFactory.openSession();			
+			ComitatoMapper mapperComitato = session.getMapper(ComitatoMapper.class);
+			
+			
+			int inseriti = mapperComitato.insert(comitato);
+			session.commit();
+			if(inseriti!=0)return true;
+			return false;
+			
+		}catch(Exception er)
+		{
+			throw er;
 		}
 	}
 }

@@ -24,5 +24,9 @@
     <mapper resource="com/gestioneconferenzews/DAO/xml/TipoPagamentoMapper.xml"/>
     <mapper resource="com/gestioneconferenzews/DAO/xml/ConferenzaMapper.xml"/>
     <mapper resource="com/gestioneconferenzews/DAO/xml/ReportMapper.xml"/>
+    <mapper resource="com/gestioneconferenzews/DAO/xml/ContattoMapper.xml"/>
+    <mapper resource="com/gestioneconferenzews/DAO/xml/PersonaMapper.xml"/>
+    <mapper resource="com/gestioneconferenzews/DAO/xml/ComitatoMapper.xml"/>
+    <mapper resource="com/gestioneconferenzews/DAO/xml/ComitatoPersonaMapper.xml"/>
   </mappers>
 </configuration>

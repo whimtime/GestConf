@@ -1,8 +1,12 @@
 eclipse.preferences.version=1
+encoding//src/com/gestioneconferenzews/servizi/Comitato.java=UTF-8
 encoding//src/com/gestioneconferenzews/servizi/Competenza.java=UTF-8
 encoding//src/com/gestioneconferenzews/servizi/ComuneIstat.java=UTF-8
 encoding//src/com/gestioneconferenzews/servizi/Conferenza.java=UTF-8
+encoding//src/com/gestioneconferenzews/servizi/Contatto.java=UTF-8
 encoding//src/com/gestioneconferenzews/servizi/DatiGeografici.java=UTF-8
+encoding//src/com/gestioneconferenzews/servizi/Exception.java=UTF-8
+encoding//src/com/gestioneconferenzews/servizi/Persona.java=UTF-8
 encoding//src/com/gestioneconferenzews/servizi/Provincia.java=UTF-8
 encoding//src/com/gestioneconferenzews/servizi/Regione.java=UTF-8
 encoding//src/com/gestioneconferenzews/servizi/Serviziocompetenze.java=UTF-8
@@ -26,3 +30,4 @@ encoding//src/com/gestioneconferenzews/servizi/ServizioutentiPortBindingStub.jav
 encoding//src/com/gestioneconferenzews/servizi/ServizioutentiService.java=UTF-8
 encoding//src/com/gestioneconferenzews/servizi/ServizioutentiServiceLocator.java=UTF-8
 encoding//src/com/gestioneconferenzews/servizi/TipoPagamento.java=UTF-8
+encoding//src/com/gestioneconferenzews/servizi/Utente.java=UTF-8

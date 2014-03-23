@@ -8,5 +8,6 @@
 package com.gestioneconferenzews.servizi;
 
 public interface Servizioutenti extends java.rmi.Remote {
+    public boolean nuovoutente(com.gestioneconferenzews.servizi.Utente arg0, com.gestioneconferenzews.servizi.Persona arg1, com.gestioneconferenzews.servizi.Contatto arg2) throws java.rmi.RemoteException, com.gestioneconferenzews.servizi.Exception;
     public boolean verificautentelogin(java.lang.String username, java.lang.String password) throws java.rmi.RemoteException;
 }

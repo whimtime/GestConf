@@ -5,6 +5,9 @@ import javax.jws.WebParam;
 import javax.jws.WebService;
 
 import com.gestioneconferenzews.BR.GestioneUtenti;
+import com.gestioneconferenzews.DAO.model.Contatto;
+import com.gestioneconferenzews.DAO.model.Persona;
+import com.gestioneconferenzews.DAO.model.Utente;
 
 @WebService
 public class servizioutenti 
@@ -16,6 +19,12 @@ public class servizioutenti
 	{
 		return new GestioneUtenti().VerificaAccesso(username, password);
 	
+	}
+	
+	@WebMethod
+	public boolean nuovoutente(Utente utente, Persona persona, Contatto contatto) throws Exception
+	{
+		return new GestioneUtenti().nuovoutente(utente, persona, contatto);
 	}
 	
 }

@@ -6,6 +6,7 @@ import javax.jws.WebService;
 
 import com.gestioneconferenzews.BR.DatiConferenze;
 import com.gestioneconferenzews.BR.GestioneConferenze;
+import com.gestioneconferenzews.DAO.model.Comitato;
 import com.gestioneconferenzews.DAO.model.Conferenza;
 
 @WebService
@@ -33,5 +34,11 @@ public class servizioconferenze
 	public boolean aggiornaconferenza(@WebParam(name="conferenza")Conferenza conferenza)
 	{
 		return new GestioneConferenze().aggiornaconferenza(conferenza);
+	}
+	
+	@WebMethod
+	public boolean nuovocomitato(Comitato comitato) throws Exception
+	{
+		return new GestioneConferenze().nuovocomitato(comitato);
 	}
 }

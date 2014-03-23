@@ -19,6 +19,9 @@
     <table schema="gestconfdb" tableName="PERSONA_COMPETENZA" />
     <table schema="gestconfdb" tableName="TIPO_PAGAMENTO" />
     <table schema="gestconfdb" tableName="REPORT" /> 
-    <table schema="gestconfdb" tableName="CONFERENZA" />                                     
+    <table schema="gestconfdb" tableName="CONFERENZA" />
+    <table schema="gestconfdb" tableName="CONTATTO" />
+    <table schema="gestconfdb" tableName="COMITATO" />        
+    <table schema="gestconfdb" tableName="COMITATO_PERSONA" />                                                   
   </context>
 </generatorConfiguration>
