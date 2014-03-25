@@ -268,4 +268,7 @@
       cd_tipo = #{cdTipo,jdbcType=INTEGER}
     where cd_comitato = #{cdComitato,jdbcType=INTEGER}
   </update>
+   <select id="selectComitatiTutti" resultMap="BaseResultMap">
+  SELECT * FROM COMITATO ORDER BY NOME ASC
+</select>
 </mapper>

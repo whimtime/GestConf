@@ -74,5 +74,15 @@
 		<managed-bean-class>com.gestioneconferenze.Bean.comitatoBean</managed-bean-class>
 		<managed-bean-scope>session</managed-bean-scope>
 	</managed-bean>
+	<managed-bean>
+		<managed-bean-name>pickComitati</managed-bean-name>
+		<managed-bean-class>com.gestioneconferenze.Bean.PickComitati</managed-bean-class>
+		<managed-bean-scope>session</managed-bean-scope>
+	</managed-bean>
+	<managed-bean>
+		<managed-bean-name>comitatoElencoBean</managed-bean-name>
+		<managed-bean-class>com.gestioneconferenze.Bean.comitatoElencoBean</managed-bean-class>
+		<managed-bean-scope>session</managed-bean-scope>
+	</managed-bean>
 
 </faces-config>

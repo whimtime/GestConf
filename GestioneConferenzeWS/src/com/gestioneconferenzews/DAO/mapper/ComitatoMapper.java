@@ -93,4 +93,6 @@ public interface ComitatoMapper {
      * @mbggenerated Sun Mar 23 21:34:13 CET 2014
      */
     int updateByPrimaryKey(Comitato record);
+    
+    List<Comitato> selectComitatiTutti();
 }

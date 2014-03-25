@@ -16,7 +16,7 @@ public class ServizioutentiPortBindingStub extends org.apache.axis.client.Stub i
     static org.apache.axis.description.OperationDesc [] _operations;
 
     static {
-        _operations = new org.apache.axis.description.OperationDesc[2];
+        _operations = new org.apache.axis.description.OperationDesc[3];
         _initOperationDesc1();
     }
 
@@ -48,6 +48,17 @@ public class ServizioutentiPortBindingStub extends org.apache.axis.client.Stub i
         _operations[0] = oper;
 
         oper = new org.apache.axis.description.OperationDesc();
+        oper.setName("getPersoneTutte");
+        oper.setReturnType(new javax.xml.namespace.QName("http://servizi.gestioneconferenzews.com/", "datiPersona"));
+        oper.setReturnClass(com.gestioneconferenzews.servizi.Persona[].class);
+        oper.setReturnQName(new javax.xml.namespace.QName("", "return"));
+        param = oper.getReturnParamDesc();
+        param.setItemQName(new javax.xml.namespace.QName("", "lista"));
+        oper.setStyle(org.apache.axis.constants.Style.WRAPPED);
+        oper.setUse(org.apache.axis.constants.Use.LITERAL);
+        _operations[1] = oper;
+
+        oper = new org.apache.axis.description.OperationDesc();
         oper.setName("verificautentelogin");
         param = new org.apache.axis.description.ParameterDesc(new javax.xml.namespace.QName("", "username"), org.apache.axis.description.ParameterDesc.IN, new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "string"), java.lang.String.class, false, false);
         param.setOmittable(true);
@@ -60,7 +71,7 @@ public class ServizioutentiPortBindingStub extends org.apache.axis.client.Stub i
         oper.setReturnQName(new javax.xml.namespace.QName("", "return"));
         oper.setStyle(org.apache.axis.constants.Style.WRAPPED);
         oper.setUse(org.apache.axis.constants.Use.LITERAL);
-        _operations[1] = oper;
+        _operations[2] = oper;
 
     }
 
@@ -99,6 +110,15 @@ public class ServizioutentiPortBindingStub extends org.apache.axis.client.Stub i
             cachedSerClasses.add(cls);
             cachedSerFactories.add(beansf);
             cachedDeserFactories.add(beandf);
+
+            qName = new javax.xml.namespace.QName("http://servizi.gestioneconferenzews.com/", "datiPersona");
+            cachedSerQNames.add(qName);
+            cls = com.gestioneconferenzews.servizi.Persona[].class;
+            cachedSerClasses.add(cls);
+            qName = new javax.xml.namespace.QName("http://servizi.gestioneconferenzews.com/", "persona");
+            qName2 = new javax.xml.namespace.QName("", "lista");
+            cachedSerFactories.add(new org.apache.axis.encoding.ser.ArraySerializerFactory(qName, qName2));
+            cachedDeserFactories.add(new org.apache.axis.encoding.ser.ArrayDeserializerFactory());
 
             qName = new javax.xml.namespace.QName("http://servizi.gestioneconferenzews.com/", "Exception");
             cachedSerQNames.add(qName);
@@ -229,12 +249,46 @@ public class ServizioutentiPortBindingStub extends org.apache.axis.client.Stub i
 }
     }
 
-    public boolean verificautentelogin(java.lang.String username, java.lang.String password) throws java.rmi.RemoteException {
+    public com.gestioneconferenzews.servizi.Persona[] getPersoneTutte() throws java.rmi.RemoteException {
         if (super.cachedEndpoint == null) {
             throw new org.apache.axis.NoEndPointException();
         }
         org.apache.axis.client.Call _call = createCall();
         _call.setOperation(_operations[1]);
+        _call.setUseSOAPAction(true);
+        _call.setSOAPActionURI("");
+        _call.setEncodingStyle(null);
+        _call.setProperty(org.apache.axis.client.Call.SEND_TYPE_ATTR, Boolean.FALSE);
+        _call.setProperty(org.apache.axis.AxisEngine.PROP_DOMULTIREFS, Boolean.FALSE);
+        _call.setSOAPVersion(org.apache.axis.soap.SOAPConstants.SOAP11_CONSTANTS);
+        _call.setOperationName(new javax.xml.namespace.QName("http://servizi.gestioneconferenzews.com/", "getPersoneTutte"));
+
+        setRequestHeaders(_call);
+        setAttachments(_call);
+ try {        java.lang.Object _resp = _call.invoke(new java.lang.Object[] {});
+
+        if (_resp instanceof java.rmi.RemoteException) {
+            throw (java.rmi.RemoteException)_resp;
+        }
+        else {
+            extractAttachments(_call);
+            try {
+                return (com.gestioneconferenzews.servizi.Persona[]) _resp;
+            } catch (java.lang.Exception _exception) {
+                return (com.gestioneconferenzews.servizi.Persona[]) org.apache.axis.utils.JavaUtils.convert(_resp, com.gestioneconferenzews.servizi.Persona[].class);
+            }
+        }
+  } catch (org.apache.axis.AxisFault axisFaultException) {
+  throw axisFaultException;
+}
+    }
+
+    public boolean verificautentelogin(java.lang.String username, java.lang.String password) throws java.rmi.RemoteException {
+        if (super.cachedEndpoint == null) {
+            throw new org.apache.axis.NoEndPointException();
+        }
+        org.apache.axis.client.Call _call = createCall();
+        _call.setOperation(_operations[2]);
         _call.setUseSOAPAction(true);
         _call.setSOAPActionURI("");
         _call.setEncodingStyle(null);

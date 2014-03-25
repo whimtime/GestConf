@@ -331,4 +331,7 @@
       data_creazione = #{dataCreazione,jdbcType=TIMESTAMP}
     where cd_persona = #{cdPersona,jdbcType=INTEGER}
   </update>
+   <select id="selectPersonaTutte" resultMap="BaseResultMap">
+  SELECT * FROM PERSONA ORDER BY COGNOME ASC
+</select>
 </mapper>

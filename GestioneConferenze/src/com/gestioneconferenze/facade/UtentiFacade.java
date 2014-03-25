@@ -2,6 +2,7 @@ package com.gestioneconferenze.facade;
 
 import java.rmi.RemoteException;
 import java.util.Date;
+import java.util.List;
 
 import javax.faces.application.FacesMessage;
 import javax.faces.context.FacesContext;
@@ -38,6 +39,11 @@ public class UtentiFacade
 		return risposta;
 	}
 	
+	public Persona[] getPersoneTutte() throws Exception
+	{
+		ServizioutentiProxy ws= new ServizioutentiProxy(GestoreRemoto.getIndirizzo(this));
+		return ws.getPersoneTutte();
+	}
 	
 	public boolean creaSessionUtente(String username)
 	{

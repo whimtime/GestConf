@@ -74,4 +74,6 @@ public interface PersonaMapper {
 	 * @mbggenerated  Sun Mar 23 21:34:13 CET 2014
 	 */
 	int updateByPrimaryKey(Persona record);
+	
+	List<Persona> selectPersonaTutte();
 }

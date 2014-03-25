@@ -140,4 +140,34 @@ public class GestioneUtenti
 			
 	}
 
+	public DatiPersona getPersoneTutte()
+	{
+		Logger logger= Logger.getLogger("com.foo");
+		try{
+		//eseguo la query sulla tabella utenti
+		String resource = "C:\\impostazioni\\mybatis-config.xml";
+	    File file = new File(resource);
+	    System.out.println(file.exists());
+	    Reader reader = new FileReader(resource);
+		logger.info("dopo reader");
+		SqlSessionFactory sqlSessionFactory = new SqlSessionFactoryBuilder().build(reader);
+			    
+		SqlSession session = sqlSessionFactory.openSession();
+		
+		PersonaMapper mapperPersona = session.getMapper(PersonaMapper.class);
+		
+		List<Persona> lista= mapperPersona.selectPersonaTutte();
+		DatiPersona perso= new DatiPersona();
+		perso.setLista(lista);
+		return perso;
+		
+		
+		
+		
+		}catch(Exception er)
+		{
+			return null;
+		}
+		
+	}
 }

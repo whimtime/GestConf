@@ -4,6 +4,7 @@ import javax.jws.WebMethod;
 import javax.jws.WebParam;
 import javax.jws.WebService;
 
+import com.gestioneconferenzews.BR.DatiPersona;
 import com.gestioneconferenzews.BR.GestioneUtenti;
 import com.gestioneconferenzews.DAO.model.Contatto;
 import com.gestioneconferenzews.DAO.model.Persona;
@@ -27,4 +28,8 @@ public class servizioutenti
 		return new GestioneUtenti().nuovoutente(utente, persona, contatto);
 	}
 	
+	@WebMethod
+	public DatiPersona getPersoneTutte(){
+		return new GestioneUtenti().getPersoneTutte();
+	}
 }

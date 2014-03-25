@@ -50,6 +50,12 @@ public class ServizioutentiProxy implements com.gestioneconferenzews.servizi.Ser
     return servizioutenti.nuovoutente(arg0, arg1, arg2);
   }
   
+  public com.gestioneconferenzews.servizi.Persona[] getPersoneTutte() throws java.rmi.RemoteException{
+    if (servizioutenti == null)
+      _initServizioutentiProxy();
+    return servizioutenti.getPersoneTutte();
+  }
+  
   public boolean verificautentelogin(java.lang.String username, java.lang.String password) throws java.rmi.RemoteException{
     if (servizioutenti == null)
       _initServizioutentiProxy();

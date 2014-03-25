@@ -44,16 +44,34 @@ public class ServizioconferenzeProxy implements com.gestioneconferenzews.servizi
     return servizioconferenze;
   }
   
-  public boolean nuovocomitato(com.gestioneconferenzews.servizi.Comitato arg0) throws java.rmi.RemoteException, com.gestioneconferenzews.servizi.Exception{
+  public com.gestioneconferenzews.servizi.Persona[] getPersoneComitato(com.gestioneconferenzews.servizi.Comitato arg0) throws java.rmi.RemoteException{
     if (servizioconferenze == null)
       _initServizioconferenzeProxy();
-    return servizioconferenze.nuovocomitato(arg0);
+    return servizioconferenze.getPersoneComitato(arg0);
   }
   
-  public com.gestioneconferenzews.servizi.Conferenza[] getconferenze() throws java.rmi.RemoteException{
+  public boolean aggiornaconferenza(com.gestioneconferenzews.servizi.Conferenza conferenza) throws java.rmi.RemoteException{
     if (servizioconferenze == null)
       _initServizioconferenzeProxy();
-    return servizioconferenze.getconferenze();
+    return servizioconferenze.aggiornaconferenza(conferenza);
+  }
+  
+  public boolean addPersonaComitato(com.gestioneconferenzews.servizi.ComitatoPersona arg0) throws java.rmi.RemoteException, com.gestioneconferenzews.servizi.Exception{
+    if (servizioconferenze == null)
+      _initServizioconferenzeProxy();
+    return servizioconferenze.addPersonaComitato(arg0);
+  }
+  
+  public com.gestioneconferenzews.servizi.Comitato[] getComitatiTutti() throws java.rmi.RemoteException{
+    if (servizioconferenze == null)
+      _initServizioconferenzeProxy();
+    return servizioconferenze.getComitatiTutti();
+  }
+  
+  public boolean aggiornaComitato() throws java.rmi.RemoteException{
+    if (servizioconferenze == null)
+      _initServizioconferenzeProxy();
+    return servizioconferenze.aggiornaComitato();
   }
   
   public boolean salvanuovaconferenza(com.gestioneconferenzews.servizi.Conferenza conferenza) throws java.rmi.RemoteException{
@@ -68,10 +86,22 @@ public class ServizioconferenzeProxy implements com.gestioneconferenzews.servizi
     return servizioconferenze.getconferenzaid(cdconferenza);
   }
   
-  public boolean aggiornaconferenza(com.gestioneconferenzews.servizi.Conferenza conferenza) throws java.rmi.RemoteException{
+  public boolean removePersonaComitato(com.gestioneconferenzews.servizi.ComitatoPersona arg0) throws java.rmi.RemoteException{
     if (servizioconferenze == null)
       _initServizioconferenzeProxy();
-    return servizioconferenze.aggiornaconferenza(conferenza);
+    return servizioconferenze.removePersonaComitato(arg0);
+  }
+  
+  public boolean nuovocomitato(com.gestioneconferenzews.servizi.Comitato arg0) throws java.rmi.RemoteException, com.gestioneconferenzews.servizi.Exception{
+    if (servizioconferenze == null)
+      _initServizioconferenzeProxy();
+    return servizioconferenze.nuovocomitato(arg0);
+  }
+  
+  public com.gestioneconferenzews.servizi.Conferenza[] getconferenze() throws java.rmi.RemoteException{
+    if (servizioconferenze == null)
+      _initServizioconferenzeProxy();
+    return servizioconferenze.getconferenze();
   }
   
   
