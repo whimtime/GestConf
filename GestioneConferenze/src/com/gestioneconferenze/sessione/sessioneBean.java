@@ -217,6 +217,13 @@ public class sessioneBean {
 		UrlUtil.RedirectAjaxAPagina("nuovocomitato.xhtml");
 	}
 	
+	public void abbinacomitato()
+	{
+		Logger  logger = Logger.getLogger("com.foo");
+		logger.info("inizio chiamata dettaglio di sessioneBean");		
+		UrlUtil.RedirectAjaxAPagina("addpersona.xhtml");
+	}
+	
 
 	public void logout()
 	{
