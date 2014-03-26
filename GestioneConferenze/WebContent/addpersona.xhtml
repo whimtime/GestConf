@@ -9,17 +9,20 @@
 
 <ui:composition template="/templates/principale.xhtml">
 	<ui:define name="content">
+	 <p:panel header="Se Non sei iscritto">
+        <h:panelGrid columns="1">
+	Seleziona un comitato
 	    <p:selectOneMenu id="dropconferenze"  effect="fade"   filter="true" filterMatchMode="startsWith">  	          
 	            <f:selectItems value="#{comitatoElencoBean.comitati}" var ="r" itemValue="#{r.cdComitato}" itemLabel="#{r.nome}" />  
         </p:selectOneMenu>
-       
+       Seleziona un chair
 	    	<p:pickList id="pickList" value="#{pickComitati.pesone}" var="c"   
                 itemLabel="#{c}" itemValue="#{c}" />  
-  
+  		Seleziona gli altri membri
 				  <p:pickList id="pickListpers" value="#{pickComitati.pesone}" var="c"   
                 itemLabel="#{c}" itemValue="#{c}" /> 
     
-   
+   </h:panelGrid></p:panel>
 	</ui:define>
 </ui:composition>
 </html>
