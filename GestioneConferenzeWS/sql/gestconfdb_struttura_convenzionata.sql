@@ -18,27 +18,36 @@ USE `gestconfdb`;
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 
 --
--- Table structure for table `competenza`
+-- Table structure for table `struttura_convenzionata`
 --
 
-DROP TABLE IF EXISTS `competenza`;
+DROP TABLE IF EXISTS `struttura_convenzionata`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
-CREATE TABLE `competenza` (
-  `cd_competenza` int(11) NOT NULL AUTO_INCREMENT,
-  `competenza` varchar(45) DEFAULT NULL,
-  PRIMARY KEY (`cd_competenza`)
-) ENGINE=InnoDB AUTO_INCREMENT=15 DEFAULT CHARSET=latin1;
+CREATE TABLE `struttura_convenzionata` (
+  `cd_struttura_convenzionata` int(11) NOT NULL AUTO_INCREMENT,
+  `tipo_struttura` int(11) NOT NULL,
+  `indirizzo` varchar(45) DEFAULT NULL,
+  `comune` varchar(5) DEFAULT NULL,
+  `descrizione` varchar(500) DEFAULT NULL,
+  `url_servizio` varchar(100) DEFAULT NULL,
+  `nome` varchar(45) DEFAULT NULL,
+  `tipo_servizio` varchar(45) DEFAULT 'SOAP',
+  `codice_convenzione` varchar(45) DEFAULT NULL,
+  PRIMARY KEY (`cd_struttura_convenzionata`),
+  KEY `fk_comune_hotel_idx` (`comune`),
+  CONSTRAINT `fk_comune_hotel` FOREIGN KEY (`comune`) REFERENCES `comune_istat` (`CD_COMUNE`) ON DELETE NO ACTION ON UPDATE NO ACTION
+) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=latin1;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
--- Dumping data for table `competenza`
+-- Dumping data for table `struttura_convenzionata`
 --
 
-LOCK TABLES `competenza` WRITE;
-/*!40000 ALTER TABLE `competenza` DISABLE KEYS */;
-INSERT INTO `competenza` VALUES (1,'Ing. del software'),(2,'Java'),(3,'.Net'),(4,'php'),(5,'Agile'),(6,'Cloud'),(7,'Mobile'),(8,'Html5'),(9,'JavaScript'),(10,'Jquery'),(11,'AngulaJS'),(12,'BootStrap'),(13,'PM'),(14,'SQL');
-/*!40000 ALTER TABLE `competenza` ENABLE KEYS */;
+LOCK TABLES `struttura_convenzionata` WRITE;
+/*!40000 ALTER TABLE `struttura_convenzionata` DISABLE KEYS */;
+INSERT INTO `struttura_convenzionata` VALUES (3,1,'VIA LORENTEGGIO 243','MI041','HOTEL 4 STELLE, COLAZIONE COMPRESA','HTTP://10.140.16.52/SERVLET/PRENOTA','MERCURE','SERVLET',NULL),(4,2,'CORSO SEMPIONE 33','MI041','HOTEL 3 STELLE, COLAZIONE NON COMPRESA','HTTP://GESTIONEPRENOTAZIONI.COM/SOAP/PRENOTAZIONE.ASMX','BEST WESTERN','SOAP.NET',NULL),(5,1,'VIALE JENNER 65','MI041','HOTEL 4 STELLE','HTTP://165.25.58.79/PRENOTAZIONI?WSDL','EXECUTIVE','SOAP.JAVA',NULL);
+/*!40000 ALTER TABLE `struttura_convenzionata` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 

@@ -34,7 +34,7 @@ CREATE TABLE `comitato` (
   KEY `fk_tipocom_com_idx` (`cd_tipo`),
   CONSTRAINT `fk_tipocom_com` FOREIGN KEY (`cd_tipo`) REFERENCES `tipo_comitato` (`cd_tipo_comitato`) ON DELETE NO ACTION ON UPDATE NO ACTION,
   CONSTRAINT `fk_comitato_conf` FOREIGN KEY (`cd_conferenza`) REFERENCES `conferenza` (`cd_conferenza`) ON DELETE NO ACTION ON UPDATE NO ACTION
-) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=latin1;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -43,7 +43,7 @@ CREATE TABLE `comitato` (
 
 LOCK TABLES `comitato` WRITE;
 /*!40000 ALTER TABLE `comitato` DISABLE KEYS */;
-INSERT INTO `comitato` VALUES (3,'prova da testo',NULL,1),(4,'primo web',4,1);
+INSERT INTO `comitato` VALUES (3,'prova da testo',NULL,1),(4,'primo web',4,1),(5,'metodi agile',1,1);
 /*!40000 ALTER TABLE `comitato` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -56,4 +56,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2014-03-23 22:22:28
+-- Dump completed on 2014-03-26 22:34:48

@@ -22,6 +22,7 @@
     <table schema="gestconfdb" tableName="CONFERENZA" />
     <table schema="gestconfdb" tableName="CONTATTO" />
     <table schema="gestconfdb" tableName="COMITATO" />        
-    <table schema="gestconfdb" tableName="COMITATO_PERSONA" />                                                   
+    <table schema="gestconfdb" tableName="COMITATO_PERSONA" />
+    <table schema="gestconfdb" tableName="STRUTTURA_CONVENZIONATA" />                                                                   
   </context>
 </generatorConfiguration>
