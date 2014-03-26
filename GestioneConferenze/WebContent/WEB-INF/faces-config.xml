@@ -84,5 +84,10 @@
 		<managed-bean-class>com.gestioneconferenze.Bean.comitatoElencoBean</managed-bean-class>
 		<managed-bean-scope>session</managed-bean-scope>
 	</managed-bean>
+	<managed-bean>
+		<managed-bean-name>personeelencoBean</managed-bean-name>
+		<managed-bean-class>com.gestioneconferenze.Bean.personeelencoBean</managed-bean-class>
+		<managed-bean-scope>session</managed-bean-scope>
+	</managed-bean>
 
 </faces-config>

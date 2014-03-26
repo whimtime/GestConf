@@ -224,6 +224,20 @@ public class sessioneBean {
 		UrlUtil.RedirectAjaxAPagina("addpersona.xhtml");
 	}
 	
+	public void nuovapersona()
+	{
+		Logger  logger = Logger.getLogger("com.foo");
+		logger.info("inizio chiamata dettaglio di sessioneBean");		
+		UrlUtil.RedirectAjaxAPagina("nuovoutente.xhtml");
+	}
+	
+	public void elencopersone()
+	{
+		Logger  logger = Logger.getLogger("com.foo");
+		logger.info("inizio chiamata dettaglio di sessioneBean");		
+		UrlUtil.RedirectAjaxAPagina("elencoPersone.xhtml");
+	}
+	
 
 	public void logout()
 	{

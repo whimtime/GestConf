@@ -7,7 +7,7 @@
 	xmlns:f="http://java.sun.com/jsf/core"
 	xmlns:p="http://primefaces.org/ui">
 
-<ui:composition template="">
+<ui:composition template="/templates/principale.xhtml">
 	<ui:define name="content">
 	        <h:form id="formNuovo">
 	    <p:panel header="Se Non sei iscritto">
@@ -46,7 +46,7 @@
 	            <f:selectItems value="#{geografiaBean.comuni}" var ="r" itemValue="#{r.cdComune}" itemLabel="#{r.denominazioneComune}" />  
         </p:selectOneMenu>   	     
   		 <p:message for="dropcomuni" display="icon" />
-	    <p:commandButton value="Accedi Alla prossima fase" action="#{sessioneBean.nuovoutente}" 
+	    <p:commandButton value="Crea ed invia Mail" action="#{sessioneBean.nuovoutente}" 
                     ajax="false" />
                         <p:messages id="messages2" showDetail="true" autoUpdate="true" closable="true" globalOnly="true" /> 
 	</h:panelGrid>

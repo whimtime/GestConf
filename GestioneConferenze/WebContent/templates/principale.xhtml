@@ -57,9 +57,8 @@
         </p:submenu>
           
         <p:submenu label="Utenti">
-            <p:menuitem value="Nuovo Utente/Persona" actionListener="#{buttonBean.save}" icon="ui-icon-disk" />
-            <p:menuitem value="Elenco Utenti/Persone" actionListener="#{buttonBean.update}"  icon="ui-icon-arrowrefresh-1-w" />
-            <p:menuitem value="Modifica Ruoli" actionListener="#{buttonBean.update}"  icon="ui-icon-arrowrefresh-1-w" />
+            <p:menuitem value="Nuovo Utente/Persona" actionListener="#{sessioneBean.nuovapersona}" icon="ui-icon-disk" />
+            <p:menuitem value="Elenco Utenti/Persone" actionListener="#{sessioneBean.elencopersone}"  icon="ui-icon-arrowrefresh-1-w" />           
         </p:submenu>
           
         <p:submenu label="Budget">

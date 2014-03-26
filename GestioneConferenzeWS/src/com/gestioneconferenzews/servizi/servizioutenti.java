@@ -32,4 +32,6 @@ public class servizioutenti
 	public DatiPersona getPersoneTutte(){
 		return new GestioneUtenti().getPersoneTutte();
 	}
+	
+	
 }

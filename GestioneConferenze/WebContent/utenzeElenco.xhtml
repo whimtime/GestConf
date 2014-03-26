@@ -1,0 +1,46 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core">
+
+<ui:composition template="/templates/principale.xhtml">	
+	<ui:define name="content">
+	    	<h:form>
+
+    <p:dataTable id="dataTable" var="conf" value="#{personeelencoBean.persone}" sortMode="multiple" rows="105" paginator="true">
+        <f:facet name="header">
+            Elenco Delle Conferenze Create
+        </f:facet>
+
+        <p:column sortBy="nome" headerText="Nome">
+            <h:outputText value="#{conf.nome}" />
+        </p:column>
+
+        <p:column sortBy="cognome" headerText="Cognome">
+            <h:outputText value="#{conf.cognome}" />
+        </p:column>
+
+        <p:column sortBy="codicefiscale" headerText="CodiceFiscale">
+            <h:outputText value="#{conf.codiceFiscale}" />
+        </p:column>
+
+   
+        
+         <p:column style="width:4%">
+             
+	    
+        <a href="">Reset Password</a>
+         </p:column>
+         <p:column style="width:4%">
+        <a href="">Disabilita</a>
+         </p:column>       
+    </p:dataTable>
+
+</h:form>
+                    
+	</ui:define>	
+</ui:composition>
+</html>
