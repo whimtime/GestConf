@@ -51,12 +51,15 @@
           
         <p:submenu label="Comitati">
             <p:menuitem value="Nuovo Comitato" actionListener="#{sessioneBean.nuovocomitato}" icon="ui-icon-disk" />
-            <p:menuitem value="Update" actionListener="#{buttonBean.update}"  icon="ui-icon-arrowrefresh-1-w" />
+            <p:menuitem value="Componenti" actionListener="#{sessioneBean.abbinacomitato}"  icon="ui-icon-arrowrefresh-1-w" />
+            <p:menuitem value="Modifica Comitato" actionListener="#{sessioneBean.abbinacomitato}"  icon="ui-icon-arrowrefresh-1-w" />
+            <p:menuitem value="Modifica Componenti" actionListener="#{sessioneBean.abbinacomitato}"  icon="ui-icon-arrowrefresh-1-w" />
         </p:submenu>
           
         <p:submenu label="Utenti">
-            <p:menuitem value="Save" actionListener="#{buttonBean.save}" icon="ui-icon-disk" />
-            <p:menuitem value="Update" actionListener="#{buttonBean.update}"  icon="ui-icon-arrowrefresh-1-w" />
+            <p:menuitem value="Nuovo Utente/Persona" actionListener="#{buttonBean.save}" icon="ui-icon-disk" />
+            <p:menuitem value="Elenco Utenti/Persone" actionListener="#{buttonBean.update}"  icon="ui-icon-arrowrefresh-1-w" />
+            <p:menuitem value="Modifica Ruoli" actionListener="#{buttonBean.update}"  icon="ui-icon-arrowrefresh-1-w" />
         </p:submenu>
           
         <p:submenu label="Budget">
