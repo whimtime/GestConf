@@ -42,6 +42,10 @@ public class GestoreRemoto
 		{
 			return FILE_AMBIENTE.getString("url_gestione_conferenze");
 		}
+		if(chiamante.equals("com.gestioneconferenze.facade.HotelFacade"))
+		{
+			return FILE_AMBIENTE.getString("url_gestione_hotel");
+		}
 		
 		throw new Exception("Url remota non trovata");
 		

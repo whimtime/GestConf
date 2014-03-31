@@ -20,6 +20,9 @@ public class Server {
         
         Endpoint.publish("http://localhost:8099/GestioneConferenzeWS/ServizioConferenze", new servizioconferenze());        
         System.out.println("Installazione ServizoConferenze completata");
+        
+        Endpoint.publish("http://localhost:8099/GestioneConferenzeWS/ServizioHotels", new serviziohotel());        
+        System.out.println("Installazione ServizoHotels completata");
     }
  
 }

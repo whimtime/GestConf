@@ -11,6 +11,36 @@
  <script src="http://maps.google.com/maps/api/js?sensor=false" type="text/javascript"></script>
 </h:head>
 
- <p:gmap center="45.465635, 9.184266" zoom="10" type="HYBRID"  style="width:600px;height:400px" model="#{MapBean.simpleModel}" />  
+ 
+ 
+ <p:gmap center="45.465635, 9.184266" zoom="13" type="HYBRID" model="#{mapBean.advancedModel}" style="width:600px;height:400px">  
+  
+        <p:ajax event="overlaySelect" listener="#{mapBean.onMarkerSelect}" />  
+  
+        <p:gmapInfoWindow>  
+            <p:outputPanel style="text-align:center;display:block;margin:auto:">  
+  
+                    <p:graphicImage value="/images/antalya/#{mapBean.marker.data}" height="150"/>  
+                    <br />  
+                    <h:outputText value="#{mapBean.marker.title}" />  
+  
+            </p:outputPanel>  
+  
+        </p:gmapInfoWindow>  
+    </p:gmap>   
+
+
+<p:panel header="Se Non sei iscritto">
+        <h:panelGrid columns="1">
+        	 <p:selectOneMenu id="dropcomuni" value="#{sessioneBean.beanpersona.cdcomunenascita}" effect="fade"   filter="true" filterMatchMode="startsWith">  	          
+	            <f:selectItems value="#{geografiaBean.comuni}" var ="r" itemValue="#{r.cdComune}" itemLabel="#{r.denominazioneComune}" />  
+        </p:selectOneMenu>   	     
+         <p:selectOneMenu id="droptipopag" value="#{pagamentiBean.preferred}" effect="fade"   filter="true" filterMatchMode="startsWith">  	          
+	            <f:selectItems value="#{pagamentiBean.pagamenti}" var ="r" itemValue="#{r.cdTipoPagamento}" itemLabel="#{r.tipoPagamento}" />  
+        </p:selectOneMenu>  
+	   <p:calendar id="datanascitainput"   />
+			<p:message for="datanascitainput" display="icon" /> 
+        </h:panelGrid>
+        </p:panel>
 
 </html>

@@ -238,6 +238,8 @@ public class sessioneBean {
 		UrlUtil.RedirectAjaxAPagina("elencoPersone.xhtml");
 	}
 	
+	
+	
 
 	public void logout()
 	{

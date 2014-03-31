@@ -36,8 +36,11 @@
          <p:submenu label="Utenza">
             <p:menuitem value="Dettaglio Mia Utenza" actionListener="#{sessioneBean.dettaglio}" icon="ui-icon-disk" />
             <p:menuitem value="Carica Report" actionListener="#{sessioneBean.caricareport}" icon="ui-icon-disk" />
+        	
             <p:menuitem value="Logout" actionListener="#{sessioneBean.logout}" icon="ui-icon-disk" />
-            
+            <p:menuitem value="Prenota Albergo"  icon="ui-icon-disk" >
+        		<a href="sceltaHotel.xhtml" target="_blank">Prenota Albergo</a>
+        	</p:menuitem>
             </p:submenu>
         <p:submenu label="Conferenze">
             <p:menuitem value="Nuova Conferenza" actionListener="#{sessioneBean.nuovaconferenza}" icon="ui-icon-disk" />
