@@ -26,6 +26,9 @@ public class Server {
         
         Endpoint.publish("http://localhost:8099/GestioneConferenzeWS/ServizioSessioni", new serviziosessioni());        
         System.out.println("Installazione ServizioSessioni completata");
+        
+        Endpoint.publish("http://localhost:8099/GestioneConferenzeWS/ServizioSponsor", new serviziosponsor());        
+        System.out.println("Installazione ServizioSponsor completata");
     }
  
 }
