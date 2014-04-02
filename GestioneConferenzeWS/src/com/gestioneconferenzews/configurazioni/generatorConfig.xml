@@ -23,6 +23,12 @@
     <table schema="gestconfdb" tableName="CONTATTO" />
     <table schema="gestconfdb" tableName="COMITATO" />        
     <table schema="gestconfdb" tableName="COMITATO_PERSONA" />
-    <table schema="gestconfdb" tableName="STRUTTURA_CONVENZIONATA" />                                                                   
+    <table schema="gestconfdb" tableName="STRUTTURA_CONVENZIONATA" />
+    <table schema="gestconfdb" tableName="SESSIONE" />       
+    <table schema="gestconfdb" tableName="SESSIONE_PARTECIPANTI" />
+    <table schema="gestconfdb" tableName="PAGAMENTO" />
+    <table schema="gestconfdb" tableName="SPONSOR" />
+    <table schema="gestconfdb" tableName="INVESTIMENTO" />
+    <table schema="gestconfdb" tableName="BUDGET" />                                                                                                                      
   </context>
 </generatorConfiguration>

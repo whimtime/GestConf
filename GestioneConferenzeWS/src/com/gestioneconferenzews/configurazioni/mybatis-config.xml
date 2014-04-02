@@ -29,5 +29,7 @@
     <mapper resource="com/gestioneconferenzews/DAO/xml/ComitatoMapper.xml"/>
     <mapper resource="com/gestioneconferenzews/DAO/xml/ComitatoPersonaMapper.xml"/>
     <mapper resource="com/gestioneconferenzews/DAO/xml/StrutturaConvenzionataMapper.xml"/>
+    <mapper resource="com/gestioneconferenzews/DAO/xml/SessioneMapper.xml"/>
+    <mapper resource="com/gestioneconferenzews/DAO/xml/SessionePartecipantiMapper.xml"/>
   </mappers>
 </configuration>

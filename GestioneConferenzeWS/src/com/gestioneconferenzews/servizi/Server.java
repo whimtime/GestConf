@@ -16,13 +16,16 @@ public class Server {
         System.out.println("Installazione ServizioCompetenze completata");
         
         Endpoint.publish("http://localhost:8099/GestioneConferenzeWS/ServizioTipoPagamentiVal", new serviziopagamentival());    
-        System.out.println("Installazione ServizoTipoPagamentiVal completata");
+        System.out.println("Installazione ServizioTipoPagamentiVal completata");
         
         Endpoint.publish("http://localhost:8099/GestioneConferenzeWS/ServizioConferenze", new servizioconferenze());        
-        System.out.println("Installazione ServizoConferenze completata");
+        System.out.println("Installazione ServizioConferenze completata");
         
         Endpoint.publish("http://localhost:8099/GestioneConferenzeWS/ServizioHotels", new serviziohotel());        
-        System.out.println("Installazione ServizoHotels completata");
+        System.out.println("Installazione ServizioHotels completata");
+        
+        Endpoint.publish("http://localhost:8099/GestioneConferenzeWS/ServizioSessioni", new serviziosessioni());        
+        System.out.println("Installazione ServizioSessioni completata");
     }
  
 }
