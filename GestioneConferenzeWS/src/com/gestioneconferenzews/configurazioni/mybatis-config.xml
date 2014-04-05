@@ -31,5 +31,6 @@
     <mapper resource="com/gestioneconferenzews/DAO/xml/StrutturaConvenzionataMapper.xml"/>
     <mapper resource="com/gestioneconferenzews/DAO/xml/SessioneMapper.xml"/>
     <mapper resource="com/gestioneconferenzews/DAO/xml/SessionePartecipantiMapper.xml"/>
+    <mapper resource="com/gestioneconferenzews/DAO/xml/ElencoStatisticheMapper.xml"/>
   </mappers>
 </configuration>

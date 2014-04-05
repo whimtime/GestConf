@@ -29,6 +29,7 @@
     <table schema="gestconfdb" tableName="PAGAMENTO" />
     <table schema="gestconfdb" tableName="SPONSOR" />
     <table schema="gestconfdb" tableName="INVESTIMENTO" />
-    <table schema="gestconfdb" tableName="BUDGET" />                                                                                                                      
+    <table schema="gestconfdb" tableName="BUDGET" />   
+	<table schema="gestconfdb" tableName="ELENCO_STATISTICHE" />                                                                
   </context>
 </generatorConfiguration>

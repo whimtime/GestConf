@@ -94,5 +94,10 @@
 		<managed-bean-class>com.gestioneconferenze.Bean.MapBean</managed-bean-class>
 		<managed-bean-scope>session</managed-bean-scope>
 	</managed-bean>
+	<managed-bean>
+		<managed-bean-name>chartBean</managed-bean-name>
+		<managed-bean-class>com.gestioneconferenze.Bean.ChartBean</managed-bean-class>
+		<managed-bean-scope>session</managed-bean-scope>
+	</managed-bean>
 
 </faces-config>

@@ -36,7 +36,7 @@
          <p:submenu label="Utenza">
             <p:menuitem value="Dettaglio Mia Utenza" actionListener="#{sessioneBean.dettaglio}" icon="ui-icon-disk" />
             <p:menuitem value="Carica Report" actionListener="#{sessioneBean.caricareport}" icon="ui-icon-disk" />
-        	
+        	<p:menuitem value="Acquista Biglietti"  icon="ui-icon-disk" />
             <p:menuitem value="Logout" actionListener="#{sessioneBean.logout}" icon="ui-icon-disk" />
             <p:menuitem value="Prenota Albergo"  icon="ui-icon-disk" >
         		<a href="sceltaHotel.xhtml" target="_blank">Prenota Albergo</a>
@@ -67,14 +67,14 @@
         </p:submenu>
           
         <p:submenu label="Budget">
-            <p:menuitem value="Save" actionListener="#{buttonBean.save}" icon="ui-icon-disk" />
-            <p:menuitem value="Update" actionListener="#{buttonBean.update}"  icon="ui-icon-arrowrefresh-1-w" />
+            <p:menuitem value="Nuovo Sponsor" actionListener="#{buttonBean.save}" icon="ui-icon-disk" />
+            <p:menuitem value="Modifica Sponsor" actionListener="#{buttonBean.update}"  icon="ui-icon-arrowrefresh-1-w" />
+            <p:menuitem value="Donazioni" actionListener="#{buttonBean.update}"  icon="ui-icon-arrowrefresh-1-w" />
         </p:submenu>
           
         <p:submenu label="Statistiche">
             <p:menuitem value="UtentiOnLine" url="utentionline.xhtml" icon="ui-icon-disk" />
-            <p:menuitem value="Update" actionListener="#{buttonBean.update}"  icon="ui-icon-arrowrefresh-1-w" />
-             <p:menuitem value="Update" actionListener="#{buttonBean.update}"  icon="ui-icon-arrowrefresh-1-w" />
+            <p:menuitem value="Statistiche" actionListener="#{buttonBean.update}"  icon="ui-icon-arrowrefresh-1-w" />             
         </p:submenu>
         </p:panelMenu>
         </h:form>
