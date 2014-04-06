@@ -18,36 +18,37 @@ USE `gestconfdb`;
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 
 --
--- Table structure for table `prenotazioni`
+-- Table structure for table `pagamento`
 --
 
-DROP TABLE IF EXISTS `prenotazioni`;
+DROP TABLE IF EXISTS `pagamento`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
-CREATE TABLE `prenotazioni` (
-  `cd_prenotazione` int(11) NOT NULL AUTO_INCREMENT,
-  `dataprenotazione` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
-  `risposta_struttura` varchar(45) NOT NULL,
-  `chiave_struttura` varchar(45) NOT NULL,
+CREATE TABLE `pagamento` (
+  `cd_pagamento` int(11) NOT NULL AUTO_INCREMENT,
+  `data_pagamento` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+  `cd_metodo_pagamento` int(11) NOT NULL,
   `cd_persona` int(11) NOT NULL,
-  `datainizio` timestamp NOT NULL DEFAULT '0000-00-00 00:00:00',
-  `datafine` timestamp NOT NULL DEFAULT '0000-00-00 00:00:00',
-  `cd_struttura` int(11) DEFAULT NULL,
-  PRIMARY KEY (`cd_prenotazione`),
-  KEY `fk_persona_str_idx` (`cd_persona`),
-  KEY `fk_str_idx` (`cd_struttura`),
-  CONSTRAINT `fk_str` FOREIGN KEY (`cd_struttura`) REFERENCES `struttura_convenzionata` (`cd_struttura_convenzionata`) ON DELETE NO ACTION ON UPDATE NO ACTION,
-  CONSTRAINT `fk_persona_str` FOREIGN KEY (`cd_persona`) REFERENCES `persona` (`cd_persona`) ON DELETE NO ACTION ON UPDATE NO ACTION
+  `cd_conferenza` int(11) NOT NULL,
+  `totale_euro` int(11) NOT NULL,
+  `tipo_movimento` varchar(45) NOT NULL DEFAULT 'CARICO',
+  PRIMARY KEY (`cd_pagamento`),
+  KEY `fk_pers_pag_idx` (`cd_persona`),
+  KEY `fk_conf_pag_idx` (`cd_conferenza`),
+  KEY `fk_metodo_idx` (`cd_metodo_pagamento`),
+  CONSTRAINT `fk_conf_pag` FOREIGN KEY (`cd_conferenza`) REFERENCES `conferenza` (`cd_conferenza`) ON DELETE NO ACTION ON UPDATE NO ACTION,
+  CONSTRAINT `fk_metodo` FOREIGN KEY (`cd_metodo_pagamento`) REFERENCES `tipo_pagamento` (`cd_tipo_pagamento`) ON DELETE NO ACTION ON UPDATE NO ACTION,
+  CONSTRAINT `fk_pers_pag` FOREIGN KEY (`cd_persona`) REFERENCES `persona` (`cd_persona`) ON DELETE NO ACTION ON UPDATE NO ACTION
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
--- Dumping data for table `prenotazioni`
+-- Dumping data for table `pagamento`
 --
 
-LOCK TABLES `prenotazioni` WRITE;
-/*!40000 ALTER TABLE `prenotazioni` DISABLE KEYS */;
-/*!40000 ALTER TABLE `prenotazioni` ENABLE KEYS */;
+LOCK TABLES `pagamento` WRITE;
+/*!40000 ALTER TABLE `pagamento` DISABLE KEYS */;
+/*!40000 ALTER TABLE `pagamento` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
@@ -59,4 +60,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2014-04-06 21:17:08
+-- Dump completed on 2014-04-06 21:17:06
