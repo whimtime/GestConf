@@ -60,18 +60,28 @@ public class GestioneStatistiche
 		 java.sql.Connection conn = null;		 
 		 java.sql.Statement stmt = null;
 		 try{
-		      //STEP 2: Register JDBC driver
+			 
+			 DatiStatistiche dati = this.getElencoStatistiche();			 
+			 List<ElencoStatistiche> query= dati.getLista();
+			
+			
+			 String sql="";
+			 for(int i= 0; i<query.size();i++)
+			 {
+				 if(query.get(i).getCdElencoStatistiche().equals(numeroquery)) sql = query.get(i).getQuery();
+			 }
+			 if(sql.equals("")) return null;
+			 
+			 
 		      Class.forName("com.mysql.jdbc.Driver");
 
-		      //STEP 3: Open a connection
+		      
 		      System.out.println("Connecting to database...");
-		      conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/gestconfdb","root","password");
+		      conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/gestconfdb","root","pippoi");
 
-		      //STEP 4: Execute a query
-		      System.out.println("Creating statement...");
-		      stmt = conn.createStatement();
-		      String sql;
-		      sql = "SELECT id, first, last, age FROM Employees";
+		     
+		      stmt = conn.createStatement();		     
+		    
 		      ResultSet rs = stmt.executeQuery(sql);
 
 		      //STEP 5: Extract data from result set
@@ -83,9 +93,14 @@ public class GestioneStatistiche
 		         int valore  = rs.getInt("valore");
 		        lista.put(chiave, valore);
 		      }
+		     serie.setSerie(lista);
+		   SerieChart[] s= new SerieChart[1];
+		   s[0]= serie;
+		   return s;
+		   
 		 }catch(Exception er)
 		 {
-			 
+			 String s="";
 		 }
 		
 		return null;
