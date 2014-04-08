@@ -10,6 +10,7 @@ import org.apache.ibatis.session.SqlSessionFactory;
 import org.apache.ibatis.session.SqlSessionFactoryBuilder;
 import org.apache.log4j.Logger;
 
+import com.gestioneconferenzews.DAO.gestoreConnessioni;
 import com.gestioneconferenzews.DAO.mapper.ComitatoMapper;
 import com.gestioneconferenzews.DAO.mapper.ComitatoPersonaMapper;
 import com.gestioneconferenzews.DAO.mapper.ConferenzaMapper;
@@ -31,15 +32,7 @@ public class GestioneConferenze
 	{
 		Logger logger= Logger.getLogger("com.foo");
 		try{
-			//eseguo la query sulla tabella utenti
-			String resource = "C:\\impostazioni\\mybatis-config.xml";
-		    File file = new File(resource);
-		    System.out.println(file.exists());
-		    Reader reader = new FileReader(resource);
-			logger.info("dopo reader");
-			SqlSessionFactory sqlSessionFactory = new SqlSessionFactoryBuilder().build(reader);
-				    
-			SqlSession session = sqlSessionFactory.openSession();
+			SqlSession session = gestoreConnessioni.getConnection(logger);
 			
 			ConferenzaMapper mapperConferenza = session.getMapper(ConferenzaMapper.class);
 			
@@ -65,15 +58,10 @@ public class GestioneConferenze
 	{
 		Logger logger= Logger.getLogger("com.foo");
 		try{
-			//eseguo la query sulla tabella utenti
-			String resource = "C:\\impostazioni\\mybatis-config.xml";
-		    File file = new File(resource);
-		    System.out.println(file.exists());
+			SqlSession session = gestoreConnessioni.getConnection(logger);
 		    DatiConferenze datiRest= new DatiConferenze();
-		    Reader reader = new FileReader(resource);
-			logger.info("dopo reader");
-			SqlSessionFactory sqlSessionFactory = new SqlSessionFactoryBuilder().build(reader);				   
-			SqlSession session = sqlSessionFactory.openSession();			
+
+		
 			ConferenzaMapper mapperConferenza = session.getMapper(ConferenzaMapper.class);
 			
 			List<Conferenza> conferenze = mapperConferenza.selectConferenzeTutte();
@@ -97,15 +85,10 @@ public class GestioneConferenze
 	{
 		Logger logger= Logger.getLogger("com.foo");
 		try{
-			//eseguo la query sulla tabella utenti
-			String resource = "C:\\impostazioni\\mybatis-config.xml";
-		    File file = new File(resource);
-		    System.out.println(file.exists());
+		
 		    DatiConferenze datiRest= new DatiConferenze();
-		    Reader reader = new FileReader(resource);
-			logger.info("dopo reader");
-			SqlSessionFactory sqlSessionFactory = new SqlSessionFactoryBuilder().build(reader);				   
-			SqlSession session = sqlSessionFactory.openSession();			
+		    SqlSession session = gestoreConnessioni.getConnection(logger);	   
+			
 			ConferenzaMapper mapperConferenza = session.getMapper(ConferenzaMapper.class);			
 			Conferenza conferenza = mapperConferenza.selectByPrimaryKey(cdConferenza);
 									
@@ -124,15 +107,7 @@ public class GestioneConferenze
 	{
 		Logger logger= Logger.getLogger("com.foo");
 		try{
-			//eseguo la query sulla tabella utenti
-			String resource = "C:\\impostazioni\\mybatis-config.xml";
-		    File file = new File(resource);
-		    System.out.println(file.exists());
-		    Reader reader = new FileReader(resource);
-			logger.info("dopo reader");
-			SqlSessionFactory sqlSessionFactory = new SqlSessionFactoryBuilder().build(reader);
-				    
-			SqlSession session = sqlSessionFactory.openSession();
+			SqlSession session = gestoreConnessioni.getConnection(logger);
 			
 			ConferenzaMapper mapperConferenza = session.getMapper(ConferenzaMapper.class);
 			
@@ -162,15 +137,9 @@ public class GestioneConferenze
 	{
 		Logger logger= Logger.getLogger("com.foo");
 		try{
-			//eseguo la query sulla tabella utenti
-			String resource = "C:\\impostazioni\\mybatis-config.xml";
-		    File file = new File(resource);
-		    System.out.println(file.exists());
+		
 		    DatiConferenze datiRest= new DatiConferenze();
-		    Reader reader = new FileReader(resource);
-			logger.info("dopo reader");
-			SqlSessionFactory sqlSessionFactory = new SqlSessionFactoryBuilder().build(reader);				   
-			SqlSession session = sqlSessionFactory.openSession();			
+		    SqlSession session = gestoreConnessioni.getConnection(logger);
 			ComitatoMapper mapperComitato = session.getMapper(ComitatoMapper.class);
 			
 			
@@ -189,15 +158,9 @@ public class GestioneConferenze
 	{
 		Logger logger= Logger.getLogger("com.foo");
 		try{
-			//eseguo la query sulla tabella utenti
-			String resource = "C:\\impostazioni\\mybatis-config.xml";
-		    File file = new File(resource);
-		    System.out.println(file.exists());
+			
 		    DatiConferenze datiRest= new DatiConferenze();
-		    Reader reader = new FileReader(resource);
-			logger.info("dopo reader");
-			SqlSessionFactory sqlSessionFactory = new SqlSessionFactoryBuilder().build(reader);				   
-			SqlSession session = sqlSessionFactory.openSession();			
+		    SqlSession session = gestoreConnessioni.getConnection(logger);
 			ComitatoMapper mapperComitato = session.getMapper(ComitatoMapper.class);			
 			List<Comitato> comitati = mapperComitato.selectComitatiTutti();
 			DatiComitati com= new DatiComitati();
@@ -223,15 +186,9 @@ public class GestioneConferenze
 	{
 		Logger logger= Logger.getLogger("com.foo");
 		try{
-			//eseguo la query sulla tabella utenti
-			String resource = "C:\\impostazioni\\mybatis-config.xml";
-		    File file = new File(resource);
-		    System.out.println(file.exists());
+			
 		    DatiConferenze datiRest= new DatiConferenze();
-		    Reader reader = new FileReader(resource);
-			logger.info("dopo reader");
-			SqlSessionFactory sqlSessionFactory = new SqlSessionFactoryBuilder().build(reader);				   
-			SqlSession session = sqlSessionFactory.openSession();			
+		    SqlSession session = gestoreConnessioni.getConnection(logger);
 			ComitatoPersonaMapper mapperComitato = session.getMapper(ComitatoPersonaMapper.class);
 			
 			
