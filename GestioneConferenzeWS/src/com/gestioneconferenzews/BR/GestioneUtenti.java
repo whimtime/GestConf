@@ -1,6 +1,7 @@
 package com.gestioneconferenzews.BR;
 
 import java.io.File;
+import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.Reader;
 import java.util.ArrayList;
@@ -11,6 +12,7 @@ import org.apache.ibatis.session.SqlSessionFactory;
 import org.apache.ibatis.session.SqlSessionFactoryBuilder;
 import org.apache.log4j.Logger;
 
+import com.gestioneconferenzews.DAO.gestoreConnessioni;
 import com.gestioneconferenzews.DAO.mapper.ContattoMapper;
 import com.gestioneconferenzews.DAO.mapper.PersonaMapper;
 import com.gestioneconferenzews.DAO.mapper.UtenteMapper;
@@ -33,15 +35,7 @@ public class GestioneUtenti
 	{
 		Logger logger= Logger.getLogger("com.foo");
 		try{
-		//eseguo la query sulla tabella utenti
-		String resource = "C:\\impostazioni\\mybatis-config.xml";
-	    File file = new File(resource);
-	    System.out.println(file.exists());
-	    Reader reader = new FileReader(resource);
-		logger.info("dopo reader");
-		SqlSessionFactory sqlSessionFactory = new SqlSessionFactoryBuilder().build(reader);
-			    
-		SqlSession session = sqlSessionFactory.openSession();
+		SqlSession session = gestoreConnessioni.getConnection(logger);
 		
 		UtenteMapper mapperUtente = session.getMapper(UtenteMapper.class);
 		
@@ -70,21 +64,15 @@ public class GestioneUtenti
 		
 	}
 
+	
+
 	public boolean nuovoutente(Utente utente, Persona persona, Contatto contatto) throws Exception
 	{
 		//prima creo la persona
-		SqlSession session=null;
+	   SqlSession session=null;
 		Logger logger= Logger.getLogger("com.foo");
 		try{
-		//eseguo la query sulla tabella utenti
-		String resource = "C:\\impostazioni\\mybatis-config.xml";
-	    File file = new File(resource);
-	    System.out.println(file.exists());
-	    Reader reader = new FileReader(resource);
-		logger.info("dopo reader");
-		SqlSessionFactory sqlSessionFactory = new SqlSessionFactoryBuilder().build(reader);
-			    
-		session = sqlSessionFactory.openSession();
+			 session = gestoreConnessioni.getConnection(logger);
 		PersonaMapper mapperPersona= session.getMapper(PersonaMapper.class);	
 		
 		logger.info("inserisco la persona");
@@ -144,15 +132,7 @@ public class GestioneUtenti
 	{
 		Logger logger= Logger.getLogger("com.foo");
 		try{
-		//eseguo la query sulla tabella utenti
-		String resource = "C:\\impostazioni\\mybatis-config.xml";
-	    File file = new File(resource);
-	    System.out.println(file.exists());
-	    Reader reader = new FileReader(resource);
-		logger.info("dopo reader");
-		SqlSessionFactory sqlSessionFactory = new SqlSessionFactoryBuilder().build(reader);
-			    
-		SqlSession session = sqlSessionFactory.openSession();
+			SqlSession session = gestoreConnessioni.getConnection(logger);
 		
 		PersonaMapper mapperPersona = session.getMapper(PersonaMapper.class);
 		

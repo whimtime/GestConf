@@ -10,6 +10,7 @@ import org.apache.ibatis.session.SqlSessionFactory;
 import org.apache.ibatis.session.SqlSessionFactoryBuilder;
 import org.apache.log4j.Logger;
 
+import com.gestioneconferenzews.DAO.gestoreConnessioni;
 import com.gestioneconferenzews.DAO.mapper.ConferenzaMapper;
 import com.gestioneconferenzews.DAO.mapper.StrutturaConvenzionataMapper;
 import com.gestioneconferenzews.DAO.model.*;
@@ -26,15 +27,9 @@ public class GestioneHotel
 	{
 		Logger logger= Logger.getLogger("com.foo");
 		try{
-			//eseguo la query sulla tabella utenti
-			String resource = "C:\\impostazioni\\mybatis-config.xml";
-		    File file = new File(resource);
-		    System.out.println(file.exists());
+			
 		    DatiHotel datiRest= new DatiHotel();
-		    Reader reader = new FileReader(resource);
-			logger.info("dopo reader");
-			SqlSessionFactory sqlSessionFactory = new SqlSessionFactoryBuilder().build(reader);				   
-			SqlSession session = sqlSessionFactory.openSession();			
+		    SqlSession session = gestoreConnessioni.getConnection(logger);
 			StrutturaConvenzionataMapper mapperStrutture = session.getMapper(StrutturaConvenzionataMapper.class);
 			
 			List<StrutturaConvenzionata> strutture = mapperStrutture.selectStruttureTutte();
@@ -70,7 +65,9 @@ public class GestioneHotel
 	{
 	
 		IPrenotazione prenotazione = getPrenotazioneObject(struttura);	
-		return prenotazione.modificaPrenotazione(struttura, persona, datainizio, datafine);
+		PrenotazioneStrategy strategia= new PrenotazioneStrategy();
+		strategia.setStrategiaPrenotazione(prenotazione);;
+		return strategia.modificaPrenotazione(struttura, persona, datainizio, datafine);
 	}
 	
 

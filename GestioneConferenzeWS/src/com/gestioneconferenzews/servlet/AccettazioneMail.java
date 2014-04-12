@@ -17,6 +17,7 @@ import com.gestioneconferenzews.strategieAscolto.IStrategiaAscolto;
 import com.gestioneconferenzews.strategieAscolto.StrategiaAscoltoCancellazione;
 import com.gestioneconferenzews.strategieAscolto.StrategiaAscoltoConfermaMail;
 import com.gestioneconferenzews.strategieAscolto.StrategiaAscoltoIscrizione;
+import com.gestioneconferenzews.strategieAscolto.StrategyAccettazione;
 
 /**
  * Servlet implementation class AccettazioneMail
@@ -61,6 +62,7 @@ public class AccettazioneMail extends HttpServlet {
 		logger.info("L utente " + utente + " ha inviato un messaggio con azione " + azione);
 		//avvio della strategia
 		IStrategiaAscolto strategia = null;
+		StrategyAccettazione strat=new StrategyAccettazione();
 		Azione az = new Azione();
 		az.setUsername(utente);
 		
@@ -69,14 +71,17 @@ public class AccettazioneMail extends HttpServlet {
 			case "conferma":
 				strategia = new StrategiaAscoltoConfermaMail();
 				az.setAzione(Azioni.CONFERMA_MAIL);
+				strat.setStrategia(strategia);
 				break;
 			case "iscrizione":
 				strategia = new StrategiaAscoltoIscrizione();
 				az.setAzione(Azioni.ISCRIZIONE_NEWSLETTER);
+				strat.setStrategia(strategia);
 				break;
 			case "cancellazione":
 				strategia = new StrategiaAscoltoCancellazione();
 				az.setAzione(Azioni.CANCELLAZIONE_NEWSLETTER);
+				strat.setStrategia(strategia);
 				break;		
 				default:
 					try {
@@ -89,7 +94,7 @@ public class AccettazioneMail extends HttpServlet {
 					break;
 		}
 		
-		strategia.salvaAzione(az);
+		strat.salvaAzione(az);
 		
 		
 		
