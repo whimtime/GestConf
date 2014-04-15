@@ -1,10 +1,21 @@
 package com.gestioneconferenzews.BR;
 
+import java.util.Date;
+import java.util.List;
+
+import org.apache.ibatis.session.SqlSession;
+import org.apache.log4j.Logger;
+
+import com.gestioneconferenzews.DAO.gestoreConnessioni;
+import com.gestioneconferenzews.DAO.mapper.CodaFatturazioneMapper;
+import com.gestioneconferenzews.DAO.mapper.ConferenzaMapper;
+import com.gestioneconferenzews.DAO.model.CodaFatturazione;
+import com.gestioneconferenzews.DAO.model.CodaFatturazioneExample;
+import com.gestioneconferenzews.DAO.model.Conferenza;
 import com.gestioneconferenzews.DAO.model.Investimento;
 import com.gestioneconferenzews.DAO.model.Pagamento;
-import com.rabbitmq.client.ConnectionFactory;
-import com.rabbitmq.client.Connection;
-import com.rabbitmq.client.Channel;
+import com.gestioneconferenzews.DAO.model.PersonaCompetenzaExample.Criteria;
+
 
 public class GestionePagamenti 
 {
@@ -55,4 +66,49 @@ public class GestionePagamenti
 		
 		return true;
 	}
+	
+	public List<CodaFatturazione> getCodaDaElaborare()
+	{
+		Logger logger= Logger.getLogger("com.foo");
+		try{
+			SqlSession session = gestoreConnessioni.getConnection(logger);
+		    
+		CodaFatturazioneMapper mapperCoda = session.getMapper(CodaFatturazioneMapper.class);
+			
+		List<CodaFatturazione> lista= mapperCoda.selectCodaElaborazione();
+		
+		return lista;															
+		
+		
+		}catch(Exception er){ return null;}
+	}
+	
+	public boolean salvaCodaElaborata(int cd_coda)
+	{
+		Logger logger= Logger.getLogger("com.foo");
+		try
+		{
+			SqlSession session = gestoreConnessioni.getConnection(logger);
+		    
+			CodaFatturazioneMapper mapperCoda = session.getMapper(CodaFatturazioneMapper.class);
+				
+			CodaFatturazione record= mapperCoda.selectByPrimaryKey(cd_coda);
+			
+			record.setDataElaborazione(new Date());
+			
+			int tot = mapperCoda.updateByPrimaryKey(record);
+			session.commit();
+			if(tot>0)
+			{
+				return true;
+			}else{
+				return false;
+			}
+		}catch(Exception er)
+		{
+			return false;
+		}
+	}
+
+
 }

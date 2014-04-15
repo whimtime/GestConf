@@ -39,7 +39,7 @@ CREATE TABLE `pagamento` (
   CONSTRAINT `fk_conf_pag` FOREIGN KEY (`cd_conferenza`) REFERENCES `conferenza` (`cd_conferenza`) ON DELETE NO ACTION ON UPDATE NO ACTION,
   CONSTRAINT `fk_metodo` FOREIGN KEY (`cd_metodo_pagamento`) REFERENCES `tipo_pagamento` (`cd_tipo_pagamento`) ON DELETE NO ACTION ON UPDATE NO ACTION,
   CONSTRAINT `fk_pers_pag` FOREIGN KEY (`cd_persona`) REFERENCES `persona` (`cd_persona`) ON DELETE NO ACTION ON UPDATE NO ACTION
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=latin1;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -48,6 +48,7 @@ CREATE TABLE `pagamento` (
 
 LOCK TABLES `pagamento` WRITE;
 /*!40000 ALTER TABLE `pagamento` DISABLE KEYS */;
+INSERT INTO `pagamento` VALUES (1,'2014-04-15 20:38:19',1,1,1,1000,'1'),(4,'2014-04-15 20:42:25',1,1,1,4000,'1');
 /*!40000 ALTER TABLE `pagamento` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -60,4 +61,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2014-04-06 21:17:06
+-- Dump completed on 2014-04-15 23:38:14

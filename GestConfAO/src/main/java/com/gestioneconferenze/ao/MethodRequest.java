@@ -1,5 +1,9 @@
 package com.gestioneconferenze.ao;
 
+import java.rmi.RemoteException;
+
+import com.gestioneconferenzews.servizi.ServiziopagamentiProxy;
+
 public class MethodRequest 
 {
 	Future future;
@@ -24,7 +28,13 @@ public class MethodRequest
 		 if(risp)
 		 {
 			 future.setRisultato(MessaggiDiRitorno.Elaborato);
-			 //store in db del future
+			 ServiziopagamentiProxy ws= new ServiziopagamentiProxy();
+			 try {
+				ws.salvaCodaElaborata(future.getCoda().getCdCodaFatturazione());
+			} catch (RemoteException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
 			 System.out.println("ELABORATO");
 		 }else{
 			 future.setRisultato(MessaggiDiRitorno.Errore);

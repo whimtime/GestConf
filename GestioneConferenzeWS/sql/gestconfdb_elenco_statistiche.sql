@@ -29,7 +29,7 @@ CREATE TABLE `elenco_statistiche` (
   `query` varchar(1000) NOT NULL,
   `nome` varchar(45) DEFAULT NULL,
   PRIMARY KEY (`cd_elenco_statistiche`)
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=latin1;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -38,6 +38,7 @@ CREATE TABLE `elenco_statistiche` (
 
 LOCK TABLES `elenco_statistiche` WRITE;
 /*!40000 ALTER TABLE `elenco_statistiche` DISABLE KEYS */;
+INSERT INTO `elenco_statistiche` VALUES (1,'SELECT count(*) as valore, data_creazione as nome  FROM gestconfdb.persona group by data_creazione','elenco persone');
 /*!40000 ALTER TABLE `elenco_statistiche` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -50,4 +51,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2014-04-06 21:17:07
+-- Dump completed on 2014-04-15 23:38:15

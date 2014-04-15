@@ -32,8 +32,8 @@ CREATE TABLE `comitato` (
   PRIMARY KEY (`cd_comitato`),
   KEY `fk_comitato_conf_idx` (`cd_conferenza`),
   KEY `fk_tipocom_com_idx` (`cd_tipo`),
-  CONSTRAINT `fk_tipocom_com` FOREIGN KEY (`cd_tipo`) REFERENCES `tipo_comitato` (`cd_tipo_comitato`) ON DELETE NO ACTION ON UPDATE NO ACTION,
-  CONSTRAINT `fk_comitato_conf` FOREIGN KEY (`cd_conferenza`) REFERENCES `conferenza` (`cd_conferenza`) ON DELETE NO ACTION ON UPDATE NO ACTION
+  CONSTRAINT `fk_comitato_conf` FOREIGN KEY (`cd_conferenza`) REFERENCES `conferenza` (`cd_conferenza`) ON DELETE NO ACTION ON UPDATE NO ACTION,
+  CONSTRAINT `fk_tipocom_com` FOREIGN KEY (`cd_tipo`) REFERENCES `tipo_comitato` (`cd_tipo_comitato`) ON DELETE NO ACTION ON UPDATE NO ACTION
 ) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=latin1;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
@@ -56,4 +56,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2014-04-06 21:17:10
+-- Dump completed on 2014-04-15 23:38:19

@@ -32,8 +32,8 @@ CREATE TABLE `preferenze_pagamento` (
   UNIQUE KEY `cd_preferenze_pagamento_UNIQUE` (`cd_preferenze_pagamento`),
   KEY `fk_pref_pag_pers_idx` (`cd_persona`),
   KEY `fk_tipopag_idx` (`pagamento`),
-  CONSTRAINT `fk_tipopag` FOREIGN KEY (`pagamento`) REFERENCES `tipo_pagamento` (`cd_tipo_pagamento`) ON DELETE NO ACTION ON UPDATE NO ACTION,
-  CONSTRAINT `fk_pref_pag_pers` FOREIGN KEY (`cd_persona`) REFERENCES `persona` (`cd_persona`) ON DELETE NO ACTION ON UPDATE NO ACTION
+  CONSTRAINT `fk_pref_pag_pers` FOREIGN KEY (`cd_persona`) REFERENCES `persona` (`cd_persona`) ON DELETE NO ACTION ON UPDATE NO ACTION,
+  CONSTRAINT `fk_tipopag` FOREIGN KEY (`pagamento`) REFERENCES `tipo_pagamento` (`cd_tipo_pagamento`) ON DELETE NO ACTION ON UPDATE NO ACTION
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
@@ -55,4 +55,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2014-04-06 21:17:08
+-- Dump completed on 2014-04-15 23:38:15

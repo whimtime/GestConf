@@ -1,42 +1,31 @@
 package com.gestioneconferenze.ao;
 
+import java.rmi.RemoteException;
 import java.util.ArrayList;
 import java.util.UUID;
 
+import com.gestioneconferenzews.servizi.CodaFatturazione;
+import com.gestioneconferenzews.servizi.ServiziopagamentiProxy;
+
 public class ScodatoreDB implements Runnable
 {
-	public void avvia() throws InterruptedException
+	public void avvia() throws InterruptedException, RemoteException
 	{
-		int i=0;
-		while(true)
+		ServiziopagamentiProxy ws = new ServiziopagamentiProxy();
+		CodaFatturazione[] coda =  ws.getCodaDaElaborare();
+						
+		for(int i=0;i<coda.length;i++)
 		{
 			System.out.println("Start accodatore");
-			String proxfattura = this.prossimoMessaggio();
-			Proxy proxy= new Proxy();
-						
-			ArrayList listaVoci= new ArrayList();
-			
-			String anagrafica = null, codfis = null,piva = null;
-			anagrafica=UUID.randomUUID().toString();
-			System.out.println("in accodamento " + anagrafica);
-			
-			
-			proxy.emettiFattura(listaVoci, anagrafica, codfis, piva);
-			
-			
-			
-			
-			Thread.sleep(300);
-			
-			
+		
+			Proxy proxy= new Proxy();															
+			System.out.println("in accodamento " + coda[i].getCdCodaFatturazione());						
+			proxy.emettiFattura(coda[i]);												
+			Thread.sleep(300);						
 		}
 	}
 	
-	public String prossimoMessaggio()
-	{
-		
-		return "1234";
-	}
+	
 	
 	public void arricchisciFattura(ArrayList listaVoci, String anagrafica, String codfis, String piva)
 	{
@@ -52,6 +41,9 @@ public class ScodatoreDB implements Runnable
 			this.avvia();
 		} catch (InterruptedException e) {
 			// 
+			e.printStackTrace();
+		} catch (RemoteException e) {
+			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 		

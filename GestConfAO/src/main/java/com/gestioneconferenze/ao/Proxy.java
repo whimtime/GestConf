@@ -2,6 +2,8 @@ package com.gestioneconferenze.ao;
 
 import java.util.ArrayList;
 
+import com.gestioneconferenzews.servizi.CodaFatturazione;
+
 public class Proxy 
 {
 	public Proxy()
@@ -9,10 +11,11 @@ public class Proxy
 		System.out.println("Istanziato Proxy");
 	}
 	
-	public boolean emettiFattura(ArrayList listaVoci, String anagrafica, String codfis, String piva)
+	public boolean emettiFattura(CodaFatturazione coda)
 	{
-		System.out.println("[" + anagrafica + "] Instanzio il future per la comunicazione al client dell'avvenuta elaborazione");
+		System.out.println("[" + coda.getCdCodaFatturazione() + "] Instanzio il future per la comunicazione al client dell'avvenuta elaborazione");
 		Future future= new Future();
+		future.setCoda(coda);
 		MethodRequest request= new MethodRequest(future);
 		System.out.println("Creato MethodRequest");
 		Scheduler scheduler= new Scheduler();

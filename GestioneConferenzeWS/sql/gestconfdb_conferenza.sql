@@ -35,7 +35,7 @@ CREATE TABLE `conferenza` (
   PRIMARY KEY (`cd_conferenza`),
   KEY `fk_comune_conferenza_idx` (`cd_comune_istat`),
   CONSTRAINT `fk_comune_conferenza` FOREIGN KEY (`cd_comune_istat`) REFERENCES `comune_istat` (`CD_COMUNE`) ON DELETE NO ACTION ON UPDATE NO ACTION
-) ENGINE=InnoDB AUTO_INCREMENT=7 DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=latin1;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -57,4 +57,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2014-04-06 21:17:10
+-- Dump completed on 2014-04-15 23:38:20

@@ -1,9 +1,12 @@
 package com.gestioneconferenzews.servizi;
 
+import java.util.List;
+
 import javax.jws.WebMethod;
 import javax.jws.WebService;
 
 import com.gestioneconferenzews.BR.GestionePagamenti;
+import com.gestioneconferenzews.DAO.model.CodaFatturazione;
 import com.gestioneconferenzews.DAO.model.Investimento;
 import com.gestioneconferenzews.DAO.model.Pagamento;
 
@@ -39,5 +42,16 @@ public class serviziopagamenti
 	{		
 		return new GestionePagamenti().stornainvestimento(investimento);
 	}
-
+	
+	@WebMethod
+	public List<CodaFatturazione> getCodaDaElaborare()
+	{
+		return new GestionePagamenti().getCodaDaElaborare();
+	}
+	
+	@WebMethod
+	public boolean salvaCodaElaborata(int cd_coda)
+	{
+		return new GestionePagamenti().salvaCodaElaborata(cd_coda);
+	}
 }
