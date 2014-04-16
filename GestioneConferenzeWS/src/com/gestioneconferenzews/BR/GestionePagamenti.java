@@ -27,6 +27,7 @@ public class GestionePagamenti
 	public boolean effettuapagamento(Pagamento pagamento)
 	{
 		this.aggiungiBudget(pagamento.getTotaleEuro());
+		this.insertCodaElaborata(pagamento.getCdPagamento(), pagamento.getTotaleEuro(),pagamento.getCdPersona());
 		//accodo il messaggio alla coda per la fase di fatturazione
 		
 		return true;
@@ -110,5 +111,8 @@ public class GestionePagamenti
 		}
 	}
 
-
+	private boolean insertCodaElaborata(int cd_pagamento, int totale, int cd_persona)
+	{
+		return true;
+	}
 }
