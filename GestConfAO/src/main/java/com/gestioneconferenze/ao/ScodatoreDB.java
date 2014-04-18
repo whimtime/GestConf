@@ -23,6 +23,8 @@ public class ScodatoreDB implements Runnable
 			proxy.emettiFattura(coda[i]);												
 			Thread.sleep(300);						
 		}
+		
+		this.avvia();
 	}
 	
 	
