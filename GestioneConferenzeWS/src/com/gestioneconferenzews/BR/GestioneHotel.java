@@ -15,14 +15,24 @@ import com.gestioneconferenzews.DAO.mapper.ConferenzaMapper;
 import com.gestioneconferenzews.DAO.mapper.StrutturaConvenzionataMapper;
 import com.gestioneconferenzews.DAO.model.*;
 
+/**Classe dedicata alla gestione degli Hotel 
+ * @author PortatileTiz
+ *
+ */
 public class GestioneHotel 
 {
 	
+	/**COstruttore della classe
+	 * 
+	 */
 	public GestioneHotel()
 	{
 		
 	}
 	
+	/**Restituisce tutti gli hotel censiti nel database
+	 * @return
+	 */
 	public DatiHotel getHotelTutti()
 	{
 		Logger logger= Logger.getLogger("com.foo");
@@ -49,18 +59,37 @@ public class GestioneHotel
 		
 	}
 
+	/**Esegue una prenotazione
+	 * @param struttura
+	 * @param persona
+	 * @param datainizio
+	 * @param datafine
+	 * @return
+	 */
 	public boolean effettuaPrenotazione(StrutturaConvenzionata struttura, Persona persona, Date datainizio, Date datafine)
 	{
 		IPrenotazione prenotazione = getPrenotazioneObject(struttura);				
 		return prenotazione.effettuaPrenotazione(struttura, persona, datainizio, datafine);	
 	}
 	
+	/**Cancella una prenotazione
+	 * @param cd_prenotazione
+	 * @param struttura
+	 * @return
+	 */
 	public boolean cancellaPrenotazione(int cd_prenotazione, StrutturaConvenzionata struttura)
 	{
 		IPrenotazione prenotazione = getPrenotazioneObject(struttura);		
 		return prenotazione.cancellaPrenotazione(cd_prenotazione);
 	}
 	
+	/**Modifica una prenotazione esistente
+	 * @param struttura
+	 * @param persona
+	 * @param datainizio
+	 * @param datafine
+	 * @return
+	 */
 	public boolean modificaPrenotazione(StrutturaConvenzionata struttura, Persona persona, Date datainizio, Date datafine) 
 	{
 	
@@ -71,6 +100,10 @@ public class GestioneHotel
 	}
 	
 
+	/**Metodo privato che tramite il DP strategy permette di innestare la classe corretta per la prenotazione
+	 * @param struttura
+	 * @return
+	 */
 	private IPrenotazione getPrenotazioneObject(StrutturaConvenzionata struttura) {
 		IPrenotazione prenotazione= null;
 		
@@ -88,4 +121,5 @@ public class GestioneHotel
 		}
 		return prenotazione;
 	}
+
 }

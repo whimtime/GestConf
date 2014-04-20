@@ -16,6 +16,10 @@ import javax.mail.internet.MimeMessage;
 import org.apache.log4j.Logger;
 import org.apache.log4j.jmx.LoggerDynamicMBean;
 
+/**Classe dedicata all'invio di mail 
+ * @author PortatileTiz
+ *
+ */
 public class SendMail {
 
 	private String from;
@@ -23,6 +27,12 @@ public class SendMail {
 	private String subject;
 	private String text;
 
+	/**Costruttore della classe
+	 * @param from
+	 * @param to
+	 * @param subject
+	 * @param text
+	 */
 	public SendMail(String from, String to, String subject, String text){
 		this.from = from;
 		this.to = to;
@@ -30,6 +40,9 @@ public class SendMail {
 		this.text = text;
 	}
 
+	/**Invia una email
+	 * 
+	 */
 	public void send(){
 
 		Properties props = new Properties();

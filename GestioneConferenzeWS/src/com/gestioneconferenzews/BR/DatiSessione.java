@@ -3,6 +3,10 @@ import java.util.List;
 
 import com.gestioneconferenzews.DAO.model.*;
 
+/**Classe POJO che incapsula le informazione di sessione per l'esposizione a servizio
+ * @author PortatileTiz
+ *
+ */
 public class DatiSessione 
 {
 	List<Sessione> sessioni;

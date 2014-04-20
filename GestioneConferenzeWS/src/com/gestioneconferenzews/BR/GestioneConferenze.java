@@ -21,13 +21,25 @@ import com.gestioneconferenzews.DAO.model.ComitatoPersonaExample;
 import com.gestioneconferenzews.DAO.model.Conferenza;
 import com.gestioneconferenzews.DAO.model.Persona;
 
+/**CLasse dedicata alla gestione delle conferenze nel suo complesso
+ * @author PortatileTiz
+ *
+ */
 public class GestioneConferenze 
 {	
+	
+	/**Costruttore della classe
+	 * 
+	 */
 	public GestioneConferenze()
 	{
 		
 	}
 	
+	/**Il metodo permette di salvare una nuova conferenza
+	 * @param conferenza
+	 * @return
+	 */
 	public boolean salvaconferenza(Conferenza conferenza)
 	{
 		Logger logger= Logger.getLogger("com.foo");
@@ -54,6 +66,9 @@ public class GestioneConferenze
 	}
 
 	
+	/**Restituisce tutte le conferenze presenti nel sistema
+	 * @return
+	 */
 	public DatiConferenze getconferenze()
 	{
 		Logger logger= Logger.getLogger("com.foo");
@@ -81,6 +96,10 @@ public class GestioneConferenze
 		
 	}
 	
+	/**Restituisce una precisa conferenza
+	 * @param cdConferenza
+	 * @return
+	 */
 	public Conferenza getconferenze(int cdConferenza)
 	{
 		Logger logger= Logger.getLogger("com.foo");
@@ -103,6 +122,10 @@ public class GestioneConferenze
 	}
 	
 	
+	/**Aggiorna una precisa conferenza
+	 * @param conferenza
+	 * @return
+	 */
 	public boolean aggiornaconferenza(Conferenza conferenza)
 	{
 		Logger logger= Logger.getLogger("com.foo");
@@ -128,11 +151,20 @@ public class GestioneConferenze
 		}
 	}
 
+	/**Aggiorna il comitato 
+	 * @param comitato
+	 * @return
+	 */
 	public boolean aggiornaComitato(Comitato comitato)
 	{
 		return true;
 	}
 	
+	/**Crea un nuovo comitato
+	 * @param comitato
+	 * @return
+	 * @throws Exception
+	 */
 	public boolean nuovocomitato(Comitato comitato) throws Exception
 	{
 		Logger logger= Logger.getLogger("com.foo");
@@ -154,6 +186,9 @@ public class GestioneConferenze
 		}
 	}
 
+	/**Restituisce tutti i comitati del database
+	 * @return
+	 */
 	public DatiComitati getComitatiTutti()
 	{
 		Logger logger= Logger.getLogger("com.foo");
@@ -176,12 +211,12 @@ public class GestioneConferenze
 		
 		
 	}
-
-	public boolean aggiornaComitato()
-	{
-		return true;
-	}
-	
+		
+	/**Aggiunge una persona ad un comitato gi' presente
+	 * @param comitatopersona
+	 * @return
+	 * @throws Exception
+	 */
 	public boolean addPersonaComitato(ComitatoPersona comitatopersona) throws Exception
 	{
 		Logger logger= Logger.getLogger("com.foo");
@@ -203,14 +238,40 @@ public class GestioneConferenze
 		}
 	}
 	
+	/**Rimuove una persona da un comitato
+	 * @param comitatopersona
+	 * @return
+	 */
 	public boolean removePersonaComitato(ComitatoPersona comitatopersona)
 	{
 		return true;
 	}
 	
+	/**Restituisce tutte le perosne di un comitato
+	 * @param comitato
+	 * @return
+	 */
 	public List<Persona> getPersoneComitato(Comitato comitato)
 	{
 		return null;
 	}
 	
+	/**Elegge una persona facente parte del comitato a chair
+	 * @param comitatopersona
+	 * @return
+	 */
+	public boolean promuoviChair(ComitatoPersona comitatopersona)
+	{
+		return true;
+	}
+	
+	/**RImuove la parseona come chai di comitato, non rimuove però la persona
+	 * @param comitatopersona
+	 * @return
+	 */
+	public boolean rimuoviChair(ComitatoPersona comitatopersona)
+	{
+		return true;
+	}
+
 }

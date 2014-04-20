@@ -56,7 +56,7 @@ public class servizioconferenze
 	@WebMethod
 	public boolean aggiornaComitato()
 	{
-		return new GestioneConferenze().aggiornaComitato();
+		return new GestioneConferenze().aggiornaComitato(null);
 	}
 	
 	@WebMethod

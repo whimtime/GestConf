@@ -24,13 +24,27 @@ import com.gestioneconferenzews.DAO.model.UtenteExample;
 import com.gestioneconferenzews.DAO.model.UtenteExample.Criteria;
 import com.gestioneconferenzews.common.SendMail;
 
+/**
+ * @author Tiziano Interlandi
+ * La classe permette di gestire quanto concerne la creazione, gestione, modifica delle utenze.
+ *
+ */
 public class GestioneUtenti 
 {
+	
+	/**
+	 * Costruttore di Classe
+	 */
 	public GestioneUtenti()
 	{
 		
 	}	
-	
+		
+	/**Il metodo verifica se l'utenza è nel database
+	 * @param username
+	 * @param password
+	 * @return boolean
+	 */
 	public boolean VerificaAccesso(String username, String password)
 	{
 		Logger logger= Logger.getLogger("com.foo");
@@ -64,8 +78,13 @@ public class GestioneUtenti
 		
 	}
 
-	
-
+	/**Il metodo permette di inserire un nuovo utente
+	 * @param utente
+	 * @param persona
+	 * @param contatto
+	 * @return boolean 
+	 * @throws Exception (in caso di mancata connessione al db, utenti già esistente o violazione di chiave )
+	 */
 	public boolean nuovoutente(Utente utente, Persona persona, Contatto contatto) throws Exception
 	{
 		//prima creo la persona
@@ -128,6 +147,10 @@ public class GestioneUtenti
 			
 	}
 
+	
+	/**Il metodo restituisce tutte le persone presenti nel database
+	 * @return DatiPersona
+	 */
 	public DatiPersona getPersoneTutte()
 	{
 		Logger logger= Logger.getLogger("com.foo");
@@ -150,4 +173,6 @@ public class GestioneUtenti
 		}
 		
 	}
+
+
 }

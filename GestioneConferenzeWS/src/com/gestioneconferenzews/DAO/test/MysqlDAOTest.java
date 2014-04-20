@@ -17,7 +17,7 @@ import org.apache.ibatis.session.SqlSessionFactory;
 import org.apache.ibatis.session.SqlSessionFactoryBuilder;
 import org.junit.Test;
 
-import com.gestioneconferenzews.DAO.MysqlDAO;
+
 import com.gestioneconferenzews.DAO.mapper.ProvinciaMapper;
 import com.gestioneconferenzews.DAO.mapper.RegioneMapper;
 import com.gestioneconferenzews.DAO.model.Provincia;

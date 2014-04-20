@@ -10,8 +10,17 @@ import org.apache.ibatis.session.SqlSessionFactory;
 import org.apache.ibatis.session.SqlSessionFactoryBuilder;
 import org.apache.log4j.Logger;
 
+/**Classe dedicata alla gestione della configurazione di MyBatis
+ * @author PortatileTiz
+ *
+ */
 public class gestoreConnessioni 
 {
+	/**Restituisce un oggetto connessione
+	 * @param logger
+	 * @return
+	 * @throws FileNotFoundException
+	 */
 	public static SqlSession getConnection(Logger logger)
 			throws FileNotFoundException {
 		//eseguo la query sulla tabella utenti

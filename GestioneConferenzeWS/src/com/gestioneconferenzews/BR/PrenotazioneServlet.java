@@ -5,6 +5,10 @@ import java.util.Date;
 import com.gestioneconferenzews.DAO.model.Persona;
 import com.gestioneconferenzews.DAO.model.StrutturaConvenzionata;
 
+/**Prenotazione tramite Servlet
+ * @author PortatileTiz
+ *
+ */
 public class PrenotazioneServlet implements IPrenotazione {
 
 	@Override

@@ -5,6 +5,10 @@ import java.util.Date;
 import com.gestioneconferenzews.DAO.model.Persona;
 import com.gestioneconferenzews.DAO.model.StrutturaConvenzionata;
 
+/**Permette la prenotazione con ws di tipo .NET
+ * @author PortatileTiz
+ *
+ */
 public class PrenotazioneSOAPNet implements IPrenotazione {
 
 	@Override
