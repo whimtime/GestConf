@@ -31,6 +31,10 @@
     <table schema="gestconfdb" tableName="INVESTIMENTO" />
     <table schema="gestconfdb" tableName="BUDGET" />   
 	<table schema="gestconfdb" tableName="ELENCO_STATISTICHE" />
-	<table schema="gestconfdb" tableName="CODA_FATTURAZIONE" />                                                                     
+	<table schema="gestconfdb" tableName="CODA_FATTURAZIONE" />
+	<table schema="gestconfdb" tableName="TIPO_REPORT" />
+	<table schema="gestconfdb" tableName="REPORT_AUTORE" />  
+	<table schema="gestconfdb" tableName="DIPLOMI" />
+	<table schema="gestconfdb" tableName="TIPO_PARTECIPANTE" />                                                                                               
   </context>
 </generatorConfiguration>
