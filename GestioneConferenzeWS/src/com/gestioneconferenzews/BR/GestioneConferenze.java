@@ -19,6 +19,7 @@ import com.gestioneconferenzews.DAO.model.Comitato;
 import com.gestioneconferenzews.DAO.model.ComitatoPersona;
 import com.gestioneconferenzews.DAO.model.ComitatoPersonaExample;
 import com.gestioneconferenzews.DAO.model.Conferenza;
+import com.gestioneconferenzews.DAO.model.Diplomi;
 import com.gestioneconferenzews.DAO.model.Persona;
 
 /**CLasse dedicata alla gestione delle conferenze nel suo complesso
@@ -238,6 +239,8 @@ public class GestioneConferenze
 		}
 	}
 	
+	
+	
 	/**Rimuove una persona da un comitato
 	 * @param comitatopersona
 	 * @return
@@ -262,6 +265,14 @@ public class GestioneConferenze
 	 */
 	public boolean promuoviChair(ComitatoPersona comitatopersona)
 	{
+		if(this.controllaEsistenzaChair(comitatopersona))
+		return true;
+		
+		return false;
+	}
+	
+	private boolean controllaEsistenzaChair(ComitatoPersona comitatopersona)
+	{
 		return true;
 	}
 	
@@ -274,4 +285,9 @@ public class GestioneConferenze
 		return true;
 	}
 
+	public boolean assegnadiploma(Diplomi diploma)
+	{
+		return true;
+	}
+	
 }

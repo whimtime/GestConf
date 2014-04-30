@@ -77,6 +77,16 @@ public class GestioneSessioni
 		return new DatiSessione();
 	}
 	
+	public boolean promuoviSessionChair(Sessione sessione, Persona persona)
+	{
+		return true;
+	}
+	
+	public boolean rimuoviSessionChair(Sessione sessione, Persona persona)
+	{
+		return true;
+	}
+	
 	
 	
 }

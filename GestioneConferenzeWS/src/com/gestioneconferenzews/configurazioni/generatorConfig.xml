@@ -35,6 +35,7 @@
 	<table schema="gestconfdb" tableName="TIPO_REPORT" />
 	<table schema="gestconfdb" tableName="REPORT_AUTORE" />  
 	<table schema="gestconfdb" tableName="DIPLOMI" />
-	<table schema="gestconfdb" tableName="TIPO_PARTECIPANTE" />                                                                                               
+	<table schema="gestconfdb" tableName="TIPO_PARTECIPANTE" />
+	<table schema="gestconfdb" tableName="SESSIONE_REPORT" />                                    
   </context>
 </generatorConfiguration>

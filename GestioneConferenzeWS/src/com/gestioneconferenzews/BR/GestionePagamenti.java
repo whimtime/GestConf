@@ -38,10 +38,23 @@ public class GestionePagamenti
 	 */
 	public boolean effettuapagamento(Pagamento pagamento)
 	{
-		this.aggiungiBudget(pagamento.getTotaleEuro());
+		this.aggiungiBudget(this.getRataReale(pagamento.getTotaleEuro()));
 		this.insertCodaElaborata(pagamento.getCdPagamento(), pagamento.getTotaleEuro(),pagamento.getCdPersona());
 		//accodo il messaggio alla coda per la fase di fatturazione	
 		return true;
+	}
+	
+	private int getRataReale(int totale)
+	{
+		Date data_oggi = new Date();
+		//retrieve della data conferenza
+		
+		Date data_conferenza = new Date();
+		int numeroGiorni = (int)( (data_oggi.getTime() - data_conferenza.getTime()) / (1000 * 60 * 60 * 24));
+		
+		if(numeroGiorni>90) return ( totale / 100 )*30;
+		if(numeroGiorni>=30 && numeroGiorni < 90) return ( totale / 100 )*10;
+		return totale;
 	}
 	
 	/**Il metodo permette di stornare un pagamento e relativo budget

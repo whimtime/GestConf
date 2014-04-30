@@ -12,6 +12,7 @@ import com.gestioneconferenzews.BR.GestioneConferenze;
 import com.gestioneconferenzews.DAO.model.Comitato;
 import com.gestioneconferenzews.DAO.model.ComitatoPersona;
 import com.gestioneconferenzews.DAO.model.Conferenza;
+import com.gestioneconferenzews.DAO.model.Diplomi;
 import com.gestioneconferenzews.DAO.model.Persona;
 
 @WebService
@@ -75,5 +76,12 @@ public class servizioconferenze
 	public List<Persona> getPersoneComitato(Comitato comitato)
 	{
 		return new GestioneConferenze().getPersoneComitato(comitato);
+	}
+	
+	@WebMethod
+	public boolean assegnadiploma(Diplomi diploma)
+	{
+		
+		return new GestioneConferenze().assegnadiploma(diploma);
 	}
 }
